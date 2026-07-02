@@ -1,0 +1,11 @@
+short_name,full_name,league,stadium,capacity,prefecture,category,stadium_id
+鹿島,鹿島アントラーズ,J1,県立カシマサッカースタジアム,39342,茨城県,club
+浦和,浦和レッズ,J1,埼玉スタジアム２００２,63700,埼玉県,club
+横浜FM,横浜Ｆ・マリノス,J1,日産スタジアム,72327,神奈川県,club
+神戸,ヴィッセル神戸,J1,ノエビアスタジアム神戸,30132,兵庫県,club
+広島,サンフレッチェ広島,J1,エディオンピースウイング広島,28520,広島県,club
+FC東京,ＦＣ東京,J1,味の素スタジアム,47851,東京都,club
+日本,日本代表,National,,0,,national
+韓国,韓国代表,National,,0,,national
+ﾄﾞｲﾂ,ドイツ代表,National,,0,,national
+ﾌﾞﾗｼﾞﾙ,ブラジル代表,National,,0,,national
