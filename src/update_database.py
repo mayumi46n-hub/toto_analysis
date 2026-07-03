@@ -1,7 +1,7 @@
 import subprocess
 import os
 
-round_list = range(1637, 1600, -1)
+round_list = range(1637, 999, -1)
 
 total = len(round_list)
 

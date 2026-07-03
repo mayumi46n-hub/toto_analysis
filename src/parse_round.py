@@ -22,10 +22,19 @@ if target_td is None:
         print(f"SKIP: 第{ROUND_NO}回は表示できない開催回です")
         exit(2)
 
+    if "システムでエラーが発生しました" in html:
+        print(f"SKIP: 第{ROUND_NO}回はシステムエラーページです")
+        exit(2)
+
     print(f"SKIP: 第{ROUND_NO}回はtoto本体がありません")
     exit(2)
 
 match_table = target_td.find_parent("table").find_next("table", class_="kobetsu-format2")
+
+if match_table is None:
+    print(f"SKIP: 第{ROUND_NO}回は試合テーブルが見つかりません")
+    exit(2)
+
 rows = match_table.find_all("tr")
 
 matches = []
@@ -56,6 +65,10 @@ for row in rows:
         away_score,
     ))
 
+if len(matches) == 0:
+    print(f"SKIP: 第{ROUND_NO}回はtoto本体の試合データがありません")
+    exit(2)
+
 con = sqlite3.connect(DB_PATH)
 cur = con.cursor()
 
@@ -77,6 +90,7 @@ for match in matches:
     VALUES (?, ?, ?, ?, ?, ?, ?)
     """, match)
 
-if len(matches) == 0:
-    print(f"SKIP: 第{ROUND_NO}回はtoto本体の試合データがありません")
-    exit(2)
+con.commit()
+con.close()
+
+print(f"第{ROUND_NO}回の{len(matches)}試合をDBに保存しました")
