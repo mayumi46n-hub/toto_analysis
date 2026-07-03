@@ -6,8 +6,12 @@ if len(sys.argv) >= 2:
 else:
     round_no = 1636
 
-url = f"https://store.toto-dream.com/dcs/subos/screen/pi04/spin011/PGSPIN01101LnkHoldCntLotResultLsttoto.form?popupDispDiv=disp&holdCntId={round_no}"
+hold_cnt_id = f"{round_no:04d}"
 
+url = (
+    "https://store.toto-dream.com/dcs/subos/screen/pi04/spin011/"
+    f"PGSPIN01101LnkHoldCntLotResultLsttoto.form?popupDispDiv=disp&holdCntId={hold_cnt_id}"
+)
 headers = {
     "User-Agent": "Mozilla/5.0"
 }
