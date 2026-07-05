@@ -1,9 +1,11 @@
-import sqlite3
 import re
+import sqlite3
 from bs4 import BeautifulSoup
 from normalize_team import normalize_team_name
 
 HTML = "data/toto_club_2001_utf8.html"
+DB_PATH = "data/toto.db"
+ROUND_NO = 1
 
 with open(HTML, encoding="utf-8") as f:
     soup = BeautifulSoup(f, "html.parser")
@@ -11,6 +13,7 @@ with open(HTML, encoding="utf-8") as f:
 tables = soup.find_all("table")
 
 match_rows = []
+matches = []
 
 for tr in tables[2].find_all("tr"):
     cells = [c.get_text(" ", strip=True) for c in tr.find_all("td")]
@@ -38,15 +41,9 @@ for tr in tables[2].find_all("tr"):
         result
     ))
 
-print(f"第1回 試合数: {len(match_rows)}")
+print(f"第{ROUND_NO}回 試合数: {len(match_rows)}")
 
-for i, (home, away, result) in enumerate(match_rows, start=1):
-    print(i, home, away, result)
-
-
-print("\nJリーグ公式との照合")
-
-con = sqlite3.connect("data/toto.db")
+con = sqlite3.connect(DB_PATH)
 cur = con.cursor()
 
 matched = 0
@@ -64,10 +61,28 @@ for i, (home, away, result) in enumerate(match_rows, start=1):
     if row:
         matched += 1
         home_score, away_score, stadium, attendance = row
-        print(i, home, away, f"{home_score}-{away_score}", stadium, attendance)
     else:
-        print(i, home, away, "未照合")
+        home_score = None
+        away_score = None
+        stadium = None
+        attendance = None
+
+    matches.append({
+        "round_no": ROUND_NO,
+        "match_no": i,
+        "home_team": home,
+        "away_team": away,
+        "result": result,
+        "home_score": home_score,
+        "away_score": away_score,
+        "stadium": stadium,
+        "attendance": attendance,
+    })
 
 con.close()
 
-print(f"\n照合成功: {matched} / {len(match_rows)}")
+print(f"照合成功: {matched} / {len(match_rows)}")
+
+print("\n作成したデータ")
+for match in matches:
+    print(match)
