@@ -26,7 +26,7 @@ for row in rows[1:]:
     kickoff_time = cells[4]
     home_team = normalize_team_name(cells[5])
     score = cells[6]
-  away_team = normalize_team_name(cells[7])
+    away_team = normalize_team_name(cells[7])
     stadium = cells[8]
     attendance = int(cells[9].replace(",", "")) if cells[9] else None
 

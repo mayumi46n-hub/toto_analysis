@@ -1,3 +1,4 @@
+import sqlite3
 import re
 from bs4 import BeautifulSoup
 from normalize_team import normalize_team_name
@@ -41,3 +42,32 @@ print(f"第1回 試合数: {len(match_rows)}")
 
 for i, (home, away, result) in enumerate(match_rows, start=1):
     print(i, home, away, result)
+
+
+print("\nJリーグ公式との照合")
+
+con = sqlite3.connect("data/toto.db")
+cur = con.cursor()
+
+matched = 0
+
+for i, (home, away, result) in enumerate(match_rows, start=1):
+    cur.execute("""
+    SELECT home_score, away_score, stadium, attendance
+    FROM jleague_matches
+    WHERE home_team = ?
+      AND away_team = ?
+    """, (home, away))
+
+    row = cur.fetchone()
+
+    if row:
+        matched += 1
+        home_score, away_score, stadium, attendance = row
+        print(i, home, away, f"{home_score}-{away_score}", stadium, attendance)
+    else:
+        print(i, home, away, "未照合")
+
+con.close()
+
+print(f"\n照合成功: {matched} / {len(match_rows)}")
