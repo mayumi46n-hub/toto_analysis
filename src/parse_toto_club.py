@@ -1,3 +1,4 @@
+import sys
 import re
 import sqlite3
 from bs4 import BeautifulSoup
@@ -5,7 +6,10 @@ from normalize_team import normalize_team_name
 
 HTML = "data/toto_club_2001_utf8.html"
 DB_PATH = "data/toto.db"
-ROUND_NO = 1
+if len(sys.argv) >= 2:
+    ROUND_NO = int(sys.argv[1])
+else:
+    ROUND_NO = 1
 
 with open(HTML, encoding="utf-8") as f:
     soup = BeautifulSoup(f, "html.parser")
@@ -15,7 +19,14 @@ tables = soup.find_all("table")
 match_rows = []
 matches = []
 
-for tr in tables[2].find_all("tr"):
+TABLE_INDEX = {
+    1: 2,
+    2: 1,
+}
+
+table_index = TABLE_INDEX[ROUND_NO]
+
+for tr in tables[table_index].find_all("tr"):
     cells = [c.get_text(" ", strip=True) for c in tr.find_all("td")]
 
     if len(cells) >= 9 and cells[3] == "勝":
