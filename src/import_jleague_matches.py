@@ -1,8 +1,14 @@
+import sys
 import sqlite3
 from normalize_team import normalize_team_name
 from bs4 import BeautifulSoup
 
-HTML = "data/jleague_20001108.html"
+if len(sys.argv) >= 2:
+    DATE = sys.argv[1]
+else:
+    DATE = "20001108"
+
+HTML = f"data/jleague_{DATE}.html"
 DB_PATH = "data/toto.db"
 
 with open(HTML, encoding="utf-8") as f:
