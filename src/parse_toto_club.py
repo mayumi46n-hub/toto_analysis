@@ -79,6 +79,43 @@ for i, (home, away, result) in enumerate(match_rows, start=1):
         "attendance": attendance,
     })
 
+save_con = sqlite3.connect(DB_PATH)
+save_cur = save_con.cursor()
+
+# 第1回を入れ直せるように一旦削除
+save_cur.execute(
+    "DELETE FROM toto_matches WHERE round_no = ?",
+    (ROUND_NO,)
+)
+
+for match in matches:
+
+    save_cur.execute("""
+    INSERT INTO toto_matches
+    (
+        round_no,
+        match_no,
+        home_team,
+        away_team,
+        result,
+        home_score,
+        away_score
+    )
+    VALUES (?, ?, ?, ?, ?, ?, ?)
+    """, (
+        match["round_no"],
+        match["match_no"],
+        match["home_team"],
+        match["away_team"],
+        match["result"],
+        match["home_score"],
+        match["away_score"],
+    ))
+
+save_con.commit()
+save_con.close()
+
+print(f"\nDBへ {len(matches)} 試合保存しました")
 con.close()
 
 print(f"照合成功: {matched} / {len(match_rows)}")
