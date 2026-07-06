@@ -22,13 +22,24 @@ table_index = TABLE_INDEX[ROUND_NO]
 
 def section_text_to_date(section_text):
     m = re.search(r"(\d{1,2})／(\d{1,2})", section_text)
-
     if not m:
         return None
 
     month = int(m.group(1))
     day = int(m.group(2))
     year = 2000
+
+    return f"{year}{month:02d}{day:02d}"
+
+
+def db_date_to_yyyymmdd(match_date):
+    m = re.search(r"(\d{2})/(\d{2})/(\d{2})", match_date)
+    if not m:
+        return None
+
+    year = 2000 + int(m.group(1))
+    month = int(m.group(2))
+    day = int(m.group(3))
 
     return f"{year}{month:02d}{day:02d}"
 
@@ -56,6 +67,25 @@ for tr in target_table.find_all("tr"):
     if section_text.startswith("J2") and "／" in section_text:
         section_dates["J2"] = section_text_to_date(section_text)
         print("開催日候補:", section_text, "→", section_dates["J2"])
+
+con = sqlite3.connect(DB_PATH)
+cur = con.cursor()
+
+print("\nJリーグDB登録状況")
+
+for league, target_date in section_dates.items():
+    cur.execute("""
+        SELECT match_date
+        FROM jleague_matches
+    """)
+
+    count = 0
+
+    for (match_date,) in cur.fetchall():
+        if db_date_to_yyyymmdd(match_date) == target_date:
+            count += 1
+
+    print(f"{league}: {target_date} -> {count}試合")
 
 match_rows = []
 matches = []
@@ -86,16 +116,13 @@ for tr in target_table.find_all("tr"):
         result
     ))
 
-print(f"第{ROUND_NO}回 試合数: {len(match_rows)}")
-
-con = sqlite3.connect(DB_PATH)
-cur = con.cursor()
+print(f"\n第{ROUND_NO}回 試合数: {len(match_rows)}")
 
 matched = 0
 
 for i, (home, away, result) in enumerate(match_rows, start=1):
     cur.execute("""
-    SELECT home_score, away_score, stadium, attendance
+    SELECT home_score, away_score
     FROM jleague_matches
     WHERE home_team = ?
       AND away_team = ?
@@ -105,12 +132,10 @@ for i, (home, away, result) in enumerate(match_rows, start=1):
 
     if row:
         matched += 1
-        home_score, away_score, stadium, attendance = row
+        home_score, away_score = row
     else:
         home_score = None
         away_score = None
-        stadium = None
-        attendance = None
 
     matches.append({
         "round_no": ROUND_NO,
