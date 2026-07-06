@@ -13,13 +13,22 @@ else:
 
 
 def html_files_for_date(date):
-    candidates = [
+    split_files = [
         f"data/jleague_{date}_j1.html",
         f"data/jleague_{date}_j2.html",
-        f"data/jleague_{date}.html",
     ]
 
-    return [path for path in candidates if Path(path).exists()]
+    existing_split_files = [path for path in split_files if Path(path).exists()]
+
+    if existing_split_files:
+        return existing_split_files
+
+    legacy_file = f"data/jleague_{date}.html"
+
+    if Path(legacy_file).exists():
+        return [legacy_file]
+
+    return []
 
 
 def parse_html(html_path):
