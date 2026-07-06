@@ -1,88 +1,119 @@
 import sys
 import sqlite3
-from normalize_team import normalize_team_name
+from pathlib import Path
 from bs4 import BeautifulSoup
+from normalize_team import normalize_team_name
+
+DB_PATH = "data/toto.db"
 
 if len(sys.argv) >= 2:
     DATE = sys.argv[1]
 else:
     DATE = "20001108"
 
-HTML = f"data/jleague_{DATE}.html"
-DB_PATH = "data/toto.db"
 
-with open(HTML, encoding="utf-8") as f:
-    soup = BeautifulSoup(f, "html.parser")
+def html_files_for_date(date):
+    candidates = [
+        f"data/jleague_{date}_j1.html",
+        f"data/jleague_{date}_j2.html",
+        f"data/jleague_{date}.html",
+    ]
 
-table = soup.find_all("table")[0]
-rows = table.find_all("tr")
+    return [path for path in candidates if Path(path).exists()]
 
-matches = []
 
-for row in rows[1:]:
-    cells = [c.get_text(" ", strip=True) for c in row.find_all(["td", "th"])]
+def parse_html(html_path):
+    with open(html_path, encoding="utf-8") as f:
+        soup = BeautifulSoup(f, "html.parser")
 
-    if len(cells) < 10:
-        continue
+    tables = soup.find_all("table")
 
-    season = int(cells[0])
-    competition = cells[1]
-    section = cells[2]
-    match_date = cells[3]
-    kickoff_time = cells[4]
-    home_team = normalize_team_name(cells[5])
-    score = cells[6]
-    away_team = normalize_team_name(cells[7])
-    stadium = cells[8]
-    attendance = int(cells[9].replace(",", "")) if cells[9] else None
+    if not tables:
+        print(f"警告: tableが見つかりません: {html_path}")
+        return []
 
-    if "-" not in score:
-        continue
+    table = tables[0]
+    rows = table.find_all("tr")
 
-    home_score, away_score = score.split("-")
-    home_score = int(home_score)
-    away_score = int(away_score)
+    matches = []
 
-    matches.append((
-        season,
-        competition,
-        section,
-        match_date,
-        kickoff_time,
-        home_team,
-        away_team,
-        home_score,
-        away_score,
-        stadium,
-        attendance,
-        None,
-    ))
+    for row in rows[1:]:
+        cells = [c.get_text(" ", strip=True) for c in row.find_all(["td", "th"])]
 
-print(f"見つけた試合数: {len(matches)}")
+        if len(cells) < 10:
+            continue
 
-for m in matches:
+        season = int(cells[0])
+        competition = cells[1]
+        section = cells[2]
+        match_date = cells[3]
+        kickoff_time = cells[4]
+        home_team = normalize_team_name(cells[5])
+        score = cells[6]
+        away_team = normalize_team_name(cells[7])
+        stadium = cells[8]
+        attendance = int(cells[9].replace(",", "")) if cells[9] else None
 
+        if "-" not in score:
+            continue
+
+        home_score, away_score = score.split("-")
+        home_score = int(home_score)
+        away_score = int(away_score)
+
+        matches.append((
+            season,
+            competition,
+            section,
+            match_date,
+            kickoff_time,
+            home_team,
+            away_team,
+            home_score,
+            away_score,
+            stadium,
+            attendance,
+            None,
+        ))
+
+    return matches
+
+
+html_files = html_files_for_date(DATE)
+
+if not html_files:
+    raise FileNotFoundError(f"JリーグHTMLが見つかりません: data/jleague_{DATE}*.html")
+
+all_matches = []
+
+for html_file in html_files:
+    matches = parse_html(html_file)
+    print(f"{html_file}: {len(matches)}試合")
+    all_matches.extend(matches)
+
+print(f"見つけた試合数: {len(all_matches)}")
+
+for m in all_matches:
     print(m)
+
+if not all_matches:
+    print("保存する試合がありません")
+    sys.exit()
 
 con = sqlite3.connect(DB_PATH)
 cur = con.cursor()
 
-match_dates = sorted(set(match[3] for match in matches))
+delete_keys = sorted(set((match[0], match[3], match[1]) for match in all_matches))
 
-for match_date in match_dates:
+for season, match_date, competition in delete_keys:
     cur.execute("""
     DELETE FROM jleague_matches
     WHERE season = ?
       AND match_date = ?
-    """, (matches[0][0], match_date))
+      AND competition = ?
+    """, (season, match_date, competition))
 
-cur.execute("""
-DELETE FROM jleague_matches
-WHERE season = ?
-  AND match_date = ?
-""", (2000, "00/11/08(水)"))
-
-for match in matches:
+for match in all_matches:
     cur.execute("""
     INSERT INTO jleague_matches
     (
@@ -105,4 +136,4 @@ for match in matches:
 con.commit()
 con.close()
 
-print(f"Jリーグ公式データ {len(matches)}試合をDBに保存しました")
+print(f"Jリーグ公式データ {len(all_matches)}試合をDBに保存しました")

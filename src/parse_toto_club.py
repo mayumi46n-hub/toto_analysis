@@ -4,7 +4,6 @@ import sqlite3
 from bs4 import BeautifulSoup
 from normalize_team import normalize_team_name
 
-HTML = "data/toto_club_2001_utf8.html"
 DB_PATH = "data/toto.db"
 
 if len(sys.argv) >= 2:
@@ -12,22 +11,25 @@ if len(sys.argv) >= 2:
 else:
     ROUND_NO = 1
 
-TABLE_INDEX = {
-    1: 2,
-    2: 1,
+ROUND_CONFIG = {
+    1: ("data/toto_club_2001_utf8.html", 2),
+    2: ("data/toto_club_2001_utf8.html", 1),
+    3: ("data/toto_club_2001_yosou1_utf8.html", 2),
+    4: ("data/toto_club_2001_yosou1_utf8.html", 1),
 }
 
-table_index = TABLE_INDEX[ROUND_NO]
+HTML, table_index = ROUND_CONFIG[ROUND_NO]
 
 
 def section_text_to_date(section_text):
-    m = re.search(r"(\d{1,2})／(\d{1,2})", section_text)
+    m = re.search(r"(\d{1,2})[／/](\d{1,2})", section_text)
     if not m:
         return None
 
     month = int(m.group(1))
     day = int(m.group(2))
-    year = 2000
+
+    year = 2001 if ROUND_NO >= 3 else 2000
 
     return f"{year}{month:02d}{day:02d}"
 
@@ -60,11 +62,11 @@ for tr in target_table.find_all("tr"):
 
     section_text = cells[0]
 
-    if section_text.startswith("J1") and "／" in section_text:
+    if section_text.startswith("J1") and ("／" in section_text or "/" in section_text):
         section_dates["J1"] = section_text_to_date(section_text)
         print("開催日候補:", section_text, "→", section_dates["J1"])
 
-    if section_text.startswith("J2") and "／" in section_text:
+    if section_text.startswith("J2") and ("／" in section_text or "/" in section_text):
         section_dates["J2"] = section_text_to_date(section_text)
         print("開催日候補:", section_text, "→", section_dates["J2"])
 
@@ -74,10 +76,7 @@ cur = con.cursor()
 print("\nJリーグDB登録状況")
 
 for league, target_date in section_dates.items():
-    cur.execute("""
-        SELECT match_date
-        FROM jleague_matches
-    """)
+    cur.execute("SELECT match_date FROM jleague_matches")
 
     count = 0
 
