@@ -67,6 +67,15 @@ for m in matches:
 con = sqlite3.connect(DB_PATH)
 cur = con.cursor()
 
+match_dates = sorted(set(match[3] for match in matches))
+
+for match_date in match_dates:
+    cur.execute("""
+    DELETE FROM jleague_matches
+    WHERE season = ?
+      AND match_date = ?
+    """, (matches[0][0], match_date))
+
 cur.execute("""
 DELETE FROM jleague_matches
 WHERE season = ?

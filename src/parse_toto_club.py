@@ -28,6 +28,11 @@ table_index = TABLE_INDEX[ROUND_NO]
 
 for tr in tables[table_index].find_all("tr"):
     cells = [c.get_text(" ", strip=True) for c in tr.find_all("td")]
+    if cells and "／" in cells[0]:
+        print("開催日候補:", cells[0])
+
+for tr in tables[table_index].find_all("tr"):
+    cells = [c.get_text(" ", strip=True) for c in tr.find_all("td")]
 
     if len(cells) >= 9 and cells[3] == "勝":
         home_team = cells[1]
