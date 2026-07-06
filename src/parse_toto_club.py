@@ -1,23 +1,16 @@
-import sys
 import re
+import sys
 import sqlite3
 from bs4 import BeautifulSoup
 from normalize_team import normalize_team_name
 
 HTML = "data/toto_club_2001_utf8.html"
 DB_PATH = "data/toto.db"
+
 if len(sys.argv) >= 2:
     ROUND_NO = int(sys.argv[1])
 else:
     ROUND_NO = 1
-
-with open(HTML, encoding="utf-8") as f:
-    soup = BeautifulSoup(f, "html.parser")
-
-tables = soup.find_all("table")
-
-match_rows = []
-matches = []
 
 TABLE_INDEX = {
     1: 2,
@@ -26,12 +19,48 @@ TABLE_INDEX = {
 
 table_index = TABLE_INDEX[ROUND_NO]
 
-for tr in tables[table_index].find_all("tr"):
-    cells = [c.get_text(" ", strip=True) for c in tr.find_all("td")]
-    if cells and "／" in cells[0]:
-        print("開催日候補:", cells[0])
 
-for tr in tables[table_index].find_all("tr"):
+def section_text_to_date(section_text):
+    m = re.search(r"(\d{1,2})／(\d{1,2})", section_text)
+
+    if not m:
+        return None
+
+    month = int(m.group(1))
+    day = int(m.group(2))
+    year = 2000
+
+    return f"{year}{month:02d}{day:02d}"
+
+
+with open(HTML, encoding="utf-8") as f:
+    soup = BeautifulSoup(f, "html.parser")
+
+tables = soup.find_all("table")
+target_table = tables[table_index]
+
+section_dates = {}
+
+for tr in target_table.find_all("tr"):
+    cells = [c.get_text(" ", strip=True) for c in tr.find_all("td")]
+
+    if not cells:
+        continue
+
+    section_text = cells[0]
+
+    if section_text.startswith("J1") and "／" in section_text:
+        section_dates["J1"] = section_text_to_date(section_text)
+        print("開催日候補:", section_text, "→", section_dates["J1"])
+
+    if section_text.startswith("J2") and "／" in section_text:
+        section_dates["J2"] = section_text_to_date(section_text)
+        print("開催日候補:", section_text, "→", section_dates["J2"])
+
+match_rows = []
+matches = []
+
+for tr in target_table.find_all("tr"):
     cells = [c.get_text(" ", strip=True) for c in tr.find_all("td")]
 
     if len(cells) >= 9 and cells[3] == "勝":
@@ -91,22 +120,15 @@ for i, (home, away, result) in enumerate(match_rows, start=1):
         "result": result,
         "home_score": home_score,
         "away_score": away_score,
-        "stadium": stadium,
-        "attendance": attendance,
     })
 
-save_con = sqlite3.connect(DB_PATH)
-save_cur = save_con.cursor()
-
-# 第1回を入れ直せるように一旦削除
-save_cur.execute(
+cur.execute(
     "DELETE FROM toto_matches WHERE round_no = ?",
     (ROUND_NO,)
 )
 
 for match in matches:
-
-    save_cur.execute("""
+    cur.execute("""
     INSERT INTO toto_matches
     (
         round_no,
@@ -128,12 +150,10 @@ for match in matches:
         match["away_score"],
     ))
 
-save_con.commit()
-save_con.close()
-
-print(f"\nDBへ {len(matches)} 試合保存しました")
+con.commit()
 con.close()
 
+print(f"\nDBへ {len(matches)} 試合保存しました")
 print(f"照合成功: {matched} / {len(match_rows)}")
 
 print("\n作成したデータ")
