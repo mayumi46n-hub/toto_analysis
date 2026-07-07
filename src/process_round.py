@@ -1,17 +1,36 @@
+import csv
 import sys
 import subprocess
 import sqlite3
 from pathlib import Path
 
 DB_PATH = "data/toto.db"
+MASTER_PATH = "data/round_master.csv"
 
-if len(sys.argv) < 3:
-    print("使い方: python3 src/process_round.py ROUND_NO YYYYMMDD")
-    print("例: python3 src/process_round.py 13 20010526")
+
+def load_round(round_no):
+    with open(MASTER_PATH, encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            if row["round_no"] == str(round_no):
+                return row
+    return None
+
+
+if len(sys.argv) < 2:
+    print("使い方: python3 src/process_round.py ROUND_NO")
+    print("例: python3 src/process_round.py 13")
     sys.exit(1)
 
 round_no = int(sys.argv[1])
-date = sys.argv[2]
+
+row = load_round(round_no)
+
+if row is None:
+    print(f"第{round_no}回は round_master.csv にありません")
+    sys.exit(1)
+
+date = row["date_key"]
 
 
 def run(command):
@@ -52,6 +71,7 @@ def convert_toto_html_if_needed(round_no):
 
 convert_toto_html_if_needed(round_no)
 
+run(["python3", "src/fetch_jleague_html.py", str(round_no)])
 run(["python3", "src/import_jleague_matches.py", date])
 run(["python3", "src/parse_toto_club.py", str(round_no)])
 
