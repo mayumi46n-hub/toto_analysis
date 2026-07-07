@@ -1,7 +1,7 @@
 import re
 import sys
 import sqlite3
-from round_config import ROUND_CONFIG
+from round_config import get_round_config
 from bs4 import BeautifulSoup
 from normalize_team import normalize_team_name
 
@@ -12,7 +12,7 @@ if len(sys.argv) >= 2:
 else:
     ROUND_NO = 1
 
-config = ROUND_CONFIG[ROUND_NO]
+config = get_round_config(ROUND_NO)
 
 HTML = config["html"]
 table_index = config["table"]
