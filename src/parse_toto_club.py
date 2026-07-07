@@ -1,9 +1,11 @@
-import re
 import sys
 import sqlite3
 from round_config import get_round_config
-from bs4 import BeautifulSoup
-from normalize_team import normalize_team_name
+from toto_parser import (
+    extract_toto_rows,
+    competition_condition,
+    yyyymmdd_to_db_like,
+)
 
 DB_PATH = "data/toto.db"
 
@@ -17,117 +19,11 @@ config = get_round_config(ROUND_NO)
 HTML = config["html"]
 table_index = config["table"]
 
-
-def section_text_to_dates(section_text):
-    year = 2001 if ROUND_NO >= 3 else 2000
-
-    dates = []
-
-    # 例: 3/10, 11／8
-    slash_matches = re.findall(r"(\d{1,2})[／/](\d{1,2})", section_text)
-    for month_text, day_text in slash_matches:
-        month = int(month_text)
-        day = int(day_text)
-        dates.append(f"{year}{month:02d}{day:02d}")
-
-    # 例: 04月14日
-    japanese_matches = re.findall(r"(\d{1,2})月(\d{1,2})日", section_text)
-    for month_text, day_text in japanese_matches:
-        month = int(month_text)
-        day = int(day_text)
-        date_text = f"{year}{month:02d}{day:02d}"
-        if date_text not in dates:
-            dates.append(date_text)
-
-    return dates
-
-
-def yyyymmdd_to_db_like(date_text):
-    year = date_text[2:4]
-    month = date_text[4:6]
-    day = date_text[6:8]
-    return f"{year}/{month}/{day}%"
-
-
-def db_date_to_yyyymmdd(match_date):
-    m = re.search(r"(\d{2})/(\d{2})/(\d{2})", match_date)
-    if not m:
-        return None
-
-    year = 2000 + int(m.group(1))
-    month = int(m.group(2))
-    day = int(m.group(3))
-
-    return f"{year}{month:02d}{day:02d}"
-
-
-def competition_condition(league):
-    if league == "J1":
-        return "competition LIKE 'Ｊ１%'"
-    if league == "J2":
-        return "competition = 'Ｊ２'"
-    return "1 = 1"
-
-
-with open(HTML, encoding="utf-8") as f:
-    soup = BeautifulSoup(f, "html.parser")
-
-tables = soup.find_all("table")
-target_table = tables[table_index]
-
-section_dates = {}
-match_rows = []
-
-current_league = None
-current_dates = []
-
-for tr in target_table.find_all("tr"):
-    cells = [c.get_text(" ", strip=True) for c in tr.find_all("td")]
-
-    if not cells:
-        continue
-
-    section_text = cells[0]
-
-    if section_text.startswith("J1") and ("／" in section_text or "/" in section_text or "月" in section_text):
-        current_league = "J1"
-        current_dates = section_text_to_dates(section_text)
-        section_dates["J1"] = current_dates
-        print("開催日候補:", section_text, "→", ",".join(current_dates))
-
-    elif section_text.startswith("J2") and ("／" in section_text or "/" in section_text or "月" in section_text):
-        current_league = "J2"
-        current_dates = section_text_to_dates(section_text)
-        section_dates["J2"] = current_dates
-        print("開催日候補:", section_text, "→", ",".join(current_dates))
-
-    if len(cells) >= 9 and cells[3] == "勝":
-        home_team = cells[1]
-        away_team = cells[2]
-        result_text = cells[-1]
-    elif len(cells) >= 8 and cells[2] == "勝":
-        home_team = cells[0]
-        away_team = cells[1]
-        result_text = cells[-1]
-    else:
-        continue
-
-    m = re.search(r"\[(\d)\]", result_text)
-    if not m:
-        continue
-
-    result = m.group(1)
-
-    match_rows.append((
-        normalize_team_name(home_team),
-        normalize_team_name(away_team),
-        result,
-        current_league,
-        list(current_dates),
-    ))
-
-if "J1" in section_dates and "J2" not in section_dates and len(match_rows) > 8:
-    section_dates["J2"] = section_dates["J1"]
+section_dates, match_rows = extract_toto_rows(
+    HTML,
+    table_index,
+    ROUND_NO,
+)
 
 con = sqlite3.connect(DB_PATH)
 cur = con.cursor()
