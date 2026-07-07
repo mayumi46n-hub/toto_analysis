@@ -1,0 +1,1419 @@
+@charset "UTF-8";
+
+.width-quarter {
+	width:25%;
+}
+
+@media print {
+	.disp-none {display:none;}
+
+	table .header {
+		background-image: none;
+	}
+
+	table .headerSortDown {
+		background-image: none;
+	}
+
+	table .headerSortUp {
+		background-image: none;
+	}
+
+	.pagination-base ul.prev-box {
+		display:none;
+	}
+
+	.pagination-base ul.next-box {
+		display:none;
+	}
+}
+
+/*-- hnav --*/
+
+#header-area li#hnav-login-en {
+	width:175px;
+	vertical-align:top;
+}
+#header-area li#hnav-login-en a {
+	display:block;
+	height:25px;
+	text-align:left;
+	text-indent:-9999px;
+}
+#header-area li#hnav-login-en a {background:url(../images/common/hnav_login_en.jpg) no-repeat top;}
+
+#header-area li#hnav-login-en a:hover {
+	background-position:bottom;
+}
+
+#header-area li#hnav-official-site {
+	width:175px;
+	vertical-align:top;
+}
+
+#header-area li#hnav-official-site a {
+	display:block;
+	height:25px;
+	text-align:left;
+	text-indent:-9999px;
+}
+
+.ja #header-area li#hnav-official-site a {background:url(../images/common/hnav_official_site.jpg) no-repeat top;}
+.en #header-area li#hnav-official-site a {background:url(../images/common/hnav_official_site_en.jpg) no-repeat top;}
+
+#header-area li#hnav-official-site a:hover {
+	background-position:bottom;
+}
+
+/*
+-----------------------------------------------------------------------
+form-size
+-----------------------------------------------------------------------
+*/
+
+.form-score-size {
+	width:35px;
+}
+
+.form-member-name-size {
+	width:200px;
+}
+/*
+-----------------------------------------------------------------------
+table-base00
+-----------------------------------------------------------------------
+*/
+
+table.table-base00 .bb-dot{
+	border-bottom:1px #E3E3E3 dotted;
+}
+
+table.table-base00 .wd00{
+	width:100px;
+}
+
+
+/*
+-----------------------------------------------------------------------
+search-table
+-----------------------------------------------------------------------
+*/
+
+table.search-table .al-l {
+	text-align:left;
+}
+
+table.search-table .al-c {
+	text-align:center;
+}
+
+table.search-table .al-r {
+	text-align:right;
+}
+
+table.search-table td {
+	font-size:1.2em;
+}
+/*
+-----------------------------------------------------------------------
+staff-info
+-----------------------------------------------------------------------
+*/
+
+p.staff {
+	margin-bottom:10px;
+}
+
+p.staff .number {
+	background-color:#E5E5E5;
+	padding:2px 4px;
+	margin-right:2px;
+}
+
+p.staff span {
+	margin-right:15px;
+	line-height:1.5em;
+}
+
+table.change-info td {
+	padding-right:15px;
+}
+
+/*
+-----------------------------------------------------------------------
+area11
+-----------------------------------------------------------------------
+*/
+
+.search-main-box #area11 {padding-bottom:25px;}
+.search-main-box #area11 .float-l,
+.search-main-box #area11 .float-r {width:460px;}
+.search-main-box #area11 .float-l-small-size,
+.search-main-box #area11 .float-r-small-size {width:240px;}
+.search-main-box #area11 .float-l .float-l,
+.search-main-box #area11 .float-l .float-r,
+.search-main-box #area11 .float-r .float-l,
+.search-main-box #area11 .float-r .float-r {width:220px;}
+.search-main-box #area11 .float-l .small-size,
+.search-main-box #area11 .float-r .small-size {width:170px;}
+.search-main-box #area11 .float-l .float-l .float-l,
+.search-main-box #area11 .float-l .float-l .float-r,
+.search-main-box #area11 .float-l .float-r .float-l,
+.search-main-box #area11 .float-l .float-r .float-r,
+.search-main-box #area11 .float-r .float-l .float-l,
+.search-main-box #area11 .float-r .float-l .float-r,
+.search-main-box #area11 .float-r .float-r .float-l,
+.search-main-box #area11 .float-r .float-r .float-r {width:100px;}
+.search-main-box #area11 .float-l .float-l .small-size,
+.search-main-box #area11 .float-l .float-r .small-size,
+.search-main-box #area11 .float-r .float-l .small-size,
+.search-main-box #area11 .float-r .float-r .small-size {
+	width:60px;
+}
+
+.search-main-box #area11 .box00 .box-title {
+	background:none;
+}
+.search-main-box #area11 .box00 select {
+	width:95px;
+	height:22px;
+	border:1px #8E8F8F solid;
+	padding:1px;
+	font-size:12px;
+}
+.search-main-box #area11 .box00 option {font-size:12px;}
+
+.search-main-box #area11 .box00 .require {
+	background:url(../images/common/icon02.png) no-repeat right;
+}
+
+.search-main-box #area11 .box01 {
+	margin-bottom:5px;
+}
+.search-main-box #area11 .box01 .box-overflow {
+	width:200px;
+	height:85px;
+}
+.search-main-box #area11 .box01 .box-overflow-small-size {
+	width:90px;
+}
+
+.search-main-box #area11 .box02 .box-title {
+	background:none;
+}
+.search-main-box #area11 .box02 select {
+	width:195px;
+	height:22px;
+	border:1px #8E8F8F solid;
+	padding:1px;
+	font-size:12px;
+}
+.search-main-box #area11 .box02 .require {
+	background:url(../images/common/icon02.png) no-repeat right;
+}
+/*
+-----------------------------------------------------------------------
+record-index-search
+-----------------------------------------------------------------------
+*/
+
+.record-index-search .float-l {width:780px;}
+.record-index-search .float-l .float-l,
+.record-index-search .float-r {width:140px;}
+.record-index-search .float-l .float-l.competition-and-group {
+	width:450px;
+	margin-left:10px;
+}
+.record-index-search .float-l .float-l.competition{width:260px;}
+.record-index-search .float-l .float-r {width:620px;}
+
+.record-index-search .box-area .box-title {
+	display:-moz-inline-box;
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+	font-weight:normal;
+	background:url(../images/common/icon02.png) no-repeat right;
+	padding-right:13px;
+}
+
+.record-index-search select {
+	width:120px;
+	height:22px;
+	border:1px #8E8F8F solid;
+	padding:1px;
+	font-size:12px;
+}
+
+.record-index-search select.competition {
+	width:240px;
+}
+
+.record-index-search select.competitions-group {
+	width:170px;
+}
+.record-index-search .ml-10box {
+	margin-left:10px
+}
+
+.record-index-search .mr-10box {
+	margin-right:10px
+}
+
+.record-index-search option {font-size:12px;}
+
+.record-index-search .box-base {
+	margin-bottom:5px;
+	min-height:39px;
+}
+
+.record-index-search .box01 .clearbox {
+	margin-top:3px;
+}
+
+p.record {
+	float:left;
+	margin-right:5px;
+}
+
+p.record select {
+	width:300px;
+
+}
+
+p.subcomp_record {
+	margin-right:5px;
+}
+
+p.subcomp_record select {
+	width:300px;
+
+}
+
+/*
+-----------------------------------------------------------------------
+foul-point
+-----------------------------------------------------------------------
+*/
+
+.foul-point .float-l {width:470px;}
+.foul-point .float-l.big {width:600px;}
+.foul-point .float-l.small {width:340px;}
+.foul-point .float-l .float-r {width:320px;}
+
+
+
+/*
+-----------------------------------------------------------------------
+btn0
+-----------------------------------------------------------------------
+*/
+
+.btn-search p.btn-base .btn0 {
+	width:71px;
+	height:27px;
+}
+
+
+/*
+-----------------------------------------------------------------------
+btn1
+-----------------------------------------------------------------------
+*/
+
+.btn-search p.btn-base .btn1 {
+	padding:10px 20px;
+	width:131px;
+	height:27px;
+	float:left;
+	margin-right:-270px;
+}
+
+.btn-search p.btn-base .btn1 span {
+	vertical-align:bottom;
+	font-size:12px;
+	line-height:27px;
+}
+
+
+/*
+-----------------------------------------------------------------------
+define for menu 2013/07/02
+-----------------------------------------------------------------------
+*/
+
+#total-data-slide-area-new .slide-box {width:692px;}
+#search-service-slide-area .slide-box {width:675px;}
+
+#total-data-slide-area-new .slide-box li.slide-box00 {width:173px;}
+#total-data-slide-area-new .slide-box li.slide-box01 {width:173px;}
+#total-data-slide-area-new .slide-box li.slide-box02 {width:173px;}
+#total-data-slide-area-new .slide-box li.slide-box03 {width:173px;}
+#search-service-slide-area .slide-box li.slide-box00 {width:225px;}
+#search-service-slide-area .slide-box li.slide-box01 {width:225px;}
+#search-service-slide-area .slide-box li.slide-box02 {width:225px;}
+
+#total-data-slide-area-new .slide-box li .slide-child,
+#total-data-slide-area-new .slide-box li .slide-child li {width:173px;}
+#search-service-slide-area .slide-box li .slide-child,
+#search-service-slide-area .slide-box li .slide-child li {width:225px;}
+
+#player-slide-area .slide-box {width:510px;}
+#player-slide-area .slide-box li.slide-box00 {width:130px;}
+#player-slide-area .slide-box li.slide-box01 {width:195px;}
+#player-slide-area .slide-box li.slide-box02 {width:185px;}
+
+/*
+-----------------------------------------------------------------------
+define for info-none 2013/07/03
+-----------------------------------------------------------------------
+*/
+.info-none-txt {
+	clear:both;
+	font-size:13px;
+	line-height: 20px;
+	font-weight: 600;
+	white-space: pre;
+	padding:0px 50px 0px 50px;
+	word-wrap: break-word;
+}
+
+**/
+
+/*
+-----------------------------------------------------------------------
+SFRT01 table.standings-table00 2013/07/04
+-----------------------------------------------------------------------
+*/
+table.standings-table00 tr .wd00 {border-left:none; width:22px;}
+table.standings-table00 tr .wd01 {width:35px;}
+table.standings-table00 tr td.wd01 {text-align:right;}
+table.standings-table00 tr td.wd01-l {text-align:left;}
+table.standings-table00 tr .wd02 {width:152px;}
+table.standings-table00 tr th.wd02 {text-align:center;}
+table.standings-table00 tr .wd03,
+table.standings-table00 tr .wd04,
+table.standings-table00 tr .wd05,
+table.standings-table00 tr .wd06,
+table.standings-table00 tr .wd07,
+table.standings-table00 tr .wd08,
+table.standings-table00 tr .wd09,
+table.standings-table00 tr .wd10,
+table.standings-table00 tr .wd11,
+table.standings-table00 tr .wd12,
+table.standings-table00 tr .wd13,
+table.standings-table00 tr .wd14 {width:auto;}
+table.standings-table00 tr td.wd03,
+table.standings-table00 tr td.wd04,
+table.standings-table00 tr td.wd05,
+table.standings-table00 tr td.wd06,
+table.standings-table00 tr td.wd07,
+table.standings-table00 tr td.wd08,
+table.standings-table00 tr td.wd09,
+table.standings-table00 tr td.wd10,
+table.standings-table00 tr td.wd11,
+table.standings-table00 tr td.wd12,
+table.standings-table00 tr td.wd13,
+table.standings-table00 tr td.wd14 {width:auto;text-align:left;}
+table.standings-table00 tr .wd15-1 {width:41px;text-align:left;}
+table.standings-table00 tr .wd15,
+table.standings-table00 tr .wd16 {width:26px;}
+table.standings-table00 tr .wd17 {width:67px;text-align:center;}
+table.standings-table00 tr .wd18 {width:80px;text-align:center;text-align:left;}
+
+/*-- standings-title --*/
+
+.standings-title {
+	background-color:#333333;
+	color:#fff;
+	text-align:left;
+	font-size:1.4em;
+	padding:5px;
+}
+
+/*
+-----------------------------------------------------------------------
+standings-table-box
+-----------------------------------------------------------------------
+*/
+
+.standings-tab-box {
+}
+.standings-tab-box ul {
+	width:456px;
+	height:25px;
+	margin-left:242px;
+}
+.standings-tab-box ul li {
+	float:left;
+	width:152px;
+	height:25px;
+}
+
+table.year-standings-table00 tr.bg-red td {background-color:#FEEDEE;}
+table.year-standings-table00 th.year-end-ranking {
+	width : 80px;
+}
+table.year-standings-table00 th.year-ranking {
+	width : 80px;
+}
+/*
+-----------------------------------------------------------------------
+define for promoter-name 2013/07/09
+-----------------------------------------------------------------------
+*/
+.promoter-name-area {
+	padding:5px;
+	color:#303030;
+	font-size:15px;
+}
+/*
+-----------------------------------------------------------------------
+define for suspension-explanatory-notes 2013/07/09
+-----------------------------------------------------------------------
+*/
+.suspension-explanatory-notes-txt {
+	clear:both;
+	color:#303030;
+	font-size:10px;
+	line-height: 12px;
+	font-weight: 300;
+	white-space: pre;
+	padding:0px 0px 0px 10px;
+}
+/*
+-----------------------------------------------------------------------
+define for suspension-comment 2013/07/09
+-----------------------------------------------------------------------
+*/
+.suspension-comment-txt {
+	clear:both;
+	color:#000000;
+	font-size:10px;
+	line-height: 12px;
+	font-weight: 300;
+	white-space: pre;
+	padding:0px 0px 0px 10px;
+}
+/*
+-----------------------------------------------------------------------
+define for suspension-info-none 2013/07/03
+-----------------------------------------------------------------------
+*/
+.suspension-info-none-txt {
+	clear:both;
+	font-size:13px;
+	line-height: 20px;
+	font-weight: 600;
+	white-space: pre;
+	padding:0px 50px 0px 50px;
+	word-wrap: break-word;
+}
+
+/*
+-----------------------------------------------------------------------
+define for suspension-explanatory 2013/07/03
+-----------------------------------------------------------------------
+*/
+.suspension-explanatory-box {
+	font-size:9px;
+	line-height: 11px;
+	padding:0px 0px 0px 10px;
+}
+table.suspension-explanatory {
+	width:100%;
+}
+table.suspension-explanatory .lt01 {
+	vertical-align:top;
+	width:80px;
+}
+
+/*
+-----------------------------------------------------------------------
+define for year visitor 2013/07/10
+-----------------------------------------------------------------------
+*/
+.search-main-box #total-data-weather .box-title1 {
+	display:-moz-inline-box;
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+	font-weight:normal;
+	background:url(../images/common/icon02.png) no-repeat right;
+	padding-right:13px;
+}
+
+/*
+-----------------------------------------------------------------------
+define for attendance 2013/07/10
+-----------------------------------------------------------------------
+*/
+.search-main-box #area11 .box-title1 {
+	display:-moz-inline-box;
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+	font-weight:normal;
+	background:url(../images/common/icon02.png) no-repeat right;
+	padding-right:13px;
+}
+
+/*
+-----------------------------------------------------------------------
+define for Memorial goal 2013/07/15
+-----------------------------------------------------------------------
+width:940
+*/
+table.attendance-table-sftd15 .wd00 {width:80px;}
+table.attendance-table-sftd15 .wd01 {width:140px;}
+table.attendance-table-sftd15 .wd02 {width:140px;}
+table.attendance-table-sftd15 .wd03 {width:120px;}
+table.attendance-table-sftd15 .wd04 {width:170px;}
+table.attendance-table-sftd15 .wd05 {width:100px;}
+table.attendance-table-sftd15 .wd06 {width:auto;}
+table.attendance-table-sftd15 td.al-r {text-align:right;}
+table.attendance-table-sftd15 td.al-c {text-align:center;}
+
+
+/*
+-----------------------------------------------------------------------
+bl-non_r
+-----------------------------------------------------------------------
+*/
+.search-table .bl-non_r {text-align:right;}
+
+/*
+-----------------------------------------------------------------------
+define for information title print 2013/07/17
+-----------------------------------------------------------------------
+*/
+.t-information-base-area {
+	background-color:#FFFFFF;
+	text-align:center;
+	padding:10px 20px;
+}
+.t-information-base-area .t-information-base {
+	display:inline;
+	font-size:large;
+	text-decoration: underline;
+	color:#000000;
+	padding:0 4px;
+}
+
+/*
+-----------------------------------------------------------------------
+defined for referee detail bl-non_lb
+-----------------------------------------------------------------------
+*/
+.player-area .table-box table .bl-non_lb {border-bottom:none; border-left:none;}
+.player-area .player-box .profile .clearbox .float-lw {width:295px;}
+
+
+tbody.sum td {
+	border-top: double
+}
+
+/*
+-----------------------------------------------------------------------
+defined for dev#4265
+-----------------------------------------------------------------------
+*/
+.two-column-table-base th.name {
+	text-align: left;
+}
+
+/*
+-----------------------------------------------------------------------
+defined for dev#4795
+-----------------------------------------------------------------------
+*/
+.record-table-box table td.s-title-sfpr01 {
+	font-size:12px;
+	line-height:1em;
+	padding:1px 3px;
+	width:76px;
+	height:12px;
+	vertical-align: middle;
+}
+
+/*
+-----------------------------------------------------------------------
+defined for tablesorter
+-----------------------------------------------------------------------
+*/
+.implicit-sort-col {
+	display:none;
+}
+
+/*
+-----------------------------------------------------------------------
+SFSS17 stadium-text-box-width 2013/08/02
+-----------------------------------------------------------------------
+*/
+.stadium-text-box-width {
+	width:315px;
+}
+
+.consecutive_game_goals_for_against {
+}
+
+/*
+-----------------------------------------------------------------------
+SFSS12 consecutive_game_goals_for_against 2013/08/08
+-----------------------------------------------------------------------
+*/
+.consecutive_game_goals_for_against {}
+.consecutive_game_goals_for_against table.search-table th.c-1 {width:100px;border-left: none;}
+.consecutive_game_goals_for_against table.search-table th.c-2 {width:130px;}
+.consecutive_game_goals_for_against table.search-table th.c-3 {width:auto;}
+.consecutive_game_goals_for_against table.search-table th.c-4 {width:180px;}
+.consecutive_game_goals_for_against table.search-table th.c-5 {width:180px;}
+.consecutive_game_goals_for_against table.search-table th.c-6 {width:130px;}
+
+/*
+-----------------------------------------------------------------------
+SFSS18 stadium-text-box-width 2013/08/08
+-----------------------------------------------------------------------
+*/
+table.not-attainment-team-width {
+	width:222px;
+}
+
+/*
+-----------------------------------------------------------------------
+SFSS12 search box 2013/08/13
+-----------------------------------------------------------------------
+*/
+.consecutive_game_goals_for_against .search-box-1 {
+	display: table-cell;
+	padding: 0px 5px 0px 0px;
+}
+
+/*
+-----------------------------------------------------------------------
+search-condition-box 2013/08/14
+-----------------------------------------------------------------------
+*/
+
+.search-condition-box table .wd120{
+	width:120px;
+}
+
+/*
+-----------------------------------------------------------------------
+#1227 2013/08/15
+-----------------------------------------------------------------------
+*/
+.box-info p.name span.s-txt {
+	font-size: 12px;
+	margin-left: 7px;
+}
+.box-info p.staff span.s-txt {
+	font-size: 12px;
+}
+.box-info table span.s-txt {
+	font-size: 12px;
+}
+
+/*
+-----------------------------------------------------------------------
+SFIN04 Information of correction 2013/08/13
+-----------------------------------------------------------------------
+*/
+.info-correction-area {
+	font-size:13px;
+	line-height:30px;
+	margin:0px 0px 30px 30px;
+}
+
+.info-correction-area * {
+	font-size:inherit;
+	line-height:inherit;
+}
+
+
+.info-correction-area #update-date {
+	text-align:right;
+	margin-bottom:30px;
+}
+
+.info-correction-area #update-date p {
+	font-size:1.1em;
+	display:-moz-inline-box;
+	display:inline-block;
+	background-color:#E5E5E5;
+	padding:0 45px;
+	line-height:20px;
+	margin-bottom:10px
+}
+
+
+/*
+-----------------------------------------------------------------------
+two-column-table-area 2013/08/27
+-----------------------------------------------------------------------
+*/
+.two-column-table-box-type01 .two-column-table-base table td.change {
+	width:70px;
+	text-align:right;
+	padding-right:10px;
+}
+
+/*
+-----------------------------------------------------------------------
+table-base00. search-table 2013/08/28
+-----------------------------------------------------------------------
+*/
+
+table.table-base00.search-table.sfss01 {
+	table-layout:fixed;
+	width:525px;
+}
+
+table.table-base00.search-table.sfss02 {
+	table-layout:fixed;
+	width:705px;
+}
+
+table.table-base00.search-table.sfss03 {
+	table-layout:fixed;
+}
+
+table.table-base00.search-table.sfss04 {
+	table-layout:fixed;
+}
+
+table.table-base00.search-table.sfss05 {
+	table-layout:fixed;
+	width:375px;
+}
+
+table.table-base00.search-table.sfss06 {
+	table-layout:fixed;
+}
+
+table.table-base00.search-table.sfss07 {
+	table-layout:fixed;
+	width:485px;
+}
+
+table.table-base00.search-table.sfss08 {
+	table-layout:fixed;
+}
+
+table.table-base00.search-table.sfss09 {
+	table-layout:fixed;
+}
+
+table.table-base00.search-table.sfss10 {
+	table-layout:fixed;
+	width:485px;
+}
+
+table.table-base00.search-table.sfss01 {
+	table-layout:fixed;
+}
+
+table.table-base00.search-table.sfss12 {
+	table-layout:fixed;
+	width:490px;
+}
+
+table.table-base00.search-table.sfss13 {
+	table-layout:fixed;
+	width:550px;
+}
+
+table.table-base00.search-table.sfss14 {
+	table-layout:fixed;
+	width:500px;
+}
+
+table.table-base00.search-table th.goalYearsCount {
+	width:80px;
+}
+
+table.table-base00.search-table th.player {
+	width:165px;
+}
+
+table.table-base00.search-table th.affiliationTeam {
+	width:65px;
+}
+
+table.table-base00.search-table th.competition01 {
+	width:150px;
+}
+
+table.table-base00.search-table th.competition02 {
+	width:110px;
+}
+
+table.table-base00.search-table th.startYear {
+	width:90px;
+}
+
+table.table-base00.search-table th.endYear {
+	width:90px;
+}
+
+table.table-base00.search-table th.markContinuation {
+	width:65px;
+}
+
+table.table-base00.search-table th.goalMatchsCount {
+	width:90px;
+}
+
+table.table-base00.search-table th.startSection {
+	width:110px;
+}
+
+table.table-base00.search-table th.startSection02 {
+	width:130px;
+}
+
+table.table-base00.search-table th.endSection {
+	width:110px;
+}
+
+table.table-base00.search-table th.endSection02 {
+	width:130px;
+}
+
+table.table-base00.search-table th.startMatchsCount {
+	width:80px;
+}
+
+table.table-base00.search-table th.lastTeam {
+	width:80px;
+}
+
+table.table-base00.search-table th.nowPosition {
+	width:105px;
+}
+
+table.table-base00.search-table th.age {
+	width:100px;
+}
+
+table.table-base00.search-table th.section {
+	width:60px;
+}
+
+table.table-base00.search-table th.sectionDay {
+	width:80px;
+}
+
+table.table-base00.search-table th.goals {
+	width:45px;
+}
+
+table.table-base00.search-table th.position {
+	width:60px;
+}
+
+table.table-base00.search-table th.goalsDetail {
+	width:80px;
+}
+
+table.table-base00.search-table th.matchDetail {
+	width:80px;
+}
+
+table.table-base00.search-table th.count {
+	width:45px
+}
+
+table.table-base00.search-table th.affiliation {
+	width:90px;
+}
+
+table.table-base00.search-table th.lastPosition {
+	width:100px;
+}
+
+table.table-base00.search-table th.memorialGoals {
+	width:50px;
+}
+
+table.table-base00.search-table th.toujiSyozokuTeam {
+	width:80px;
+}
+
+table.table-base00.search-table th.vsTeam {
+	width:80px;
+}
+
+table.table-base00.search-table th.score {
+	width:80px;
+}
+
+table.table-base00.search-table th.stadium {
+	width:80px;
+}
+
+table.table-base00.search-table th.goalTimes {
+	width:155px;
+}
+
+table.table-base00.search-table th.matches {
+	width:60px;
+}
+
+table.table-base00.search-table th.team {
+	width:60px;
+}
+
+table.table-base00.search-table th.time {
+	width:50px;
+}
+
+table.table-base00.search-table th.matchCount {
+	width:50px;
+}
+
+table.table-base00.search-table th.consecutionCount {
+	width:50px;
+}
+
+table.table-base00.search-table th.draw {
+	width:50px;
+}
+
+/*
+-----------------------------------------------------------------------
+search-selection 2013/08/30
+-----------------------------------------------------------------------
+*/
+
+
+body.ja .search-selection .search-main-box .box-area .float-m .btn-base a {
+	padding:0 15px;
+}
+
+body.en .search-selection .search-main-box .box-area .float-m .btn-base a {
+	padding:0 10px;
+}
+
+/*
+-----------------------------------------------------------------------
+search-main-box 2013/09/02
+-----------------------------------------------------------------------
+*/
+
+.search-main-box #area01 .box00 .box-s-base,
+.search-main-box #area01 .box00 .box-overflow {
+	height:101px;
+}
+
+.search-main-box #area11 .box03 select {
+	height:22px;
+	border:1px #8E8F8F solid;
+	padding:1px;
+	font-size:12px;
+}
+
+.search-main-box #area11 .box03 select.competition {
+	width:240px;
+	margin-right:20px
+}
+
+.search-main-box #area11 .box03 select.group {
+	width:170px;}
+
+/*
+-----------------------------------------------------------------------
+line-height 2013/09/02
+-----------------------------------------------------------------------
+*/
+
+.lh22 {
+	line-height:2.2em;
+}
+
+/*
+-----------------------------------------------------------------------
+attendance-table 2013/09/02
+-----------------------------------------------------------------------
+*/
+
+table.attendance-table .wd01 {
+	width:100px;
+}
+
+table.attendance-table .wd03 {
+	width:160px;
+}
+
+table.attendance-table .wd04 {
+	width:160px;
+}
+
+table.attendance-table .wd05 {
+	width:100px;
+}
+
+
+/*
+-----------------------------------------------------------------------
+area11 2013/09/03
+-----------------------------------------------------------------------
+*/
+
+.search-main-box #area11 .float-l.wd160 {
+	width:160px;
+}
+
+.search-main-box #area11 .float-l.wd140 {
+	width:140px;
+}
+
+.search-main-box #area11 .float-l.wd450 {
+	width:450px;
+}
+
+.search-main-box #area11 .float-l.wd330 {
+	width:330px;
+}
+
+.search-main-box #area11 .float-r.wd310 {
+	width:310px;
+}
+
+.search-main-box #area11 .float-l.wd150 {
+	width:150px !important;
+}
+
+.search-main-box #area11 .float-l .wd140 {
+	width:140px !important;
+}
+
+.search-main-box #area11 .float-r.wd140 {
+	width:140px !important;
+}
+
+/*
+-----------------------------------------------------------------------
+area11 2013/10/24
+-----------------------------------------------------------------------
+*/
+
+.search-main-box #area11 .float-l.wd550 {
+	width:550px;
+}
+
+.search-main-box #area11 .float-r.wd370 {
+	width:370px;
+}
+
+/*
+-----------------------------------------------------------------------
+score-board-other 2013/09/03
+-----------------------------------------------------------------------
+*/
+
+.score-board-box .score-board-other dl.score-board-base dd.left-area div.left-score {
+	width:20px;
+	text-align:center;
+	float:right;
+}
+
+.score-board-box .score-board-other dl.score-board-base dd.right-area div.right-score {
+	width:20px;
+	text-align:center;
+	float:left;
+}
+
+
+/*
+-----------------------------------------------------------------------
+standings-table01 2013/09/04
+-----------------------------------------------------------------------
+*/
+
+
+table.standings-table01 table.child th {
+	width:52px;
+}
+
+table.standings-table01 table.child td ul li div {
+	float:left;
+	text-align:right;
+	width:21px;
+}
+
+/*
+-----------------------------------------------------------------------
+text-overflow 2013/09/05
+-----------------------------------------------------------------------
+*/
+
+.to-ellipsis {
+	text-overflow: ellipsis;
+}
+
+input.to-ellipsis {
+	border:1px #CCCCCC solid;
+	width:444px;
+	padding:3px 2px;
+}
+
+.wd460 {
+	width:460px;
+}
+
+/*
+-----------------------------------------------------------------------
+record-table-box-warnings 2013/09/09
+-----------------------------------------------------------------------
+*/
+
+.record-table-box-warnings tbody td.bg {
+	background-color:#E3E3E3;
+	color:#000000;
+}
+
+.record-txt-warnings dl .bg-g {
+	background-color:#E3E3E3;
+	color:#000000;
+}
+
+
+/*
+-----------------------------------------------------------------------
+numbers-s-title 2013/09/06
+-----------------------------------------------------------------------
+*/
+
+body.ja .numbers .numbers-box-base .numbers-box .numbers-s-title.heightLine {
+	height:33px;
+}
+
+body.en .numbers .numbers-box-base .numbers-box .numbers-s-title.heightLine {
+	height:40px;
+}
+
+/*
+-----------------------------------------------------------------------
+SFTP01 league-table-season-overall for English 2013/09/07
+-----------------------------------------------------------------------
+*/
+
+body.en .league-table-season-overall {
+	font-size:10px;
+}
+
+/*
+-----------------------------------------------------------------------
+defined for dev#6400
+-----------------------------------------------------------------------
+*/
+.record-table-box table .al-r-sfpr01 {
+	text-align:right;
+	vertical-align: middle;
+}
+
+/*
+-----------------------------------------------------------------------
+index-tab-box-xerox 2013/09/09
+-----------------------------------------------------------------------
+*/
+.index-tab-box-xerox .tab-contents-main {
+	float:none;
+	width:auto;
+}
+
+.index-tab-box-xerox .tab-contents-box {
+	background:url("../images/index/tab_contents_box_bg_m01.jpg") repeat-y scroll center top transparent;
+}
+
+.index-tab-box-xerox .tab-contents-box-t{
+	background:url("../images/index/tab_contents_box_bg_t01.jpg") no-repeat scroll center top transparent;
+}
+
+.index-tab-box-xerox .tab-contents-box-b{
+	background:url("../images/index/tab_contents_box_bg_b01.jpg") no-repeat scroll center bottom transparent;
+}
+
+.index-tab-box-xerox .tab-contents-main table.main-box-child td {
+	text-align:left;
+}
+
+/*
+-----------------------------------------------------------------------
+club-taleb-box 2013/09/11
+-----------------------------------------------------------------------
+*/
+.club-table-box table tbody td table.child td.bg {
+	width:40px;
+}
+
+
+/*
+-----------------------------------------------------------------------
+standings-table01 2013/09/13
+-----------------------------------------------------------------------
+*/
+table.standings-table01 tbody tr th.fixed.team {
+	min-width:40px;
+	max-width:40px;
+}
+
+table.standings-table01.scoreline-table {
+	width:auto;
+}
+
+/*
+-----------------------------------------------------------------------
+scoreline-table02 2013/09/17
+-----------------------------------------------------------------------
+*/
+table.scoreline-table02 th, table.scoreline-table02 th {
+	min-width:79px;
+}
+
+table.scoreline-table02 th.fixed, table.scoreline-table02 th.fixed {
+	min-width:57px;
+}
+
+table.scoreline-table02 th.fixed01, table.scoreline-table02 th.fixed01 {
+	min-width:40px;
+}
+
+/*
+-----------------------------------------------------------------------
+PK first 2013/09/17
+-----------------------------------------------------------------------
+*/
+
+.score-board-pk-t .score-board-pk-b td span.first-kick {
+	background-color:#333333;
+	font-size:10px;
+	font-weight:bold;
+	color:#FFF;
+	padding:4px 3px;
+}
+
+
+/*
+-----------------------------------------------------------------------
+s-txt 2013/09/19
+-----------------------------------------------------------------------
+*/
+
+.s-txt {
+	font-size:1.2em;
+}
+
+/*
+----------------------------------------
+gnav-area 2013/10/04
+----------------------------------------
+*/
+
+body.search-service #gnav-area ul#gnav li#gnav08 {
+	background:url(../images/common/gnav_li_bg.jpg) repeat-x top;
+}
+
+body.search-service #gnav-area ul#gnav li#gnav08 a {
+	background:url(../images/common/gnav_a_bg.png) no-repeat bottom center;
+}
+
+/*
+----------------------------------------
+hr 2013/10/09
+----------------------------------------
+*/
+
+body.info hr.suspension-hr {
+	border:none;
+	border-top:1px dotted #E3E3E3;
+	width:100%;
+}
+
+/*
+----------------------------------------
+club-table-box 2013/10/24
+----------------------------------------
+*/
+
+.club-table-box table tbody th.data.bd-r {
+	border-right:1px solid #7D7D7D;
+}
+
+.search-main-box .box-area .box-title.require {
+	background-image: url(../images/common/icon02.png);
+}
+/*
+----------------------------------------
+search-main-box 2014/02/21
+----------------------------------------
+*/
+
+.search-main-box .btn-area .noicon {
+    float:left;
+    width:800px;
+    height:20px;
+    line-height:20px;
+}
+
+.index-tab-box .tab-contents-left .tab-rank span.title{
+	text-decoration:none;
+	display:block;
+	font-size:1.2em;
+	padding:6px 0 0 7px;
+}
+
+.index-tab-box .tab-contents-left .tab-rank li span.current{
+	background:#EAEAEA;
+	border-bottom:none;
+	color:#333333;
+}
+
+/*
+----------------------------------------
+search-link 2014/04/18
+----------------------------------------
+*/
+.search-link-area {
+	clear:both;
+	text-align:right;
+	margin-bottom:8px;
+}
+.search-link {
+	width:960px;
+	font-size:1.4em;
+}
+.search-link li {
+	float:left;
+	width:120px;
+}
+.search-link li a {
+	display:block;
+	height:30px;
+}
+.search-link li a.tab {
+	height:30px;
+	width:120px;
+	overflow: hidden;
+}
+
+.search-link li .no-tab {
+	height:30px;
+	width:120px;
+}
+
+#contents .search-link a img {
+	display: block;
+	margin-top: 0
+}
+#contents .search-link a.current img,
+#contents .search-link a:hover img {
+	margin-top: -30px;
+}
+#ync-subcallname {
+	font-size:  1.0em;
+}
+
+
