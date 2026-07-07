@@ -1,6 +1,7 @@
 import re
 import sys
 import sqlite3
+from round_config import ROUND_CONFIG
 from bs4 import BeautifulSoup
 from normalize_team import normalize_team_name
 
@@ -11,14 +12,10 @@ if len(sys.argv) >= 2:
 else:
     ROUND_NO = 1
 
-ROUND_CONFIG = {
-    1: ("data/toto_club_2001_utf8.html", 2),
-    2: ("data/toto_club_2001_utf8.html", 1),
-    3: ("data/toto_club_2001_yosou1_utf8.html", 2),
-    4: ("data/toto_club_2001_yosou1_utf8.html", 1),
-}
+config = ROUND_CONFIG[ROUND_NO]
 
-HTML, table_index = ROUND_CONFIG[ROUND_NO]
+HTML = config["html"]
+table_index = config["table"]
 
 
 def section_text_to_dates(section_text):
