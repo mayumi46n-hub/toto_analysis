@@ -19,15 +19,25 @@ table_index = config["table"]
 
 
 def section_text_to_dates(section_text):
-    matches = re.findall(r"(\d{1,2})[／/](\d{1,2})", section_text)
-
     year = 2001 if ROUND_NO >= 3 else 2000
 
     dates = []
-    for month_text, day_text in matches:
+
+    # 例: 3/10, 11／8
+    slash_matches = re.findall(r"(\d{1,2})[／/](\d{1,2})", section_text)
+    for month_text, day_text in slash_matches:
         month = int(month_text)
         day = int(day_text)
         dates.append(f"{year}{month:02d}{day:02d}")
+
+    # 例: 04月14日
+    japanese_matches = re.findall(r"(\d{1,2})月(\d{1,2})日", section_text)
+    for month_text, day_text in japanese_matches:
+        month = int(month_text)
+        day = int(day_text)
+        date_text = f"{year}{month:02d}{day:02d}"
+        if date_text not in dates:
+            dates.append(date_text)
 
     return dates
 
@@ -79,13 +89,13 @@ for tr in target_table.find_all("tr"):
 
     section_text = cells[0]
 
-    if section_text.startswith("J1") and ("／" in section_text or "/" in section_text):
+    if section_text.startswith("J1") and ("／" in section_text or "/" in section_text or "月" in section_text):
         current_league = "J1"
         current_dates = section_text_to_dates(section_text)
         section_dates["J1"] = current_dates
         print("開催日候補:", section_text, "→", ",".join(current_dates))
 
-    elif section_text.startswith("J2") and ("／" in section_text or "/" in section_text):
+    elif section_text.startswith("J2") and ("／" in section_text or "/" in section_text or "月" in section_text):
         current_league = "J2"
         current_dates = section_text_to_dates(section_text)
         section_dates["J2"] = current_dates
