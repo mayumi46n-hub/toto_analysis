@@ -15,4 +15,12 @@ ROUND_CONFIG = {
         "html": "data/toto_club_2001_yosou1_utf8.html",
         "table": 1,
     },
+    5: {
+        "html": "data/toto_club_2001_yosou2_utf8.html",
+        "table": 2,
+    },
+    6: {
+        "html": "data/toto_club_2001_yosou2_utf8.html",
+        "table": 1,
+    },
 }
