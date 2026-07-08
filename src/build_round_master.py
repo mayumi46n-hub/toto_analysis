@@ -54,6 +54,13 @@ def extract_round_info(html_path, round_no, table_index):
             info["j2_section"] = extract_section_number(text)
             info["j2_dates"] = section_text_to_dates(text)
 
+    # 第4回など、J2表記が取れないがJ1/J2が同じ開催日のケースを補完
+    if info["j1_section"] is not None and info["j2_section"] is None:
+        info["j2_section"] = info["j1_section"]
+
+    if info["j1_dates"] and not info["j2_dates"]:
+        info["j2_dates"] = info["j1_dates"]
+
     return info
 
 
@@ -66,13 +73,12 @@ for html_path in sorted(Path("data").glob("toto_club_2001_yosou*_utf8.html")):
 
     yosou_no = int(m.group(1))
 
-    # yosou1 -> 第3回/第4回, yosou2 -> 第5回/第6回 ...
     odd_round = yosou_no * 2 + 1
     even_round = yosou_no * 2 + 2
 
     targets = [
-        (odd_round, 1, 2),   # anchor #1, table 2
-        (even_round, 2, 1),  # anchor #2, table 1
+        (odd_round, 1, 2),
+        (even_round, 2, 1),
     ]
 
     for round_no, anchor, table_index in targets:
@@ -91,9 +97,6 @@ for html_path in sorted(Path("data").glob("toto_club_2001_yosou*_utf8.html")):
         date1 = dates[0]
         date2 = dates[1] if len(dates) >= 2 else ""
 
-        j1_section_id = 1120 + info["j1_section"]
-        j2_section_id = 1152 + info["j2_section"]
-
         rows.append({
             "round_no": round_no,
             "yosou_no": yosou_no,
@@ -101,8 +104,8 @@ for html_path in sorted(Path("data").glob("toto_club_2001_yosou*_utf8.html")):
             "date_key": date_key,
             "date1": date1,
             "date2": date2,
-            "j1_section_id": j1_section_id,
-            "j2_section_id": j2_section_id,
+            "j1_section_id": 1120 + info["j1_section"],
+            "j2_section_id": 1152 + info["j2_section"],
         })
 
 rows.sort(key=lambda r: r["round_no"])
