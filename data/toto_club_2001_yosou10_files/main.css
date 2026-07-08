@@ -1,0 +1,112 @@
+BODY{
+	color : #000000;
+	background-color : #ffffcc;
+	font-size : 90%;
+	text-align: center;
+	font-family: "ＭＳ ゴシック", "MS Gothic", "Osaka－等幅", Osaka-mono, monospace;
+}
+TABLE{
+	color : #000000;
+	background-color : #ffffcc;
+	font-size : 90%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.border01{
+	font-size : 90%;
+	margin-right: auto;
+	margin-left: auto;
+	border: 2px ridge #FFFFCC;
+}
+.border01 td{
+	font-size : 90%;
+	border: 2px ridge #FFFFCC;
+}
+
+
+H3{
+	background-color: #C8FF98;
+	padding: 3px;
+	border: 2px ridge #FFFFCC;
+	margin-top: 15px;
+	margin-right: 5px;
+	margin-bottom: 0px;
+	margin-left: 5px;
+	text-align: left;
+}
+H5{
+  font-size : 100%;
+  margin-top : 1px;
+  margin-left : 2px;
+  margin-right : 2px;
+  margin-bottom : 0px;
+}
+#sensyutable{
+	background-color:#FFFFFF;
+	border-collapse: collapse;
+}
+#sensyutable td{
+	border: 1px solid #CCCCCC;
+	padding: 3px;
+  font-size : 90%;
+}
+#sensyutable .no{
+	border: 1px solid #CCCCCC;
+	background-color:#FFFF80;
+	padding: 3px;
+	font-size : 90%;
+}
+.yosouno{
+  font-size : 110%;
+  font-weight:bold;
+}
+.yosoutoto{
+	background-color: #FFCC00;
+	padding: 3px;
+	border: 2px ridge #FFFFCC;
+	margin-top: 15px;
+	margin-right: 5px;
+	margin-bottom: 0px;
+	margin-left: 5px;
+}
+.yosouminitotoa{
+	background-color: #01B0F1;
+	padding: 3px;
+	border: 2px ridge #FFFFCC;
+	margin-top: 15px;
+	margin-right: 5px;
+	margin-bottom: 0px;
+	margin-left: 5px;
+}
+.yosouminitotob{
+	background-color: #01B0F1;
+	padding: 3px;
+	border: 2px ridge #FFFFCC;
+	margin-top: 15px;
+	margin-right: 5px;
+	margin-bottom: 0px;
+	margin-left: 5px;
+}
+.yosoutotogoal{
+	background-color: #009900;
+	padding: 3px;
+	border: 2px ridge #FFFFCC;
+	margin-top: 15px;
+	margin-right: 5px;
+	margin-bottom: 0px;
+	margin-left: 5px;
+}
+.resultjyunitable{
+	border: 1px solid #CCCCCC;
+}
+.resultjyunitable th{
+	background-color: #D0FFFF;
+	border: 1px solid #CCCCCC;
+}
+.resultjyunitable td{
+	background-color: #FFFFFF;
+	border: 1px solid #CCCCCC;
+}
+.warning{
+	display:none;
+}
