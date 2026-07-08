@@ -89,5 +89,32 @@ def extract_toto_rows(html_path, table_index, round_no):
 
     if "J1" in section_dates and "J2" not in section_dates and len(match_rows) > 8:
         section_dates["J2"] = section_dates["J1"]
+        # toto Club側の日付誤記対策
+    # 例: 第15回 J2 が 06月07日/06月08日 と書かれているが、
+    # 実際は J1 と同じ 07月07日/07月08日
+    if "J1" in section_dates and "J2" in section_dates:
+        if section_dates["J1"] and section_dates["J2"]:
+            j1_month = section_dates["J1"][0][4:6]
+            j2_month = section_dates["J2"][0][4:6]
+
+            if j1_month != j2_month:
+                corrected_dates = []
+                for date_text in section_dates["J2"]:
+                    corrected_dates.append(
+                        date_text[:4] + j1_month + date_text[6:8]
+                    )
+
+                section_dates["J2"] = corrected_dates
+
+                match_rows = [
+                    (
+                        home,
+                        away,
+                        result,
+                        league,
+                        corrected_dates if league == "J2" else dates,
+                    )
+                    for home, away, result, league, dates in match_rows
+                ]    
 
     return section_dates, match_rows
