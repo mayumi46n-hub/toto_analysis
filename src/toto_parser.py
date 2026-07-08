@@ -79,9 +79,16 @@ def extract_toto_rows(html_path, table_index, round_no):
         if not m:
             continue
 
+        home_team = normalize_team_name(home_team)
+        away_team = normalize_team_name(away_team)
+
+        # toto Club側の第17回のみ、対象試合の相手が誤記されているため補正
+        if round_no == 17 and home_team == "大分" and away_team == "鳥栖":
+            away_team = "甲府"
+
         match_rows.append((
-            normalize_team_name(home_team),
-            normalize_team_name(away_team),
+            home_team,
+            away_team,
             m.group(1),
             current_league,
             list(current_dates),
@@ -89,7 +96,8 @@ def extract_toto_rows(html_path, table_index, round_no):
 
     if "J1" in section_dates and "J2" not in section_dates and len(match_rows) > 8:
         section_dates["J2"] = section_dates["J1"]
-        # toto Club側の日付誤記対策
+
+    # toto Club側の日付誤記対策
     # 例: 第15回 J2 が 06月07日/06月08日 と書かれているが、
     # 実際は J1 と同じ 07月07日/07月08日
     if "J1" in section_dates and "J2" in section_dates:
@@ -99,6 +107,7 @@ def extract_toto_rows(html_path, table_index, round_no):
 
             if j1_month != j2_month:
                 corrected_dates = []
+
                 for date_text in section_dates["J2"]:
                     corrected_dates.append(
                         date_text[:4] + j1_month + date_text[6:8]
@@ -115,6 +124,6 @@ def extract_toto_rows(html_path, table_index, round_no):
                         corrected_dates if league == "J2" else dates,
                     )
                     for home, away, result, league, dates in match_rows
-                ]    
+                ]
 
     return section_dates, match_rows
