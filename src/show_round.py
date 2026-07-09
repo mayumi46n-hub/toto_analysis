@@ -5,7 +5,7 @@ MASTER_PATH = "data/round_master.csv"
 
 if len(sys.argv) < 2:
     print("使い方: python3 src/show_round.py ROUND_NO")
-    print("例: python3 src/show_round.py 13")
+    print("例: python3 src/show_round.py 18")
     sys.exit(1)
 
 round_no = sys.argv[1]
@@ -25,10 +25,14 @@ if target is None:
     print(f"第{round_no}回は round_master.csv にありません")
     sys.exit(1)
 
-year = 2001
+year = target.get("year", "2001")
 yosou_no = target["yosou_no"]
 anchor = target["anchor"]
+
+j1_competition_id = target["j1_competition_id"]
 j1_section_id = target["j1_section_id"]
+
+j2_competition_id = target["j2_competition_id"]
 j2_section_id = target["j2_section_id"]
 
 toto_url = f"https://www.toto-club.net/yosou/{year}/yosou{yosou_no}.htm#{anchor}"
@@ -37,7 +41,7 @@ j1_url = (
     f"https://data.j-league.or.jp/SFMS01/search?"
     f"competition_years={year}&"
     f"competition_frame_ids=1&"
-    f"competition_ids=129&"
+    f"competition_ids={j1_competition_id}&"
     f"competition_section_ids={j1_section_id}&"
     f"tv_relay_station_name="
 )
@@ -46,7 +50,7 @@ j2_url = (
     f"https://data.j-league.or.jp/SFMS01/search?"
     f"competition_years={year}&"
     f"competition_frame_ids=2&"
-    f"competition_ids=132&"
+    f"competition_ids={j2_competition_id}&"
     f"competition_section_ids={j2_section_id}&"
     f"tv_relay_station_name="
 )

@@ -5,9 +5,6 @@ from pathlib import Path
 from urllib.request import Request, urlopen
 
 MASTER_PATH = "data/round_master.csv"
-YEAR = 2001
-J1_COMPETITION_ID = 129
-J2_COMPETITION_ID = 132
 
 
 def load_round(round_no):
@@ -45,7 +42,7 @@ def download(url, output_path):
 
 if len(sys.argv) < 2:
     print("使い方: python3 src/fetch_jleague_html.py ROUND_NO")
-    print("例: python3 src/fetch_jleague_html.py 13")
+    print("例: python3 src/fetch_jleague_html.py 18")
     sys.exit(1)
 
 round_no = int(sys.argv[1])
@@ -55,10 +52,22 @@ if row is None:
     print(f"第{round_no}回は round_master.csv にありません")
     sys.exit(1)
 
+year = row.get("year", "2001")
 date_key = row["date_key"]
 
-j1_url = build_jleague_url(YEAR, 1, J1_COMPETITION_ID, row["j1_section_id"])
-j2_url = build_jleague_url(YEAR, 2, J2_COMPETITION_ID, row["j2_section_id"])
+j1_url = build_jleague_url(
+    year,
+    1,
+    row["j1_competition_id"],
+    row["j1_section_id"],
+)
+
+j2_url = build_jleague_url(
+    year,
+    2,
+    row["j2_competition_id"],
+    row["j2_section_id"],
+)
 
 j1_path = Path(f"data/jleague_{date_key}_j1.html")
 j2_path = Path(f"data/jleague_{date_key}_j2.html")
