@@ -4,7 +4,11 @@ from pathlib import Path
 from features.form import (
     build_team_histories,
     get_form_points,
-    )
+)
+from features.standings import (
+    get_standing_features,
+    load_standings,
+)
 
 DB_PATH = Path("data/toto.db")
 
@@ -96,57 +100,6 @@ def load_form_matches(con):
     """, (START_ROUND, END_ROUND)).fetchall()
 
 
-def load_standings(con):
-    rows = con.execute("""
-        SELECT
-            round_no,
-            league,
-            team,
-            rank,
-            points,
-            goal_diff
-        FROM round_standings
-        WHERE season = ?
-          AND league IN ('J1', 'J2')
-    """, (SEASON,)).fetchall()
-
-    return {
-        (round_no, league, team): {
-            "rank": rank,
-            "points": points,
-            "goal_diff": goal_diff,
-        }
-        for (
-            round_no,
-            league,
-            team,
-            rank,
-            points,
-            goal_diff,
-        ) in rows
-    }
-
-
-def find_team_features(
-    standings,
-    pre_round,
-    home_team,
-    away_team,
-):
-    for league in ("J1", "J2"):
-        home = standings.get(
-            (pre_round, league, home_team)
-        )
-        away = standings.get(
-            (pre_round, league, away_team)
-        )
-
-        if home is not None and away is not None:
-            return league, home, away
-
-    return None
-
-
 def build_features(matches, standings, histories):
     feature_rows = []
     skipped = []
@@ -158,16 +111,14 @@ def build_features(matches, standings, histories):
         away_team,
         result,
     ) in matches:
-        pre_round = round_no - 1
-
-        found = find_team_features(
+        standing = get_standing_features(
             standings=standings,
-            pre_round=pre_round,
+            pre_round=round_no - 1,
             home_team=home_team,
             away_team=away_team,
         )
 
-        if found is None:
+        if standing is None:
             skipped.append((
                 round_no,
                 match_no,
@@ -175,8 +126,6 @@ def build_features(matches, standings, histories):
                 away_team,
             ))
             continue
-
-        league, home, away = found
 
         home_form_points = get_form_points(
             histories=histories,
@@ -213,21 +162,21 @@ def build_features(matches, standings, histories):
             SEASON,
             round_no,
             match_no,
-            league,
+            standing["league"],
             home_team,
             away_team,
 
-            home["rank"],
-            away["rank"],
-            away["rank"] - home["rank"],
+            standing["home_rank"],
+            standing["away_rank"],
+            standing["rank_diff"],
 
-            home["points"],
-            away["points"],
-            home["points"] - away["points"],
+            standing["home_points"],
+            standing["away_points"],
+            standing["points_diff"],
 
-            home["goal_diff"],
-            away["goal_diff"],
-            home["goal_diff"] - away["goal_diff"],
+            standing["home_goal_diff"],
+            standing["away_goal_diff"],
+            standing["goal_diff_diff"],
 
             home_form_points,
             away_form_points,
@@ -295,9 +244,12 @@ def main():
         create_table(con)
 
         matches = load_matches(con)
-        standings = load_standings(con)
         form_matches = load_form_matches(con)
 
+        standings = load_standings(
+            con=con,
+            season=SEASON,
+        )
         histories = build_team_histories(form_matches)
 
         rows, skipped = build_features(
