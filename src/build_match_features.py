@@ -1,7 +1,10 @@
 import sqlite3
 from pathlib import Path
 
-from analysis.form import build_team_histories, get_form_points
+from features.form import (
+    build_team_histories,
+    get_form_points,
+    )
 
 DB_PATH = Path("data/toto.db")
 
