@@ -5,6 +5,10 @@ from features.form import (
     build_team_histories,
     get_form_points,
 )
+from features.h2h import (
+    build_h2h_histories,
+    get_h2h_features,
+)
 from features.standings import (
     get_standing_features,
     load_standings,
@@ -15,7 +19,7 @@ DB_PATH = Path("data/toto.db")
 SEASON = 2001
 START_ROUND = 1
 END_ROUND = 31
-FEATURE_VERSION = 3
+FEATURE_VERSION = 4
 FORM_WINDOW = 5
 
 
@@ -56,6 +60,26 @@ def create_table(con):
             away_away_form_points INTEGER NOT NULL,
             venue_form_diff INTEGER NOT NULL,
 
+            h2h_last5_matches INTEGER NOT NULL,
+            h2h_last5_home_points INTEGER NOT NULL,
+            h2h_last5_away_points INTEGER NOT NULL,
+            h2h_last5_diff INTEGER NOT NULL,
+
+            h2h_last10_matches INTEGER NOT NULL,
+            h2h_last10_home_points INTEGER NOT NULL,
+            h2h_last10_away_points INTEGER NOT NULL,
+            h2h_last10_diff INTEGER NOT NULL,
+
+            h2h_all_matches INTEGER NOT NULL,
+            h2h_all_home_points INTEGER NOT NULL,
+            h2h_all_away_points INTEGER NOT NULL,
+            h2h_all_diff INTEGER NOT NULL,
+
+            h2h_same_venue_last5_matches INTEGER NOT NULL,
+            h2h_same_venue_last5_home_points INTEGER NOT NULL,
+            h2h_same_venue_last5_away_points INTEGER NOT NULL,
+            h2h_same_venue_last5_diff INTEGER NOT NULL,
+
             result TEXT NOT NULL,
 
             PRIMARY KEY (
@@ -83,7 +107,7 @@ def load_matches(con):
     """, (START_ROUND, END_ROUND)).fetchall()
 
 
-def load_form_matches(con):
+def load_result_matches(con):
     return con.execute("""
         SELECT
             round_no,
@@ -100,7 +124,12 @@ def load_form_matches(con):
     """, (START_ROUND, END_ROUND)).fetchall()
 
 
-def build_features(matches, standings, histories):
+def build_features(
+    matches,
+    standings,
+    form_histories,
+    h2h_histories,
+):
     feature_rows = []
     skipped = []
 
@@ -128,21 +157,21 @@ def build_features(matches, standings, histories):
             continue
 
         home_form_points = get_form_points(
-            histories=histories,
+            histories=form_histories,
             team=home_team,
             before_round=round_no,
             window=FORM_WINDOW,
         )
 
         away_form_points = get_form_points(
-            histories=histories,
+            histories=form_histories,
             team=away_team,
             before_round=round_no,
             window=FORM_WINDOW,
         )
 
         home_home_form_points = get_form_points(
-            histories=histories,
+            histories=form_histories,
             team=home_team,
             before_round=round_no,
             window=FORM_WINDOW,
@@ -150,44 +179,62 @@ def build_features(matches, standings, histories):
         )
 
         away_away_form_points = get_form_points(
-            histories=histories,
+            histories=form_histories,
             team=away_team,
             before_round=round_no,
             window=FORM_WINDOW,
             venue="A",
         )
 
-        feature_rows.append((
-            FEATURE_VERSION,
-            SEASON,
-            round_no,
-            match_no,
-            standing["league"],
-            home_team,
-            away_team,
+        h2h = get_h2h_features(
+            histories=h2h_histories,
+            home_team=home_team,
+            away_team=away_team,
+            before_round=round_no,
+        )
 
-            standing["home_rank"],
-            standing["away_rank"],
-            standing["rank_diff"],
+        feature_rows.append({
+            "feature_version": FEATURE_VERSION,
+            "season": SEASON,
+            "round_no": round_no,
+            "match_no": match_no,
+            "league": standing["league"],
+            "home_team": home_team,
+            "away_team": away_team,
 
-            standing["home_points"],
-            standing["away_points"],
-            standing["points_diff"],
+            "home_rank": standing["home_rank"],
+            "away_rank": standing["away_rank"],
+            "rank_diff": standing["rank_diff"],
 
-            standing["home_goal_diff"],
-            standing["away_goal_diff"],
-            standing["goal_diff_diff"],
+            "home_points": standing["home_points"],
+            "away_points": standing["away_points"],
+            "points_diff": standing["points_diff"],
 
-            home_form_points,
-            away_form_points,
-            home_form_points - away_form_points,
+            "home_goal_diff": standing["home_goal_diff"],
+            "away_goal_diff": standing["away_goal_diff"],
+            "goal_diff_diff": standing["goal_diff_diff"],
 
-            home_home_form_points,
-            away_away_form_points,
-            home_home_form_points - away_away_form_points,
+            "home_form_points": home_form_points,
+            "away_form_points": away_form_points,
+            "form_diff": (
+                home_form_points - away_form_points
+            ),
 
-            result,
-        ))
+            "home_home_form_points": (
+                home_home_form_points
+            ),
+            "away_away_form_points": (
+                away_away_form_points
+            ),
+            "venue_form_diff": (
+                home_home_form_points
+                - away_away_form_points
+            ),
+
+            **h2h,
+
+            "result": result,
+        })
 
     return feature_rows, skipped
 
@@ -223,16 +270,78 @@ def insert_features(con, rows):
             away_away_form_points,
             venue_form_diff,
 
+            h2h_last5_matches,
+            h2h_last5_home_points,
+            h2h_last5_away_points,
+            h2h_last5_diff,
+
+            h2h_last10_matches,
+            h2h_last10_home_points,
+            h2h_last10_away_points,
+            h2h_last10_diff,
+
+            h2h_all_matches,
+            h2h_all_home_points,
+            h2h_all_away_points,
+            h2h_all_diff,
+
+            h2h_same_venue_last5_matches,
+            h2h_same_venue_last5_home_points,
+            h2h_same_venue_last5_away_points,
+            h2h_same_venue_last5_diff,
+
             result
         )
         VALUES (
-            ?, ?, ?, ?, ?, ?, ?,
-            ?, ?, ?,
-            ?, ?, ?,
-            ?, ?, ?,
-            ?, ?, ?,
-            ?, ?, ?,
-            ?
+            :feature_version,
+            :season,
+            :round_no,
+            :match_no,
+            :league,
+            :home_team,
+            :away_team,
+
+            :home_rank,
+            :away_rank,
+            :rank_diff,
+
+            :home_points,
+            :away_points,
+            :points_diff,
+
+            :home_goal_diff,
+            :away_goal_diff,
+            :goal_diff_diff,
+
+            :home_form_points,
+            :away_form_points,
+            :form_diff,
+
+            :home_home_form_points,
+            :away_away_form_points,
+            :venue_form_diff,
+
+            :h2h_last5_matches,
+            :h2h_last5_home_points,
+            :h2h_last5_away_points,
+            :h2h_last5_diff,
+
+            :h2h_last10_matches,
+            :h2h_last10_home_points,
+            :h2h_last10_away_points,
+            :h2h_last10_diff,
+
+            :h2h_all_matches,
+            :h2h_all_home_points,
+            :h2h_all_away_points,
+            :h2h_all_diff,
+
+            :h2h_same_venue_last5_matches,
+            :h2h_same_venue_last5_home_points,
+            :h2h_same_venue_last5_away_points,
+            :h2h_same_venue_last5_diff,
+
+            :result
         )
     """, rows)
 
@@ -244,25 +353,33 @@ def main():
         create_table(con)
 
         matches = load_matches(con)
-        form_matches = load_form_matches(con)
+        result_matches = load_result_matches(con)
 
         standings = load_standings(
             con=con,
             season=SEASON,
         )
-        histories = build_team_histories(form_matches)
+
+        form_histories = build_team_histories(
+            result_matches
+        )
+
+        h2h_histories = build_h2h_histories(
+            result_matches
+        )
 
         rows, skipped = build_features(
             matches=matches,
             standings=standings,
-            histories=histories,
+            form_histories=form_histories,
+            h2h_histories=h2h_histories,
         )
 
         insert_features(con, rows)
         con.commit()
 
         print(f"試合データ読込: {len(matches)}件")
-        print(f"フォーム計算対象: {len(form_matches)}件")
+        print(f"履歴計算対象: {len(result_matches)}件")
         print(f"特徴量作成: {len(rows)}件")
         print(f"未作成: {len(skipped)}件")
 
@@ -271,7 +388,7 @@ def main():
             for item in skipped[:10]:
                 print(item)
 
-        print("\nFeature Builder Version 3 完了")
+        print("\nFeature Builder Version 4 完了")
 
     except Exception:
         con.rollback()
