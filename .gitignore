@@ -19,3 +19,6 @@ data/jleague_seasons/
 
 # Generated training data
 data/training_data*.csv
+
+# Generated ML models
+data/models/*.pkl
