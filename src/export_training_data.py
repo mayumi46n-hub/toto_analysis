@@ -3,7 +3,7 @@ import sqlite3
 from pathlib import Path
 
 DB_PATH = Path("data/toto.db")
-OUTPUT_PATH = Path("data/training_data_v2.csv")
+OUTPUT_PATH = Path("data/training_data_v3.csv")
 FEATURE_VERSION = 1
 
 
@@ -71,11 +71,20 @@ def load_training_rows(con):
             elo.expected_draw_base AS elo_expected_draw_base,
             elo.expected_away AS elo_expected_away,
 
+            rest.home_rest_days,
+            rest.away_rest_days,
+            rest.rest_diff,
+            rest.home_first_match,
+            rest.away_first_match,
+
             mf.result
         FROM match_features_season AS mf
         INNER JOIN match_elo AS elo
             ON elo.season = mf.season
            AND elo.jleague_match_id = mf.jleague_match_id
+        INNER JOIN match_rest AS rest
+            ON rest.season = mf.season
+           AND rest.jleague_match_id = mf.jleague_match_id
         WHERE mf.feature_version = ?
         ORDER BY
             mf.season,
@@ -99,7 +108,8 @@ def validate_rows(rows):
     if not rows:
         raise RuntimeError(
             "学習データが0件です。"
-            "match_features_seasonとmatch_eloを確認してください。"
+            "match_features_season、match_elo、"
+            "match_restを確認してください。"
         )
 
     valid_results = {"1", "0", "2"}
@@ -111,7 +121,8 @@ def validate_rows(rows):
 
     if invalid_result_count:
         raise RuntimeError(
-            f"不正なresultが{invalid_result_count}件あります"
+            f"不正なresultが"
+            f"{invalid_result_count}件あります"
         )
 
     null_count = sum(
@@ -123,6 +134,22 @@ def validate_rows(rows):
     if null_count:
         raise RuntimeError(
             f"NULL値が{null_count}個あります"
+        )
+
+    invalid_rest_count = sum(
+        (
+            row["home_rest_days"] < 0
+            or row["away_rest_days"] < 0
+            or row["home_rest_days"] > 30
+            or row["away_rest_days"] > 30
+        )
+        for row in rows
+    )
+
+    if invalid_rest_count:
+        raise RuntimeError(
+            f"不正な休養日数が"
+            f"{invalid_rest_count}件あります"
         )
 
 
@@ -169,7 +196,8 @@ def main():
     print(f"列数: {len(column_names)}")
     print(f"対象年度: {seasons[0]}〜{seasons[-1]}")
     print(f"Feature Version: {FEATURE_VERSION}")
-    print("Elo特徴量: 6列追加")
+    print("Elo特徴量: 6列")
+    print("休養日数特徴量: 5列")
 
 
 if __name__ == "__main__":
