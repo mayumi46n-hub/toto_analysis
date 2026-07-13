@@ -3,7 +3,7 @@ import sqlite3
 from pathlib import Path
 
 DB_PATH = Path("data/toto.db")
-OUTPUT_PATH = Path("data/training_data_v1.csv")
+OUTPUT_PATH = Path("data/training_data_v2.csv")
 FEATURE_VERSION = 1
 
 
@@ -14,63 +14,72 @@ def connect_db():
 def load_training_rows(con):
     cursor = con.execute("""
         SELECT
-            season,
-            league,
+            mf.season,
+            mf.league,
 
-            home_rank,
-            away_rank,
-            rank_diff,
+            mf.home_rank,
+            mf.away_rank,
+            mf.rank_diff,
 
-            home_played,
-            away_played,
+            mf.home_played,
+            mf.away_played,
 
-            home_points,
-            away_points,
-            points_diff,
+            mf.home_points,
+            mf.away_points,
+            mf.points_diff,
 
-            home_goal_diff,
-            away_goal_diff,
-            goal_diff_diff,
+            mf.home_goal_diff,
+            mf.away_goal_diff,
+            mf.goal_diff_diff,
 
-            home_form_matches,
-            away_form_matches,
+            mf.home_form_matches,
+            mf.away_form_matches,
+            mf.home_form_points,
+            mf.away_form_points,
+            mf.form_diff,
 
-            home_form_points,
-            away_form_points,
-            form_diff,
+            mf.home_home_form_matches,
+            mf.away_away_form_matches,
+            mf.home_home_form_points,
+            mf.away_away_form_points,
+            mf.venue_form_diff,
 
-            home_home_form_matches,
-            away_away_form_matches,
-            home_home_form_points,
-            away_away_form_points,
-            venue_form_diff,
+            mf.h2h_last5_matches,
+            mf.h2h_last5_home_points,
+            mf.h2h_last5_away_points,
+            mf.h2h_last5_diff,
 
-            h2h_last5_matches,
-            h2h_last5_home_points,
-            h2h_last5_away_points,
-            h2h_last5_diff,
+            mf.h2h_last10_matches,
+            mf.h2h_last10_home_points,
+            mf.h2h_last10_away_points,
+            mf.h2h_last10_diff,
 
-            h2h_last10_matches,
-            h2h_last10_home_points,
-            h2h_last10_away_points,
-            h2h_last10_diff,
+            mf.h2h_all_matches,
+            mf.h2h_all_home_points,
+            mf.h2h_all_away_points,
+            mf.h2h_all_diff,
 
-            h2h_all_matches,
-            h2h_all_home_points,
-            h2h_all_away_points,
-            h2h_all_diff,
+            mf.h2h_same_venue_last5_matches,
+            mf.h2h_same_venue_last5_home_points,
+            mf.h2h_same_venue_last5_away_points,
+            mf.h2h_same_venue_last5_diff,
 
-            h2h_same_venue_last5_matches,
-            h2h_same_venue_last5_home_points,
-            h2h_same_venue_last5_away_points,
-            h2h_same_venue_last5_diff,
+            elo.home_elo,
+            elo.away_elo,
+            elo.elo_diff,
+            elo.expected_home AS elo_expected_home,
+            elo.expected_draw_base AS elo_expected_draw_base,
+            elo.expected_away AS elo_expected_away,
 
-            result
-        FROM match_features_season
-        WHERE feature_version = ?
+            mf.result
+        FROM match_features_season AS mf
+        INNER JOIN match_elo AS elo
+            ON elo.season = mf.season
+           AND elo.jleague_match_id = mf.jleague_match_id
+        WHERE mf.feature_version = ?
         ORDER BY
-            season,
-            jleague_match_id
+            mf.season,
+            mf.jleague_match_id
     """, (FEATURE_VERSION,))
 
     column_names = [
@@ -90,20 +99,19 @@ def validate_rows(rows):
     if not rows:
         raise RuntimeError(
             "学習データが0件です。"
-            "match_features_seasonを確認してください。"
+            "match_features_seasonとmatch_eloを確認してください。"
         )
 
     valid_results = {"1", "0", "2"}
 
     invalid_result_count = sum(
-        row["result"] not in valid_results
+        str(row["result"]) not in valid_results
         for row in rows
     )
 
     if invalid_result_count:
         raise RuntimeError(
-            f"不正なresultが"
-            f"{invalid_result_count}件あります"
+            f"不正なresultが{invalid_result_count}件あります"
         )
 
     null_count = sum(
@@ -161,6 +169,7 @@ def main():
     print(f"列数: {len(column_names)}")
     print(f"対象年度: {seasons[0]}〜{seasons[-1]}")
     print(f"Feature Version: {FEATURE_VERSION}")
+    print("Elo特徴量: 6列追加")
 
 
 if __name__ == "__main__":
