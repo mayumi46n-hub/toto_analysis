@@ -16,3 +16,6 @@ data/toto_round_*.html
 data/toto_result_page.html
 # Downloaded J.League season HTML
 data/jleague_seasons/
+
+# Generated training data
+data/training_data*.csv
