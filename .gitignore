@@ -23,3 +23,45 @@ data/training_data*.csv
 # Generated ML models
 data/models/*.pkl
 data/evaluation/
+
+# Local databases and SQLite runtime files
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+data/*.sqlite3-shm
+data/*.sqlite3-wal
+data/db/
+
+# Downloaded/generated datasets
+data/raw/
+data/parsed/
+data/interim/
+data/features/
+data/footystats/
+
+# Local backups
+backup/
+
+# Generated CSV files
+data/master/footystats_match_candidates_*.csv
+data/master/footystats_missing_urls_*.csv
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# macOS
+.DS_Store
+
+# Local backup / temporary source files
+*.bak
+*.save
+*.old.py
+*.pyN
+*コピー.py
+
+# Accidental local files
+/import
+
+# Generated master CSVs
+data/master/*.csv

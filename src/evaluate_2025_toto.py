@@ -9,7 +9,7 @@ from normalize_toto_team import normalize_toto_team_name
 
 DB_PATH = Path("data/toto.db")
 MODEL_PATH = Path(
-    "data/models/gradient_boosting_v1.pkl"
+    "data/models/gradient_boosting_v2.pkl"
 )
 OUTPUT_PATH = Path(
     "data/evaluation/toto_2025_evaluation.csv"
