@@ -69,3 +69,40 @@ data/master/*.csv
 # Named source backups
 *.bak_*
 *_working_*.py
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS
+.DS_Store
+
+# 保存したWebページ・付属ファイル
+*_files/
+*.html
+*.htm
+*.js
+*.css
+
+# 画像・スクリーンショット
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+
+# 一時・バックアップ
+*.bak
+*_backup.py
+*~
+予備/
+予備/**
+
+# 出力レポート
+*.txt
+reports/
+
+# 大規模な生データは必要に応じて除外
+# data/raw/
