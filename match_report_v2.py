@@ -9,10 +9,9 @@ from match_analyzer import (
     provisional_probabilities,
     similar_market_results,
 )
-from footystats_loader import (
-    get_team_stats,
-    load_footystats,
-)
+from footystats_loader import get_team_stats
+from footystats_loader_v2 import load_footystats_current
+
 from ai_score import calculate_ai_score
 
 import argparse
@@ -44,7 +43,7 @@ def print_report(
             match["match_date"],
         )
 
-        footy_df = load_footystats()
+        footy_df = load_footystats_current()
         home_team = match["home_norm"]
         away_team = match["away_norm"]
 

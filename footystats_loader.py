@@ -14,6 +14,7 @@ DEFAULT_FILE = Path(
 
 
 TEAM_ALIASES = {
+# J1・共通
     "kyotosanga": "京都",
     "shimizuspulse": "清水",
     "mitohollyhock": "水戸",
@@ -23,7 +24,6 @@ TEAM_ALIASES = {
     "tokyoverdy": "東京Ｖ",
     "machidazelvia": "町田",
     "vvarennagasaki": "長崎",
-    "avispa fukuoka": "福岡",
     "avispafukuoka": "福岡",
     "nagoyagrampus": "名古屋",
     "yokohamafmarinos": "横浜FM",
@@ -36,8 +36,52 @@ TEAM_ALIASES = {
     "kashiwareysol": "柏",
     "kawasakifrontale": "川崎Ｆ",
     "yokohama": "横浜FC",
+    "yokohamafc": "横浜FC",
     "shonanbellmare": "湘南",
     "albirexniigata": "新潟",
+
+    # J2
+    "blaublitzakita": "秋田",
+    "consadolesapporo": "札幌",
+    "ehime": "愛媛",
+    "fujiedamyfc": "藤枝",
+    "imabari": "今治",
+    "iwaki": "いわき",
+    "katallertoyama": "富山",
+    "montedioyamagata": "山形",
+    "oitatrinita": "大分",
+    "omiyaardija": "大宮",
+    "renofayamaguchi": "山口",
+    "roassokumamoto": "熊本",
+    "sagantosu": "鳥栖",
+    "tokushimavortis": "徳島",
+    "vegaltasendai": "仙台",
+    "ventforetkofu": "甲府",
+
+    # J3
+    "azulclaronumazu": "沼津",
+    "biwakoshiga": "滋賀",
+    "fukushimaunited": "福島",
+    "gainaretottori": "鳥取",
+    "gifu": "岐阜",
+    "giravanzkitakyushu": "北九州",
+    "kagoshimaunited": "鹿児島",
+    "kamatamaresanuki": "讃岐",
+    "kochiunited": "高知",
+    "matsumotoyamaga": "松本",
+    "naraclub": "奈良",
+    "osaka": "FC大阪",
+    "parceironagano": "長野",
+    "sagamihara": "相模原",
+    "tegevajaromiyazaki": "宮崎",
+    "thespakusatsugunma": "群馬",
+    "tochigi": "栃木SC",
+    "tochigicity": "栃木Ｃ",
+    "vanraurehachinohe": "八戸",
+    "zweigenkanazawa": "金沢",
+    "jubiloiwata": "磐田",
+    "ryukyu": "琉球",
+    "ryky": "琉球",
 }
 
 
@@ -55,7 +99,6 @@ def normalize_text(value: object) -> str:
         "",
         text,
     )
-
 
 def normalize_team(value: object) -> str:
     key = normalize_text(value)
