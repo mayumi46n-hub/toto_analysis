@@ -464,3 +464,19 @@ At the 2026-10-04 audit:
 - currently resolving references: 333
 
 The purpose of these indexes is to make future chats USE previous TOTO LABO work rather than repeatedly rediscover it.
+
+
+### Git project-memory baseline
+
+First project-memory baseline commit:
+
+`d4b71956b68c9b6fc7d35cfbc8796cf40fc6ff2e`
+
+Subject:
+
+`Establish TOTO LABO project memory baseline`
+
+Use this commit as the Git reference point when recovering TOTO LABO context in a new conversation.
+
+The working tree may intentionally contain additional historical/local research assets not included in this baseline.
+Do not clean or reset them merely because they are outside this commit.

@@ -17022,3 +17022,29 @@ not that the asset is useless.
 
 Future classification should occur when a research family is actually being used, rather than manually reviewing thousands of files without a research purpose.
 
+
+
+## PROJECT MEMORY GIT BASELINE — 2026-10-04
+
+Local baseline commit established:
+
+`d4b71956b68c9b6fc7d35cfbc8796cf40fc6ff2e`
+
+Commit subject:
+
+`Establish TOTO LABO project memory baseline`
+
+This commit is the first Git baseline containing:
+- canonical `TOTO_LABO_STATE.md`
+- short `docs/TOTO_LABO_HANDOFF.md`
+- full local asset inventory index
+- section-aware research index
+- STATE-to-asset link index
+- first selectively chosen canonical research/pipeline scripts
+
+Important:
+- this commit does NOT contain all raw/local TOTO LABO data
+- local raw/generated/historical assets remain discoverable through the project-memory indexes
+- the remaining dirty working tree must not be interpreted as disposable
+- do not use `git reset`, `git clean`, or `git add .`
+- future chats should use this hash as the first project-memory Git reference point
