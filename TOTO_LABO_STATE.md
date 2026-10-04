@@ -17048,3 +17048,215 @@ Important:
 - the remaining dirty working tree must not be interpreted as disposable
 - do not use `git reset`, `git clean`, or `git add .`
 - future chats should use this hash as the first project-memory Git reference point
+
+# DAILY FINISH / NEXT-CHAT START POINT — 2026-10-04
+
+## 1. PROJECT MEMORY INFRASTRUCTURE — COMPLETED
+
+TOTO LABO project-memory / handoff infrastructure is now complete.
+
+Final QA:
+
+- Git baseline:
+  `d4b71956b68c9b6fc7d35cfbc8796cf40fc6ff2e`
+- baseline-lineage commit / current synchronized HEAD:
+  `edc4b7e5bcbbcad718f224fbaa16e0d5604f08c0`
+- `HEAD == origin/main` confirmed.
+
+Required project-memory files all PASS:
+
+- `TOTO_LABO_STATE.md`
+- `docs/TOTO_LABO_HANDOFF.md`
+- `docs/TOTO_LABO_ASSET_INVENTORY.csv`
+- `docs/TOTO_LABO_RESEARCH_INDEX_V2.csv`
+- `docs/TOTO_LABO_STATE_ASSET_LINKS.csv`
+
+Project-memory scale established:
+
+- local project assets: 9,674 files
+- local project size: approximately 6.16 GB
+- recursive Python inventory under scripts/src: 517 files
+- normalized Python family keys: 456
+- multi-version Python families: 44
+- canonical STATE research headings indexed: 713
+- section-body-aware classified headings: 636
+- STATE asset references: 341
+- unique referenced paths: 268
+- currently resolving references: 333
+
+## 2. NEW-CHAT RECOVERY CONTRACT
+
+Future conversations must recover TOTO LABO in this order:
+
+`docs/TOTO_LABO_HANDOFF.md`
+-> `docs/TOTO_LABO_RESEARCH_INDEX_V2.csv`
+-> relevant sections of canonical `TOTO_LABO_STATE.md`
+-> `docs/TOTO_LABO_STATE_ASSET_LINKS.csv`
+-> `docs/TOTO_LABO_ASSET_INVENTORY.csv`
+-> exact relevant artifact
+
+Do NOT begin a new conversation with broad repository grep/find merely to rediscover known work.
+
+The purpose of the indexes is to USE previous work, not repeatedly rediscover it.
+
+`TOTO_LABO_STATE.md` remains the canonical detailed research record.
+`docs/TOTO_LABO_HANDOFF.md` is the short bootstrap, not a replacement for STATE.
+
+Do not infer:
+- latest version number = canonical
+- existing file = validated
+- acquired data = semantically understood
+- missing STATE path = lost research
+- UNRESOLVED = useless
+
+Historical failures, rejected models, BLOCKED_BY_OOF research, and superseded versions remain reusable project knowledge.
+
+## 3. PROJECT-MEMORY PHASE — STOP HERE
+
+Do not continue asset cataloguing for its own sake.
+
+The current infrastructure is sufficient to return to core TOTO LABO research.
+
+The remaining 9,674 assets do NOT need manual semantic classification before research resumes.
+
+Classify unresolved assets when their research family becomes relevant.
+
+Do not:
+- `git add .`
+- `git reset`
+- `git clean`
+- blindly overwrite canonical files
+- blindly commit large raw/database/model assets
+
+The intentionally dirty historical/local working tree must be preserved.
+
+## 4. NEXT RESEARCH START POINT — FIXED
+
+The next conversation must NOT restart repository discovery.
+
+The next core research task is:
+
+`FootyStats × Football LAB × totoONE COMPLETE DATA DICTIONARY / SEMANTIC INTEGRATION`
+
+Required research sequence:
+
+1. recover existing validated FootyStats research from Project Memory
+2. recover existing Football LAB research/assets from Project Memory
+3. recover existing totoONE research/assets from Project Memory
+4. complete source-specific data dictionaries
+5. map semantically equivalent and source-unique metrics
+6. identify population/definition differences
+7. identify correlation / double-counting risk
+8. map metrics into common match-generation process
+9. preserve `P_base` as production anchor
+10. keep unvalidated additions RESEARCH_ONLY
+11. proceed to Player Utility / Match Context historical validation
+12. integrate existing DRAW research and DRAW-path decomposition
+13. historical OOF validation
+14. 10K simulation logic check
+15. 100K stability check
+16. only after validation, 1M simulation
+
+Common match-generation direction remains:
+
+`得点強度`
+-> `チャンス生成`
+-> `攻撃経路`
+-> `シュート`
+-> `セットプレー`
+-> `時間帯`
+-> `得点 / 失点`
+-> `score state`
+-> `DRAW path`
+
+## 5. NON-NEGOTIABLE MODEL GOVERNANCE
+
+`P_base` remains the production anchor.
+
+Research information must not silently mutate `P_base`.
+
+Do not count correlated metrics as independent votes.
+
+totoONE predicted XI is not an independent 1X2 vote.
+
+FootyStats / Football LAB / totoONE information should be placed into the match-generation process rather than treated as three independent prediction votes.
+
+DRAW remains a major research priority:
+
+`引き分けを制するものはtotoを制する`
+
+but draws must never be forced without probability support.
+
+Simulation repetition count is not validation.
+
+Required progression remains:
+
+`10K logic`
+-> `100K stability`
+-> `historical OOF`
+-> `1M precision`
+
+Known-result rounds must not be used for post-hoc result fitting.
+
+## 6. ROUND STRATEGY
+
+Round1658:
+- development / semantic / parser / dictionary / frozen-backtest research asset
+- known result may be revealed only after frozen prediction for diagnostics
+- no post-hoc coefficient fitting
+
+Round1659:
+- inventory currently had no round-specific files at the latest audit
+- blind rehearsal only if genuinely acquired pre-kickoff
+- otherwise any backfill must not be called blind pre-match validation
+
+Round1660:
+- important future operational target
+- do not rush unvalidated research merely to target the round
+- long-term TOTO LABO architecture and historical validation take priority
+
+## 7. FUTURE ROUND AUTOMATION TARGET
+
+Long-term one-action target remains:
+
+`python scripts/prepare_toto_round.py --round <ROUND>`
+
+This script is NOT yet an existing canonical implementation.
+
+Target flow:
+
+`toto official`
+-> `J.League safe refresh`
+-> `FootyStats URL resolution`
+-> `FootyStats 39-page safe acquisition`
+-> `FootyStats parse / normalize / semantic dictionary`
+-> `Football LAB automatic acquisition`
+-> `Football LAB full semantic normalization`
+-> `FootyStats × Football LAB semantic comparison`
+-> `totoONE predicted XI`
+-> `availability / suspension / context`
+-> `QA`
+-> `production readiness`
+
+Acquisition must remain polite, resumable, idempotent, and stop safely on 429 / bot / invalid responses.
+
+## 8. NEXT CHAT — ABSOLUTE FIRST ACTION
+
+Use the Project Memory indexes to retrieve the already-existing research and assets for:
+
+`FootyStats`
+`Football LAB`
+`totoONE`
+
+Then resume the complete multisource data-dictionary / semantic-integration work.
+
+Do NOT restart from:
+- generic repository inventory
+- broad find/grep
+- new speculative features
+- arbitrary probability adjustment
+- 1M simulation
+
+The next phase is to turn the large amount of data already acquired into correctly understood, non-duplicated, historically testable information.
+
+# END OF DAILY FINISH — 2026-10-04
