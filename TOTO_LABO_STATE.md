@@ -17649,3 +17649,97 @@ Next work should proceed from the v06 dictionary and Project Memory.
 The next major scientific question is not “what do these fields mean?” but whether the resolved information has incremental predictive value under leakage-safe historical/pseudo-OOF validation, especially for DRAW paths.
 
 Before continuing research, finish Git/handoff stabilization so a new chat can resume without broad rediscovery.
+
+---
+
+## 2026-10-05 PLAYER/XI RESEARCH LINEAGE RECOVERY — CANONICAL CHECKPOINT
+
+### Purpose
+Past PLAYER/XI research lineage was reconstructed before any new implementation so that future chats do not restart already-completed research.
+
+### Recovered lineage
+
+#### Round1653 — multisource PLAYER/LINEUP architecture
+Designed target Player Utility using:
+- Fantasy/Fansaka information
+- J.League official player information
+- FootyStats player data
+- Football LAB player data
+- totoONE predicted XI / formation
+
+Principles:
+- do not simple-average sources
+- preserve position / role semantics
+- missing != zero
+- correlated metrics are not independent votes
+- predicted XI uncertainty remains explicit
+- production promotion requires historical OOF
+
+#### Round1654 — implementation foundation
+Implemented:
+- FootyStats 2026 player-strength prototype
+- J.League canonical player identity / crosswalk
+- totoONE/Fomelabo XI identity staging
+- Football LAB TEAM CBP join / feature / semantic research
+
+Important clarification:
+- football_lab_toto1654_xi_strength_players_v01/v02/v03 filenames do NOT prove Football LAB PLAYER CBP numerical integration.
+- inspected 1654 Football LAB feature/semantic scripts operate on TEAM CBP.
+- P_base was not modified.
+
+#### Round1656 — operational XI prototype and Football LAB matchup layer
+Football LAB:
+- J2/J3 TEAM CBP extraction and league-internal semantic standardization completed.
+- TEAM matchup matrix completed for 13 matches / 26 sides.
+- player TOP30 ranking asset exists:
+  data/analysis/football_lab_2026_27_1656_player_cbp_top30_long_v01.csv
+- this player asset is LEAGUE_TOP30_RANKING_ONLY, not a complete player population.
+- absence from TOP30 must NOT be interpreted as zero / weak / below-average.
+- Football LAB process/matchup production coefficients remained 0 pending historical OOF.
+- defense/save/gain may reflect workload/exposure and are not direct defensive-strength votes.
+- cross-league contrasts remained RESEARCH_UNCALIBRATED.
+
+XI engine:
+- predicted/actual XI player-strength pipeline became operational.
+- actual XI = 26 teams x 11 = 286 starters.
+- empirical player-strength coverage = 277/286 = 96.9%.
+- 9 missing players received explicit baseline imputation.
+- player/team/match strength artifacts were generated.
+- inspected implementation shows numerical strength core is FootyStats player axes.
+- J.League contributes canonical identity/context.
+- XI/formation sources contribute lineup/identity context.
+- no evidence was found that Fantasy + Football LAB PLAYER CBP + J.League performance were quantitatively fused into the operational six-axis XI strength engine.
+
+### Canonical stopping point
+FS-based XI strength engine = IMPLEMENTED / REUSABLE PROTOTYPE.
+
+Football LAB TEAM process/matchup layer = IMPLEMENTED / RESEARCH-ONLY.
+
+Football LAB PLAYER TOP30 = ACQUIRED / LIMITED-COVERAGE RESEARCH SOURCE.
+
+Full multisource Player Utility
+(Fantasy/Fansaka + FootyStats Player + Football LAB Player + J.League official performance + role/formation + availability/load)
+= DESIGNED / PARTIALLY IMPLEMENTED / NOT YET PROVEN AS A COMPLETE NUMERICAL ENGINE.
+
+PLAYER -> lambda / H-D-A production transport
+= BLOCKED_BY_HISTORICAL_OOF.
+
+Production governance:
+- P_base remains canonical anchor.
+- PLAYER/XI production coefficient remains 0 until historical OOF validation.
+- Football LAB research coefficients remain 0 until historical OOF validation.
+- do not result-fit Round1658.
+- do not read Round1658 results before frozen source-isolated predictions are saved.
+
+### Canonical continuation
+Do NOT redesign PLAYER/XI from scratch.
+
+Continue from the existing Round1656 FS-XI operational engine:
+1. minimally transport it to Round1658 predicted XI;
+2. QA 13 matches / 26 teams / 286 starters;
+3. preserve identity confidence, position mismatch, minutes, reliability and imputation flags;
+4. freeze XI/player-only Round1658 output without result access;
+5. compare source-isolated FS-only / FL-team-only / XI-player-only views;
+6. only then study combined mechanisms;
+7. use historical OOF/pseudo-OOF before any production coefficient;
+8. simulation progression remains 10K -> 100K -> historical OOF -> 1M.

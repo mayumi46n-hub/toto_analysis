@@ -648,3 +648,30 @@ The immediate research continuation point after Git stabilization is:
 `data/analysis/toto_labo_multisource_dictionary_v06_fl_team_context_contract.csv`
 
 and the next scientific phase is leakage-safe historical/pseudo-OOF evaluation of resolved candidate information, with special attention to DRAW-path information and correlated-feature control.
+
+## PLAYER/XI CANONICAL RESTART — 2026-10-05
+
+Recovered research lineage:
+- Round1653: multisource Player/Lineup architecture designed.
+- Round1654: FootyStats player strength + J.League identity/crosswalk implemented; Football LAB TEAM CBP research implemented.
+- Round1656: Football LAB TEAM matchup matrix completed; FS-based predicted/actual XI strength engine operational.
+- Round1656 Football LAB PLAYER asset is LEAGUE_TOP30_RANKING_ONLY and must not be treated as complete player coverage.
+- Full quantitative multisource Player Utility is NOT proven complete.
+- PLAYER -> lambda / H-D-A production transport remains BLOCKED_BY_HISTORICAL_OOF.
+- P_base remains canonical anchor; PLAYER/FL production coefficients remain 0.
+
+Do not redesign PLAYER/XI from scratch.
+
+NEXT:
+Transport the existing Round1656 FS-XI operational engine minimally to Round1658 predicted XI.
+Before reading Round1658 results:
+1. QA 13 matches / 26 teams / 286 predicted starters.
+2. preserve identity confidence / position mismatch / minutes / reliability / imputation flags.
+3. freeze XI/player-only output.
+4. compare FS-only / FL-team-only / XI-player-only source-isolated views.
+5. only afterward investigate combined mechanisms.
+6. no Round1658 result-fitting and no P_base mutation.
+
+Full checkpoint:
+TOTO_LABO_STATE.md
+section: 2026-10-05 PLAYER/XI RESEARCH LINEAGE RECOVERY — CANONICAL CHECKPOINT
