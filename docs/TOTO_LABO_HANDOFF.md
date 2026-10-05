@@ -480,3 +480,171 @@ Use this commit as the Git reference point when recovering TOTO LABO context in 
 
 The working tree may intentionally contain additional historical/local research assets not included in this baseline.
 Do not clean or reset them merely because they are outside this commit.
+
+---
+
+## 15. LATEST CHECKPOINT — 2026-10-05 — MULTISOURCE DICTIONARY v06
+
+This section supersedes the older stopping point / next-action description above where they conflict.
+
+### Current canonical research position
+
+Common multisource dictionary work has already progressed through v06.
+
+Latest artifact:
+
+`data/analysis/toto_labo_multisource_dictionary_v06_fl_team_context_contract.csv`
+
+Dictionary:
+- rows = 449
+- FootyStats FS60 population/unit semantic contract = FROZEN
+- Football LAB CBP108 semantic contract = FROZEN
+- Football LAB TEAM_CONTEXT10 semantic meaning/immediate lineage/arithmetic direction = FROZEN
+- Football LAB META/IDENTITY/QA37 = not predictive votes
+- `attack_col` / `field_strength` = BLOCKED / ORIGIN_UNRESOLVED
+- DRAW relations requiring predictive interpretation remain historical-OOF-required
+- production weights remain 0
+- `P_base` remains UNTOUCHED
+
+### TEAM_CONTEXT10 established lineage
+
+Football LAB raw CBP HTML
+→ `table#ls_teamCBP`
+→ source columns 6:10
+→ normalized BASE4
+→ fixture-side HOME/AWAY join
+→ TEAM_CONTEXT8
+→ derived points/rank fields.
+
+Raw source columns 6–9 are directly labelled:
+
+- 順位
+- 勝点
+- 得点
+- 失点
+
+Season identity on the audited source pages is `2026/27`.
+
+Exact cumulative/current-through-round window semantics are NOT proven and remain:
+
+`2026_27_SOURCE_SNAPSHOT_EXACT_CUMULATIVE_WINDOW_UNRESOLVED`
+
+Do not infer the missing window definition.
+
+TEAM_CONTEXT10 is one correlated contextual lineage:
+
+`FL_TEAM_LEAGUE_RESULT_CONTEXT`
+
+Do not count its ten fields as ten independent votes.
+
+### Current scientific boundary
+
+Semantic understanding is not the same as predictive usefulness.
+
+Do NOT reopen:
+- FS60 semantics
+- FL CBP108 semantics
+- TEAM_CONTEXT10 metric meaning/lineage
+
+unless contradictory source evidence appears.
+
+The next major research question is incremental predictive value under leakage-safe historical/pseudo-OOF validation, including DRAW paths.
+
+DRAW must not be forced.
+
+`P_base` remains the production anchor.
+
+### Round strategy
+
+Do not optimize narrowly for one toto round.
+
+1658 is primarily a development/dictionary/parser/semantic-validation round.
+
+1659 cannot be retrospectively called a blind pre-match test if the necessary pre-kickoff snapshot was not captured.
+
+Future target-round data must be frozen pre-kickoff and evaluated without result-derived tuning.
+
+The broader goal is a reproducible future-round pipeline and stronger long-run prediction process.
+
+### Future acquisition architecture
+
+Target one-command orchestration:
+
+`python scripts/prepare_toto_round.py --round <ROUND>`
+
+Intended flow:
+
+official toto card/votes
+→ J.League safe refresh
+→ FootyStats URL resolution
+→ FootyStats 39-page safe/resumable acquisition
+→ FootyStats parse/normalize
+→ Football LAB safe/resumable acquisition
+→ Football LAB semantic normalization
+→ FootyStats × Football LAB semantic comparison/integration
+→ totoONE 13-match/predicted-XI layer
+→ availability/player-status layer
+→ QA
+→ production-readiness decision
+
+FootyStats and Football LAB must both be treated as major data sources.
+
+### Simulation direction
+
+Scientific validation order:
+
+10K logic check
+→ 100K stability
+→ historical OOF / pseudo-OOF
+→ 1M precision run only after validation
+
+One million simulations improve Monte Carlo precision; they do not by themselves validate a model.
+
+Future control-room UI must display real model/simulation state and must not alter model logic.
+
+### Git / chat handoff status
+
+Canonical detailed record:
+
+`TOTO_LABO_STATE.md`
+
+Short bootstrap:
+
+`docs/TOTO_LABO_HANDOFF.md`
+
+Project-memory indexes:
+
+- `docs/TOTO_LABO_RESEARCH_INDEX_V2.csv`
+- `docs/TOTO_LABO_STATE_ASSET_LINKS.csv`
+- `docs/TOTO_LABO_ASSET_INVENTORY.csv`
+
+The repository working tree intentionally contains many historical/local/untracked assets.
+
+Never use:
+
+`git add .`
+
+Never clean/reset the working tree merely to make Git status clean.
+
+Stage only explicitly reviewed project-memory/code/spec artifacts.
+
+At this checkpoint, Git stabilization is the immediate task before further research.
+
+### New-chat recovery instruction
+
+In a new chat:
+
+1. read this HANDOFF first
+2. read `RESEARCH_INDEX_V2`
+3. read only relevant sections of canonical root `TOTO_LABO_STATE.md`
+4. use `STATE_ASSET_LINKS`
+5. use `ASSET_INVENTORY`
+6. open exact artifacts only as needed
+
+Do not begin with broad repository rediscovery.
+
+The immediate research continuation point after Git stabilization is:
+
+`data/analysis/toto_labo_multisource_dictionary_v06_fl_team_context_contract.csv`
+
+and the next scientific phase is leakage-safe historical/pseudo-OOF evaluation of resolved candidate information, with special attention to DRAW-path information and correlated-feature control.

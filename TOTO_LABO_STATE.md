@@ -17260,3 +17260,392 @@ Do NOT restart from:
 The next phase is to turn the large amount of data already acquired into correctly understood, non-duplicated, historically testable information.
 
 # END OF DAILY FINISH — 2026-10-04
+
+# DAILY FINISH — 2026-10-05 — MULTISOURCE DICTIONARY / FL CBP CONTRACT
+
+## Completed
+- Common multisource dictionary semantic recovery progressed:
+  - v01 draft: 449 rows
+  - v02 semantic recovery: FL REVIEW 157 -> 0
+  - v03: `data/analysis/toto_labo_multisource_dictionary_v03_fl_cbp_contract.csv`
+- Football LAB CBP contract audited for 9 families:
+  offense / pass / cross / dribble / shot / goal / gain / defense / save.
+- Current J1/J2/J3 60-team semantic-v2 source identity verified:
+  60 teams x 9 families x 4 representations = 2160/2160 exact matches.
+  MISMATCH=0, GLOBAL_MAXERR=0.
+- Source-measured CBP representations confirmed:
+  rank / total / per_match / recent5.
+- Derived identities numerically confirmed:
+  recent5_avg = recent5 / 5
+  recent_delta = recent5_avg - per_match
+  diff_home_* = HOME - AWAY
+  rank_adv_home = AWAY_RANK - HOME_RANK
+- Dictionary v03 FL CBP rows:
+  108/108 population resolved to supported team-within-league-CBP-category scope.
+  108/108 condition resolved as fixture-side assignment / derived comparison.
+  108/108 time-window contract recorded conservatively.
+  108/108 measurement_type resolved.
+- Important semantic guardrail:
+  HOME/AWAY in the match feature layer means fixture-side assignment of team-level Football LAB CBP;
+  it is NOT evidence of venue-specific Football LAB CBP.
+
+## Intentionally unresolved
+- CBP unit: 108/108 UNRESOLVED.
+- Exact denominator/source definition of per_match remains unresolved.
+- Exact source-window details not directly evidenced remain conservatively labeled.
+- DRAW_RELATION: 108/108 UNRESOLVED.
+- Do not infer DRAW effect from metric names.
+- DRAW relevance must be tested later with historical OOF / draw-path analysis.
+
+## Production governance
+- production_weight = 0 for all FL CBP dictionary rows.
+- No production promotion.
+- P_base UNTOUCHED.
+- Correlated CBP representations are not independent votes.
+- offense remains reference-only where established.
+- goal must not be recombined blindly with shot.
+- defense/save remain context-only where established.
+
+## Next research start
+Continue from:
+`data/analysis/toto_labo_multisource_dictionary_v03_fl_cbp_contract.csv`
+
+Do NOT repeat:
+- FL CBP 2160-value source identity audit
+- recent5_avg/recent_delta identity audit
+- diff_home/rank_adv orientation audit
+- generic repository discovery for these already-resolved questions
+
+Next objective:
+Continue multisource semantic dictionary completion using existing Project Memory/indexes.
+Resolve only evidence-supported remaining semantics.
+Do not infer unit/DRAW relation.
+After dictionary recovery QA, proceed toward FootyStats x Football LAB x totoONE semantic integration and historical OOF.
+P_base remains the production anchor.
+
+# DAILY FINISH — 2026-10-05 — MULTISOURCE DICTIONARY v04→v06 / FL TEAM_CONTEXT10 CONTRACT
+
+## 1. Purpose
+
+Continue multisource semantic recovery without modifying production probabilities.
+
+Research governance remained fixed:
+
+- `P_base` is the production anchor.
+- Research-only source semantics do not directly modify `P_base`.
+- Correlated metrics are not independent votes.
+- DRAW relation is not inferred from intuition; historical OOF is required.
+- Football LAB CBP108 already resolved/frozen was not reopened.
+- `attack_col` / `field_strength` remain blocked because origin is unresolved.
+
+---
+
+## 2. FootyStats semantic contract — v04 / v05
+
+### v04
+
+Artifact:
+
+`data/analysis/toto_labo_multisource_dictionary_v04_fs_semantic_contract.csv`
+
+Resolved five FootyStats semantic/control fields:
+
+- `ctx_finishing_side`
+- `explicit_venue_detail_pair`
+- `venue_finishing_side`
+- `finishing_semantic_split`
+- `semantic_flags`
+
+These are derived semantic/QA controls and must not be treated as independent predictive votes.
+
+### v05
+
+Artifact:
+
+`data/analysis/toto_labo_multisource_dictionary_v05_fs60_contract.csv`
+
+FootyStats remaining 60 dictionary rows had population/unit contracts resolved.
+
+Important semantic separation:
+
+- venue xG/xGA/form = fixture team venue context.
+- context shots/SOT/conversion/SPG/possession = match/H2H comparison context and must NOT be mislabeled venue-specific.
+- explicit venue detail = separate explicit venue-detail source.
+- semantic split fields = QA/control.
+- matchup xG = derived diagnostic proxy from the same xG lineage.
+- market probabilities = one correlated market lineage.
+- xG crosscheck = QA/control.
+
+FootyStats DRAW relation remains deferred to historical OOF.
+
+Production weight remains zero for research-only dictionary recovery.
+
+`P_base` remained untouched.
+
+FootyStats population/unit semantic recovery is FROZEN unless new contradictory evidence appears.
+
+---
+
+## 3. Football LAB REVIEW157 role-aware triage
+
+Football LAB REVIEW rows were partitioned as:
+
+- KNOWN_CBP_OR_DERIVED_LINEAGE = 108
+- META_IDENTITY_QA = 37
+- TEAM_CONTEXT_ACTIONABLE = 10
+- BLOCKED = 2
+
+Blocked fields:
+
+- `attack_col`
+- `field_strength`
+
+These remain `ORIGIN_UNRESOLVED`.
+
+META/IDENTITY/QA fields are not predictive votes.
+
+CBP108 remains frozen.
+
+---
+
+## 4. TEAM_CONTEXT10 fields
+
+The actionable Football LAB contextual fields are:
+
+- `fl_home_league_rank`
+- `fl_away_league_rank`
+- `fl_home_league_points`
+- `fl_away_league_points`
+- `fl_home_goals_for`
+- `fl_away_goals_for`
+- `fl_home_goals_against`
+- `fl_away_goals_against`
+- `fl_league_points_diff_home`
+- `fl_league_rank_adv_home`
+
+All ten belong to one correlated contextual lineage:
+
+`FL_TEAM_LEAGUE_RESULT_CONTEXT`
+
+They must NOT be counted as ten independent votes.
+
+---
+
+## 5. TEAM_CONTEXT10 two-snapshot arithmetic contract
+
+Audited artifacts:
+
+- `data/analysis/football_lab_toto1653_feature_blocks_v01.csv`
+- `data/analysis/football_lab_toto1654_feature_blocks_v01.csv`
+
+Both have shape 13x128.
+
+Across both snapshots:
+
+`fl_league_points_diff_home = fl_home_league_points - fl_away_league_points`
+
+and:
+
+`fl_league_rank_adv_home = fl_away_league_rank - fl_home_league_rank`
+
+were reproduced exactly.
+
+Positive `fl_league_rank_adv_home` therefore means the HOME fixture-side team has the better/lower league rank.
+
+Arithmetic identities were proven over 26 fixture rows.
+
+---
+
+## 6. TEAM_CONTEXT10 builder lineage
+
+Exact builders identified:
+
+- `scripts/build_football_lab_toto1653_features_v01.py`
+- `scripts/build_football_lab_toto1654_features_v01.py`
+
+Both implementations use the same semantic contract.
+
+Fixture identity:
+
+`home_name = fixture home_team`
+
+`away_name = fixture away_team`
+
+then each is resolved to a Football LAB team record.
+
+Base fields are copied from:
+
+- `league_rank`
+- `league_points`
+- `goals_for`
+- `goals_against`
+
+The immediate normalized upstream asset is:
+
+`data/analysis/football_lab_team_cbp_2026_normalized_v01.csv`
+
+HOME/AWAY here means fixture-side team assignment.
+
+It does NOT by itself mean venue-specific measurement.
+
+---
+
+## 7. Normalized → raw Football LAB lineage
+
+Normalizer:
+
+`scripts/normalize_football_lab_team_cbp_v01.py`
+
+Raw root:
+
+`data/raw/football_lab/cbp/2026`
+
+Raw files are nested by league/category, not stored directly under the root.
+
+Contract:
+
+`ROOT / league / f"{category}.html"`
+
+The parser explicitly reads:
+
+`table#ls_teamCBP`
+
+The league-result columns are taken from source cells:
+
+- `vals[6] -> league_rank`
+- `vals[7] -> league_points`
+- `vals[8] -> goals_for`
+- `vals[9] -> goals_against`
+
+The normalizer cross-checks the duplicated league-result columns across CBP categories.
+
+Therefore the established lineage is:
+
+`Football LAB raw CBP HTML`
+→ `table#ls_teamCBP`
+→ source cells 6:10
+→ normalized BASE4
+→ fixture-side HOME/AWAY team join
+→ TEAM_CONTEXT8
+→ derived points/rank fields
+
+---
+
+## 8. Raw source header contract
+
+Nested raw HTML audit found 30 HTML files.
+
+For the applicable `table#ls_teamCBP` pages, the source table directly labels source columns 6–9 as:
+
+- `順位`
+- `勝点`
+- `得点`
+- `失点`
+
+This directly resolves the metric meaning of the BASE4 fields.
+
+The page also identifies the season as:
+
+`2026/27`
+
+Source update information is present in the raw HTML.
+
+However, the available evidence does NOT prove the exact cumulative/current-through-round time-window definition.
+
+Therefore do NOT infer an exact cumulative window merely from plausible values or field names.
+
+Time-window contract remains:
+
+`2026_27_SOURCE_SNAPSHOT_EXACT_CUMULATIVE_WINDOW_UNRESOLVED`
+
+Also note:
+
+`最近５試合` belongs to the separate CBP recent-five column and must not be applied to league rank/points/GF/GA.
+
+---
+
+## 9. Multisource dictionary v06
+
+Artifact:
+
+`data/analysis/toto_labo_multisource_dictionary_v06_fl_team_context_contract.csv`
+
+QA:
+
+- ROWS = 449
+- TARGETS = 10
+- CHANGED ROWS = 10
+- only TEAM_CONTEXT10 changed = TRUE
+- exact window remains unresolved = TRUE
+- DRAW remains historical-OOF-required = TRUE
+- all TEAM_CONTEXT10 rows remain `RESEARCH_ONLY`
+- all production weights remain 0
+
+BASE8 contracts now distinguish:
+
+- fixture HOME team
+- fixture AWAY team
+- source-measured rank/points/GF/GA
+
+Derived2 contracts distinguish:
+
+- `HOME_MINUS_AWAY_DERIVED` for points difference
+- `AWAY_RANK_MINUS_HOME_RANK_DERIVED` for home rank advantage
+
+All ten remain in:
+
+`FL_TEAM_LEAGUE_RESULT_CONTEXT`
+
+Semantic status:
+
+`SOURCE_CONTRACT_RESOLVED_WINDOW_PARTIAL`
+
+DRAW relation:
+
+`UNRESOLVED_HISTORICAL_OOF_REQUIRED`
+
+No production promotion occurred.
+
+`P_base` remained untouched.
+
+---
+
+## 10. Frozen / unresolved state after v06
+
+FROZEN:
+
+- FootyStats FS60 population/unit semantic contract.
+- Football LAB CBP108 semantic contract.
+- TEAM_CONTEXT10 metric meaning and immediate lineage.
+- TEAM_CONTEXT10 arithmetic direction.
+
+NOT predictive votes:
+
+- Football LAB META/IDENTITY/QA37.
+- semantic QA/control fields.
+- derived fields from the same underlying lineage.
+
+BLOCKED:
+
+- `attack_col`
+- `field_strength`
+
+UNRESOLVED:
+
+- exact Football LAB cumulative/current-through-round window semantics.
+- DRAW relationship for TEAM_CONTEXT10.
+- predictive incremental value of TEAM_CONTEXT10.
+
+Those questions require historical/pseudo-OOF evidence and must not be answered by semantic interpretation alone.
+
+---
+
+## 11. Next research boundary
+
+Do NOT reopen FS60, FL CBP108, or TEAM_CONTEXT10 semantic meaning without contradictory source evidence.
+
+Next work should proceed from the v06 dictionary and Project Memory.
+
+The next major scientific question is not “what do these fields mean?” but whether the resolved information has incremental predictive value under leakage-safe historical/pseudo-OOF validation, especially for DRAW paths.
+
+Before continuing research, finish Git/handoff stabilization so a new chat can resume without broad rediscovery.
