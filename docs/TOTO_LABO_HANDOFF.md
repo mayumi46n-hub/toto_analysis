@@ -675,3 +675,251 @@ Before reading Round1658 results:
 Full checkpoint:
 TOTO_LABO_STATE.md
 section: 2026-10-05 PLAYER/XI RESEARCH LINEAGE RECOVERY — CANONICAL CHECKPOINT
+
+## ROUND1658 FS-XI FROZEN TRANSPORT COMPLETE — 2026-10-05
+
+The previous `PLAYER/XI CANONICAL RESTART` continuation has now been completed.
+
+Do NOT repeat the Round1658 FS-XI transport or rediscover its identity/crosswalk logic.
+
+### Completed
+
+Round1658 totoONE predicted XI:
+- 13 matches
+- 26 sides
+- 286 predicted starters
+
+FS-XI identity/strength:
+- OLD_MASTER_CANONICAL = 193
+- FS_CLUB_SHIRT_VALIDATED = 72
+- accepted = 265 / 286 = 92.66%
+- unresolved = 20
+- explicit identity conflict = 1
+- missing != zero
+- unresolved identity/position was not invented
+
+Frozen player artifact:
+`data/analysis/toto1658_xi_fs_player_frozen_transport_v01.csv`
+
+Frozen player SHA256:
+`c140e71d76a4bef12953111293fe119d305852078020e2c330828ffcb16e5278`
+
+Canonical scripts:
+- `scripts/build_toto_xi_fs_frozen_transport_v01.py`
+- `scripts/build_toto_xi_fs_team_match_v01.py`
+
+Git implementation commit:
+`1082f87` — `Add frozen FS XI transport and research aggregation`
+
+### Team/match research layer completed
+
+Outputs:
+- `data/analysis/toto1658_xi_fs_player_legacy_imputed_v01.csv`
+- `data/analysis/toto1658_xi_fs_team_value_coverage_sensitivity_v01.csv`
+- `data/analysis/toto1658_xi_fs_match_research_channels_v01.csv`
+
+QA:
+- player rows = 286
+- team rows = 26
+- match rows = 13
+- all sides = exactly 11 predicted starters
+- resolved starting GK = 24 / 26 sides
+- unknown GK = 柏, 磐田
+- XI_FINISH_VS_KEEPER blocked matches = 2, 9
+
+VALUE / COVERAGE / SENSITIVITY are separate concepts.
+
+Largest missing-player sensitivity:
+- 柏 = 1.695838, coverage 7/11
+- 大分 = 1.092978, coverage 7/11
+- 横浜FC = 0.638000, coverage 10/11
+
+Unknown position is not invented.
+Unknown GK is not replaced by league-average GK merely to complete the feature.
+No second reliability weighting is allowed because reliability shrink is already embedded in FS player strength.
+
+### Functional research channels
+
+Transported from the recovered Round1656 lineage:
+- XI_ATTACK_VS_DEF_GAP
+- XI_BUILD_VS_DEF_GAP
+- XI_WIDTH_VS_DEF_GAP
+- XI_FINISH_VS_KEEPER_GAP
+
+These channels are correlated and have different scales.
+
+Do NOT:
+- count them as independent votes
+- simply sum them
+- invent a beta
+- directly modify lambda
+- directly modify H/D/A probabilities
+
+### Production status
+
+P_base remains the canonical production anchor.
+
+`XI_DIRECT_GOAL_HAZARD_TRANSPORT = 0`
+
+`XI_PRODUCTION_BETA = 0.0`
+
+`PRODUCTION_PLAYER_COEFFICIENT = 0.0`
+
+`XI_TRANSPORT_STATUS = RESEARCH_ONLY_UNCALIBRATED`
+
+PLAYER/XI -> lambda / score distribution / H-D-A remains:
+`BLOCKED_BY_HISTORICAL_OOF`
+
+Round1658 results were not used in the frozen XI transport.
+
+### CURRENT RESTART POINT
+
+Do NOT repeat:
+- PLAYER/XI architecture design
+- Round1656 lineage recovery
+- Round1658 FS-XI identity reconstruction
+- club+shirt bridge validation
+- Round1658 player/team aggregation
+- GK missingness investigation
+
+Continue from the frozen Round1658 artifacts.
+
+NEXT scientific sequence:
+1. preserve source isolation
+2. compare FS-team-only / Football LAB-team-only / FS-XI-player-only mechanisms
+3. identify agreement, disagreement and correlated evidence
+4. inspect DRAW-relevant mechanisms without forcing draws
+5. reconstruct leakage-safe historical PLAYER/XI availability
+6. perform historical OOF / pseudo-OOF
+7. calibrate PLAYER/XI transport only if incremental value is demonstrated
+8. keep all production coefficients at 0 until then
+9. only after validation proceed 10K -> 100K -> historical OOF -> 1M simulation precision
+
+Full detailed checkpoint:
+`TOTO_LABO_STATE.md`
+section:
+`2026-10-05 ROUND1658 FS-XI FROZEN TRANSPORT — CANONICAL CHECKPOINT`
+
+## ROUND1658 FS-XI FROZEN TRANSPORT COMPLETE — 2026-10-05
+
+The previous `PLAYER/XI CANONICAL RESTART` continuation has now been completed.
+
+Do NOT repeat the Round1658 FS-XI transport or rediscover its identity/crosswalk logic.
+
+### Completed
+
+Round1658 totoONE predicted XI:
+- 13 matches
+- 26 sides
+- 286 predicted starters
+
+FS-XI identity/strength:
+- OLD_MASTER_CANONICAL = 193
+- FS_CLUB_SHIRT_VALIDATED = 72
+- accepted = 265 / 286 = 92.66%
+- unresolved = 20
+- explicit identity conflict = 1
+- missing != zero
+- unresolved identity/position was not invented
+
+Frozen player artifact:
+`data/analysis/toto1658_xi_fs_player_frozen_transport_v01.csv`
+
+Frozen player SHA256:
+`c140e71d76a4bef12953111293fe119d305852078020e2c330828ffcb16e5278`
+
+Canonical scripts:
+- `scripts/build_toto_xi_fs_frozen_transport_v01.py`
+- `scripts/build_toto_xi_fs_team_match_v01.py`
+
+Git implementation commit:
+`1082f87` — `Add frozen FS XI transport and research aggregation`
+
+### Team/match research layer completed
+
+Outputs:
+- `data/analysis/toto1658_xi_fs_player_legacy_imputed_v01.csv`
+- `data/analysis/toto1658_xi_fs_team_value_coverage_sensitivity_v01.csv`
+- `data/analysis/toto1658_xi_fs_match_research_channels_v01.csv`
+
+QA:
+- player rows = 286
+- team rows = 26
+- match rows = 13
+- all sides = exactly 11 predicted starters
+- resolved starting GK = 24 / 26 sides
+- unknown GK = 柏, 磐田
+- XI_FINISH_VS_KEEPER blocked matches = 2, 9
+
+VALUE / COVERAGE / SENSITIVITY are separate concepts.
+
+Largest missing-player sensitivity:
+- 柏 = 1.695838, coverage 7/11
+- 大分 = 1.092978, coverage 7/11
+- 横浜FC = 0.638000, coverage 10/11
+
+Unknown position is not invented.
+Unknown GK is not replaced by league-average GK merely to complete the feature.
+No second reliability weighting is allowed because reliability shrink is already embedded in FS player strength.
+
+### Functional research channels
+
+Transported from the recovered Round1656 lineage:
+- XI_ATTACK_VS_DEF_GAP
+- XI_BUILD_VS_DEF_GAP
+- XI_WIDTH_VS_DEF_GAP
+- XI_FINISH_VS_KEEPER_GAP
+
+These channels are correlated and have different scales.
+
+Do NOT:
+- count them as independent votes
+- simply sum them
+- invent a beta
+- directly modify lambda
+- directly modify H/D/A probabilities
+
+### Production status
+
+P_base remains the canonical production anchor.
+
+`XI_DIRECT_GOAL_HAZARD_TRANSPORT = 0`
+
+`XI_PRODUCTION_BETA = 0.0`
+
+`PRODUCTION_PLAYER_COEFFICIENT = 0.0`
+
+`XI_TRANSPORT_STATUS = RESEARCH_ONLY_UNCALIBRATED`
+
+PLAYER/XI -> lambda / score distribution / H-D-A remains:
+`BLOCKED_BY_HISTORICAL_OOF`
+
+Round1658 results were not used in the frozen XI transport.
+
+### CURRENT RESTART POINT
+
+Do NOT repeat:
+- PLAYER/XI architecture design
+- Round1656 lineage recovery
+- Round1658 FS-XI identity reconstruction
+- club+shirt bridge validation
+- Round1658 player/team aggregation
+- GK missingness investigation
+
+Continue from the frozen Round1658 artifacts.
+
+NEXT scientific sequence:
+1. preserve source isolation
+2. compare FS-team-only / Football LAB-team-only / FS-XI-player-only mechanisms
+3. identify agreement, disagreement and correlated evidence
+4. inspect DRAW-relevant mechanisms without forcing draws
+5. reconstruct leakage-safe historical PLAYER/XI availability
+6. perform historical OOF / pseudo-OOF
+7. calibrate PLAYER/XI transport only if incremental value is demonstrated
+8. keep all production coefficients at 0 until then
+9. only after validation proceed 10K -> 100K -> historical OOF -> 1M simulation precision
+
+Full detailed checkpoint:
+`TOTO_LABO_STATE.md`
+section:
+`2026-10-05 ROUND1658 FS-XI FROZEN TRANSPORT — CANONICAL CHECKPOINT`

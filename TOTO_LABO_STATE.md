@@ -17743,3 +17743,250 @@ Continue from the existing Round1656 FS-XI operational engine:
 6. only then study combined mechanisms;
 7. use historical OOF/pseudo-OOF before any production coefficient;
 8. simulation progression remains 10K -> 100K -> historical OOF -> 1M.
+
+---
+
+## 2026-10-05 ROUND1658 FS-XI FROZEN TRANSPORT — CANONICAL CHECKPOINT
+
+### Purpose
+The canonical Round1656 FS-based XI research engine was minimally transported to Round1658 predicted XI without reading Round1658 results and without modifying P_base.
+
+This is the direct successor of:
+`2026-10-05 PLAYER/XI RESEARCH LINEAGE RECOVERY — CANONICAL CHECKPOINT`
+
+No new PLAYER/XI architecture was invented.
+
+### Frozen input / identity layer
+
+Round1658 totoONE predicted XI:
+- 13 matches
+- 26 sides
+- 11 predicted starters per side
+- 286 player rows
+
+Canonical identity resolution:
+- `OLD_MASTER_CANONICAL` = 193
+- `FS_CLUB_SHIRT_VALIDATED` = 72
+- accepted identity = 265 / 286 = 92.66%
+- `UNRESOLVED` = 20
+- `IDENTITY_CONFLICT` = 1
+
+The one explicit conflict is:
+- 新潟 / 関口正大 / shirt 30
+- current FS club+shirt candidate points to a different player
+- therefore the identity remains rejected rather than force-filled
+
+Historical validation of the club+shirt bridge:
+- old canonical rows = 566
+- unique club+shirt candidates = 561
+- birthday match = 561 / 561
+- canonical name match = 560 / 561
+- empirical canonical-name precision = 99.82%
+- the single historical exception was a known manual GK override
+
+Therefore club+shirt is an empirically validated high-precision identity bridge, but explicit conflicts remain blocked.
+
+Frozen player artifact:
+`data/analysis/toto1658_xi_fs_player_frozen_transport_v01.csv`
+
+Frozen player SHA256:
+`c140e71d76a4bef12953111293fe119d305852078020e2c330828ffcb16e5278`
+
+Unresolved audit:
+`data/analysis/toto1658_xi_fs_unresolved_audit_v01.csv`
+
+Side coverage:
+`data/analysis/toto1658_xi_fs_side_coverage_v01.csv`
+
+### FootyStats player-strength semantics
+
+Canonical strength source:
+`data/players/footystats_2026_player_strength_full_v02.csv`
+
+Generator:
+`scripts/build_footystats_player_strength_2026_full_v02.py`
+
+Recovered semantics:
+- robust z-score within `fs_league x position-group`
+- median/MAD scaling with SD fallback
+- z clipped to +/-3
+- minutes reliability = minutes / (minutes + 450)
+- reliability shrink is already embedded in the strength score
+- therefore NO second reliability weighting is allowed
+
+Axes:
+- attack
+- finishing
+- build_up
+- width_carry
+- defensive
+- keeper
+
+The five outfield axes are correlated research dimensions, not five independent votes.
+
+Examples of overlap:
+- goals contribute to finishing and attack
+- key passes contribute to attack and build_up
+
+Therefore the axes must not be counted independently in a voting scheme or arbitrarily summed into production probability.
+
+### Team aggregation contract
+
+Canonical successor script:
+`scripts/build_toto_xi_fs_team_match_v01.py`
+
+Recovered Round1656 baseline hierarchy was preserved:
+1. league x position median
+2. league median
+3. global median
+
+Round1658 adds one stricter missing-identity rule:
+
+If identity/position is unresolved, position is NOT invented.
+
+Therefore:
+- known position -> league x position median is eligible
+- unknown position -> league median fallback
+- no inferred positional role is created merely to enable imputation
+
+No second reliability weighting is applied.
+
+### VALUE / COVERAGE / SENSITIVITY separation
+
+Round1658 team strength must preserve three distinct concepts:
+
+1. VALUE
+   observed / legacy-imputed FS-XI strength values
+
+2. COVERAGE
+   how many of the 11 predicted starters have accepted player identity/strength
+
+3. SENSITIVITY
+   difference between observed-only aggregation and the explicit legacy neutral-imputation baseline
+
+Overall identity coverage alone is not sufficient evidence of team-level certainty.
+
+Largest Round1658 side sensitivities:
+- 柏: 7/11 observed, max abs delta = 1.695838
+- 大分: 7/11 observed, max abs delta = 1.092978
+- 横浜FC: 10/11 observed, max abs delta = 0.638000
+- 富山: 10/11 observed, max abs delta = 0.485301
+- 磐田: 9/11 observed, max abs delta = 0.443050
+
+Observed-only values are NOT automatically treated as truth because missing-player selection may be non-random.
+
+Legacy imputation is a sensitivity baseline, not a claim that an unresolved player has average ability.
+
+### Goalkeeper contract
+
+Resolved starting-GK identity:
+- 24 / 26 sides
+
+Unresolved starting-GK identity:
+- 柏
+- 磐田
+
+Critical rule:
+UNKNOWN GK is NOT replaced by a league-average GK merely to complete a feature.
+
+Therefore:
+- keeper channel is available only when the starting GK identity is resolved
+- `XI_FINISH_VS_KEEPER_GAP` is blocked when either side has unknown GK
+- Round1658 blocked matches = No.2 and No.9
+
+This is intentionally stricter than the Round1656 implementation because Round1656 had starting position information for all XI players.
+
+### Match-level research channels
+
+Round1656 functional channel definitions were transported without new weights:
+
+- `XI_ATTACK_VS_DEF_GAP`
+- `XI_BUILD_VS_DEF_GAP`
+- `XI_WIDTH_VS_DEF_GAP`
+- `XI_FINISH_VS_KEEPER_GAP`
+
+Positive direction means HOME structural advantage.
+
+The channels remain on different scales and are correlated.
+
+They must NOT be:
+- simply summed
+- treated as independent votes
+- converted directly into H/D/A probability
+- transported directly into goal hazard without historical calibration
+
+### Frozen Round1658 outputs
+
+Player legacy-imputed research layer:
+`data/analysis/toto1658_xi_fs_player_legacy_imputed_v01.csv`
+
+Team VALUE/COVERAGE/SENSITIVITY:
+`data/analysis/toto1658_xi_fs_team_value_coverage_sensitivity_v01.csv`
+
+Match research channels:
+`data/analysis/toto1658_xi_fs_match_research_channels_v01.csv`
+
+QA:
+- player rows = 286
+- team rows = 26
+- match rows = 13
+- exactly 11 predicted starters per side
+- resolved GK sides = 24
+- blocked keeper-channel matches = 2, 9
+- UNKNOWN_POSITION_INVENTED = NO
+- UNKNOWN_GK_IMPUTED = NO
+- SECOND_RELIABILITY_WEIGHT = NO
+- NEW_ROLE_WEIGHTS = NONE
+- RESULT_COLUMNS_USED = NONE
+- P_BASE_MUTATED = NO
+
+### Production governance
+
+`XI_DIRECT_GOAL_HAZARD_TRANSPORT = 0`
+
+`XI_PRODUCTION_BETA = 0.0`
+
+`PRODUCTION_PLAYER_COEFFICIENT = 0.0`
+
+`XI_TRANSPORT_STATUS = RESEARCH_ONLY_UNCALIBRATED`
+
+P_base remains the canonical production anchor.
+
+Round1658 result information has not been used in this frozen XI transport.
+
+PLAYER/XI -> lambda / score distribution / H-D-A transport remains:
+`BLOCKED_BY_HISTORICAL_OOF`
+
+No production promotion is justified by Round1658 coverage or by one-round source agreement.
+
+### Git lineage
+
+Round1656 canonical rescue baseline:
+`36b792a`
+
+Round1658 frozen FS-XI implementation:
+`1082f87` — `Add frozen FS XI transport and research aggregation`
+
+Implemented scripts:
+- `scripts/build_toto_xi_fs_frozen_transport_v01.py`
+- `scripts/build_toto_xi_fs_team_match_v01.py`
+
+### Canonical continuation
+
+Do NOT redesign or rediscover the FS-XI pipeline.
+
+Next scientific work begins from the frozen Round1658 artifacts.
+
+Priority:
+1. preserve source isolation;
+2. compare FS-team-only / Football LAB-team-only / FS-XI-player-only mechanisms without result access;
+3. distinguish agreement from correlated evidence;
+4. identify DRAW-relevant mechanisms rather than forcing DRAW;
+5. reconstruct historical PLAYER/XI availability needed for leakage-safe OOF;
+6. calibrate any PLAYER/XI transport only from historical OOF;
+7. keep production coefficient at 0 until incremental predictive value is demonstrated;
+8. only after model logic and historical validation are sound, proceed through simulation stability stages toward 1M.
+
+The next question is NOT whether the XI features can be numerically added to P_base.
+
+The next question is whether these frozen XI mechanisms contain reproducible incremental information, especially for score-generation and DRAW paths, under leakage-safe historical validation.
