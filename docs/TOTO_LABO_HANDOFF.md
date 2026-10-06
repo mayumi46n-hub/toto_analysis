@@ -964,3 +964,15 @@ Full detail:
 `TOTO_LABO_STATE.md`
 section:
 `2026-10-06 MULTISOURCE PLAYER UTILITY RECOVERY — MORNING CHECKPOINT`
+
+## 2026-10-07 FL PLAYER x FS PLAYER SEMANTIC RECOVERY — STOP
+
+Detailed canonical record: TOTO_LABO_STATE.md (2026-10-07 FL PLAYER x FS PLAYER SEMANTIC RECOVERY checkpoint).
+
+COMPLETED: Fansaka/JLeague lineage recovery; FL PLAYER semantics; FL-to-JLeague-to-FS identity recovery; J3 rescue HIGH104/REVIEW10; FL x FS semantic-overlap study; frozen 14-row semantic map with 6 DUPLICATE_OVERLAP rows.
+
+DO NOT REPEAT the FL x FS semantic study from scratch. Canonical artifact: data/analysis/football_lab_footystats_player_semantic_map_1656_v01.csv
+
+RESTART: build the four-source PLAYER semantic map across Fansaka / J.League official / FootyStats / Football LAB. Classify duplicate-correlated, unique candidate, role-context, availability-context, and unresolved information. Then connect only understood components to Round1658 XI as source-isolated research blocks and require historical OOF before fusion or PLAYER-to-lambda transport.
+
+GUARDS: P_base unchanged; production player coefficient 0.0; Round1658 result unused; multisource fusion not validated; PLAYER-to-lambda blocked by historical OOF.

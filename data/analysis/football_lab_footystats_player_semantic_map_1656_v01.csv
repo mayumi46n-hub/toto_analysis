@@ -1,0 +1,15 @@
+fl_category,fs_axis,position,semantic_status,n,partial_spearman_control_minutes,interpretation,fl_population,fl_primary_value,top30_selection_bias,production_allowed,production_coefficient
+pass,fs_build_up_power,DF,DUPLICATE_OVERLAP,20,0.549475,strong position-aware overlap; do not independently add,LEAGUE_TOP30_RANKING_ONLY,cbp_per90,YES,NO,0.0
+pass,fs_build_up_power,MF,DUPLICATE_OVERLAP,32,0.605237,strong position-aware overlap; do not independently add,LEAGUE_TOP30_RANKING_ONLY,cbp_per90,YES,NO,0.0
+defense,fs_defensive_power,DF,DUPLICATE_OVERLAP,50,0.435912,stable after minutes control; do not independently add,LEAGUE_TOP30_RANKING_ONLY,cbp_per90,YES,NO,0.0
+shot,fs_finishing_power,MF,DUPLICATE_OVERLAP,25,0.517769,finishing lineage overlap,LEAGUE_TOP30_RANKING_ONLY,cbp_per90,YES,NO,0.0
+shot,fs_finishing_power,FW,DUPLICATE_OVERLAP,26,0.471542,finishing lineage overlap,LEAGUE_TOP30_RANKING_ONLY,cbp_per90,YES,NO,0.0
+goal,fs_finishing_power,FW,DUPLICATE_OVERLAP,28,0.554428,FW-specific finishing overlap,LEAGUE_TOP30_RANKING_ONLY,cbp_per90,YES,NO,0.0
+goal,fs_finishing_power,MF,POSITION_DEPENDENT_WEAK,19,0.052739,do not generalize FW relationship to MF,LEAGUE_TOP30_RANKING_ONLY,cbp_per90,YES,NO,0.0
+dribble,fs_width_carry_power,MF,PARTIAL_ROLE_DEPENDENT,32,0.21336,weak/moderate after minutes control,LEAGUE_TOP30_RANKING_ONLY,cbp_per90,YES,NO,0.0
+dribble,fs_width_carry_power,FW,PARTIAL_ROLE_DEPENDENT_SMALL_N,12,0.643524,strong but small N; no promotion,LEAGUE_TOP30_RANKING_ONLY,cbp_per90,YES,NO,0.0
+passrec,fs_build_up_power,MF,ROLE_INVOLVEMENT_CANDIDATE,33,0.395111,multi-axis relation; not independent vote,LEAGUE_TOP30_RANKING_ONLY,cbp_per90,YES,NO,0.0
+passrec,fs_build_up_power,FW,ROLE_INVOLVEMENT_CANDIDATE,19,0.642226,multi-axis relation; not independent vote,LEAGUE_TOP30_RANKING_ONLY,cbp_per90,YES,NO,0.0
+gain,fs_attack_power,MF,UNRESOLVED_CONTEXT_CANDIDATE,35,-0.28435,raw relation attenuated after minutes control,LEAGUE_TOP30_RANKING_ONLY,cbp_per90,YES,NO,0.0
+gain,fs_defensive_power,DF,UNRESOLVED_CONTEXT_CANDIDATE,22,0.211726,insufficient for defensive-strength mapping,LEAGUE_TOP30_RANKING_ONLY,cbp_per90,YES,NO,0.0
+save,fs_keeper_power,GK,UNRESOLVED_UNIQUE_CANDIDATE,53,0.126394,weak overlap; unique information vs noise unresolved,LEAGUE_TOP30_RANKING_ONLY,cbp_per90,YES,NO,0.0

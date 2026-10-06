@@ -18151,3 +18151,148 @@ Production status remains:
 `PRODUCTION_PLAYER_COEFFICIENT = 0.0`
 `MULTISOURCE_PLAYER_FUSION = NOT_YET_VALIDATED`
 `ROUND1658_RESULT_INPUT_USED = NO`
+
+
+## 2026-10-07 FL PLAYER x FS PLAYER SEMANTIC RECOVERY — CANONICAL CHECKPOINT
+
+### Continuity / guards
+Direct successor of the 2026-10-06 MULTISOURCE PLAYER UTILITY RECOVERY checkpoint.
+
+No Round1658 result was used.
+P_base was not modified.
+No production player coefficient was introduced.
+
+`P_BASE_MUTATED = NO`
+`PRODUCTION_PLAYER_COEFFICIENT = 0.0`
+`MULTISOURCE_PLAYER_FUSION = NOT_YET_VALIDATED`
+`ROUND1658_RESULT_INPUT_USED = NO`
+
+### Fansaka + J.League recovery
+Existing J1 artifact:
+`data/players/fansaka_j1_player_power_v3_jleague.csv`
+
+Confirmed:
+- 754 rows.
+- `player_power_fp_jl = player_power_fp + jl_power_adjustment` exactly in stored artifact.
+- `jl_power_adjustment` is approximately `round(0.35 * jl_form_score * jl_reliability, 3)` subject to stored rounding.
+- `jl_reliability = round(min(1, sqrt(jl_time / 270)) * jl_feature_coverage, 3)` exactly for all 754 rows.
+- Original `.py` generator for `jl_form_score` was not found.
+- Therefore exact `jl_form_score` formula remains UNKNOWN; do not invent it.
+
+Historical Fansaka validation:
+`data/evaluation/fansaka_2025_power_backtest.cs`data/evaluation/fansaigible / rounds 6-38.
+- Temporal-safe historical baseline.
+- Does NOT validate current- Does NOT validate curreOld-base incremental beta=0.04 produced only a tiny LL improvement and MUST NOT - Does NOT validateurr- Does NOT validate current- Do proxy - Does NOT validate current- Does NOT valource_l- Does NOT validate current-  separate percentile/coverage/time-reliability mechanism and - Does NOT validate current- Does NOT validate cu.
+
+############ LAB PLAYER semantics
+Primary asset:
+`data/analysis/football_lab_2026_27_1656_player_cbp_top30_long_v01.c`data/analysis/football_lab_2026_27_1656_player_cbp_top30_long_v01.c`data/analysis/football_lab_2026_27_1656_player_cff`data/analysis/football_lab_2026_27_1656_player_cbp_top30_long_v01.c`data/analysis/football_lab_2026_ary co`data/analysis/football_lab_2026_27_1656_player_cbp_top30_lo` `data/analysis/football_lab_2026_27_1656_player_cbp_top30_long_v01.c`datarom p`data/analysis/football_lab_o avoid category double counting.
+- FL categories are not independent votes.
+
+### FL -> J.League -> FootyStats identity
+FL Japanese-name to J.League exact normalized identity:
+- J2 155/156 unique, 1 ambiguous.
+- J3 165/165.
+- Total 320/321 = 99.69%.
+
+Existing Round1656 FS crosswalk initially:
+- HIGH 189
+- REVIEW 16
+- NO_FS_EXACT_LINK 115
+- JL ambiguous/missing 1
+
+J3 no-link concentration was mainly old club-mapping omission, not absence of player data.
+
+Validated identity rules on existing HIGH truth:
+- cano- cano- cano- cano- cano- cano-232/232 correct among unique bridged validation cases.
+- canonical club + shirt: 250/250 correct among unique bridged validation cases.
+These are observed validation-population rates, not universal guarantees.
+
+Frozen rescue artifact:
+`data/analysis/football_lab_j3_fs_identity_rescue_audit_1656_v01.csv`
+
+- rows 114
+- `RESCUE_HIGH_CLUB_SHIRT_POSITION` = 104
+- `RESCUE_REVIEW_POSITION_CONFLICT` = 10
+- duplicate FS identity keys = 0
+- frozen QA = PASS
+- REVIEW10 excluded from primary semantic analysis.
+
+### Primary FL x FS semantic population
+Using existinUsing existinUsing existinUsing existinU unique players = 293
+- J2 = 139
+- J3 = 154
+- FL rows = 59- FL rows = 59- FL rows = 59- FLd - FL rows =ws = 537
+
+FS six axes already contain reliability shrinkage.
+Do NOT apply FS reliability again.
+
+### Exposure diagnostic
+Several FL `cbp_per90` Top30 categories were strongly related to FS minutes:
+- cross about -0.626
+- dribble about -0.543
+- gain about -0.558
+- goal about -0.676
+- passrec about -0.606
+- shot about -0.553
+
+Therefore raw FL x FS correlation is not automatically pure semantic overlap.
+Top30 selection bias remains.
+
+### Position-aware minut### Position-aware minut### Position-aware minut### Position-aware minutontrolling for FS minutes.
+Diagnostic only; this does NOT create a production feature.
+
+Strong duplicate/overlap candidates:
+- DF pass -> FS build_up: N20, rho 0.549475
+- MF pass -> FS build_up: N32, rho 0.605237
+- DF defense -> FS defensive: N- DF defense -> FS defensive: N- DF defense -> FS ho 0.517769
+- FW shot -> FS finishing: N26, rho 0.471542
+- FW goal -> FS finishing: N28, rho 0.554428
+
+These must NOT be counted as independent source votes.
+
+Role/position-dependent:
+- MF goal -> finishing: N19, rho 0.052739
+- MF dribble -> width/carry: N32, rho 0.213360
+- FW dribble -> width/carry: N12, rho 0.643524; small N, no promotion.
+- MF passrec -> build_up: N33, rho 0.395111
+- FW pass- FW pass- FW pass19, rho 0.642226
+- FW passrec -> attack: N19, - FW passrec -> W passrec -> defensive: N19, rho 0.350674
+
+Treat `passrec` as a ROLE/INVOLVEMENT candidate, not an independent generic strength vote.
+
+Unresolved:
+- MF gain - MF gain - MF gain - MF gain - MF gain - MF gain - MF gain - MF gain - MF gain - MF gain - MF gain - MF gain - MF gain -11726; insufficient for direct mapping.
+- GK save -> keeper: N53, rho 0.126394; unique information vs definition/noise unresolved.
+
+### Frozen semantic-map artifact
+Created:
+`data/analysis/football_lab_footystats_player_semantic_map_1656_v01.csv`
+
+- rows = 14
+- `DUPLICATE_OVERLAP` = 6
+- production coefficient = 0.0
+- production use = NO
+
+This is the canonical FL PLAYER x FS PLAYER semantic checkpoint.
+Do NOT repeat this study from scratch.
+
+### Scientific limit
+This work establishes semantic overlap and possible uniqueness.
+It does NOT establish predictive incremental value.
+
+Correlation != predictive validation.
+Low correlation != useful unique predictive information.
+Top30 censoring remains.
+No FL/FS player feature has been promoted to P_base or goal hazard.
+
+### NEXT — canonical continuation
+1. Build one semantic map across Fansaka / J.League official / FootyStats / Football LAB PLAYER.
+2. Classify information as duplicate/correlated, unique candidate, role/context, availability/context, or unresolved.
+3. Preserve J1 versus J2/J3 scale/population differences.
+4. Preserve FL Top30 censoring.
+5. Connect only understood components to Round1658 predicted XI as source-isolated re5. Connect only understood components to Round1658 predicted XI as sou
+7. Require hist7. Require/pseudo-OOF before any PLAYER -> lambda or mult7. Require hist7. Re
+8. Later integrate team FS/FL, availability/context, and 90-minute 8. Later integrate team FS/FL, availamains logic check -> 10K -> 100K stability -> historical OOF -> 1M precision.
+
+`PLAYER_TO_LAMBDA_TRANSPORT = BLOCKED_BY_HISTORICAL_OOF`

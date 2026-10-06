@@ -1,0 +1,115 @@
+jleague_player_id,football_lab_name,jleague_club,team_id,fs_club,jl_position,shirt_number,fs_full_name,fs_position,fs_identity_key,position_agree,identity_status
+1635548,吉田　新,奈良クラブ,112,Nara Club,DF,8,Arata Yoshida,DF,Arata Yoshida|Nara Club|Defender|962262000,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1300917,泉澤　仁,ＦＣ岐阜,97,Gifu,MF,39,Jin Izumisawa,FW,Jin Izumisawa|Gifu|Forward|692956800,False,RESCUE_REVIEW_POSITION_CONFLICT
+1632760,沖田　空,ＳＣ相模原,105,Sagamihara,DF,19,Sora Okita,DF,Sora Okita|Sagamihara|Defender|1031209200,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1645928,小泉　隆斗,レイラック滋賀ＦＣ,122,Biwako Shiga,DF,13,Ryuto Koizumi,DF,Ryuto Koizumi|Biwako Shiga|Defender|778748400,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1650803,杉本　蓮,ＳＣ相模原,105,Sagamihara,MF,24,Ren Sugimoto,MF,Ren Sugimoto|Sagamihara|Midfielder|1047974400,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1655868,佐野　竜眞,カマタマーレ讃岐,107,Kamatamare Sanuki,FW,11,Ryoma Sano,FW,Ryoma Sano|Kamatamare Sanuki|Forward|1076918400,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1626967,久保　吏久斗,ＦＣ大阪,111,Osaka,FW,10,Rikuto Kubo,FW,Rikuto Kubo|Osaka|Forward|854006400,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1636323,嵯峨　理久,鹿児島ユナイテッドＦＣ,109,Kagoshima United,MF,2,Riku Saga,DF,Riku Saga|Kagoshima United|Defender|896252400,False,RESCUE_REVIEW_POSITION_CONFLICT
+1500465,中島　賢星,レノファ山口ＦＣ,95,Renofa Yamaguchi,MF,4,Kensei Nakashima,MF,Kensei Nakashima|Renofa Yamaguchi|Midfielder|843462000,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1604775,鈴木　準弥,レノファ山口ＦＣ,95,Renofa Yamaguchi,DF,43,Junya Suzuki,DF,Junya Suzuki|Renofa Yamaguchi|Defender|821001600,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1604180,棚橋　尭士,ＳＣ相模原,105,Sagamihara,FW,7,Akito Tanahashi,FW,Akito Tanahashi|Sagamihara|Forward|963385200,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1642077,鈴木　遼,ツエーゲン金沢,108,Zweigen Kanazawa,DF,28,Haruka Suzuki,DF,Haruka Suzuki|Zweigen Kanazawa|Defender|1077350400,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1605080,青木　義孝,鹿児島ユナイテッドＦＣ,109,Kagoshima United,DF,44,Yoshitaka Aoki,DF,Yoshitaka Aoki|Kagoshima United|Defender|904719600,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1629994,綿引　康,ＳＣ相模原,105,Sagamihara,DF,2,Ko Watahiki,DF,Ko Watahiki|Sagamihara|Defender|885369600,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1652210,斉藤　涼優,愛媛ＦＣ,99,Ehime,MF,14,Ryo Saito Saito,MF,Ryo Saito Saito|Ehime|Midfielder|1045296000,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1626011,川﨑　修平,奈良クラブ,112,Nara Club,FW,54,Shuhei Kawasaki,FW,Shuhei Kawasaki|Nara Club|Forward|988441200,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1635342,阿部　稜汰,愛媛ＦＣ,99,Ehime,DF,49,Ryota Abe,DF,Ryota Abe|Ehime|Defender|994489200,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1640608,上月　翔聖,高知ユナイテッドＳＣ,117,Kochi United,MF,16,Shosei Kozuki,DF,Shosei Kozuki|Kochi United|Defender|949392000,False,RESCUE_REVIEW_POSITION_CONFLICT
+1618072,輪笠　祐士,レノファ山口ＦＣ,95,Renofa Yamaguchi,MF,6,Yuji Wakasa,MF,Yuji Wakasa|Renofa Yamaguchi|Midfielder|823852800,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1627454,三宅　海斗,レイラック滋賀ＦＣ,122,Biwako Shiga,MF,11,Kaito Miyake,FW,Kaito Miyake|Biwako Shiga|Forward|872665200,False,RESCUE_REVIEW_POSITION_CONFLICT
+1620698,中山　陸,ＳＣ相模原,105,Sagamihara,MF,10,Riku Nakayama,MF,Riku Nakayama|Sagamihara|Midfielder|980150400,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1624364,鈴木　順也,ＦＣ琉球,26,Ryūkyū,DF,14,Junya Suzuki,DF,Junya Suzuki|Ryūkyū|Defender|831020400,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1655865,イ　ギサン,カマタマーレ讃岐,107,Kamatamare Sanuki,DF,20,Gi-san Lee,DF,Gi-san Lee|Kamatamare Sanuki|Defender|1070870400,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1500496,池田　樹雷人,鹿児島ユナイテッドＦＣ,109,Kagoshima United,DF,36,Jurato Ikeda,DF,Jurato Ikeda|Kagoshima United|Defender|842943600,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1636293,杉山　耕二,愛媛ＦＣ,99,Ehime,DF,50,Koji Sugiyama,DF,Koji Sugiyama|Ehime|Defender|892969200,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1646519,佐藤　大翔,奈良クラブ,112,Nara Club,DF,33,Hiroto Sato,DF,Hiroto Sato|Nara Club|Defender|1040716800,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1640664,二階堂　正哉,ガイナーレ鳥取,36,Gainare Tottori,DF,4,Seiya Nikaido,DF,Seiya Nikaido|Gainare Tottori|Defender|973152000,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1624850,林田　魁斗,カマタマーレ讃岐,107,Kamatamare Sanuki,DF,44,Kaito Hayashida,DF,Kaito Hayashida|Kamatamare Sanuki|Defender|999068400,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1646001,マルク　ヴィト,奈良クラブ,112,Nara Club,GK,96,Marc Vito Brezmes,GK,Marc Vito Brezmes|Nara Club|Goalkeeper|826444800,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1600128,常田　克人,ＳＣ相模原,105,Sagamihara,DF,13,Masato Tokida,DF,Masato Tokida|Sagamihara|Defender|880617600,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1640485,荒木　遼太,ＦＣ琉球,26,Ryūkyū,DF,15,Ryota Araki,DF,Ryota Araki|Ryūkyū|Defender|976953600,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1631671,奈良坂　巧,ギラヴァンツ北九州,94,Giravanz Kitakyushu,DF,5,Takumi Narasaka,DF,Takumi Narasaka|Giravanz Kitakyushu|Defender|1025938800,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1632370,小林　大智,高知ユナイテッドＳＣ,117,Kochi United,DF,4,Daichi Kobayashi,DF,Daichi Kobayashi|Kochi United|Defender|915696000,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1626957,黒石　貴哉,愛媛ＦＣ,99,Ehime,DF,5,Takaya Kuroishi,DF,Takaya Kuroishi|Ehime|Defender|856771200,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1651280,ピトリック,ＳＣ相模原,105,Sagamihara,DF,3,Kevin Pytlik,DF,Kevin Pytlik|Sagamihara|Defender|879494400,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1624312,長倉　颯,ツエーゲン金沢,108,Zweigen Kanazawa,DF,20,Hayate Nagakura,DF,Hayate Nagakura|Zweigen Kanazawa|Defender|830761200,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1605605,西山　大雅,レイラック滋賀ＦＣ,122,Biwako Shiga,DF,5,Taiga Nishiyama,DF,Taiga Nishiyama|Biwako Shiga|Defender|935478000,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1100176,藤春　廣輝,ＦＣ琉球,26,Ryūkyū,DF,4,Hiroki Fujiharu,DF,Hiroki Fujiharu|Ryūkyū|Defender|596707200,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1635021,菊地　脩太,レノファ山口ＦＣ,95,Renofa Yamaguchi,DF,33,Shuta Kikuchi,DF,Shuta Kikuchi|Renofa Yamaguchi|Defender|1061017200,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1632477,吉田　温紀,ＦＣ琉球,26,Ryūkyū,MF,3,Haruki Yoshida,MF,Haruki Yoshida|Ryūkyū|Midfielder|1051599600,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1500473,広瀬　健太,鹿児島ユナイテッドＦＣ,109,Kagoshima United,DF,4,Kenta Hirose,DF,Kenta Hirose|Kagoshima United|Defender|709542000,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1640667,水口　湧斗,ＦＣ大阪,111,Osaka,DF,5,Yuto Mizuguchi,DF,Yuto Mizuguchi|Osaka|Defender|961138800,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1650532,四宮　悠成,ツエーゲン金沢,108,Zweigen Kanazawa,MF,14,Yusei Shinomiya,MF,Yusei Shinomiya|Zweigen Kanazawa|Midfielder|1042272000,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1654346,北條　真汰,レイラック滋賀ＦＣ,122,Biwako Shiga,FW,77,Shinta Hojo,MF,Shinta Hojo|Biwako Shiga|Midfielder|990342000,False,RESCUE_REVIEW_POSITION_CONFLICT
+1624265,三好　麟大,高知ユナイテッドＳＣ,117,Kochi United,MF,11,Rinta Miyoshi,MF,Rinta Miyoshi|Kochi United|Midfielder|1046592000,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1635391,加藤　悠馬,ＦＣ琉球,26,Ryūkyū,MF,17,Yuma Kato,MF,Yuma Kato|Ryūkyū|Midfielder|1008403200,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1631739,大澤　朋也,ツエーゲン金沢,108,Zweigen Kanazawa,FW,18,Tomoya Osawa,MF,Tomoya Osawa|Zweigen Kanazawa|Midfielder|1031295600,False,RESCUE_REVIEW_POSITION_CONFLICT
+1636292,佐藤　諒,奈良クラブ,112,Nara Club,MF,11,Ryo Sato,MF,Ryo Sato|Nara Club|Midfielder|875084400,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1650518,安藤　陸登,奈良クラブ,112,Nara Club,MF,13,Rikuto Ando,FW,Rikuto Ando|Nara Club|Forward|1155020400,False,RESCUE_REVIEW_POSITION_CONFLICT
+1644483,井堀　二昭,ＦＣ琉球,26,Ryūkyū,MF,16,Kazuaki Ihori,MF,Kazuaki Ihori|Ryūkyū|Midfielder|1018940400,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1624295,田中　渉,鹿児島ユナイテッドＦＣ,109,Kagoshima United,MF,7,Wataru Tanaka,MF,Wataru Tanaka|Kagoshima United|Midfielder|969692400,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1644449,福井　和樹,ＦＣ大阪,111,Osaka,MF,15,Kazuki Fukui,MF,Kazuki Fukui|Osaka|Midfielder|992415600,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1635543,榊原　杏太,ツエーゲン金沢,108,Zweigen Kanazawa,FW,23,Kyota Sakakibara,MF,Kyota Sakakibara|Zweigen Kanazawa|Midfielder|1003561200,False,RESCUE_REVIEW_POSITION_CONFLICT
+1641540,田邉　光平,レノファ山口ＦＣ,95,Renofa Yamaguchi,MF,17,Kohei Tanabe,MF,Kohei Tanabe|Renofa Yamaguchi|Midfielder|1002610800,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1651528,松原　海斗,レイラック滋賀ＦＣ,122,Biwako Shiga,MF,66,Kaito Matsubara,MF,Kaito Matsubara|Biwako Shiga|Midfielder|1073721600,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1641671,荒井　涼,ガイナーレ鳥取,36,Gainare Tottori,DF,7,Ryo Arai,DF,Ryo Arai|Gainare Tottori|Defender|1057042800,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1637296,吉田　源太郎,ＦＣ大阪,111,Osaka,MF,11,Gentaro Yoshida,MF,Gentaro Yoshida|Osaka|Midfielder|972543600,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1624685,森田　凜,奈良クラブ,112,Nara Club,MF,10,Rin Morita,MF,Rin Morita|Nara Club|Midfielder|1013673600,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1620724,西谷　優希,ツエーゲン金沢,108,Zweigen Kanazawa,MF,15,Yuki Nishiya,MF,Yuki Nishiya|Zweigen Kanazawa|Midfielder|749804400,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1647557,高野　裕維,高知ユナイテッドＳＣ,117,Kochi United,MF,8,Yui Takano,MF,Yui Takano|Kochi United|Midfielder|965372400,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1635555,住田　将,ＦＣ大阪,111,Osaka,MF,14,Sho Sumida,MF,Sho Sumida|Osaka|Midfielder|935046000,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1300451,上村　周平,愛媛ＦＣ,99,Ehime,MF,8,Shuhei Kamimura,MF,Shuhei Kamimura|Ehime|Midfielder|813740400,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1636981,木内　達也,ガイナーレ鳥取,36,Gainare Tottori,MF,15,Tatsuya Kiuchi,MF,Tatsuya Kiuchi|Gainare Tottori|Midfielder|1018166400,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1637079,高柳　郁弥,ＦＣ琉球,26,Ryūkyū,MF,32,Fumiya Takayanagi,MF,Fumiya Takayanagi|Ryūkyū|Midfielder|970642800,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1642624,谷岡　昌,愛媛ＦＣ,99,Ehime,MF,6,Masashi Tanioka,MF,Masashi Tanioka|Ehime|Midfielder|995094000,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1609244,川上　竜,ツエーゲン金沢,108,Zweigen Kanazawa,MF,40,Ryu Kawakami,MF,Ryu Kawakami|Zweigen Kanazawa|Midfielder|783068400,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1629515,中村　健人,レイラック滋賀ＦＣ,122,Biwako Shiga,MF,8,Kento Nakamura,MF,Kento Nakamura|Biwako Shiga|Midfielder|873097200,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1624359,江川　慶城,鹿児島ユナイテッドＦＣ,109,Kagoshima United,DF,35,Genki Egawa,DF,Genki Egawa|Kagoshima United|Defender|954662400,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1600147,中村　駿,ＦＣ岐阜,97,Gifu,MF,9,Shun Nakamura,MF,Shun Nakamura|Gifu|Midfielder|762076800,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1300064,田村　翔太,愛媛ＦＣ,99,Ehime,FW,17,Shota Tamura,FW,Shota Tamura|Ehime|Forward|791884800,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1656195,山本　颯太,ガイナーレ鳥取,36,Gainare Tottori,FW,19,Sota Yamamoto,FW,Sota Yamamoto|Gainare Tottori|Forward|1102147200,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1645938,望月　想空,奈良クラブ,112,Nara Club,FW,14,Sora Mochizuki,FW,Sora Mochizuki|Nara Club|Forward|986281200,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1632240,佐々木　快,ＳＣ相模原,105,Sagamihara,FW,9,Kai Sasaki,FW,Kai Sasaki|Sagamihara|Forward|908866800,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1610936,岩本　翔,ＦＣ琉球,26,Ryūkyū,MF,13,Sho Iwamoto,MF,Sho Iwamoto|Ryūkyū|Midfielder|984902400,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1635402,日野　翔太,愛媛ＦＣ,99,Ehime,MF,38,Shota Hino,MF,Shota Hino|Ehime|Midfielder|971679600,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1627451,大串　昇平,ＦＣ岐阜,97,Gifu,DF,26,Shohei Ogushi,DF,Shohei Ogushi|Gifu|Defender|1032591600,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1619692,森本　ヒマン,奈良クラブ,112,Nara Club,FW,99,Himan Morimoto,FW,Himan Morimoto|Nara Club|Forward|862470000,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1643446,吉原　楓人,ギラヴァンツ北九州,94,Giravanz Kitakyushu,FW,19,Futo Yoshihara,MF,Futo Yoshihara|Giravanz Kitakyushu|Midfielder|1158735600,False,RESCUE_REVIEW_POSITION_CONFLICT
+1617963,髙橋　大悟,ギラヴァンツ北九州,94,Giravanz Kitakyushu,MF,66,Daigo Takahashi,MF,Daigo Takahashi|Giravanz Kitakyushu|Midfielder|924332400,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1645965,渡邉　颯太,レノファ山口ＦＣ,95,Renofa Yamaguchi,FW,13,Sota Watanabe,FW,Sota Watanabe|Renofa Yamaguchi|Forward|1014969600,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1646981,閑田　隼人,ＦＣ岐阜,97,Gifu,FW,19,Hayato Kanda,FW,Hayato Kanda|Gifu|Forward|1028185200,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1657625,ジョルダン　テル,ＦＣ岐阜,97,Gifu,FW,17,Jordan Tell,FW,Jordan Tell|Gifu|Forward|865926000,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+800136,富所　悠,ＦＣ琉球,26,Ryūkyū,MF,10,Yu Tomidokoro,MF,Yu Tomidokoro|Ryūkyū|Midfielder|640681200,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1200049,後藤　優介,カマタマーレ讃岐,107,Kamatamare Sanuki,FW,10,Yusuke Goto,FW,Yusuke Goto|Kamatamare Sanuki|Forward|735548400,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1400297,宮本　航汰,愛媛ＦＣ,99,Ehime,MF,23,Kota Miyamoto,MF,Kota Miyamoto|Ehime|Midfielder|835167600,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1650528,箱崎　達也,ＦＣ岐阜,97,Gifu,MF,7,Tatsuya Hakozaki,MF,Tatsuya Hakozaki|Gifu|Midfielder|1029222000,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1636309,文　仁柱,ＦＣ岐阜,97,Gifu,MF,22,In-Ju Mun,DF,In-Ju Mun|Gifu|Defender|935305200,False,RESCUE_REVIEW_POSITION_CONFLICT
+1629413,竹本　雄飛,愛媛ＦＣ,99,Ehime,MF,22,Yuhi Takemoto,MF,Yuhi Takemoto|Ehime|Midfielder|871974000,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1629474,奥田　雄大,奈良クラブ,112,Nara Club,DF,16,Yudai Okuda,DF,Yudai Okuda|Nara Club|Defender|862470000,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1644237,生駒　稀生,奈良クラブ,112,Nara Club,DF,22,Kei Ikoma,DF,Kei Ikoma|Nara Club|Defender|880099200,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1622191,成岡　輝瑠,レノファ山口ＦＣ,95,Renofa Yamaguchi,MF,40,Hikaru Naruoka,MF,Hikaru Naruoka|Renofa Yamaguchi|Midfielder|1027839600,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1000051,永井　龍,ギラヴァンツ北九州,94,Giravanz Kitakyushu,FW,10,Ryo Nagai,FW,Ryo Nagai|Giravanz Kitakyushu|Forward|674982000,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1635500,有田　稜,鹿児島ユナイテッドＦＣ,109,Kagoshima United,FW,9,Ryo Arita,FW,Ryo Arita|Kagoshima United|Forward|935823600,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1653071,桃井　玲,ガイナーレ鳥取,36,Gainare Tottori,GK,47,Ryo Momoi,GK,Ryo Momoi|Gainare Tottori|Goalkeeper|1037174400,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+600708,大谷　幸輝,ギラヴァンツ北九州,94,Giravanz Kitakyushu,GK,31,Koki Otani,GK,Koki Otani|Giravanz Kitakyushu|Goalkeeper|608022000,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1632234,佐藤　久弥,ＦＣ琉球,26,Ryūkyū,GK,1,Hisaya Sato,GK,Hisaya Sato|Ryūkyū|Goalkeeper|891676800,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1601777,青木　心,カマタマーレ讃岐,107,Kamatamare Sanuki,GK,55,Kokoro Aoki,GK,Kokoro Aoki|Kamatamare Sanuki|Goalkeeper|960534000,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1000660,内山　圭,レノファ山口ＦＣ,95,Renofa Yamaguchi,GK,35,Kei Uchiyama,GK,Kei Uchiyama|Renofa Yamaguchi|Goalkeeper|743065200,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1624341,金　珉浩,ＳＣ相模原,105,Sagamihara,GK,21,Min-Ho Kim,GK,Min-Ho Kim|Sagamihara|Goalkeeper|948787200,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1618637,上田　樹,ツエーゲン金沢,108,Zweigen Kanazawa,GK,31,Itsuki Ueda,GK,Itsuki Ueda|Zweigen Kanazawa|Goalkeeper|993711600,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1632426,春名　竜聖,ＦＣ岐阜,97,Gifu,GK,77,Ryusei Haruna,GK,Ryusei Haruna|Gifu|Goalkeeper|1083394800,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1600209,辻　周吾,愛媛ＦＣ,99,Ehime,GK,36,Shugo Tsuji,GK,Shugo Tsuji|Ehime|Goalkeeper|869468400,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1627355,伊東　倖希,レイラック滋賀ＦＣ,122,Biwako Shiga,GK,1,Koki Ito,GK,Koki Ito|Biwako Shiga|Goalkeeper|832316400,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1636294,菅原　大道,ＦＣ大阪,111,Osaka,GK,1,Hiromichi Sugawara,GK,Hiromichi Sugawara|Osaka|Goalkeeper|808038000,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1617489,猪瀬　康介,高知ユナイテッドＳＣ,117,Kochi United,GK,17,Kosuke Inose,GK,Kosuke Inose|Kochi United|Goalkeeper|977731200,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1636254,谷口　璃成,ギラヴァンツ北九州,94,Giravanz Kitakyushu,GK,39,Rissei Taniguchi,GK,Rissei Taniguchi|Giravanz Kitakyushu|Goalkeeper|1054969200,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1630052,坂田　大樹,鹿児島ユナイテッドＦＣ,109,Kagoshima United,GK,31,Daiki Sakata,GK,Daiki Sakata|Kagoshima United|Goalkeeper|779266800,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1655806,村田　侑大,高知ユナイテッドＳＣ,117,Kochi United,GK,99,Yudai Murata,GK,Yudai Murata|Kochi United|Goalkeeper|1126249200,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1647176,本吉　勇貴,レイラック滋賀ＦＣ,122,Biwako Shiga,GK,41,Yuki Motoyoshi,GK,Yuki Motoyoshi|Biwako Shiga|Goalkeeper|717145200,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1637074,川上　康平,鹿児島ユナイテッドＦＣ,109,Kagoshima United,GK,21,Kohei Kawakami,GK,Kohei Kawakami|Kagoshima United|Goalkeeper|988095600,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1624385,三浦　基瑛,ＳＣ相模原,105,Sagamihara,GK,1,Motoaki Miura,GK,Motoaki Miura|Sagamihara|Goalkeeper|833266800,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1100187,櫛引　政敏,レイラック滋賀ＦＣ,122,Biwako Shiga,GK,21,Masatoshi Kushibiki,GK,Masatoshi Kushibiki|Biwako Shiga|Goalkeeper|728294400,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1630015,日野　友貴,レイラック滋賀ＦＣ,122,Biwako Shiga,FW,29,Tomoki Hino,FW,Tomoki Hino|Biwako Shiga|Forward|866358000,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
+1632759,竹内　崇人,ＳＣ相模原,105,Sagamihara,MF,17,Takato Takeuchi,MF,Takato Takeuchi|Sagamihara|Midfielder|1022655600,True,RESCUE_HIGH_CLUB_SHIRT_POSITION
