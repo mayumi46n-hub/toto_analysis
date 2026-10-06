@@ -923,3 +923,44 @@ Full detailed checkpoint:
 `TOTO_LABO_STATE.md`
 section:
 `2026-10-05 ROUND1658 FS-XI FROZEN TRANSPORT — CANONICAL CHECKPOINT`
+
+
+## MULTISOURCE PLAYER UTILITY RECOVERY — 2026-10-06 MORNING STOP
+
+This supersedes the older instruction to begin by rediscovering PLAYER/XI source assets.
+
+Confirmed existing lineage:
+Fansaka base power
+-> J.League official player-stat join
+-> J.League adjustment
+-> `player_power_fp_jl`
+-> Round1649 predicted-XI team aggregation.
+
+Key assets:
+- `build_fansaka_player_power.py`
+- `build_fansaka_player_power_v2.py`
+- `data/players/fansaka_j1_2027_r1_with_jleague_v1.csv`
+- `data/players/fansaka_j1_2027_r1_jleague_match_audit_v1.csv`
+- `data/players/fansaka_j1_player_power_v3_jleague.csv`
+- `data/analysis/toto1649_predicted_xi_strength_jleague_fansaka_20260901_v1.csv`
+
+Important:
+- existing Fansaka scripts create `player_power_fp`;
+- a later existing layer creates `jl_form_score`, `jl_power_adjustment`, `player_power_fp_jl`;
+- exact generator/formula/validation lineage of that later layer remains to be recovered;
+- Round1649 already aggregated predicted XI into Fansaka strength plus J.League xG/assist/tackle/intercept/pass metrics;
+- these assets are currently governance UNRESOLVED;
+- do NOT redesign this layer yet;
+- do NOT simply average it with FootyStats or Football LAB;
+- do NOT modify P_base;
+- Round1658 results have not been used.
+
+CURRENT RESTART POINT:
+Recover the exact existing generator and validation lineage for the J.League adjustment to Fansaka, then recover FL PLAYER semantics, then construct the FS/Fansaka/JLeague/FL semantic-overlap map.
+
+After that, create source-isolated Round1658 player blocks and move to historical OOF before any production transport.
+
+Full detail:
+`TOTO_LABO_STATE.md`
+section:
+`2026-10-06 MULTISOURCE PLAYER UTILITY RECOVERY — MORNING CHECKPOINT`

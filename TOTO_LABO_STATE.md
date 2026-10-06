@@ -17990,3 +17990,164 @@ Priority:
 The next question is NOT whether the XI features can be numerically added to P_base.
 
 The next question is whether these frozen XI mechanisms contain reproducible incremental information, especially for score-generation and DRAW paths, under leakage-safe historical validation.
+
+
+## 2026-10-06 MULTISOURCE PLAYER UTILITY RECOVERY — MORNING CHECKPOINT
+
+### Purpose
+
+This checkpoint is the direct continuation of:
+`2026-10-05 ROUND1658 FS-XI FROZEN TRANSPORT — CANONICAL CHECKPOINT`
+
+The user direction has not changed.
+
+The purpose of this recovery is to stop repeating prior PLAYER/XI research and to determine exactly what existing Fansaka / J.League / Football LAB player work had already reached before designing any new multisource Player Utility.
+
+No Round1658 result information was used.
+P_base was not modified.
+No new production coefficient was introduced.
+
+### Fansaka power semantics recovered
+
+Existing project-root scripts:
+- `build_fansaka_player_power.py`
+- `build_fansaka_player_power_v2.py`
+
+Both contain the same recovered core semantics in the inspected sections.
+
+Confirmed:
+- `history_reliability = min(history_appearances / 20, 1)`
+- historical FP is shrunk toward position mean when historical appearances are limited
+- `base_power_fp` is built primarily from shrunk historical performance
+- `round1_form_fp` represents current-round form information
+- when the player played:
+  `player_power_fp = 0.9 * base_power_fp + 0.1 * round1_form_fp`
+- otherwise `player_power_fp = base_power_fp`
+- `player_power_fp` is clipped to 1.0–10.0
+
+Important:
+These two scripts do NOT contain the later J.League adjustment fields:
+- `jl_form_score`
+- `jl_power_adjustment`
+- `player_power_fp_jl`
+
+Therefore the recovered lineage is at least two-stage:
+Fansaka base/player power
+-> later J.League official-stat integration.
+
+The two scripts are currently untracked / governance UNRESOLVED.
+Do NOT declare either canonical merely because one is named v2.
+
+### Existing Fansaka + J.League integration confirmed
+
+Asset inventory located:
+- `data/players/fansaka_j1_2027_r1_with_jleague_v1.csv`
+- `data/players/fansaka_j1_2027_r1_jleague_match_audit_v1.csv`
+- `data/players/fansaka_j1_player_power_v3_jleague.csv`
+- `data/analysis/toto1649_predicted_xi_strength_jleague_fansaka_20260901_v1.csv`
+
+All are currently governance `UNRESOLVED`.
+
+`fansaka_j1_2027_r1_with_jleague_v1.csv`:
+- 754 rows
+- 111 columns
+- Fansaka player data joined to a broad J.League official player-stat layer
+- includes shooting/xG/assist/cross/chance creation/defensive actions/duels/running/pass/GK/card statistics.
+
+`fansaka_j1_player_power_v3_jleague.csv`:
+- 754 rows
+- 21 columns
+- confirms an existing downstream J.League adjustment layer with:
+  - `jl_feature_coverage`
+  - `jl_reliability`
+  - `jl_form_score`
+  - `jl_power_adjustment`
+  - `player_power_fp_jl`
+
+Observed summary:
+- player_power_fp mean = 5.008968
+- jl_form_score mean = 0.001450
+- jl_power_adjustment mean = 0.009245
+- player_power_fp_jl mean = 5.018214
+
+Sample rows confirm:
+`player_power_fp_jl = player_power_fp + jl_power_adjustment`
+for the inspected examples.
+
+This establishes that a prior Fansaka -> J.League adjustment mechanism existed.
+Its exact generating code / feature formula / validation status is NOT yet recovered.
+Do not reverse-engineer or redesign it before recovering the existing lineage.
+
+### Round1649 predicted-XI aggregation recovered
+
+`data/analysis/toto1649_predicted_xi_strength_jleague_fansaka_20260901_v1.csv`:
+- 24 team-side rows
+- matches 1–12 represented
+- 11 starters per side
+- contains:
+  - `fansaka_n`
+  - `fansaka_power_sum`
+  - `fansaka_power_avg`
+  - `minutes_sum`
+  - `appearances_sum`
+  - `xg_sum`
+  - `assists_sum`
+  - `tackles_pg_sum`
+  - `intercepts_pg_sum`
+  - `passes_pg_sum`
+  - `attacking_passes_pg_sum`
+
+Therefore prior work had already progressed beyond player-level identity:
+predicted XI
+-> Fansaka player strength
+-> J.League official player statistics
+-> team-side XI aggregation.
+
+This prior work must be understood and validated before creating a new multisource Player Utility.
+
+### Relation to current Round1658 FS-XI work
+
+The canonical Round1656/1658 XI strength pipeline recovered on 2026-10-05 is numerically FootyStats-centered.
+
+That does NOT mean Fansaka/J.League work did not exist.
+
+Correct interpretation:
+- multisource PLAYER/XI research and assets existed;
+- Fansaka + J.League integration existed;
+- Round1649 predicted-XI aggregation existed;
+- the later canonical Round1656/1658 six-axis XI pipeline used FootyStats numerically;
+- a validated bridge combining these prior multisource player blocks into the canonical XI pipeline has NOT yet been established.
+
+Do NOT simply average:
+- FootyStats six axes
+- Fansaka power
+- J.League official metrics
+- Football LAB player CBP.
+
+Overlap/correlation and temporal safety must be established first.
+
+### Current scientific restart point
+
+DO NOT repeat:
+- Fansaka base-power rediscovery
+- existence search for Fansaka/J.League joined assets
+- proof that `player_power_fp_jl` exists
+- proof that Round1649 predicted-XI J.League/Fansaka aggregation exists
+- Round1658 FS-XI identity/crosswalk/aggregation work.
+
+NEXT:
+1. recover the exact generator / formula / validation lineage for `jl_form_score`, `jl_power_adjustment`, and `player_power_fp_jl`;
+2. inspect existing Fansaka historical validation artifacts before declaring the layer useful;
+3. establish temporal/leakage status of the J.League official player-stat snapshot;
+4. recover Football LAB PLAYER category semantics and top30 coverage limitations;
+5. build a semantic overlap map across FS / Fansaka / J.League / FL PLAYER;
+6. separate unique information from duplicated/correlated information;
+7. connect understood blocks to Round1658 XI only as source-isolated research layers;
+8. use historical OOF / pseudo-OOF before any multisource fusion coefficient;
+9. keep P_base unchanged and PLAYER production coefficient at 0 until incremental value is demonstrated.
+
+Production status remains:
+`P_BASE_MUTATED = NO`
+`PRODUCTION_PLAYER_COEFFICIENT = 0.0`
+`MULTISOURCE_PLAYER_FUSION = NOT_YET_VALIDATED`
+`ROUND1658_RESULT_INPUT_USED = NO`
