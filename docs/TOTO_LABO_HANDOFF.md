@@ -990,3 +990,14 @@ GUARDS: P_base unchanged; production player coefficient 0.0; Round1658 result un
 - Existing FL<->FS player semantic map remains frozen at data/analysis/football_lab_footystats_player_semantic_map_1656_v01.csv. Do not redo it.
 - NEXT: freeze a four-source PLAYER semantic map (Fansaka / JLeague official / FootyStats raw+axes / Football LAB PLAYER), preserving source population differences and classifications such as DUPLICATE_OVERLAP, DEFINITION_MISMATCH, ROLE_CONTEXT, UNIQUE_CANDIDATE_NEEDS_OOF, AVAILABILITY_CONTEXT, UNAVAILABLE. Then connect only validated/non-duplicated candidates to 1658 XI as research-only coefficient=0 and proceed to historical OOF before any production transport.
 - Governance unchanged: P_base is production anchor; no P_base mutation; no simple source averaging; correlated metrics are not independent votes; missing != zero; predicted XI != confirmed XI; PLAYER production coefficient=0 until historical OOF; do not force draws.
+
+
+## 2026-10-11 — FL TEAM semantic-v2 current snapshot — RESTART HERE
+
+COMPLETED: Existing FOOTBALL_LAB_SEMANTIC_V2 contract was recovered and regression-validated against the historical 20260924 60x98 artifact (max reproduction error 4.994241082356687e-07; PASS <1e-6). Current 20261008 J1/J2/J3 source is 60x44 and current semantic-v2 artifact is 60x98; QA PASS for column order, 9 semantic roles, fixed policy fields, NULL=0, and 20 teams per league.
+
+CURRENT ARTIFACT: data/analysis/football_lab_20261008_j1j2j3_team_semantic_v2_v01.csv ; SHA256 ae386c5174a492f8627590375bc02e02e506541dfec42405582f006125900083. SOURCE SHA256 8a5e7e1a69ac0982f078cd15795acebf996a72a8ed61886a5f2910b97af34918.
+
+GUARDS: production_weight=0.0; RESEARCH_ONLY; P_base unchanged; correlated FL axes are not independent votes; league-internal z values must not be directly compared across J1/J2/J3 without historical calibration.
+
+RESTART: Do NOT redo FL semantic-v2 discovery. First inspect this checkpoint and TOTO_LABO_STATE.md. Canonical reusable semantic-v2 builder is still pending because the ad-hoc generation path emitted a pandas ChainedAssignmentError warning. Continue with source-isolated integration / historical or pseudo-OOF validation before any production promotion. Round1660 is finished; post-match refreshed data must not contaminate its frozen pre-match backtest.

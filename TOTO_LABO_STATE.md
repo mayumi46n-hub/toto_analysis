@@ -18310,3 +18310,16 @@ No FL/FS player feature has been promoted to P_base or goal hazard.
 - Existing FL<->FS player semantic map remains frozen at data/analysis/football_lab_footystats_player_semantic_map_1656_v01.csv. Do not redo it.
 - NEXT: freeze a four-source PLAYER semantic map (Fansaka / JLeague official / FootyStats raw+axes / Football LAB PLAYER), preserving source population differences and classifications such as DUPLICATE_OVERLAP, DEFINITION_MISMATCH, ROLE_CONTEXT, UNIQUE_CANDIDATE_NEEDS_OOF, AVAILABILITY_CONTEXT, UNAVAILABLE. Then connect only validated/non-duplicated candidates to 1658 XI as research-only coefficient=0 and proceed to historical OOF before any production transport.
 - Governance unchanged: P_base is production anchor; no P_base mutation; no simple source averaging; correlated metrics are not independent votes; missing != zero; predicted XI != confirmed XI; PLAYER production coefficient=0 until historical OOF; do not force draws.
+
+
+## 2026-10-11 — Football LAB TEAM semantic-v2 current-snapshot checkpoint
+
+- Existing FOOTBALL_LAB_SEMANTIC_V2 contract was recovered and reused; this is continuation of prior validated research, not a new semantic design.
+- Historical 20260924 60x98 artifact regression reproduction PASS: MAX_REPRO_ERROR=4.994241082356687e-07 (<1e-6), using recent5_avg=cbp_recent5/5, recent_delta=recent5_avg-cbp_per_match, and league-internal population z-score (ddof=0).
+- Current source: data/analysis/football_lab_20261008_j1j2j3_team_cbp_semantic_v2_source_v01.csv = 60x44, J1/J2/J3=20/20/20, NULL=0, SHA256=8a5e7e1a69ac0982f078cd15795acebf996a72a8ed61886a5f2910b97af34918.
+- Current semantic artifact: data/analysis/football_lab_20261008_j1j2j3_team_semantic_v2_v01.csv = 60x98, NULL=0, SHA256=ae386c5174a492f8627590375bc02e02e506541dfec42405582f006125900083.
+- QA PASS: 98-column order matches historical semantic-v2; all 9 semantic-role contracts match; fixed governance/policy fields match.
+- production_weight=0.0 and usage_status=RESEARCH_ONLY. P_base remains unchanged.
+- Do NOT count correlated Football LAB axes as independent votes. Cross-league league-internal z values are not directly comparable without historical calibration.
+- NOTE: ad-hoc generation emitted a pandas ChainedAssignmentError warning despite successful 60x98 output; canonical reusable builder still needs a clean implementation before future one-command automation.
+- NEXT: preserve this checkpoint, then integrate current FL TEAM artifact only as source-isolated research input; require historical/pseudo-OOF before any production promotion.
