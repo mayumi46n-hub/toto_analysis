@@ -18323,3 +18323,30 @@ No FL/FS player feature has been promoted to P_base or goal hazard.
 - Do NOT count correlated Football LAB axes as independent votes. Cross-league league-internal z values are not directly comparable without historical calibration.
 - NOTE: ad-hoc generation emitted a pandas ChainedAssignmentError warning despite successful 60x98 output; canonical reusable builder still needs a clean implementation before future one-command automation.
 - NEXT: preserve this checkpoint, then integrate current FL TEAM artifact only as source-isolated research input; require historical/pseudo-OOF before any production promotion.
+
+
+## 2026-10-11 — Round1660 FL TEAM semantic-v2 match transport checkpoint
+
+- Round1660 official card -> FL TEAM semantic-v2 exact identity QA PASS: 26/26 clubs matched, unmatched=0, FL team_short duplicates=0.
+- All 13 fixtures are same-league comparisons: matches 1-8 J1 vs J1; matches 9-13 J2 vs J2. Therefore no cross-league subtraction is used in this Round1660 transport.
+- Match-level artifact: data/analysis/football_lab_toto1660_team_semantic_v2_matchblock_v01.csv = 13x64, NULL=0, 18 semantic diff columns (9 categories x season/change).
+- Independent diff audit PASS: every diff_* equals home_* - away_*; MAX_DIFF_ERROR=4.440892098500626e-16.
+- SHA256=c5ea8a74fe6ac24592b03198e4456a6e6728ede4430873d6f84fe3cda2b700c6.
+- Governance: RESEARCH_ONLY; P_base unchanged; 18 columns are NOT 18 independent votes; offense remains REFERENCE_ONLY and defense/save remain CONTEXT_ONLY_EXPOSURE under semantic-v2.
+- Engineering note: ad-hoc generation again emitted pandas ChainedAssignmentError although artifact content independently passed QA. Do not canonicalize this generation path; reusable clean builder remains pending.
+- Frozen-backtest guard: Round1660 is finished. This FL snapshot must pass acquisition/source-update timestamp eligibility before use in any frozen pre-match evaluation; post-kickoff information must not contaminate pseudo-OOF.
+
+
+
+## 2026-10-11 — PROCESS-EVENT 100K / simulation lineage checkpoint
+
+- Round1656 PROCESS-EVENT CONTROL: 100000 sims/match, 1300000 total; QA=PASS.
+- MAX_ABS_1X2_DIFF=0.003848116757598108; MAX_Z=2.8873376485875406; PROB_SUM_MAX_ERR=0.0.
+- MAX_SHOT_MEAN_ERR=0.020049999999994128; MAX_PRESTATE_MU_RECON_ERR=6.217248937900877e-15.
+- Artifact: data/simulations/toto1656_process_event_control_100k_v01.csv.
+- This closes the previously pending PROCESS-EVENT CONTROL 100K implementation gate; it does NOT validate predictive process coefficients.
+- P_base remains the production anchor; process/player coefficients remain blocked pending historical OOF/frozen validation.
+- LOSS/NON-WIN is continuation of existing MATCH FLOW / HIDDEN_DRAW / COUNTER_EXPOSURE / LINEUP_POWER_DROP research, not a new standalone model.
+- 1M WORLDS remains PLANNED / NOT YET VALIDATED; 1.3M aggregate match simulations above is not completion of the 1M WORLDS objective.
+- Final CONTROL ROOM should visualize convergence and match paths/stories without changing model logic.
+- Next: preserve in Git; continue source-isolated Round1660 FS snapshot comparison and connect recovered XI/FL/process layers to validated engine; Round1663 is next blind-forward checkpoint.
