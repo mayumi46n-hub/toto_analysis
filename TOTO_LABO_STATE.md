@@ -18350,3 +18350,24 @@ No FL/FS player feature has been promoted to P_base or goal hazard.
 - 1M WORLDS remains PLANNED / NOT YET VALIDATED; 1.3M aggregate match simulations above is not completion of the 1M WORLDS objective.
 - Final CONTROL ROOM should visualize convergence and match paths/stories without changing model logic.
 - Next: preserve in Git; continue source-isolated Round1660 FS snapshot comparison and connect recovered XI/FL/process layers to validated engine; Round1663 is next blind-forward checkpoint.
+
+
+## 2026-10-12 — Six-source integration contract / Round1660-to-1663 continuity checkpoint
+
+- Core rule: ACQUIRED != SEMANTICALLY_UNDERSTOOD != PREDICTION-READY != PRODUCTION-VALIDATED. Never describe a source as fully utilized merely because data were fetched or normalized.
+- Current status: all six source families are NOT yet fully exploited in production. P_base remains the production anchor and must not be directly overwritten by research-only information.
+- toto official: defines the exact 13-match card and public vote/market-selection context. Vote share is market information, not ground-truth win probability.
+- J.League official: canonical match identity, schedule/results history, rest/calendar context and leakage-safe historical training backbone for P_base.
+- FootyStats: prematch xG/xGA already contributes to the validated base path. Shots/SOT/possession/timing and deeper process data are research inputs for match-generation and 90-minute paths; they are not independent votes and require OOF/frozen validation before production promotion.
+- Football LAB: TEAM/player process and style information should explain HOW a match may unfold: build-up, recovery, width/entry, shot generation, finishing, defense and keeper context. Correlated CBP axes must be semantically grouped and must not be double-counted. Current TEAM semantic-v2 remains RESEARCH_ONLY with production_weight=0.
+- totoONE: predicted XI/formation is an availability/role bridge from long-run team strength to the players expected to play today. Predicted XI is not confirmed XI and is not an independent 1X2 vote.
+- Fantasy/player sources: player utility must be position/role aware and combined with XI/availability to estimate match-day team power/style. Missing player data is not zero. Existing player/fantasy research remains production coefficient 0 pending historical validation.
+- Integration target is NOT six-source majority voting. Target chain: frozen prematch sources -> P_base -> FS x FL semantic/process mapping with correlation governance -> XI/Player Power -> LOSS RISK -> NON-WIN RISK -> DRAW PATH -> 90-minute simulation -> H/D/A and score/path distributions -> historical OOF/frozen evaluation -> production promotion only when validated.
+- LOSS RISK and NON-WIN RISK are distinct. A favorite can fail to win through low-block/risk-minimizing opposition, suppressed chance quality, prolonged 0-0 and game-state incentives without necessarily becoming likely to lose. DRAW must emerge from plausible match paths; never force draws.
+- 1M simulation is precision after model validation, not evidence that the model is correct. Validate logic at 10K, stability near 100K, historical OOF/frozen predictive value, then scale toward 250K/500K/1M when justified.
+- Round1660 role: finished-round frozen pseudo-OOF integration testbed. Do not fit to known results. Use only evidence demonstrably available before kickoff, then reveal results for diagnostics.
+- Round1660 official schedule import completed 2026-10-12: 13/13 fixtures linked to J.League match IDs and written to data/toto.db. Import report: data/interim/toto_round_1660_schedule_import.json.
+- Round1660 source-presence QA PASS: data/config/toto_rounds/1660_card_official.csv; data/analysis/footystats_toto1660_normalized_v05_PREMATCH_20261007.csv; data/analysis/football_lab_toto1660_team_semantic_v2_matchblock_v01.csv; data/interim/toto_round_1660_schedule_import.json all exist.
+- Round1663 role: next blind-forward checkpoint, not the endpoint. Freeze all available prematch evidence before kickoff and preserve acquisition timestamp/SHA lineage. Never replace frozen prematch artifacts with postmatch refreshes.
+- Continuity rule for future chats: do not restart by redesigning these six source roles or by broad filesystem rediscovery. First read HANDOFF -> RESEARCH_INDEX_V2 -> relevant STATE checkpoint -> STATE_ASSET_LINKS/ASSET_INVENTORY only as needed; continue from the first unresolved integration/validation gate.
+- Immediate next gate: audit Round1660 source-by-source as ACQUIRED / UNDERSTOOD / MODEL-INPUT / PRODUCTION-VALIDATED, then construct frozen P_base and test additional layers source-isolated before combined simulation.
