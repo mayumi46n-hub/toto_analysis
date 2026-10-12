@@ -18371,3 +18371,18 @@ No FL/FS player feature has been promoted to P_base or goal hazard.
 - Round1663 role: next blind-forward checkpoint, not the endpoint. Freeze all available prematch evidence before kickoff and preserve acquisition timestamp/SHA lineage. Never replace frozen prematch artifacts with postmatch refreshes.
 - Continuity rule for future chats: do not restart by redesigning these six source roles or by broad filesystem rediscovery. First read HANDOFF -> RESEARCH_INDEX_V2 -> relevant STATE checkpoint -> STATE_ASSET_LINKS/ASSET_INVENTORY only as needed; continue from the first unresolved integration/validation gate.
 - Immediate next gate: audit Round1660 source-by-source as ACQUIRED / UNDERSTOOD / MODEL-INPUT / PRODUCTION-VALIDATED, then construct frozen P_base and test additional layers source-isolated before combined simulation.
+
+
+## 2026-10-12 — TOTO LABO canonical data-dictionary recovery checkpoint
+
+- DATA DICTIONARY work is NOT a new research theme. A substantial existing dictionary was recovered and must be completed rather than rebuilt from scratch.
+- Canonical recovered baseline candidate: data/analysis/toto_labo_multisource_dictionary_v05_fs60_contract.csv.
+- Baseline QA: 449 rows x 18 columns; SOURCE counts FOOTBALL_LAB=364, FOOTYSTATS=65, TOTOONE=20; duplicate (source,metric)=0; null metric=0; SHA256=7f8a78308a25b39840af6320b6cf1c8fd0076cfb37162d7d3296e37649fa63c7.
+- Important gap: this 449-row artifact is NOT the finished all-source dictionary. J.League official, toto official, and Fantasy/Player source families are not yet represented as complete top-level source inventories.
+- FootyStats semantic recovery is already advanced/frozen: venue xG/xGA/form must be distinguished from context shots/SOT/conversion/SPG/possession; correlated metrics are not independent votes; market fields are one correlated lineage; derived semantic/QA fields are not votes.
+- Existing dictionary status is stale relative to later research in places. Example: STATE already establishes official prematch FootyStats xG = OOF_VALIDATED / USED_PBASE; deep fs_mu = OOF_VALIDATED / RESEARCH_ONLY; direct fs_mu -> P_base stack = REJECTED. Canonical dictionary must synchronize such later validated lineage instead of resetting research.
+- Football LAB dictionary audit: 364 rows. page_family: UNCLASSIFIED=157, FL_DERIVED=92, FL_RAW=53, META=32, CROSS_SOURCE=30. OOF_STATUS REVIEW_EXISTING_LINEAGE=364/364. usage: RESEARCH_ONLY=361, BLOCKED_BY_MISSING=2, USED_DATA_QUALITY=1. correlation_group REVIEW_EXISTING_FL_POLICY=207 is the largest unresolved governance bucket.
+- Dictionary completion contract: every field should ultimately expose source/raw metric, Japanese human-readable meaning, population/window/unit, semantic family, match-generation role, correlation/double-count lineage, DRAW/LOSS relevance where validated, leakage/provenance warning, OOF status, usage/production status, and evidence/notes.
+- Completion must cover FootyStats -> Football LAB -> totoONE/XI -> Fantasy/Player -> J.League official -> toto official -> cross-source semantic mapping. Do NOT mark TOTO_LABO_DATA_DICTIONARY=COMPLETE until all required source families and governance/QA gates are closed.
+- Purpose: dictionary is both a human explanation layer and an AI continuity/specification layer, preventing future chats from reinterpreting fields, repeating settled tests, or treating acquired data as production-ready.
+- NEXT START POINT: continue from the recovered 449-row baseline; resolve/synchronize Football LAB 364-row semantic/governance status first, then synchronize FootyStats/totoONE and add missing source families. Do not restart dictionary discovery and do not broadly grep/find unless a specific unresolved field requires evidence.
