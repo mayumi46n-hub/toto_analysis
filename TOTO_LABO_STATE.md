@@ -18386,3 +18386,30 @@ No FL/FS player feature has been promoted to P_base or goal hazard.
 - Completion must cover FootyStats -> Football LAB -> totoONE/XI -> Fantasy/Player -> J.League official -> toto official -> cross-source semantic mapping. Do NOT mark TOTO_LABO_DATA_DICTIONARY=COMPLETE until all required source families and governance/QA gates are closed.
 - Purpose: dictionary is both a human explanation layer and an AI continuity/specification layer, preventing future chats from reinterpreting fields, repeating settled tests, or treating acquired data as production-ready.
 - NEXT START POINT: continue from the recovered 449-row baseline; resolve/synchronize Football LAB 364-row semantic/governance status first, then synchronize FootyStats/totoONE and add missing source families. Do not restart dictionary discovery and do not broadly grep/find unless a specific unresolved field requires evidence.
+
+
+## 2026-10-14 — Six-source 806-row cross-source semantic mapping COMPLETE
+- Canonical artifact: data/analysis/toto_labo_cross_source_semantic_map_806_v01.csv
+- Six-source source-by-source dictionary recovery and cross-source semantic coverage are CLOSED unless a concrete defect is discovered.
+- QA PASS: ROWS=806, MAPPED=806, UNMAPPED=0, REVIEW=0, DUP_SOURCE_METRIC=0.
+- Canonical phenomena: IDENTITY_PROVENANCE153, FORM124, TEAM_STRENGTH112, H2H42, FINISHING35, CHANCE_GENERATION34, BUILDUP30, AVAILABILITY_XI26, WIDTH_ATTACK26, HOTZONE_SPATIAL26, OFFENSIVE_PROCESS23, DEFENSIVE_ACTIVITY22, RECOVERY21, BALL_PROGRESSION19, KEEPER19, DERIVED_NOT_INDEPENDENT18, QA_GOVERNANCE17, GOAL_EXPECTANCY15, MARKET_PUBLIC15, PLAYER_STRENGTH14, LOAD_REST8, RELIABILITY5, QA_COVERAGE2.
+- 806 metrics are NOT 806 independent votes. Correlated metrics and derived representations must not be independently accumulated.
+- P_base remains the production anchor. Research-only information must not overwrite or directly modify P_base without historical OOF/frozen validation.
+- FootyStats production prematch xG contract remains isolated inside P_base Stage1; USED_PBASE does not imply an external nonzero additive weight.
+- Football LAB old REVIEW/ORIGIN labels were bridged using the already-reviewed 2026-10-13 sync decisions; no source-by-source re-research is required.
+- Next unresolved gate: define canonical phenomenon governance: double-count lineage + LOSS relation + NON-WIN relation + DRAW relation + 90-minute simulation role. Then test with historical OOF / Round1660 frozen pseudo-OOF before any production promotion.
+- Research principle: DRAW must emerge from plausible match paths; never force draw probability or count correlated evidence as independent votes.
+
+## 2026-10-14 — Round1663 / FootyStats automation recovery checkpoint
+
+- Six-source 806-row semantic mapping and 23-phenomenon governance are COMPLETE/CLOSED unless a concrete defect is found. Do not restart dictionary or governance discovery.
+- Round1663 is the next blind-forward checkpoint. Official 13-match card and canonical jleague_match_id mapping are established in data/config/toto_rounds/1663_card_official.csv.
+- Round1663 team identity QA PASS: all 26 canonical team names resolve uniquely through team_alias_v2. Do not hardcode round-specific aliases.
+- Current 2026 FootyStats J1/J2 Fixtures HTML was acquired and frozen on 2026-10-14. Current Fixtures resolve the Round1663 H2H targets 13/13 and provide the previously missing club URLs.
+- Existing src/database/register_footystats_snapshot_targets.py is a reusable asset: retain its team identity, J.League official matching, jleague_match_id, target upsert and snapshot-job architecture. Do NOT rebuild those layers.
+- Concrete compatibility defect: its legacy Fixtures parser expects the old DOM. Current 2026 HTML uses ul.match, li.date[data-time], a.team.home, a.h2h-link and a.team.away, with relative H2H paths.
+- Pre-patch dry-run baseline: fixture_rows=0 and resolved_targets=0. A temporary selector patch reached the relative-H2H-URL validation stage, proving the current DOM extraction direction, but chat-to-terminal URL Markdown transformation corrupted the attempted source edit.
+- Safety status at session end: src/database/register_footystats_snapshot_targets.py was restored from the pre-change backup. Therefore current-HTML parser support is NOT IMPLEMENTED yet; do not claim FootyStats automation complete.
+- scripts/build_footystats_round_manifest_v02.py exists but remains effectively a copy of v01 until a generic current-Fixtures resolver is implemented.
+- NEXT START POINT: do not re-search old assets. Implement the 2026 Fixtures adapter safely without embedding literal URLs in chat-generated edit commands; reuse team_alias_v2 / team_source_map / jleague_match_id identity; then prove Round1663 13/13 H2H and 39/39 HOME-H2H-AWAY manifest QA before connecting fetch_footystats_round_3html_v02.py.
+- Permanent automation is NOT PASS until generic implementation, Round1663 39/39 manifest, safe fetch/resume, non-1663 hardcoding test, prepare_toto_round.py orchestration, STATE/HANDOFF update and selective Git checkpoint are all demonstrated.

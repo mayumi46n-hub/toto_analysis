@@ -1001,3 +1001,19 @@ CURRENT ARTIFACT: data/analysis/football_lab_20261008_j1j2j3_team_semantic_v2_v0
 GUARDS: production_weight=0.0; RESEARCH_ONLY; P_base unchanged; correlated FL axes are not independent votes; league-internal z values must not be directly compared across J1/J2/J3 without historical calibration.
 
 RESTART: Do NOT redo FL semantic-v2 discovery. First inspect this checkpoint and TOTO_LABO_STATE.md. Canonical reusable semantic-v2 builder is still pending because the ad-hoc generation path emitted a pandas ChainedAssignmentError warning. Continue with source-isolated integration / historical or pseudo-OOF validation before any production promotion. Round1660 is finished; post-match refreshed data must not contaminate its frozen pre-match backtest.
+
+## 2026-10-14 — CURRENT RESTART POINT — Round1663 acquisition / permanent automation
+
+COMPLETED: six-source 806-row semantic mapping and 23-phenomenon governance are closed unless a concrete defect is found. Do not restart dictionary, semantic mapping, FL TEAM discovery, or broad asset archaeology.
+
+ROUND1660: reconstructed v1-C baseline exists for research diagnostics, but strict pre-kickoff production-xG lineage cannot be guaranteed. Treat as RECONSTRUCTED pseudo-OOF laboratory; never fit to known results.
+
+ROUND1663: official 13-match card and canonical jleague_match_id mapping are established. All 26 team identities resolve through team_alias_v2. Frozen 2026 FootyStats J1/J2 Fixtures acquired 2026-10-14. Current Fixtures prove H2H resolution 13/13 and provide missing club URLs.
+
+FOOTYSTATS AUTOMATION: reuse src/database/register_footystats_snapshot_targets.py identity, official-match resolution, jleague_match_id, target upsert and job scheduling architecture. Its current parser is still legacy because the temporary 2026 selector experiment was reverted after chat-to-terminal Markdown URL corruption. Do not search for another architecture and do not claim automation complete.
+
+NEXT ACTION: safely implement only the current-2026 Fixtures extraction/relative-path compatibility layer without literal URL text being transformed by chat. Then prove 1663 H2H 13/13 and HOME-H2H-AWAY manifest 39/39, connect fetch_footystats_round_3html_v02.py with polite delay/stop-resume, and only afterward continue toward generic scripts/prepare_toto_round.py --round ROUND.
+
+PERMANENT-AUTOMATION PASS requires evidence of: generic implementation; 1663 39/39 manifest; safe fetch/resume; no 1663-specific hardcoding demonstrated on another/generic round; prepare_toto_round.py entrypoint; STATE/HANDOFF checkpoint; selective Git commit/push. Until all gates pass, status is NOT COMPLETE.
+
+MODEL GOVERNANCE: P_base remains production anchor. ACQUIRED != UNDERSTOOD != PREDICTION-READY != PRODUCTION-VALIDATED. Do not count correlated metrics as independent votes. LOSS/NON-WIN/DRAW additions require frozen/historical OOF validation. Draw probability must emerge from plausible match paths, never be forced. 1M simulation is precision after validation, not validation itself.
