@@ -18413,3 +18413,17 @@ No FL/FS player feature has been promoted to P_base or goal hazard.
 - scripts/build_footystats_round_manifest_v02.py exists but remains effectively a copy of v01 until a generic current-Fixtures resolver is implemented.
 - NEXT START POINT: do not re-search old assets. Implement the 2026 Fixtures adapter safely without embedding literal URLs in chat-generated edit commands; reuse team_alias_v2 / team_source_map / jleague_match_id identity; then prove Round1663 13/13 H2H and 39/39 HOME-H2H-AWAY manifest QA before connecting fetch_footystats_round_3html_v02.py.
 - Permanent automation is NOT PASS until generic implementation, Round1663 39/39 manifest, safe fetch/resume, non-1663 hardcoding test, prepare_toto_round.py orchestration, STATE/HANDOFF update and selective Git checkpoint are all demonstrated.
+
+
+## 2026-10-15 — Round1663 FootyStats current-Fixtures adapter validated
+
+- Current 2026 FootyStats Fixtures compatibility is now IMPLEMENTED and validated in src/database/register_footystats_snapshot_targets.py: old/new DOM selectors coexist and relative H2H paths are normalized safely.
+- J1 and J2 dry-runs both PASS with issues=0; Round1663 canonical jleague_match_id targets resolve 13/13.
+- The previously untracked registration script is now Git-tracked and pushed: commit 81b873d on origin/main.
+- J1 and J2 current Fixtures were formally registered into data/toto.db after dry-run validation.
+- Round1663 H2H canonical DB QA PASS: 13/13 found, missing=0, Markdown contamination=0, duplicate targets=0.
+- Round1663 FootyStats club URL QA PASS through team_alias_v2 -> team_id -> team_source_map: 26/26 resolved, missing=0, ambiguous=0, Markdown contamination=0, unique URLs=26.
+- Therefore all source material required for 13 x HOME/H2H/AWAY = 39 URLs is available through canonical identity paths. The 39-URL manifest itself has NOT yet been generated or QA-passed.
+- scripts/build_footystats_round_manifest_v02.py remains untracked and still contains the obsolete v01-style design; do not use its synthetic H2H slug construction.
+- NEXT START POINT: rewrite v02 generically from canonical card + team_alias_v2/team_source_map + web_snapshot_targets keyed by jleague_match_id, generate Round1663 manifest, and require 13 matches / 39 plain URLs QA before connecting the canonical fetcher.
+- Permanent automation is still NOT COMPLETE: 39/39 manifest, safe fetch/resume, non-1663 hardcoding proof, prepare_toto_round.py orchestration, HANDOFF update, and final selective Git checkpoint remain.
