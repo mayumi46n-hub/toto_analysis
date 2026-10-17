@@ -18427,3 +18427,15 @@ No FL/FS player feature has been promoted to P_base or goal hazard.
 - scripts/build_footystats_round_manifest_v02.py remains untracked and still contains the obsolete v01-style design; do not use its synthetic H2H slug construction.
 - NEXT START POINT: rewrite v02 generically from canonical card + team_alias_v2/team_source_map + web_snapshot_targets keyed by jleague_match_id, generate Round1663 manifest, and require 13 matches / 39 plain URLs QA before connecting the canonical fetcher.
 - Permanent automation is still NOT COMPLETE: 39/39 manifest, safe fetch/resume, non-1663 hardcoding proof, prepare_toto_round.py orchestration, HANDOFF update, and final selective Git checkpoint remain.
+
+
+## 2026-10-17 — Football LAB generic round preview acquisition validated
+
+- scripts/fetch_football_lab_round_previews_v01.py is now a generic round fetcher using --round, canonical team identity via team_alias_v2/team_master, and Football LAB team_slug_map_2026_v02.csv; no Round1663-specific team aliases or 1654 hardcoding are required.
+- Cross-round proof PASS: Round1654 --dry-run resolves 13/13 without code changes, and Round1663 --dry-run resolves 13/13.
+- Resume behavior is IMPLEMENTED and empirically validated: with a stable --out-dir, valid existing HTML is reused only when size >= 10000 bytes and Football LAB / preview markers are present; Round1654 reused 13/13 pages and rebuilt a complete manifest without refetching.
+- Round1663 live Football LAB acquisition PASS: 13/13 preview pages fetched into data/raw/football_lab/toto1663_previews_live_v01; HTTP200=13/13, match_no=1..13 unique, HTML files=13, missing files=0, minimum bytes=133259.
+- Round1663 page diagnostics at acquisition: FORMATION_PENDING=0, ABSENCE_SECTION=13, TOTAL_ABSENCE_MENTIONS=85. These are acquisition/parser diagnostics only; 85 must NOT be interpreted as 85 independently confirmed absences.
+- ACQUIRED does not imply prediction-ready or production-validated. Football LAB remains governed by the existing semantic/correlation/OOF rules; P_base is unchanged.
+- NEXT START POINT: preserve this generic Football LAB fetcher in Git, then return to the already-defined FootyStats gate: rewrite build_footystats_round_manifest_v02.py from canonical identity/DB targets, prove Round1663 13 matches / 39 plain URLs, and connect safe fetch/resume. Do not restart Football LAB discovery.
+- Permanent automation is still NOT COMPLETE: FootyStats 39/39 manifest/fetch, prepare_toto_round.py orchestration, HANDOFF update, and final selective Git checkpoint remain.
