@@ -18463,3 +18463,16 @@ No FL/FS player feature has been promoted to P_base or goal hazard.
 - IMPORTANT: only 1 of the 39 Round1663 FootyStats pages has been acquired in this live checkpoint. The 39-page acquisition is NOT COMPLETE, and no aggressive retry should be made against the CAPTCHA challenge.
 - NEXT START POINT: preserve the hardened fetcher in Git, then continue safe acquisition/resume when appropriate; prepare_toto_round.py orchestration and HANDOFF update still remain.
 - Permanent automation is still NOT COMPLETE.
+
+## 2026-10-18 — Generic toto round orchestrator checkpoint
+
+- Added `scripts/prepare_toto_round.py` as a thin generic orchestrator.
+- Input: `--round`; no Round1663/1660 match IDs, team names, or URLs are hardcoded.
+- Card gate: requires `data/config/toto_rounds/<ROUND>_card_official.csv`, exactly 13 rows, match_no 1..13.
+- FootyStats manifest is always built/QA'd locally before any network fetch.
+- Round1663 actual QA: card PASS; manifest PASS; 13 matches / 39 URLs / 13 unique H2H.
+- `--dry-run --fetch-footystats --fetch-football-lab`: local manifest QA executes, network fetches are skipped.
+- Round1660 negative QA: known missing H2H lineage for jleague_match_id=46214 causes `PIPELINE_STOP FOOTYSTATS MANIFEST returncode=1` before network access. This is expected fail-closed behavior, NOT a second-round 13/13 success.
+- Static QA: py_compile PASS; git diff --check PASS; no 1663/1660 IDs/team-name hardcoding detected.
+- FootyStats acquisition remains incomplete: only 1/39 Round1663 pages is currently acquired; prior CAPTCHA challenge remains the blocker and must not be bypassed/aggressively retried.
+- Permanent automation is NOT COMPLETE yet. Remaining evidence includes safe eventual FootyStats resume/full acquisition, full second-round generic success when lineage exists, HANDOFF update, and selective Git commit/push.

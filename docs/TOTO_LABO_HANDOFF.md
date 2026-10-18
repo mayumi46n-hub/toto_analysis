@@ -1017,3 +1017,10 @@ NEXT ACTION: safely implement only the current-2026 Fixtures extraction/relative
 PERMANENT-AUTOMATION PASS requires evidence of: generic implementation; 1663 39/39 manifest; safe fetch/resume; no 1663-specific hardcoding demonstrated on another/generic round; prepare_toto_round.py entrypoint; STATE/HANDOFF checkpoint; selective Git commit/push. Until all gates pass, status is NOT COMPLETE.
 
 MODEL GOVERNANCE: P_base remains production anchor. ACQUIRED != UNDERSTOOD != PREDICTION-READY != PRODUCTION-VALIDATED. Do not count correlated metrics as independent votes. LOSS/NON-WIN/DRAW additions require frozen/historical OOF validation. Draw probability must emerge from plausible match paths, never be forced. 1M simulation is precision after validation, not validation itself.
+
+## 2026-10-18 — Generic round orchestrator checkpoint
+
+- `scripts/prepare_toto_round.py` added and validated as a thin generic controller: Round1663 card/FootyStats manifest QA PASS (13 matches / 39 URLs / 13 unique H2H); network fetches are explicit flags and skipped under `--dry-run`.
+- Cross-round fail-closed proof: Round1660 stops at the known missing H2H lineage for jleague_match_id=46214 before any network fetch; do not synthesize the missing URL.
+- FootyStats Round1663 acquisition remains 1/39 because the next request hit CAPTCHA; do not bypass or aggressively retry it.
+- NEXT START POINT: selective Git checkpoint for orchestrator + STATE + HANDOFF. Permanent automation is NOT COMPLETE; later resume FootyStats safely and obtain full cross-round evidence when source lineage permits.
