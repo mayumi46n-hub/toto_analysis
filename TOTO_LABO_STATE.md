@@ -18439,3 +18439,27 @@ No FL/FS player feature has been promoted to P_base or goal hazard.
 - ACQUIRED does not imply prediction-ready or production-validated. Football LAB remains governed by the existing semantic/correlation/OOF rules; P_base is unchanged.
 - NEXT START POINT: preserve this generic Football LAB fetcher in Git, then return to the already-defined FootyStats gate: rewrite build_footystats_round_manifest_v02.py from canonical identity/DB targets, prove Round1663 13 matches / 39 plain URLs, and connect safe fetch/resume. Do not restart Football LAB discovery.
 - Permanent automation is still NOT COMPLETE: FootyStats 39/39 manifest/fetch, prepare_toto_round.py orchestration, HANDOFF update, and final selective Git checkpoint remain.
+
+
+## 2026-10-18 — Round1663 FootyStats generic manifest builder validated
+
+- scripts/build_footystats_round_manifest_v02.py is now a generic round manifest builder using canonical card identity, team_alias_v2/team_source_map club URLs, and web_snapshot_targets H2H URLs keyed by jleague_match_id.
+- Round1663 production-path QA PASS: MATCHES=13, URLS=39, H2H_UNIQUE=13; resolved jleague_match_id values are also required to be 13/13 unique.
+- Round1663-specific hardcoding QA PASS: no Round1663 IDs, team names, or FootyStats URLs are embedded in the builder.
+- Backward-compatible old-card path was exercised with Round1660: canonical team identity + match_date + season resolves jleague_match_id generically; registered H2H targets resolve uniquely for 12/12 available cases. The remaining match jleague_match_id=46214 has no URL in either web_snapshot_targets or footystats_match_urls, so the builder correctly fails closed rather than synthesizing a URL.
+- Generic builder is Git-tracked and pushed to origin/main: commit f7d7750.
+- IMPORTANT: Round1663 39-URL manifest is READY, but the 39 FootyStats pages themselves have NOT yet been fetched in this checkpoint. ACQUIRED must not be claimed yet.
+- NEXT START POINT: connect scripts/fetch_footystats_round_3html_v02.py to the validated Round1663 manifest and empirically validate safe fetch/stop/resume; then continue toward prepare_toto_round.py orchestration and HANDOFF/final checkpoint.
+- Permanent automation is still NOT COMPLETE until safe fetch/resume, orchestration, continuity updates, and final selective Git checkpoint are demonstrated.
+
+
+## 2026-10-18 — Round1663 FootyStats fetcher safe stop/resume hardened
+
+- scripts/fetch_footystats_round_3html_v02.py was connected to the validated Round1663 manifest. The first live HOME page fetched successfully: 1663_01_home.html, 261655 bytes.
+- The following H2H request encountered a FootyStats CAPTCHA challenge. The fetcher detected BOT_CHALLENGE and stopped; the challenge response was not saved. This empirically validates fail-closed pre-save response checking.
+- Legacy Round1653 hardcoding and unused DB URL-resolution helpers were removed; the fetcher is manifest-driven.
+- Resume safety was hardened: existing HTML is now reused only after local size, block-marker, and FootyStats-marker validation. The real saved Round1663 HOME page passes this validation.
+- Negative local QA PASS: a >10KB synthetic HTML containing a CAPTCHA marker is rejected. Invalid existing HTML now raises EXISTING_HTML_INVALID rather than being reused or overwritten.
+- IMPORTANT: only 1 of the 39 Round1663 FootyStats pages has been acquired in this live checkpoint. The 39-page acquisition is NOT COMPLETE, and no aggressive retry should be made against the CAPTCHA challenge.
+- NEXT START POINT: preserve the hardened fetcher in Git, then continue safe acquisition/resume when appropriate; prepare_toto_round.py orchestration and HANDOFF update still remain.
+- Permanent automation is still NOT COMPLETE.

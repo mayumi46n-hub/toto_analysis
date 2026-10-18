@@ -5,7 +5,6 @@ import csv
 import hashlib
 import random
 import requests
-import sqlite3
 import time
 
 BLOCK_MARKERS = [
@@ -22,59 +21,6 @@ UA = (
     "AppleWebKit/537.36 (KHTML, like Gecko) "
     "Chrome/126.0 Safari/537.36 toto-analysis-snapshot/1.0"
 )
-
-ROUND1653 = [
-    (1, 46189, "水戸", "川崎Ｆ"),
-    (2, 46190, "清水", "福岡"),
-    (3, 46192, "Ｇ大阪", "FC東京"),
-    (4, 46191, "町田", "横浜FM"),
-    (5, 46194, "長崎", "名古屋"),
-    (6, 46193, "広島", "Ｃ大阪"),
-    (7, 46197, "東京Ｖ", "千葉"),
-    (8, 46198, "浦和", "岡山"),
-    (9, 46565, "今治", "鳥栖"),
-    (10, 46560, "いわき", "横浜FC"),
-    (11, 46561, "八戸", "湘南"),
-    (12, 46564, "甲府", "磐田"),
-    (13, 46559, "秋田", "徳島"),
-]
-
-def get_team_url(con, short_name):
-    row = con.execute("""
-        SELECT tsm.source_url
-        FROM team_source_map tsm
-        JOIN team_master tm ON tm.team_id = tsm.team_id
-        WHERE tsm.source_name='footystats'
-          AND tm.short_name=?
-          AND tsm.is_primary=1
-        LIMIT 1
-    """, (short_name,)).fetchone()
-
-    return row["source_url"] if row else None
-
-def get_h2h_url(con, match_id):
-    row = con.execute("""
-        SELECT source_url
-        FROM web_snapshot_targets
-        WHERE jleague_match_id=?
-          AND source_name='footystats'
-          AND is_active=1
-        ORDER BY snapshot_target_id DESC
-        LIMIT 1
-    """, (match_id,)).fetchone()
-
-    if row:
-        return row["source_url"]
-
-    row = con.execute("""
-        SELECT source_url
-        FROM footystats_match_urls
-        WHERE jleague_match_id=?
-        ORDER BY footystats_match_url_id DESC
-        LIMIT 1
-    """, (match_id,)).fetchone()
-
-    return row["source_url"] if row else None
 
 def validate(kind, r):
     if r.status_code != 200:
@@ -95,6 +41,17 @@ def validate(kind, r):
 
     if "footystats" not in low:
         raise RuntimeError(f"FOOTYSTATS_MARKER_MISSING {kind}")
+
+def validate_existing(kind, out):
+    content=out.read_bytes()
+    if len(content) < 10000:
+        return False
+    low=content.decode("utf-8", errors="ignore").casefold()
+    if any(m in low for m in BLOCK_MARKERS):
+        return False
+    if "footystats" not in low:
+        return False
+    return True
 
 def fetch_one(session, url, out):
     r = session.get(url, timeout=30, allow_redirects=True)
@@ -159,9 +116,11 @@ def main():
             for pidx,(kind,url) in enumerate(pages):
                 out=out_root/f"{args.round}_{no:02d}_{kind}.html"
 
-                if out.exists() and out.stat().st_size>=10000:
-                    print(f"SKIP {kind}: existing {out.stat().st_size} bytes")
-                    continue
+                if out.exists():
+                    if validate_existing(out.stem, out):
+                        print(f"SKIP {kind}: validated existing {out.stat().st_size} bytes")
+                        continue
+                    raise RuntimeError(f"EXISTING_HTML_INVALID {out}")
 
                 print(f"GET  {kind}: {url}")
                 if request_count and request_count%args.session_max_requests==0:
