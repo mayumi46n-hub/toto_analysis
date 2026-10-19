@@ -78,6 +78,7 @@ def main():
     ap.add_argument("--match-delay-max", type=int, default=240)
     ap.add_argument("--limit", type=int, default=13)
     ap.add_argument("--session-max-requests", type=int, default=2)
+    ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args()
 
     with open(args.manifest,encoding="utf-8-sig",newline="") as f:
@@ -122,6 +123,10 @@ def main():
                         continue
                     raise RuntimeError(f"EXISTING_HTML_INVALID {out}")
 
+                if args.dry_run:
+                    print(f"WOULD_GET {kind}: {url}")
+                    continue
+
                 print(f"GET  {kind}: {url}")
                 if request_count and request_count%args.session_max_requests==0:
                     sess.close(); sess=new_session()
@@ -140,16 +145,16 @@ def main():
                     wait=random.randint(args.page_delay_min,args.page_delay_max)
                     print(f"WAIT page {wait}s"); time.sleep(wait)
 
-            if idx<len(rows)-1:
+            if idx<len(rows)-1 and not args.dry_run:
                 wait=random.randint(args.match_delay_min,args.match_delay_max)
                 print(f"WAIT match {wait}s"); time.sleep(wait)
     finally:
         sess.close()
 
     good=sum(
-        (out_root/f"{args.round}_{int(r['match_no']):02d}_{k}.html").exists() and
-        (out_root/f"{args.round}_{int(r['match_no']):02d}_{k}.html").stat().st_size>=10000
+        validate_existing(k, out_root/f"{args.round}_{int(r['match_no']):02d}_{k}.html")
         for r in rows for k in ("home","h2h","away")
+        if (out_root/f"{args.round}_{int(r['match_no']):02d}_{k}.html").exists()
     )
     print(f"\nREADY {good}/{len(rows)*3}")
     print("DONE")
