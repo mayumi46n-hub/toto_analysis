@@ -18498,3 +18498,14 @@ No FL/FS player feature has been promoted to P_base or goal hazard.
 - INPUT LINEAGE: 2019-2024 CORE predictions have season-level walk-forward evidence; 2025 has OOS temporal evidence. `odds_ft_over25` is a direct source odds field and result-derived calculation is ruled out, but availability at the historical toto deadline is NOT PROVEN.
 - GOVERNANCE: v03 is a promising strict-historical-OOF candidate, not unconditional production promotion. P_base remains unchanged. The 2020-2025 era is also not a pristine untouched confirmatory holdout because v01/v02 research informed the architecture.
 - NEXT START POINT: freeze v03 without result-driven retuning; run Round1660 pseudo-OOF, then Round1663 frozen checkpoint. Do not restart DRAW discovery or source archaeology unless a concrete lineage defect appears.
+
+
+## 2026-10-24 — DRAW PATH production-P_base compatibility checkpoint
+
+- Critical compatibility finding: strict DRAW PATH v03 was validated around historical core4 probabilities, but production P_base v1-C score probabilities are materially different (same-ID N=3428; mean absolute probability difference 0.04033; max 0.33565; draw correlation 0.4816). Therefore v03 must NOT be attached directly to production v1-C or Round1660.
+- Production v1-C historical OOF is available for 2023-2025: N=3428 (2023=1148, 2024=1140, 2025=1140), with each season generated from prior-year meta training only.
+- Historical market 1X2 probabilities join to v1-C by jleague_match_id for 3427/3428 rows; only jleague_match_id=45769 (2025-03-01 Tochigi C vs Numazu) is missing.
+- Historical FootyStats Over2.5 odds join successfully for 3428/3428 via jleague_match_id -> historical prediction English team/date identity -> raw FootyStats keys. Do not build a new team-name dictionary for this bridge.
+- Frozen compatibility-validation population: 2023=1148 initial training base; strict outer tests are 2024=1140 and 2025=1139, total N=2279. Same-date chronological inner OOF design from v03 remains reusable; no Round1660 result tuning is allowed.
+- Round1660 PREMATCH market mapping was verified: normalized inverse 1X2 odds reproduce the historical market_p_* definition. Match 6 Kyoto-Machida has missing PREMATCH market/O-U odds and must fail closed; expected strict-applicable set is 12/13. POSTMATCH data is forbidden.
+- NEXT START POINT: implement a separate v1-C-specific strict DRAW PATH compatibility OOF using the frozen v03 architecture/hyperparameters and score_p_* as P_base; evaluate 2024-2025 before any Round1660 outcome evaluation. If it survives, freeze and apply without tuning to Round1660, then Round1663.
