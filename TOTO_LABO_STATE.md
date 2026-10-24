@@ -18509,3 +18509,25 @@ No FL/FS player feature has been promoted to P_base or goal hazard.
 - Frozen compatibility-validation population: 2023=1148 initial training base; strict outer tests are 2024=1140 and 2025=1139, total N=2279. Same-date chronological inner OOF design from v03 remains reusable; no Round1660 result tuning is allowed.
 - Round1660 PREMATCH market mapping was verified: normalized inverse 1X2 odds reproduce the historical market_p_* definition. Match 6 Kyoto-Machida has missing PREMATCH market/O-U odds and must fail closed; expected strict-applicable set is 12/13. POSTMATCH data is forbidden.
 - NEXT START POINT: implement a separate v1-C-specific strict DRAW PATH compatibility OOF using the frozen v03 architecture/hyperparameters and score_p_* as P_base; evaluate 2024-2025 before any Round1660 outcome evaluation. If it survives, freeze and apply without tuning to Round1660, then Round1663.
+
+
+## 2026-10-24 — XI / EVENT SIMULATION VISION CHECKPOINT
+
+### Research evidence (research-only)
+- Round1654: Football LAB and totoONE predicted-XI player-strength tables each contain 286 player rows (26 match-sides x 11). Both sources join to all 13 matches of the FootyStats v05 simulation input; source-dependent XI differences remain.
+- Round1654: 13 completed match-result labels were found in the J.League pre-match features dataset, with no missing scores; independent result-source verification remains pending. The master CSVs 0-0 entries must not be treated as verified actual results.
+- Round1656: predicted-XI vs usual-XI proxy delta channels and beta=0 identity were tested in memory. Nonzero beta sensitivity is exploratory, not predictive validation.
+
+### Future event-simulation architecture (proposal, NOT completed implementation)
+- Football LAB candidates: Expected Goals, Team Style, Chance Building, Goal/Lost Pattern, Chance Building Point, Stats, pass-distance/area distributions, and league-average differences.
+- FootyStats candidates: goals conceded/scored, xG/xGA, O2.5/BTTS reference forecasts, corners, cards, first-goal rates, half-by-half results, shots, offsides, fouls and restart events.
+- Model event mechanisms only when historical prematch-asof-valid evidence supports them; prevent double counting of correlated signals. Forecast-provider probabilities are comparison references, not ground truth.
+- Target up to 1,000,000 Monte Carlo matches using efficient batch/vectorized computation; measure actual runtime on the target Mac before committing to a latency target.
+- Separate simulation computation from presentation. Use lightweight sports-broadcast/data-commentary presentation: scoreboards, compact charts and templated commentary. No 3D match rendering or per-simulation video generation. Priorities: predictive validity, speed, stability, readability, entertainment.
+- Deadline-safe execution: complete essential prediction before toto cutoff; optional presentation must never block predictions.
+
+### Governance / unresolved / continuation
+- Production P_base v1-C remains frozen. No promotion of XI adjustments, event channels or DRAW PATH without strict historical OOF, source provenance/asof validation and independent evaluation.
+- Verify Round1654 result labels independently; audit predicted-XI acquisition time and source freshness; evaluate XI coefficients and event distributions out of sample, without tuning on known Round1660 outcomes.
+- Preserve the existing 2026-10-24 DRAW PATH production-P_base compatibility checkpoint and its v1-C-specific strict OOF next step; this vision checkpoint does not supersede it.
+- Git working tree has numerous unrelated modifications/deletions/untracked files. Commit only this STATE update, never git add -A or git add . indiscriminately.
