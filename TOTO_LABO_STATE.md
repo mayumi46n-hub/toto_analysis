@@ -18553,3 +18553,14 @@ No FL/FS player feature has been promoted to P_base or goal hazard.
 - User explicitly requests that this frustration and the continuity failure be preserved in STATE and Git, not minimized or forgotten.
 - Operating rule: read latest canonical checkpoints before proposing implementation; never redesign completed pipelines; prioritize the blocked PLAYER/XI vs P_base leakage-safe predictive evaluation; use one short command at a time; checkpoint validated findings in STATE and Git.
 - Production P_base v1-C unchanged; PLAYER/XI coefficient remains 0 pending historical OOF.
+
+## 2026-10-25 — UNDERSTANDING-FIRST RESEARCH WORKFLOW
+- Explain before every command: PURPOSE (what we want to know), REASON (why now), MEANING (what the command does), and JUDGMENT (how to interpret its output).
+- Use one short terminal command at a time. Prefer read-only commands; explain changes before any write operation.
+- Explain technical terms in simple Japanese so the user can understand the research rather than execute commands blindly.
+- Distinguish three stages: BUILT (the prediction system runs), TESTED (compared with actual results), and PROVEN (improvement demonstrated by leakage-safe out-of-sample evaluation).
+- Preserve verified findings, unresolved questions, and the exact next step across chat transitions. Read existing STATE checkpoints before proposing work; avoid repeating completed investigations.
+- Prioritize proving whether PLAYER/XI improves predictions over P_base, not accumulating scripts or audits. Do not treat exploratory Round1648 comparisons as strict OOF.
+- Production P_base v1-C stays frozen and PLAYER/XI production coefficient stays 0 until sufficient leakage-safe OOF evidence supports a change.
+- Git safety: stage only the intended STATE file; inspect the diff before committing. Never use git add -A or git add . for this checkpoint.
+- CURRENT NEXT STEP: verify the as-of provenance of data/players/fansaka_j1_player_power_v3_jleague.csv. src/pipeline/run_toto_player_strength_round_v2.py references this CSV, but the first 100 lines do not establish how it was generated or whether its inputs were prematch-safe.
