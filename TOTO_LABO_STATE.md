@@ -18531,3 +18531,16 @@ No FL/FS player feature has been promoted to P_base or goal hazard.
 - Verify Round1654 result labels independently; audit predicted-XI acquisition time and source freshness; evaluate XI coefficients and event distributions out of sample, without tuning on known Round1660 outcomes.
 - Preserve the existing 2026-10-24 DRAW PATH production-P_base compatibility checkpoint and its v1-C-specific strict OOF next step; this vision checkpoint does not supersede it.
 - Git working tree has numerous unrelated modifications/deletions/untracked files. Commit only this STATE update, never git add -A or git add . indiscriminately.
+
+
+## 2026-10-25 — DRAW PATH v1-C strict OOF evaluation
+- Status: RESEARCH / NOT ADOPTED. Production P_base v1-C unchanged.
+- Existing script: scripts/build_draw_path_oof_v1c_strict.py; existing output: data/evaluation/draw_path_v1c_strict_oof_2024_2025_v01.csv. No regeneration needed.
+- Integrity: N=2279; 2024=1140, 2025=1139; unique IDs, zero nulls, OOF year consistent.
+- Compared DRAW PATH calibrated against P_base calibrated. Delta LogLoss: 2024=-0.000202, 2025=-0.001073, total=-0.000637. Delta Brier: 2024=-0.000079, 2025=-0.000482, total=-0.000280. Negative is better.
+- Individual-match improvement rate=47.43%; median loss delta=+0.000186; 95th percentile absolute loss delta=0.062938.
+- Independent-match approximate 95% CI for mean LogLoss delta: [-0.001820,+0.000545], includes zero.
+- Monthly results: 14/22 months improved. Unweighted monthly mean delta=-0.000173; approximate 95% CI=[-0.001346,+0.001000], includes zero. Monthly observations are not necessarily independent.
+- PATH meta coefficients: 2024=0.049476, 2025=0.724959; year-to-year variation warrants caution.
+- Decision: small positive OOF signal, insufficient evidence for production promotion. Do not tune on known Round1660 outcomes. Historical as-of provenance and dependence-aware uncertainty remain unresolved.
+- NEXT: preserve this result; prioritize broader toto prediction improvements involving team strength, predicted XI and player information, with strict prematch OOF validation. Avoid repeating completed DRAW PATH evaluations without a specific new reason.
