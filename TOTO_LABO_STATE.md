@@ -18544,3 +18544,12 @@ No FL/FS player feature has been promoted to P_base or goal hazard.
 - PATH meta coefficients: 2024=0.049476, 2025=0.724959; year-to-year variation warrants caution.
 - Decision: small positive OOF signal, insufficient evidence for production promotion. Do not tune on known Round1660 outcomes. Historical as-of provenance and dependence-aware uncertainty remain unresolved.
 - NEXT: preserve this result; prioritize broader toto prediction improvements involving team strength, predicted XI and player information, with strict prematch OOF validation. Avoid repeating completed DRAW PATH evaluations without a specific new reason.
+
+
+## 2026-10-25 — USER GRIEVANCE / THREE STEPS FORWARD TWO STEPS BACK
+- User statement: 「3歩進んで2歩戻る」. Repeated chat transitions and loss of research continuity caused substantial frustration and repeated rediscovery of completed work.
+- PLAYER/XI engine was built, but the intended real-match predictive-accuracy validation was left unfinished after a chat transition. Do not mistake implementation for validated predictive improvement.
+- User reports collecting historical data dating back to 1993 since June; its current location/status is unverified. Do not assume deletion or restart collection. Investigation deferred at user request.
+- User explicitly requests that this frustration and the continuity failure be preserved in STATE and Git, not minimized or forgotten.
+- Operating rule: read latest canonical checkpoints before proposing implementation; never redesign completed pipelines; prioritize the blocked PLAYER/XI vs P_base leakage-safe predictive evaluation; use one short command at a time; checkpoint validated findings in STATE and Git.
+- Production P_base v1-C unchanged; PLAYER/XI coefficient remains 0 pending historical OOF.
