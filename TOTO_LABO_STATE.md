@@ -18564,3 +18564,59 @@ No FL/FS player feature has been promoted to P_base or goal hazard.
 - Production P_base v1-C stays frozen and PLAYER/XI production coefficient stays 0 until sufficient leakage-safe OOF evidence supports a change.
 - Git safety: stage only the intended STATE file; inspect the diff before committing. Never use git add -A or git add . for this checkpoint.
 - CURRENT NEXT STEP: verify the as-of provenance of data/players/fansaka_j1_player_power_v3_jleague.csv. src/pipeline/run_toto_player_strength_round_v2.py references this CSV, but the first 100 lines do not establish how it was generated or whether its inputs were prematch-safe.
+
+## 2026-10-25 — ROUND1670 HANDOFF / CONTINUITY CHECKPOINT
+
+### Primary objective and deadline
+- Target: toto Round1670, deadline 2026-11-07 12:50 JST.
+- Primary objective: improve prediction accuracy against actual match results, not merely add scripts, features or simulations.
+- Preserve existing research and avoid repeating completed investigations.
+
+### Verified starting point
+- The local STATE tail was checked against the uploaded canonical STATE; the latest 2026-10-25 checkpoints are present.
+- Git status showed main ahead of origin/main by 4 commits, with extensive unrelated deletions, modifications and untracked research files.
+- `git log --oneline 455992c..HEAD` returned no commits; `git diff --cached --name-only` was empty before this append.
+- All unrelated working-tree changes must remain untouched.
+
+### Existing model and research governance
+- Production P_base v1-C remains frozen.
+- PLAYER/XI production coefficient remains 0 until leakage-safe historical OOF demonstrates improvement.
+- DRAW PATH v1-C strict OOF evaluation completed (2024-2025, N=2279); small positive signal, NOT ADOPTED.
+- Distinguish BUILT (implemented), TESTED (evaluated against results) and PROVEN (improvement demonstrated out of sample).
+- Prioritize predictive accuracy and as-of-valid data over feature accumulation.
+
+### Round1660 verification work
+- Compare the existing 13-match FootyStats and Football LAB PREMATCH information and frozen predictions against verified actual results.
+- Strictly separate PREMATCH from POSTMATCH sources to prevent outcome leakage.
+- Existing inputs include:
+  - `data/raw/footystats/round_html/1660_PRE_REFRESH_20261007/`
+  - `data/analysis/footystats_toto1660_normalized_v05_PREMATCH_20261007.csv`
+  - `data/analysis/footystats_toto1660_normalized_v05_POSTMATCH_20261011.csv` (diagnostic only; never a prematch predictor)
+  - `data/analysis/football_lab_toto1660_team_semantic_v2_matchblock_v01.csv`
+  - `data/predictions/multisource_premarket_predictions_2026_toto1660.csv`
+  - `data/predictions/score_model_v1c_stacked_toto1660_RECONSTRUCTED.csv`
+- Confirm source timestamps, identities and actual-result provenance before scoring.
+- Do not fit, tune or select models using known Round1660 outcomes and then call that evaluation out-of-sample.
+- Reuse existing shot/goal models, simulations and historical OOF rather than rebuilding them.
+
+### Other existing assets and constraints
+- Round1663 FootyStats manifest: 13 matches, 39 pages; only 1/39 confirmed acquired. Prior CAPTCHA is a blocker; do not bypass or aggressively retry.
+- Round1658 frozen XI: 286 player rows, 13 matches, 26 teams; existing scripts and research outputs should be reused.
+- Round1656 simple player-signal transport worsened strict OOF and was rejected.
+- `data/players/fansaka_j1_player_power_v3_jleague.csv` as-of provenance remains unresolved. Inspect its existing generation lineage before using it as a prematch-safe PLAYER/XI feature.
+- Preserve the historical data accumulated since June, reportedly extending to 1993. Its current location and coverage have not been verified; do not assume it is lost or restart collection.
+- Monte Carlo progression: 10K, then 100K, then consider 1M after accuracy and runtime checks. Presentation must never block deadline-safe predictions.
+
+### Immediate work order
+1. Review the STATE diff and commit ONLY TOTO_LABO_STATE.md.
+2. Verify the commit and preserve unrelated working-tree changes.
+3. Validate Round1660 prematch predictions against actual results without leakage.
+4. Check Fansaka PLAYER/XI as-of provenance before further model promotion.
+### Working protocol
+- Before every terminal command explain PURPOSE, REASON, MEANING and JUDGMENT in plain Japanese.
+- Run one short command at a time; start read-only and inspect diffs before commits.
+- Never run `git add -A` or `git add .` for this checkpoint.
+- Do not touch, restore, delete or commit unrelated changes.
+- Keep validated findings, uncertainties and the exact next action in STATE and Git.
+- This checkpoint records the handoff; it does not claim Round1660 verification or model improvements have been completed.
+
