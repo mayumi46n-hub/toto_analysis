@@ -18715,3 +18715,26 @@ Next mandatory task: Build the zone-aware, event-driven match engine.
 - 対象回・目的・完了条件を固定し、技術的な寄り道をしない。
 ■次回必ずやること
 - 第1666回の公式カード確定、Football LAB・FootyStats取得、6チームの暫定選手戦力比較。
+
+## 2026-10-27 GOAL3 Round 1666 Handoff
+
+Official card: data/config/toto_rounds/1666_card_official.csv
+Match 1: Mito HOME vs Cerezo Osaka AWAY
+Match 2: Yokohama FM HOME vs Hiroshima AWAY
+Match 3: Nagoya HOME vs Urawa AWAY
+FootyStats: 9 saved HTML files in data/raw/footystats/round_html/1666/
+Venue stats GF/GA/xG/xGA: Mito H 1.17/1.33/0.97/2.03; Cerezo A 0.60/2.40/1.23/1.60
+Venue stats GF/GA/xG/xGA: Yokohama FM H 1.80/1.40/1.30/1.32; Hiroshima A 1.50/1.33/2.32/0.86
+Venue stats GF/GA/xG/xGA: Nagoya H 1.33/1.33/1.88/1.35; Urawa A 1.50/2.00/1.95/1.47
+Full-season scoreline tables cover 12 matches, NOT venue-specific distributions.
+The 2026/27 match CSV contains placeholder scores and is NOT reliable for completed-match analysis.
+H2H pages include J.League Cup statistics; do not mix with J1 league data.
+Football LAB preview pages may describe different upcoming fixtures.
+CRITICAL: Saved HTML includes results through Oct 25, 2026. Verify Round 1666 fixture dates and prevent future-data leakage.
+Poisson estimates using 50/50 actual goals and xG are provisional and unvalidated.
+NEXT 1: Verify official fixture dates and prematch cutoff.
+NEXT 2: Extract J1 completed matches before cutoff, separating home and away.
+NEXT 3: Count goals 0/1/2/3+ for Mito home and Cerezo away; repeat for matches 2 and 3.
+NEXT 4: Compare venue distributions, xG, and provisional Poisson estimates.
+NEXT 5: Reassess predictions; no final GOAL3 selections yet.
+SAFETY: Preserve unrelated untracked files, deletions, and code changes.
