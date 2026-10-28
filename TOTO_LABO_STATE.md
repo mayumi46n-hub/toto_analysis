@@ -18738,3 +18738,13 @@ NEXT 3: Count goals 0/1/2/3+ for Mito home and Cerezo away; repeat for matches 2
 NEXT 4: Compare venue distributions, xG, and provisional Poisson estimates.
 NEXT 5: Reassess predictions; no final GOAL3 selections yet.
 SAFETY: Preserve unrelated untracked files, deletions, and code changes.
+
+## 2026-10-28 AM — GOAL3 #1666 Football LAB ranking integration (verified on Mac)
+- Matches: Mito–Cerezo Osaka, Yokohama FM–Hiroshima, Nagoya–Urawa. Six 2026/27 Football LAB ranking HTML snapshots saved in `data/raw/football_lab/toto1666_ranking_saved/`.
+- Extractor `scripts/extract_football_lab_rankings_1666_v01.py` executed successfully: `data/analysis/football_lab_1666_rankings_v01/player_rankings_long.csv`, 541 ranking records (not 541 unique players), ten categories, six teams.
+- XI identity source: `data/analysis/goal3_1666_xi_identity_v02.csv`, 66 predicted starters. Exact J.League ID + club matching found 51 players listed in at least one ranking; 15 unlisted in saved ranking tables. Team/name normalization also found no matches for those 15; alternative spellings not exhaustively ruled out.
+- Join script `scripts/join_goal3_1666_fl_10metrics_v01.py` executed successfully. Output `data/analysis/football_lab_1666_rankings_v01/xi66_football_lab_10metrics_v01.csv`: 66 rows; 51 listed, 15 unlisted. Listed counts by category: attack 28, pass 26, cross 19, dribble 22, pass receive 26, shoot 23, goal 21, ball win 26, defense 26, save 5.
+- Important: Ranking nonappearance is missing, NEVER zero player ability. Keep original source, ID+team matching, provenance, and distinguish snapshot capture time from Football LAB's statistical coverage date. No arbitrary weights, no future leakage.
+- NEXT: Save and inspect Football LAB `/style` pages for the six clubs; establish team tactics schema and join to player metrics. Still pending: additional player coverage, absence, travel/rest, calibrated 90-minute event simulation and 1M trials. No final GOAL3 prediction from this integration.
+- Operating rule: NEVER paste long Python heredocs into Mac Terminal; provide a downloadable `.py` file and one short execution command. Verify execution output before declaring success.
+- Git safety: repository has extensive unrelated deletions/untracked files. Never `git add .` or `git add -A`; stage only explicit intended files. This note does not claim a Git commit until verified.
