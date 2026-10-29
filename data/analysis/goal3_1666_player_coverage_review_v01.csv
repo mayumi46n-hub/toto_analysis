@@ -1,0 +1,7 @@
+attack_team,defense_team,attack_base,base_n_attack,defense_base,base_n_defense,fl_attack_n,fl_shoot_n,fl_goal_n,fl_ball_win_n,fl_defense_n,fl_save_n
+水戸,C大阪,4.2138,6,5.8203,3,2,2,0,1,2,0
+C大阪,水戸,4.9989,7,5.0486,5,3,2,3,2,3,1
+横浜FM,広島,4.6617,6,6.374,4,2,4,4,3,4,1
+広島,横浜FM,5.1583,7,5.2056,5,4,4,4,3,3,1
+名古屋,浦和,4.8417,7,5.2288,5,2,3,3,3,4,1
+浦和,名古屋,5.076,5,5.6088,4,2,2,3,2,4,1
