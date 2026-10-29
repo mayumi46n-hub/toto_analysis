@@ -18748,3 +18748,81 @@ SAFETY: Preserve unrelated untracked files, deletions, and code changes.
 - NEXT: Save and inspect Football LAB `/style` pages for the six clubs; establish team tactics schema and join to player metrics. Still pending: additional player coverage, absence, travel/rest, calibrated 90-minute event simulation and 1M trials. No final GOAL3 prediction from this integration.
 - Operating rule: NEVER paste long Python heredocs into Mac Terminal; provide a downloadable `.py` file and one short execution command. Verify execution output before declaring success.
 - Git safety: repository has extensive unrelated deletions/untracked files. Never `git add .` or `git add -A`; stage only explicit intended files. This note does not claim a Git commit until verified.
+
+## 2026-10-29 — GOAL3 第1666回・最新引き継ぎ
+
+### 1. 現在の優先事項
+
+第1666回の予測と実結果を検証し、得点予測の精度改善につなげる。
+
+優先順位：
+1. 第1666回の予測失敗の原因分析（戦術・選手・試合直前情報）
+2. 予想スタメン66人による戦力比較の改善
+3. 戦術指数・シュート率の予測への有効性検証
+4. 100万回シミュレーションの設計・構築（上記の検証後）
+
+古いSTATEに記載された「次回はシミュレーター改修」という指示より、この最新方針を優先する。
+
+### 2. 第1666回GOAL3の対戦カード
+
+1. 水戸（ホーム）– C大阪（アウェイ）
+2. 横浜FM（ホーム）– 広島（アウェイ）
+3. 名古屋（ホーム）– 浦和（アウェイ）
+
+公式カードCSV：`data/config/toto_rounds/1666_card_official.csv`
+
+### 3. 昨夜の暫定得点確率（%）
+
+| チーム | 0点 | 1点 | 2点 | 3点以上 |
+|---|---:|---:|---:|---:|
+| 水戸 | 21.5 | 33.1 | 25.4 | 20.0 |
+| C大阪 | 27.3 | 35.4 | 23.0 | 14.2 |
+| 横浜FM | 26.6 | 35.2 | 23.3 | 14.8 |
+| 広島 | 19.5 | 31.9 | 26.1 | 22.6 |
+| 名古屋 | 18.8 | 31.4 | 26.3 | 23.5 |
+| 浦和 | 21.6 | 33.1 | 25.4 | 19.9 |
+
+FootyStatsのホーム・アウェイ得点とxGを使った暫定Poisson推定。Football LABによる統計的補正は未実施。正式なSCORE v1c予測ではない。四捨五入により合計が100%と一致しない場合がある。
+
+### 4. Football LABの戦術・選手データ
+
+戦術指数CSV：`data/analysis/football_lab_1666_style_v01/team_style_96_long.csv`
+
+6チーム×16種類＝96件。戦術指数とシュート率は別指標。
+
+確認済みの例：
+
+| チーム・戦術 | 戦術指数 | シュート率 |
+|---|---:|---:|
+| 広島・中央攻撃 | 79 | 33.6% |
+| 浦和・右サイド攻撃 | 73 | 14.5% |
+| C大阪・ロングカウンター | 56 | 12.5% |
+
+シュート率は該当する攻撃がシュートで終わった割合であり、得点率ではない。戦術指数を直接得点確率に加算しない。
+
+選手データ：`data/analysis/football_lab_1666_rankings_v01/xi66_football_lab_10metrics_v01.csv`
+
+予想スタメン66人のうち、Football LABランキング掲載51人、非掲載15人。非掲載は能力ゼロを意味しない。
+
+### 5. 昨日の暫定スコア候補
+
+| 試合 | 暫定予想 |
+|---|---|
+| 水戸–C大阪 | 1–1 |
+| 横浜FM–広島 | 1–2 |
+| 名古屋–浦和 | 1–2 |
+
+これらは戦術分析を加味した検討候補であり、補正済みモデルの最頻スコアではない。
+
+実際の試合結果は、この引き継ぎ記録では**公式照合未完了**として扱う。過去の会話に提示された結果を、再確認せず確定データとして採用しない。
+
+### 6. 引き継ぎ時の注意
+
+- 確認済みデータ、暫定予測、仮説を混同しない。
+- 取得日時と統計対象期間を区別し、試合後情報の混入を防ぐ。
+- 過去の予測を実結果に合わせて書き換えない。
+- 100万回シミュレーションの構築を急がない。まず得点予測モデルの有効性を検証する。
+- Macのファイルを変更した場合は、実行結果とGit差分を確認してから保存済みと報告する。
+- Gitでは対象ファイルのみ明示的にステージし、無関係な変更を含めない。
+- 次回の会話では、最初にSTATE末尾の最新引き継ぎを確認する。GitやSTATEが自動的に会話へ読み込まれるとは想定しない。
+- 1回につきターミナルコマンドは1つ。目的を説明してから実行する。
