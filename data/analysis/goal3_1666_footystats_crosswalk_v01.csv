@@ -1,0 +1,67 @@
+﻿team,expected_player,jleague_player_id,candidate_count,fs_full_name,fs_identity_key,match_status
+水戸,西川幸之介,1632233,1,Konosuke Nishikawa,Konosuke Nishikawa|Mito Hollyhock|Goalkeeper|1031727600,CANDIDATE
+水戸,田村遊吏,1657455,0,,,REVIEW_NEEDED
+水戸,フォファナ・マリック,1647897,0,,,REVIEW_NEEDED
+水戸,木本恭生,1400642,1,Yasuki Kimoto,Yasuki Kimoto|Mito Hollyhock|Defender|744620400,CANDIDATE
+水戸,大崎航詩,1632269,1,Koshi Osaki,Koshi Osaki|Mito Hollyhock|Defender|899190000,CANDIDATE
+水戸,山本隼大,1647012,1,Hayata Yamamoto,Hayata Yamamoto|Mito Hollyhock|Forward|1045036800,CANDIDATE
+水戸,舩橋佑,1631701,1,Yu Funabashi,Yu Funabashi|Mito Hollyhock|Midfielder|1026457200,CANDIDATE
+水戸,山下優人,1630059,0,,,REVIEW_NEEDED
+水戸,新井瑞希,1614109,0,,,REVIEW_NEEDED
+水戸,根本凌,1630109,1,Ryo Nemoto,Ryo Nemoto|Mito Hollyhock|Forward|949564800,CANDIDATE
+水戸,パトリッキ,1656732,1,Patryck Magalhães Ferreira,Patryck Magalhães Ferreira|Mito Hollyhock|Forward|904978800,CANDIDATE
+C大阪,阿部航斗,1611147,0,,,REVIEW_NEEDED
+C大阪,ディオン・クールズ,1635585,1,Dion Cools,Dion Cools|Cerezo Osaka|Defender|833871600,CANDIDATE
+C大阪,鷹啄トラビス,1635375,0,,,REVIEW_NEEDED
+C大阪,ハビ・エルナンデス,,0,,,JL_ID_NOT_FOUND
+C大阪,奥田勇斗,1626010,1,Hayato Okuda,Hayato Okuda|Cerezo Osaka|Defender|987836400,CANDIDATE
+C大阪,岡澤昂星,1630179,1,Kosei Okazawa,Kosei Okazawa|Cerezo Osaka|Midfielder|1066806000,CANDIDATE
+C大阪,香川真司,600064,1,Shinji Kagawa,Shinji Kagawa|Cerezo Osaka|Midfielder|606124800,CANDIDATE
+C大阪,阪田澪哉,1640497,0,,,REVIEW_NEEDED
+C大阪,上門知樹,1600232,1,Satoki Uejo,Satoki Uejo|Cerezo Osaka|Midfielder|862124400,CANDIDATE
+C大阪,横山夢樹,1642028,1,Yumeki Yokoyama,Yumeki Yokoyama|Cerezo Osaka|Midfielder|1127458800,CANDIDATE
+C大阪,櫻川ソロモン,1629394,1,Solomon Sakuragawa,Solomon Sakuragawa|Cerezo Osaka|Forward|996908400,CANDIDATE
+横浜FM,朴一圭,1400253,0,,,REVIEW_NEEDED
+横浜FM,井上太聖,1637156,1,Taisei Inoue,Taisei Inoue|Yokohama F. Marinos|Defender|1033455600,CANDIDATE
+横浜FM,J・キニョーネス,1650799,1,Jeison Estiven Quiñónes Botina,Jeison Estiven Quiñónes Botina|Yokohama F. Marinos|Defender|871801200,CANDIDATE
+横浜FM,諏訪間幸成,1631768,1,Kosei Suwama,Kosei Suwama|Yokohama F. Marinos|Defender|1054882800,CANDIDATE
+横浜FM,関富貫太,1643434,1,Kanta Sekitomi,Kanta Sekitomi|Yokohama F. Marinos|Defender|1130050800,CANDIDATE
+横浜FM,喜田拓也,1200129,1,Takuya Kida,Takuya Kida|Yokohama F. Marinos|Midfielder|777625200,CANDIDATE
+横浜FM,山根陸,1631771,1,Riku Yamane,Riku Yamane|Yokohama F. Marinos|Midfielder|1061103600,CANDIDATE
+横浜FM,近藤友喜,1634319,1,Tomoki Kondo,Tomoki Kondo|Yokohama F. Marinos|Midfielder|985248000,CANDIDATE
+横浜FM,遠野大弥,1626015,0,,,REVIEW_NEEDED
+横浜FM,三井寺眞,1656651,1,Shin Miidera,Shin Miidera|Yokohama F. Marinos|Midfielder|1270191600,CANDIDATE
+横浜FM,二田理央,1634323,1,Rio Nitta,Rio Nitta|Yokohama F. Marinos|Forward|1049958000,CANDIDATE
+広島,大内一生,1602209,1,Issei Ouchi,Issei Ouchi|Sanfrecce Hiroshima|Goalkeeper|968396400,CANDIDATE
+広島,中野就斗,1635465,1,Shuto Nakano,Shuto Nakano|Sanfrecce Hiroshima|Midfielder|962089200,CANDIDATE
+広島,荒木隼人,1604880,1,Hayato Araki,Hayato Araki|Sanfrecce Hiroshima|Defender|839401200,CANDIDATE
+広島,キム・ジュソン,1627198,1,Ju-sung Kim,Ju-sung Kim|Sanfrecce Hiroshima|Defender|976608000,CANDIDATE
+広島,越道草太,1632409,1,Sota Koshimichi,Sota Koshimichi|Sanfrecce Hiroshima|Midfielder|1080979200,CANDIDATE
+広島,川辺駿,1300179,1,Hayao Kawabe,Hayao Kawabe|Sanfrecce Hiroshima|Midfielder|810543600,CANDIDATE
+広島,中島洋太朗,1641144,1,Yotaro Nakajima,Yotaro Nakajima|Sanfrecce Hiroshima|Midfielder|1145689200,CANDIDATE
+広島,東俊希,1618152,1,Shunki Higashi,Shunki Higashi|Sanfrecce Hiroshima|Midfielder|964767600,CANDIDATE
+広島,浅野拓磨,1300032,0,,,REVIEW_NEEDED
+広島,鈴木章斗,1636237,1,Akito Suzuki,Akito Suzuki|Sanfrecce Hiroshima|Forward|1059548400,CANDIDATE
+広島,セバスティアン・アレー,1648186,1,Sébastien Haller,Sébastien Haller|Sanfrecce Hiroshima|Forward|772268400,CANDIDATE
+名古屋,P・アレックス幸冬堀尾,1645017,1,Alexandre Kouto Horio Pisano,Alexandre Kouto Horio Pisano|Nagoya Grampus|Goalkeeper|1136880000,CANDIDATE
+名古屋,野上結貴,1200335,1,Yuki Nogami,Yuki Nogami|Nagoya Grampus|Defender|672130800,CANDIDATE
+名古屋,佐藤瑶大,1630125,1,Yota Sato,Yota Sato|Nagoya Grampus|Defender|905410800,CANDIDATE
+名古屋,徳元悠平,1618069,1,Shuhei Tokumoto,Shuhei Tokumoto|Nagoya Grampus|Defender|810889200,CANDIDATE
+名古屋,甲田英將,1629920,1,Hidemasa Koda,Hidemasa Koda|Nagoya Grampus|Midfielder|1065078000,CANDIDATE
+名古屋,稲垣祥,1400047,1,Sho Inagaki,Sho Inagaki|Nagoya Grampus|Midfielder|693648000,CANDIDATE
+名古屋,小野雅史,1620717,1,Masahito Ono,Masahito Ono|Nagoya Grampus|Midfielder|839574000,CANDIDATE
+名古屋,小屋松知哉,1400056,1,Tomoya Koyamatsu,Tomoya Koyamatsu|Nagoya Grampus|Midfielder|798706800,CANDIDATE
+名古屋,菊地泰智,1633166,1,Taichi Kikuchi,Taichi Kikuchi|Nagoya Grampus|Midfielder|926060400,CANDIDATE
+名古屋,森島司,1502575,1,Tsukasa Morishima,Tsukasa Morishima|Nagoya Grampus|Midfielder|861951600,CANDIDATE
+名古屋,山岸祐也,1503339,1,Yuya Yamagishi,Yuya Yamagishi|Nagoya Grampus|Forward|746607600,CANDIDATE
+浦和,福井光輝,1609243,1,Koki Fukui,Koki Fukui|Urawa Reds|Goalkeeper|815472000,CANDIDATE
+浦和,ダニーロ・ボザ,1651281,1,Danilo Boza Junior,Danilo Boza Junior|Urawa Reds|Defender|894438000,CANDIDATE
+浦和,宮本優太,1631769,1,Yuta Miyamoto,Yuta Miyamoto|Urawa Reds|Defender|945244800,CANDIDATE
+浦和,工藤孝太,1632431,1,Kota Kudo,Kota Kudo|Urawa Reds|Defender|1060758000,CANDIDATE
+浦和,長沼洋一,1401506,1,Yoichi Naganuma,Yoichi Naganuma|Urawa Reds|Midfielder|861001200,CANDIDATE
+浦和,笹修大,1650534,1,Shuta Sasa,Shuta Sasa|Urawa Reds|Midfielder|1157007600,CANDIDATE
+浦和,瀬古樹,,0,,,JL_ID_NOT_FOUND
+浦和,渡邊凌磨,1500294,1,Ryoma Watanabe,Ryoma Watanabe|Urawa Reds|Midfielder|844239600,CANDIDATE
+浦和,肥田野蓮治,1643560,1,Renji Hidano,Renji Hidano|Urawa Reds|Midfielder|1070265600,CANDIDATE
+浦和,小森飛絢,1639183,1,Hiiro komori,Hiiro komori|Urawa Reds|Forward|965545200,CANDIDATE
+浦和,早川隼平,1636532,1,Jumpei Hayakawa,Jumpei Hayakawa|Urawa Reds|Midfielder|1107590400,CANDIDATE
