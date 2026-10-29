@@ -18826,3 +18826,40 @@ FootyStatsのホーム・アウェイ得点とxGを使った暫定Poisson推定�
 - Gitでは対象ファイルのみ明示的にステージし、無関係な変更を含めない。
 - 次回の会話では、最初にSTATE末尾の最新引き継ぎを確認する。GitやSTATEが自動的に会話へ読み込まれるとは想定しない。
 - 1回につきターミナルコマンドは1つ。目的を説明してから実行する。
+
+
+## 2026-10-29 GOAL3 第1666回 引き継ぎ記録
+
+### 目的
+第1666回GOAL3の3試合・6チームについて、0点/1点/2点/3点以上の確率を計算し、選手戦力を反映する。
+
+### 対象試合と暫定基礎lambda
+- 水戸 vs C大阪: 1.415 / 1.610
+- 横浜FM vs 広島: 0.995 / 1.970
+- 名古屋 vs 浦和: 1.815 / 1.580
+- 算式: home_lambda=(home_xg_home+away_xga_away)/2; away_lambda=(away_xg_away+home_xga_home)/2
+- 出典: data/analysis/footystats_toto1660_normalized_v05_PREMATCH_20261007.csv
+- 注意: 1660回時点の古いスナップショットによる暫定値。1666回直前の値ではない。係数未検証。
+
+### 完了済みファイル
+- data/analysis/goal3_1666_player_4sources_v02.csv : 66選手、4ソース統合
+- data/analysis/goal3_1666_player_4sources_standardized_v01.csv : ポジション別標準化
+- data/analysis/goal3_1666_attack_features_v01.csv : 6チーム攻撃特徴
+- data/analysis/goal3_1666_defense_features_v01.csv : 6チーム守備特徴
+- data/analysis/goal3_1666_matchup_features_v01.csv : 6行、攻撃対相手守備
+- data/analysis/goal3_1666_footystats_crosswalk_v02.csv : 選手名照合候補
+
+### 検証結果
+- 2025 J1: 380試合完了、得点欠損0。試合前xG>0の720チーム試合でPoisson 4択的中率36.94%、対数損失1.3150。
+- 倍率比較の対数損失最良: 2023年1.00、2024年1.00、2025年0.90。0.90を本番採用しない。
+- 2026 J1 CSVはcomplete=0、incomplete=358、suspended=22。完了試合実績として使わない。
+- FootyStats選手照合には未確定候補あり。欠損を0とみなさない。取得日時と試合前利用可能性は別途確認。
+
+### 次回必ずやること
+1. 第1666回の基礎lambdaを保存するCSVを作成する。
+2. 暫定lambdaからGOAL3の0/1/2/3+確率を算出する。
+3. 66選手の戦力による補正方法を設計し、過去データで検証する。未検証の係数を確定扱いしない。
+4. 第1666回の試合結果を使った後知恵の予測にならないよう、入力データの時点を確認する。
+
+### 再開時の注意
+ユーザーのMacで ~/Desktop/toto_analysis を操作。Pythonは .venv/bin/python。長いheredocは避け、原則1回に1コマンドを提示して結果を確認する。
