@@ -18863,3 +18863,9 @@ FootyStatsのホーム・アウェイ得点とxGを使った暫定Poisson推定�
 
 ### 再開時の注意
 ユーザーのMacで ~/Desktop/toto_analysis を操作。Pythonは .venv/bin/python。長いheredocは避け、原則1回に1コマンドを提示して結果を確認する。
+
+## 2026-10-31 正式引き継ぎ
+現在地点：正式フロー工程1/9。開催回指定による5情報源一括自動取得システムを構築中。
+最優先目標：--round 指定でtoto公式→FootyStats（39ページ）→Football LAB（26チーム詳細）→Jリーグ公式→toto ONEを一括取得し、13試合の成功・失敗・不足・取得日時を検証する。
+次回最初の作業：保存済みFootball LAB HTMLを確認し、ranking・formation・style等の詳細数値抽出と品質検証を完成させる。
+保留：分析、選手戦力評価、100万回シミュレーション、買い目作成。
