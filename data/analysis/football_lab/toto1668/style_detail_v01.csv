@@ -1,0 +1,2349 @@
+﻿team_slug,style_id,label,value_raw,source_file
+c-os,11,ゴール率,1.7 % 15位 (-1.1%),c-os_style_s_11.html
+c-os,11,シュート率,28.0 % 7位 (+1.7%),c-os_style_s_11.html
+c-os,21,ゴール率,2.1 % 12位 (-0.4%),c-os_style_s_21.html
+c-os,21,シュート率,19.2 % 13位 (-1.2%),c-os_style_s_21.html
+c-os,21,ドリブル使用率,13.0 % 16位 (-3.4%),c-os_style_s_21.html
+c-os,21,ロングパス使用率,14.4 % 18位 (-4.5%),c-os_style_s_21.html
+c-os,21,空中戦使用率,8.9 % 7位 (+1.3%),c-os_style_s_21.html
+c-os,21,コンビネーションプレー率,2.7 % 13位 (-0.6%),c-os_style_s_21.html
+c-os,21,20km/h以上の走行 平均人数,1.5 16位,c-os_style_s_21.html
+c-os,21,20km/h以上の走行 一人当たりの平均距離,18.4 m 15位,c-os_style_s_21.html
+c-os,21,20km/h以上の走行距離で 相手を上回った割合,33.3 % 14位,c-os_style_s_21.html
+c-os,22,ゴール率,0.0 % 16位 (-2.7%),c-os_style_s_22.html
+c-os,22,シュート率,12.5 % 17位 (-6.6%),c-os_style_s_22.html
+c-os,22,ドリブル使用率,21.9 % 6位 (+2.6%),c-os_style_s_22.html
+c-os,22,ロングパス使用率,53.1 % 7位 (+3.3%),c-os_style_s_22.html
+c-os,22,空中戦使用率,6.3 % 5位 (+2.3%),c-os_style_s_22.html
+c-os,22,コンビネーションプレー率,0.0 % 11位 (-1.6%),c-os_style_s_22.html
+c-os,22,20km/h以上の走行 平均人数,3.1 15位,c-os_style_s_22.html
+c-os,22,20km/h以上の走行 一人当たりの平均距離,27.4 m 19位,c-os_style_s_22.html
+c-os,22,20km/h以上の走行距離で 相手を上回った割合,19.1 % 19位,c-os_style_s_22.html
+c-os,23,ゴール率,0.0 % 15位 (-2.2%),c-os_style_s_23.html
+c-os,23,シュート率,22.7 % 13位 (-2.0%),c-os_style_s_23.html
+c-os,23,ドリブル使用率,21.3 % 13位 (-1.9%),c-os_style_s_23.html
+c-os,23,ロングパス使用率,37.3 % 5位 (+5.0%),c-os_style_s_23.html
+c-os,23,空中戦使用率,5.3 % 18位 (-4.2%),c-os_style_s_23.html
+c-os,23,コンビネーションプレー率,26.7 % 14位 (-2.5%),c-os_style_s_23.html
+c-os,23,20km/h以上の走行 平均人数,3.4 9位,c-os_style_s_23.html
+c-os,23,20km/h以上の走行 一人当たりの平均距離,19.5 m 9位,c-os_style_s_23.html
+c-os,23,20km/h以上の走行距離で 相手を上回った割合,48.3 % 6位,c-os_style_s_23.html
+c-os,24,ゴール率,0.0 % 13位 (-1.0%),c-os_style_s_24.html
+c-os,24,シュート率,6.8 % 11位 (-0.3%),c-os_style_s_24.html
+c-os,24,ドリブル使用率,5.9 % 16位 (-1.2%),c-os_style_s_24.html
+c-os,24,ロングパス使用率,31.4 % 13位 (-2.2%),c-os_style_s_24.html
+c-os,24,空中戦使用率,6.8 % 6位 (+1.2%),c-os_style_s_24.html
+c-os,24,コンビネーションプレー率,2.5 % 7位 (+0.2%),c-os_style_s_24.html
+c-os,24,20km/h以上の走行 平均人数,2.3 13位,c-os_style_s_24.html
+c-os,24,20km/h以上の走行 一人当たりの平均距離,18.2 m 12位,c-os_style_s_24.html
+c-os,24,20km/h以上の走行距離で 相手を上回った割合,20.2 % 15位,c-os_style_s_24.html
+c-os,31,ゴール率,0.0 % 15位 (-1.6%),c-os_style_s_31.html
+c-os,31,シュート率,12.8 % 13位 (-2.8%),c-os_style_s_31.html
+c-os,31,ドリブル使用率,20.8 % 12位 (-1.0%),c-os_style_s_31.html
+c-os,31,ロングパス使用率,24.8 % 10位 (-0.5%),c-os_style_s_31.html
+c-os,31,空中戦使用率,6.4 % 14位 (-2.6%),c-os_style_s_31.html
+c-os,31,コンビネーションプレー率,6.4 % 17位 (-3.9%),c-os_style_s_31.html
+c-os,31,20km/h以上の走行 平均人数,2.0 17位,c-os_style_s_31.html
+c-os,31,20km/h以上の走行 一人当たりの平均距離,20.5 m 9位,c-os_style_s_31.html
+c-os,31,20km/h以上の走行距離で 相手を上回った割合,27.4 % 18位,c-os_style_s_31.html
+c-os,32,ゴール率,3.1 % 17位 (-1.3%),c-os_style_s_32.html
+c-os,32,シュート率,28.3 % 18位 (-6.3%),c-os_style_s_32.html
+c-os,32,ドリブル使用率,14.2 % 16位 (-3.3%),c-os_style_s_32.html
+c-os,32,ロングパス使用率,29.1 % 5位 (+3.9%),c-os_style_s_32.html
+c-os,32,空中戦使用率,17.3 % 2位 (+5.3%),c-os_style_s_32.html
+c-os,32,コンビネーションプレー率,7.9 % 12位 (-1.4%),c-os_style_s_32.html
+c-os,32,20km/h以上の走行 平均人数,2.6 8位,c-os_style_s_32.html
+c-os,32,20km/h以上の走行 一人当たりの平均距離,21.4 m 13位,c-os_style_s_32.html
+c-os,32,20km/h以上の走行距離で 相手を上回った割合,32.2 % 14位,c-os_style_s_32.html
+c-os,33,ゴール率,0.0 % 18位 (-1.3%),c-os_style_s_33.html
+c-os,33,シュート率,13.9 % 10位 (+0.4%),c-os_style_s_33.html
+c-os,33,ドリブル使用率,14.9 % 12位 (0.0%),c-os_style_s_33.html
+c-os,33,ロングパス使用率,24.8 % 12位 (-0.7%),c-os_style_s_33.html
+c-os,33,空中戦使用率,6.9 % 16位 (-4.3%),c-os_style_s_33.html
+c-os,33,コンビネーションプレー率,9.9 % 7位 (+0.6%),c-os_style_s_33.html
+c-os,33,20km/h以上の走行 平均人数,2.8 4位,c-os_style_s_33.html
+c-os,33,20km/h以上の走行 一人当たりの平均距離,21.9 m 4位,c-os_style_s_33.html
+c-os,33,20km/h以上の走行距離で 相手を上回った割合,47.1 % 3位,c-os_style_s_33.html
+c-os,45,味方ゴール率,0.3 % 16位 (-0.7%),c-os_style_s_45.html
+c-os,45,味方シュート率,10.9 % 5位 (+1.6%),c-os_style_s_45.html
+c-os,66,ゲイン率,43.0 % 2位 (+6.7%),c-os_style_s_66.html
+c-os,66,守備成功率,51.2 % 3位 (+6.3%),c-os_style_s_66.html
+c-os,66,被シュート率,7.2 % 7位 (-1.1%),c-os_style_s_66.html
+c-os,66,被シュート成功率,40.0 % 20位 (+27.1%),c-os_style_s_66.html
+c-os,67,ゲイン率,26.3 % 11位 (-0.3%),c-os_style_s_67.html
+c-os,67,守備成功率,36.1 % 8位 (+2.0%),c-os_style_s_67.html
+c-os,67,被シュート率,13.7 % 3位 (-4.4%),c-os_style_s_67.html
+c-os,67,被シュート成功率,25.0 % 19位 (+13.4%),c-os_style_s_67.html
+c-os,69,ゲイン率,44.9 % 2位 (+5.6%),c-os_style_s_69.html
+c-os,69,守備成功率,55.1 % 2位 (+6.6%),c-os_style_s_69.html
+c-os,69,被シュート率,7.3 % 3位 (-2.6%),c-os_style_s_69.html
+c-os,69,被シュート成功率,16.0 % 16位 (+4.6%),c-os_style_s_69.html
+c-os,81,攻撃獲得率,87.2 % 1位 (+12.5%),c-os_style_s_81.html
+c-os,81,被シュート率,0.7 % 1位 (-3.4%),c-os_style_s_81.html
+c-os,81,被シュート成功率,0.0 % 1位 (-14.0%),c-os_style_s_81.html
+c-os,81,面積,929.7 m² (+14.3m²),c-os_style_s_81.html
+c-os,81,最終ラインの高さ,46.9 m (+0.5m),c-os_style_s_81.html
+c-os,81,縦幅,34.1 m (+0.7m),c-os_style_s_81.html
+c-os,81,横幅,42.5 m (+2.3m),c-os_style_s_81.html
+c-os,82,攻撃獲得率,72.2 % 17位 (-2.7%),c-os_style_s_82.html
+c-os,82,被シュート率,5.1 % 7位 (-1.4%),c-os_style_s_82.html
+c-os,82,被シュート成功率,30.0 % 19位 (+15.8%),c-os_style_s_82.html
+c-os,82,面積,684.1 m² (-12.5m²),c-os_style_s_82.html
+c-os,82,最終ラインの高さ,35.4 m (+0.4m),c-os_style_s_82.html
+c-os,82,縦幅,25.8 m (-0.8m),c-os_style_s_82.html
+c-os,82,横幅,40.0 m (+1.2m),c-os_style_s_82.html
+c-os,83,攻撃獲得率,70.1 % 1位 (+6.4%),c-os_style_s_83.html
+c-os,83,被シュート率,11.7 % 1位 (-5.0%),c-os_style_s_83.html
+c-os,83,被シュート成功率,4.0 % 4位 (-6.5%),c-os_style_s_83.html
+c-os,83,面積,504.3 m² (-12.8m²),c-os_style_s_83.html
+c-os,83,最終ラインの高さ,21.7 m (+0.8m),c-os_style_s_83.html
+c-os,83,縦幅,21.5 m (-1.0m),c-os_style_s_83.html
+c-os,83,横幅,36.9 m (+1.2m),c-os_style_s_83.html
+chib,11,ゴール率,2.2 % 13位 (-0.6%),chib_style_s_11.html
+chib,11,シュート率,22.8 % 17位 (-3.5%),chib_style_s_11.html
+chib,21,ゴール率,2.5 % 9位 (+0.1%),chib_style_s_21.html
+chib,21,シュート率,22.2 % 8位 (+1.8%),chib_style_s_21.html
+chib,21,ドリブル使用率,22.2 % 2位 (+5.8%),chib_style_s_21.html
+chib,21,ロングパス使用率,17.1 % 13位 (-1.8%),chib_style_s_21.html
+chib,21,空中戦使用率,5.7 % 13位 (-1.9%),chib_style_s_21.html
+chib,21,コンビネーションプレー率,1.9 % 15位 (-1.4%),chib_style_s_21.html
+chib,21,20km/h以上の走行 平均人数,1.6 13位,chib_style_s_21.html
+chib,21,20km/h以上の走行 一人当たりの平均距離,18.7 m 10位,chib_style_s_21.html
+chib,21,20km/h以上の走行距離で 相手を上回った割合,26.3 % 20位,chib_style_s_21.html
+chib,22,ゴール率,1.6 % 14位 (-1.1%),chib_style_s_22.html
+chib,22,シュート率,12.9 % 14位 (-6.2%),chib_style_s_22.html
+chib,22,ドリブル使用率,17.7 % 12位 (-1.6%),chib_style_s_22.html
+chib,22,ロングパス使用率,50.0 % 11位 (+0.2%),chib_style_s_22.html
+chib,22,空中戦使用率,0.0 % 18位 (-4.0%),chib_style_s_22.html
+chib,22,コンビネーションプレー率,0.0 % 11位 (-1.6%),chib_style_s_22.html
+chib,22,20km/h以上の走行 平均人数,3.3 12位,chib_style_s_22.html
+chib,22,20km/h以上の走行 一人当たりの平均距離,29.3 m 13位,chib_style_s_22.html
+chib,22,20km/h以上の走行距離で 相手を上回った割合,27.8 % 11位,chib_style_s_22.html
+chib,23,ゴール率,2.4 % 7位 (+0.2%),chib_style_s_23.html
+chib,23,シュート率,28.6 % 5位 (+3.9%),chib_style_s_23.html
+chib,23,ドリブル使用率,31.0 % 2位 (+7.8%),chib_style_s_23.html
+chib,23,ロングパス使用率,33.3 % 8位 (+1.0%),chib_style_s_23.html
+chib,23,空中戦使用率,7.1 % 14位 (-2.3%),chib_style_s_23.html
+chib,23,コンビネーションプレー率,26.2 % 15位 (-2.9%),chib_style_s_23.html
+chib,23,20km/h以上の走行 平均人数,3.7 6位,chib_style_s_23.html
+chib,23,20km/h以上の走行 一人当たりの平均距離,20.8 m 4位,chib_style_s_23.html
+chib,23,20km/h以上の走行距離で 相手を上回った割合,53.6 % 4位,chib_style_s_23.html
+chib,24,ゴール率,0.8 % 11位 (-0.1%),chib_style_s_24.html
+chib,24,シュート率,9.8 % 5位 (+2.8%),chib_style_s_24.html
+chib,24,ドリブル使用率,9.8 % 3位 (+2.7%),chib_style_s_24.html
+chib,24,ロングパス使用率,32.8 % 8位 (-0.8%),chib_style_s_24.html
+chib,24,空中戦使用率,6.6 % 7位 (+1.0%),chib_style_s_24.html
+chib,24,コンビネーションプレー率,2.5 % 8位 (+0.1%),chib_style_s_24.html
+chib,24,20km/h以上の走行 平均人数,2.4 9位,chib_style_s_24.html
+chib,24,20km/h以上の走行 一人当たりの平均距離,17.2 m 16位,chib_style_s_24.html
+chib,24,20km/h以上の走行距離で 相手を上回った割合,34.7 % 3位,chib_style_s_24.html
+chib,31,ゴール率,1.7 % 8位 (+0.1%),chib_style_s_31.html
+chib,31,シュート率,12.8 % 12位 (-2.8%),chib_style_s_31.html
+chib,31,ドリブル使用率,23.9 % 7位 (+2.1%),chib_style_s_31.html
+chib,31,ロングパス使用率,21.4 % 16位 (-3.9%),chib_style_s_31.html
+chib,31,空中戦使用率,11.1 % 6位 (+2.1%),chib_style_s_31.html
+chib,31,コンビネーションプレー率,8.5 % 12位 (-1.8%),chib_style_s_31.html
+chib,31,20km/h以上の走行 平均人数,2.1 15位,chib_style_s_31.html
+chib,31,20km/h以上の走行 一人当たりの平均距離,20.4 m 10位,chib_style_s_31.html
+chib,31,20km/h以上の走行距離で 相手を上回った割合,27.6 % 17位,chib_style_s_31.html
+chib,32,ゴール率,2.4 % 19位 (-2.0%),chib_style_s_32.html
+chib,32,シュート率,40.7 % 4位 (+6.0%),chib_style_s_32.html
+chib,32,ドリブル使用率,21.1 % 4位 (+3.7%),chib_style_s_32.html
+chib,32,ロングパス使用率,28.5 % 7位 (+3.2%),chib_style_s_32.html
+chib,32,空中戦使用率,10.6 % 12位 (-1.4%),chib_style_s_32.html
+chib,32,コンビネーションプレー率,5.7 % 17位 (-3.6%),chib_style_s_32.html
+chib,32,20km/h以上の走行 平均人数,2.4 15位,chib_style_s_32.html
+chib,32,20km/h以上の走行 一人当たりの平均距離,20.4 m 17位,chib_style_s_32.html
+chib,32,20km/h以上の走行距離で 相手を上回った割合,27.8 % 18位,chib_style_s_32.html
+chib,33,ゴール率,2.7 % 1位 (+1.3%),chib_style_s_33.html
+chib,33,シュート率,17.3 % 3位 (+3.9%),chib_style_s_33.html
+chib,33,ドリブル使用率,20.0 % 2位 (+5.2%),chib_style_s_33.html
+chib,33,ロングパス使用率,16.0 % 20位 (-9.5%),chib_style_s_33.html
+chib,33,空中戦使用率,13.3 % 6位 (+2.1%),chib_style_s_33.html
+chib,33,コンビネーションプレー率,9.3 % 10位 (0.0%),chib_style_s_33.html
+chib,33,20km/h以上の走行 平均人数,2.6 5位,chib_style_s_33.html
+chib,33,20km/h以上の走行 一人当たりの平均距離,20.6 m 11位,chib_style_s_33.html
+chib,33,20km/h以上の走行距離で 相手を上回った割合,48.0 % 2位,chib_style_s_33.html
+chib,45,味方ゴール率,2.0 % 2位 (+1.0%),chib_style_s_45.html
+chib,45,味方シュート率,10.1 % 7位 (+0.9%),chib_style_s_45.html
+chib,66,ゲイン率,36.2 % 11位 (-0.1%),chib_style_s_66.html
+chib,66,守備成功率,43.3 % 12位 (-1.6%),chib_style_s_66.html
+chib,66,被シュート率,10.1 % 14位 (+1.7%),chib_style_s_66.html
+chib,66,被シュート成功率,20.0 % 17位 (+7.1%),chib_style_s_66.html
+chib,67,ゲイン率,25.1 % 14位 (-1.5%),chib_style_s_67.html
+chib,67,守備成功率,31.1 % 15位 (-3.1%),chib_style_s_67.html
+chib,67,被シュート率,17.9 % 9位 (-0.2%),chib_style_s_67.html
+chib,67,被シュート成功率,9.5 % 10位 (-2.1%),chib_style_s_67.html
+chib,69,ゲイン率,39.5 % 12位 (+0.2%),chib_style_s_69.html
+chib,69,守備成功率,46.2 % 15位 (-2.3%),chib_style_s_69.html
+chib,69,被シュート率,10.1 % 10位 (+0.2%),chib_style_s_69.html
+chib,69,被シュート成功率,16.7 % 17位 (+5.3%),chib_style_s_69.html
+chib,81,攻撃獲得率,69.9 % 17位 (-4.9%),chib_style_s_81.html
+chib,81,被シュート率,6.8 % 20位 (+2.7%),chib_style_s_81.html
+chib,81,被シュート成功率,30.0 % 17位 (+16.0%),chib_style_s_81.html
+chib,81,面積,910.5 m² (-5.0m²),chib_style_s_81.html
+chib,81,最終ラインの高さ,46.3 m (-0.1m),chib_style_s_81.html
+chib,81,縦幅,33.1 m (-0.3m),chib_style_s_81.html
+chib,81,横幅,40.5 m (+0.3m),chib_style_s_81.html
+chib,82,攻撃獲得率,72.4 % 16位 (-2.6%),chib_style_s_82.html
+chib,82,被シュート率,7.1 % 11位 (+0.7%),chib_style_s_82.html
+chib,82,被シュート成功率,33.3 % 20位 (+19.2%),chib_style_s_82.html
+chib,82,面積,710.5 m² (+14.0m²),chib_style_s_82.html
+chib,82,最終ラインの高さ,34.8 m (-0.2m),chib_style_s_82.html
+chib,82,縦幅,26.4 m (-0.2m),chib_style_s_82.html
+chib,82,横幅,39.7 m (+0.9m),chib_style_s_82.html
+chib,83,攻撃獲得率,60.6 % 18位 (-3.1%),chib_style_s_83.html
+chib,83,被シュート率,19.0 % 17位 (+2.2%),chib_style_s_83.html
+chib,83,被シュート成功率,5.9 % 6位 (-4.6%),chib_style_s_83.html
+chib,83,面積,533.6 m² (+16.5m²),chib_style_s_83.html
+chib,83,最終ラインの高さ,21.4 m (+0.5m),chib_style_s_83.html
+chib,83,縦幅,23.0 m (+0.5m),chib_style_s_83.html
+chib,83,横幅,35.8 m (+0.1m),chib_style_s_83.html
+fctk,11,ゴール率,5.2 % 2位 (+2.4%),fctk_style_s_11.html
+fctk,11,シュート率,30.2 % 3位 (+3.9%),fctk_style_s_11.html
+fctk,21,ゴール率,2.2 % 11位 (-0.3%),fctk_style_s_21.html
+fctk,21,シュート率,23.8 % 6位 (+3.4%),fctk_style_s_21.html
+fctk,21,ドリブル使用率,19.5 % 6位 (+3.1%),fctk_style_s_21.html
+fctk,21,ロングパス使用率,13.5 % 20位 (-5.4%),fctk_style_s_21.html
+fctk,21,空中戦使用率,3.8 % 20位 (-3.8%),fctk_style_s_21.html
+fctk,21,コンビネーションプレー率,5.9 % 2位 (+2.6%),fctk_style_s_21.html
+fctk,21,20km/h以上の走行 平均人数,2.1 2位,fctk_style_s_21.html
+fctk,21,20km/h以上の走行 一人当たりの平均距離,21.1 m 3位,fctk_style_s_21.html
+fctk,21,20km/h以上の走行距離で 相手を上回った割合,44.9 % 1位,fctk_style_s_21.html
+fctk,22,ゴール率,4.9 % 4位 (+2.2%),fctk_style_s_22.html
+fctk,22,シュート率,24.6 % 5位 (+5.5%),fctk_style_s_22.html
+fctk,22,ドリブル使用率,19.7 % 8位 (+0.4%),fctk_style_s_22.html
+fctk,22,ロングパス使用率,36.1 % 20位 (-13.7%),fctk_style_s_22.html
+fctk,22,空中戦使用率,1.6 % 16位 (-2.3%),fctk_style_s_22.html
+fctk,22,コンビネーションプレー率,0.0 % 11位 (-1.6%),fctk_style_s_22.html
+fctk,22,20km/h以上の走行 平均人数,4.3 2位,fctk_style_s_22.html
+fctk,22,20km/h以上の走行 一人当たりの平均距離,34.3 m 1位,fctk_style_s_22.html
+fctk,22,20km/h以上の走行距離で 相手を上回った割合,26.1 % 14位,fctk_style_s_22.html
+fctk,23,ゴール率,2.2 % 8位 (0.0%),fctk_style_s_23.html
+fctk,23,シュート率,25.3 % 8位 (+0.6%),fctk_style_s_23.html
+fctk,23,ドリブル使用率,18.7 % 15位 (-4.5%),fctk_style_s_23.html
+fctk,23,ロングパス使用率,47.3 % 1位 (+15.0%),fctk_style_s_23.html
+fctk,23,空中戦使用率,7.7 % 13位 (-1.8%),fctk_style_s_23.html
+fctk,23,コンビネーションプレー率,35.2 % 2位 (+6.0%),fctk_style_s_23.html
+fctk,23,20km/h以上の走行 平均人数,4.4 1位,fctk_style_s_23.html
+fctk,23,20km/h以上の走行 一人当たりの平均距離,21.8 m 3位,fctk_style_s_23.html
+fctk,23,20km/h以上の走行距離で 相手を上回った割合,27.3 % 19位,fctk_style_s_23.html
+fctk,24,ゴール率,1.9 % 3位 (+0.9%),fctk_style_s_24.html
+fctk,24,シュート率,13.3 % 2位 (+6.3%),fctk_style_s_24.html
+fctk,24,ドリブル使用率,8.6 % 6位 (+1.4%),fctk_style_s_24.html
+fctk,24,ロングパス使用率,35.2 % 6位 (+1.7%),fctk_style_s_24.html
+fctk,24,空中戦使用率,3.8 % 17位 (-1.7%),fctk_style_s_24.html
+fctk,24,コンビネーションプレー率,3.8 % 4位 (+1.5%),fctk_style_s_24.html
+fctk,24,20km/h以上の走行 平均人数,3.0 1位,fctk_style_s_24.html
+fctk,24,20km/h以上の走行 一人当たりの平均距離,21.3 m 3位,fctk_style_s_24.html
+fctk,24,20km/h以上の走行距離で 相手を上回った割合,15.7 % 19位,fctk_style_s_24.html
+fctk,31,ゴール率,0.8 % 13位 (-0.8%),fctk_style_s_31.html
+fctk,31,シュート率,16.1 % 8位 (+0.5%),fctk_style_s_31.html
+fctk,31,ドリブル使用率,23.7 % 9位 (+1.9%),fctk_style_s_31.html
+fctk,31,ロングパス使用率,28.0 % 7位 (+2.7%),fctk_style_s_31.html
+fctk,31,空中戦使用率,4.2 % 18位 (-4.8%),fctk_style_s_31.html
+fctk,31,コンビネーションプレー率,14.4 % 3位 (+4.1%),fctk_style_s_31.html
+fctk,31,20km/h以上の走行 平均人数,3.2 1位,fctk_style_s_31.html
+fctk,31,20km/h以上の走行 一人当たりの平均距離,22.3 m 2位,fctk_style_s_31.html
+fctk,31,20km/h以上の走行距離で 相手を上回った割合,46.6 % 1位,fctk_style_s_31.html
+fctk,32,ゴール率,4.9 % 6位 (+0.5%),fctk_style_s_32.html
+fctk,32,シュート率,33.0 % 13位 (-1.7%),fctk_style_s_32.html
+fctk,32,ドリブル使用率,17.6 % 10位 (+0.2%),fctk_style_s_32.html
+fctk,32,ロングパス使用率,17.0 % 19位 (-8.2%),fctk_style_s_32.html
+fctk,32,空中戦使用率,5.5 % 20位 (-6.5%),fctk_style_s_32.html
+fctk,32,コンビネーションプレー率,8.2 % 11位 (-1.0%),fctk_style_s_32.html
+fctk,32,20km/h以上の走行 平均人数,3.2 1位,fctk_style_s_32.html
+fctk,32,20km/h以上の走行 一人当たりの平均距離,25.8 m 1位,fctk_style_s_32.html
+fctk,32,20km/h以上の走行距離で 相手を上回った割合,39.4 % 6位,fctk_style_s_32.html
+fctk,33,ゴール率,1.9 % 7位 (+0.5%),fctk_style_s_33.html
+fctk,33,シュート率,23.4 % 1位 (+9.9%),fctk_style_s_33.html
+fctk,33,ドリブル使用率,16.8 % 8位 (+2.0%),fctk_style_s_33.html
+fctk,33,ロングパス使用率,30.8 % 2位 (+5.4%),fctk_style_s_33.html
+fctk,33,空中戦使用率,9.3 % 10位 (-1.9%),fctk_style_s_33.html
+fctk,33,コンビネーションプレー率,14.0 % 4位 (+4.7%),fctk_style_s_33.html
+fctk,33,20km/h以上の走行 平均人数,2.8 3位,fctk_style_s_33.html
+fctk,33,20km/h以上の走行 一人当たりの平均距離,21.4 m 5位,fctk_style_s_33.html
+fctk,33,20km/h以上の走行距離で 相手を上回った割合,32.4 % 16位,fctk_style_s_33.html
+fctk,45,味方ゴール率,1.8 % 4位 (+0.8%),fctk_style_s_45.html
+fctk,45,味方シュート率,13.8 % 2位 (+4.6%),fctk_style_s_45.html
+fctk,66,ゲイン率,37.4 % 8位 (+1.1%),fctk_style_s_66.html
+fctk,66,守備成功率,45.6 % 11位 (+0.6%),fctk_style_s_66.html
+fctk,66,被シュート率,6.7 % 5位 (-1.7%),fctk_style_s_66.html
+fctk,66,被シュート成功率,5.6 % 5位 (-7.3%),fctk_style_s_66.html
+fctk,67,ゲイン率,26.4 % 10位 (-0.2%),fctk_style_s_67.html
+fctk,67,守備成功率,36.8 % 7位 (+2.7%),fctk_style_s_67.html
+fctk,67,被シュート率,13.4 % 2位 (-4.7%),fctk_style_s_67.html
+fctk,67,被シュート成功率,6.5 % 4位 (-5.1%),fctk_style_s_67.html
+fctk,69,ゲイン率,44.4 % 3位 (+5.2%),fctk_style_s_69.html
+fctk,69,守備成功率,54.1 % 4位 (+5.6%),fctk_style_s_69.html
+fctk,69,被シュート率,5.7 % 2位 (-4.2%),fctk_style_s_69.html
+fctk,69,被シュート成功率,5.3 % 3位 (-6.1%),fctk_style_s_69.html
+fctk,81,攻撃獲得率,70.7 % 16位 (-4.0%),fctk_style_s_81.html
+fctk,81,被シュート率,4.1 % 11位 (-0.1%),fctk_style_s_81.html
+fctk,81,被シュート成功率,0.0 % 1位 (-14.0%),fctk_style_s_81.html
+fctk,81,面積,897.1 m² (-18.3m²),fctk_style_s_81.html
+fctk,81,最終ラインの高さ,46.5 m (+0.1m),fctk_style_s_81.html
+fctk,81,縦幅,33.0 m (-0.4m),fctk_style_s_81.html
+fctk,81,横幅,39.4 m (-0.8m),fctk_style_s_81.html
+fctk,82,攻撃獲得率,75.1 % 11位 (+0.2%),fctk_style_s_82.html
+fctk,82,被シュート率,4.9 % 6位 (-1.6%),fctk_style_s_82.html
+fctk,82,被シュート成功率,11.1 % 9位 (-3.1%),fctk_style_s_82.html
+fctk,82,面積,713.3 m² (+16.8m²),fctk_style_s_82.html
+fctk,82,最終ラインの高さ,37.0 m (+2.0m),fctk_style_s_82.html
+fctk,82,縦幅,26.6 m (0.0m),fctk_style_s_82.html
+fctk,82,横幅,38.6 m (-0.2m),fctk_style_s_82.html
+fctk,83,攻撃獲得率,62.7 % 13位 (-1.0%),fctk_style_s_83.html
+fctk,83,被シュート率,15.6 % 6位 (-1.2%),fctk_style_s_83.html
+fctk,83,被シュート成功率,5.7 % 5位 (-4.8%),fctk_style_s_83.html
+fctk,83,面積,528.5 m² (+11.4m²),fctk_style_s_83.html
+fctk,83,最終ラインの高さ,21.5 m (+0.6m),fctk_style_s_83.html
+fctk,83,縦幅,22.6 m (+0.1m),fctk_style_s_83.html
+fctk,83,横幅,35.9 m (+0.2m),fctk_style_s_83.html
+fuku,11,ゴール率,1.3 % 19位 (-1.5%),fuku_style_s_11.html
+fuku,11,シュート率,29.3 % 5位 (+3.0%),fuku_style_s_11.html
+fuku,21,ゴール率,1.3 % 17位 (-1.2%),fuku_style_s_21.html
+fuku,21,シュート率,15.4 % 17位 (-5.0%),fuku_style_s_21.html
+fuku,21,ドリブル使用率,20.5 % 4位 (+4.1%),fuku_style_s_21.html
+fuku,21,ロングパス使用率,23.1 % 4位 (+4.2%),fuku_style_s_21.html
+fuku,21,空中戦使用率,14.1 % 1位 (+6.5%),fuku_style_s_21.html
+fuku,21,コンビネーションプレー率,1.3 % 17位 (-2.0%),fuku_style_s_21.html
+fuku,21,20km/h以上の走行 平均人数,1.4 20位,fuku_style_s_21.html
+fuku,21,20km/h以上の走行 一人当たりの平均距離,18.7 m 11位,fuku_style_s_21.html
+fuku,21,20km/h以上の走行距離で 相手を上回った割合,28.7 % 18位,fuku_style_s_21.html
+fuku,22,ゴール率,1.5 % 15位 (-1.2%),fuku_style_s_22.html
+fuku,22,シュート率,12.3 % 18位 (-6.8%),fuku_style_s_22.html
+fuku,22,ドリブル使用率,18.5 % 11位 (-0.8%),fuku_style_s_22.html
+fuku,22,ロングパス使用率,58.5 % 2位 (+8.7%),fuku_style_s_22.html
+fuku,22,空中戦使用率,9.2 % 2位 (+5.3%),fuku_style_s_22.html
+fuku,22,コンビネーションプレー率,0.0 % 11位 (-1.6%),fuku_style_s_22.html
+fuku,22,20km/h以上の走行 平均人数,3.0 18位,fuku_style_s_22.html
+fuku,22,20km/h以上の走行 一人当たりの平均距離,31.5 m 3位,fuku_style_s_22.html
+fuku,22,20km/h以上の走行距離で 相手を上回った割合,23.8 % 15位,fuku_style_s_22.html
+fuku,23,ゴール率,7.7 % 1位 (+5.5%),fuku_style_s_23.html
+fuku,23,シュート率,29.2 % 4位 (+4.5%),fuku_style_s_23.html
+fuku,23,ドリブル使用率,21.5 % 12位 (-1.7%),fuku_style_s_23.html
+fuku,23,ロングパス使用率,36.9 % 6位 (+4.6%),fuku_style_s_23.html
+fuku,23,空中戦使用率,13.8 % 3位 (+4.4%),fuku_style_s_23.html
+fuku,23,コンビネーションプレー率,24.6 % 17位 (-4.5%),fuku_style_s_23.html
+fuku,23,20km/h以上の走行 平均人数,3.2 18位,fuku_style_s_23.html
+fuku,23,20km/h以上の走行 一人当たりの平均距離,17.3 m 17位,fuku_style_s_23.html
+fuku,23,20km/h以上の走行距離で 相手を上回った割合,35.0 % 14位,fuku_style_s_23.html
+fuku,24,ゴール率,1.9 % 4位 (+0.9%),fuku_style_s_24.html
+fuku,24,シュート率,5.6 % 14位 (-1.5%),fuku_style_s_24.html
+fuku,24,ドリブル使用率,13.0 % 1位 (+5.8%),fuku_style_s_24.html
+fuku,24,ロングパス使用率,31.5 % 12位 (-2.1%),fuku_style_s_24.html
+fuku,24,空中戦使用率,7.4 % 4位 (+1.9%),fuku_style_s_24.html
+fuku,24,コンビネーションプレー率,1.9 % 14位 (-0.5%),fuku_style_s_24.html
+fuku,24,20km/h以上の走行 平均人数,2.8 3位,fuku_style_s_24.html
+fuku,24,20km/h以上の走行 一人当たりの平均距離,18.0 m 14位,fuku_style_s_24.html
+fuku,24,20km/h以上の走行距離で 相手を上回った割合,14.3 % 20位,fuku_style_s_24.html
+fuku,31,ゴール率,2.2 % 7位 (+0.6%),fuku_style_s_31.html
+fuku,31,シュート率,10.8 % 18位 (-4.8%),fuku_style_s_31.html
+fuku,31,ドリブル使用率,23.7 % 8位 (+1.9%),fuku_style_s_31.html
+fuku,31,ロングパス使用率,29.5 % 5位 (+4.2%),fuku_style_s_31.html
+fuku,31,空中戦使用率,15.1 % 3位 (+6.1%),fuku_style_s_31.html
+fuku,31,コンビネーションプレー率,7.9 % 14位 (-2.4%),fuku_style_s_31.html
+fuku,31,20km/h以上の走行 平均人数,1.8 20位,fuku_style_s_31.html
+fuku,31,20km/h以上の走行 一人当たりの平均距離,17.0 m 20位,fuku_style_s_31.html
+fuku,31,20km/h以上の走行距離で 相手を上回った割合,37.5 % 10位,fuku_style_s_31.html
+fuku,32,ゴール率,3.9 % 12位 (-0.5%),fuku_style_s_32.html
+fuku,32,シュート率,35.3 % 9位 (+0.6%),fuku_style_s_32.html
+fuku,32,ドリブル使用率,19.6 % 7位 (+2.2%),fuku_style_s_32.html
+fuku,32,ロングパス使用率,31.4 % 3位 (+6.1%),fuku_style_s_32.html
+fuku,32,空中戦使用率,14.7 % 6位 (+2.7%),fuku_style_s_32.html
+fuku,32,コンビネーションプレー率,5.9 % 15位 (-3.4%),fuku_style_s_32.html
+fuku,32,20km/h以上の走行 平均人数,1.7 20位,fuku_style_s_32.html
+fuku,32,20km/h以上の走行 一人当たりの平均距離,20.7 m 16位,fuku_style_s_32.html
+fuku,32,20km/h以上の走行距離で 相手を上回った割合,25.8 % 19位,fuku_style_s_32.html
+fuku,33,ゴール率,1.1 % 11位 (-0.2%),fuku_style_s_33.html
+fuku,33,シュート率,12.4 % 13位 (-1.1%),fuku_style_s_33.html
+fuku,33,ドリブル使用率,16.9 % 7位 (+2.0%),fuku_style_s_33.html
+fuku,33,ロングパス使用率,36.0 % 1位 (+10.5%),fuku_style_s_33.html
+fuku,33,空中戦使用率,16.9 % 4位 (+5.6%),fuku_style_s_33.html
+fuku,33,コンビネーションプレー率,7.9 % 14位 (-1.5%),fuku_style_s_33.html
+fuku,33,20km/h以上の走行 平均人数,2.4 11位,fuku_style_s_33.html
+fuku,33,20km/h以上の走行 一人当たりの平均距離,20.9 m 9位,fuku_style_s_33.html
+fuku,33,20km/h以上の走行距離で 相手を上回った割合,23.8 % 19位,fuku_style_s_33.html
+fuku,45,味方ゴール率,0.9 % 11位 (-0.1%),fuku_style_s_45.html
+fuku,45,味方シュート率,9.1 % 10位 (-0.2%),fuku_style_s_45.html
+fuku,66,ゲイン率,33.5 % 13位 (-2.8%),fuku_style_s_66.html
+fuku,66,守備成功率,43.1 % 13位 (-1.8%),fuku_style_s_66.html
+fuku,66,被シュート率,6.7 % 6位 (-1.7%),fuku_style_s_66.html
+fuku,66,被シュート成功率,11.1 % 9位 (-1.7%),fuku_style_s_66.html
+fuku,67,ゲイン率,25.4 % 13位 (-1.2%),fuku_style_s_67.html
+fuku,67,守備成功率,32.2 % 14位 (-1.9%),fuku_style_s_67.html
+fuku,67,被シュート率,19.1 % 11位 (+1.0%),fuku_style_s_67.html
+fuku,67,被シュート成功率,11.1 % 12位 (-0.5%),fuku_style_s_67.html
+fuku,69,ゲイン率,34.0 % 18位 (-5.3%),fuku_style_s_69.html
+fuku,69,守備成功率,44.7 % 17位 (-3.8%),fuku_style_s_69.html
+fuku,69,被シュート率,8.9 % 8位 (-1.0%),fuku_style_s_69.html
+fuku,69,被シュート成功率,15.4 % 15位 (+4.0%),fuku_style_s_69.html
+fuku,81,攻撃獲得率,72.9 % 13位 (-1.9%),fuku_style_s_81.html
+fuku,81,被シュート率,4.2 % 12位 (0.0%),fuku_style_s_81.html
+fuku,81,被シュート成功率,16.7 % 13位 (+2.7%),fuku_style_s_81.html
+fuku,81,面積,891.9 m² (-23.5m²),fuku_style_s_81.html
+fuku,81,最終ラインの高さ,45.9 m (-0.5m),fuku_style_s_81.html
+fuku,81,縦幅,32.9 m (-0.5m),fuku_style_s_81.html
+fuku,81,横幅,40.6 m (+0.3m),fuku_style_s_81.html
+fuku,82,攻撃獲得率,75.3 % 10位 (+0.3%),fuku_style_s_82.html
+fuku,82,被シュート率,4.0 % 4位 (-2.4%),fuku_style_s_82.html
+fuku,82,被シュート成功率,25.0 % 14位 (+10.8%),fuku_style_s_82.html
+fuku,82,面積,667.2 m² (-29.4m²),fuku_style_s_82.html
+fuku,82,最終ラインの高さ,35.0 m (0.0m),fuku_style_s_82.html
+fuku,82,縦幅,25.9 m (-0.8m),fuku_style_s_82.html
+fuku,82,横幅,38.8 m (0.0m),fuku_style_s_82.html
+fuku,83,攻撃獲得率,65.7 % 5位 (+2.0%),fuku_style_s_83.html
+fuku,83,被シュート率,16.4 % 9位 (-0.3%),fuku_style_s_83.html
+fuku,83,被シュート成功率,2.9 % 1位 (-7.5%),fuku_style_s_83.html
+fuku,83,面積,513.5 m² (-3.5m²),fuku_style_s_83.html
+fuku,83,最終ラインの高さ,22.4 m (+1.5m),fuku_style_s_83.html
+fuku,83,縦幅,22.2 m (-0.3m),fuku_style_s_83.html
+fuku,83,横幅,36.3 m (+0.6m),fuku_style_s_83.html
+g-os,11,ゴール率,3.9 % 5位 (+1.1%),g-os_style_s_11.html
+g-os,11,シュート率,29.8 % 4位 (+3.5%),g-os_style_s_11.html
+g-os,21,ゴール率,3.1 % 6位 (+0.7%),g-os_style_s_21.html
+g-os,21,シュート率,24.2 % 5位 (+3.8%),g-os_style_s_21.html
+g-os,21,ドリブル使用率,14.8 % 11位 (-1.5%),g-os_style_s_21.html
+g-os,21,ロングパス使用率,21.9 % 8位 (+3.0%),g-os_style_s_21.html
+g-os,21,空中戦使用率,5.5 % 14位 (-2.1%),g-os_style_s_21.html
+g-os,21,コンビネーションプレー率,3.1 % 12位 (-0.2%),g-os_style_s_21.html
+g-os,21,20km/h以上の走行 平均人数,1.6 14位,g-os_style_s_21.html
+g-os,21,20km/h以上の走行 一人当たりの平均距離,17.2 m 20位,g-os_style_s_21.html
+g-os,21,20km/h以上の走行距離で 相手を上回った割合,35.0 % 13位,g-os_style_s_21.html
+g-os,22,ゴール率,0.0 % 16位 (-2.7%),g-os_style_s_22.html
+g-os,22,シュート率,18.8 % 11位 (-0.4%),g-os_style_s_22.html
+g-os,22,ドリブル使用率,34.4 % 1位 (+15.1%),g-os_style_s_22.html
+g-os,22,ロングパス使用率,42.2 % 18位 (-7.6%),g-os_style_s_22.html
+g-os,22,空中戦使用率,3.1 % 10位 (-0.9%),g-os_style_s_22.html
+g-os,22,コンビネーションプレー率,0.0 % 11位 (-1.6%),g-os_style_s_22.html
+g-os,22,20km/h以上の走行 平均人数,3.7 4位,g-os_style_s_22.html
+g-os,22,20km/h以上の走行 一人当たりの平均距離,29.9 m 11位,g-os_style_s_22.html
+g-os,22,20km/h以上の走行距離で 相手を上回った割合,27.3 % 12位,g-os_style_s_22.html
+g-os,23,ゴール率,1.1 % 14位 (-1.1%),g-os_style_s_23.html
+g-os,23,シュート率,22.2 % 14位 (-2.5%),g-os_style_s_23.html
+g-os,23,ドリブル使用率,34.4 % 1位 (+11.2%),g-os_style_s_23.html
+g-os,23,ロングパス使用率,41.1 % 2位 (+8.8%),g-os_style_s_23.html
+g-os,23,空中戦使用率,5.6 % 17位 (-3.9%),g-os_style_s_23.html
+g-os,23,コンビネーションプレー率,32.2 % 7位 (+3.1%),g-os_style_s_23.html
+g-os,23,20km/h以上の走行 平均人数,3.0 19位,g-os_style_s_23.html
+g-os,23,20km/h以上の走行 一人当たりの平均距離,18.8 m 12位,g-os_style_s_23.html
+g-os,23,20km/h以上の走行距離で 相手を上回った割合,34.3 % 17位,g-os_style_s_23.html
+g-os,24,ゴール率,0.0 % 13位 (-1.0%),g-os_style_s_24.html
+g-os,24,シュート率,1.2 % 19位 (-5.8%),g-os_style_s_24.html
+g-os,24,ドリブル使用率,6.1 % 14位 (-1.1%),g-os_style_s_24.html
+g-os,24,ロングパス使用率,29.3 % 14位 (-4.3%),g-os_style_s_24.html
+g-os,24,空中戦使用率,2.4 % 18位 (-3.1%),g-os_style_s_24.html
+g-os,24,コンビネーションプレー率,1.2 % 15位 (-1.1%),g-os_style_s_24.html
+g-os,24,20km/h以上の走行 平均人数,1.7 20位,g-os_style_s_24.html
+g-os,24,20km/h以上の走行 一人当たりの平均距離,14.6 m 20位,g-os_style_s_24.html
+g-os,24,20km/h以上の走行距離で 相手を上回った割合,17.5 % 17位,g-os_style_s_24.html
+g-os,31,ゴール率,0.0 % 15位 (-1.6%),g-os_style_s_31.html
+g-os,31,シュート率,10.8 % 17位 (-4.8%),g-os_style_s_31.html
+g-os,31,ドリブル使用率,31.5 % 1位 (+9.7%),g-os_style_s_31.html
+g-os,31,ロングパス使用率,33.3 % 1位 (+8.0%),g-os_style_s_31.html
+g-os,31,空中戦使用率,6.3 % 15位 (-2.7%),g-os_style_s_31.html
+g-os,31,コンビネーションプレー率,7.2 % 16位 (-3.1%),g-os_style_s_31.html
+g-os,31,20km/h以上の走行 平均人数,2.0 18位,g-os_style_s_31.html
+g-os,31,20km/h以上の走行 一人当たりの平均距離,19.3 m 17位,g-os_style_s_31.html
+g-os,31,20km/h以上の走行距離で 相手を上回った割合,37.5 % 10位,g-os_style_s_31.html
+g-os,32,ゴール率,4.4 % 9位 (0.0%),g-os_style_s_32.html
+g-os,32,シュート率,34.6 % 10位 (-0.1%),g-os_style_s_32.html
+g-os,32,ドリブル使用率,25.7 % 1位 (+8.3%),g-os_style_s_32.html
+g-os,32,ロングパス使用率,26.5 % 9位 (+1.2%),g-os_style_s_32.html
+g-os,32,空中戦使用率,7.4 % 16位 (-4.6%),g-os_style_s_32.html
+g-os,32,コンビネーションプレー率,11.0 % 7位 (+1.7%),g-os_style_s_32.html
+g-os,32,20km/h以上の走行 平均人数,2.7 7位,g-os_style_s_32.html
+g-os,32,20km/h以上の走行 一人当たりの平均距離,20.9 m 15位,g-os_style_s_32.html
+g-os,32,20km/h以上の走行距離で 相手を上回った割合,31.9 % 15位,g-os_style_s_32.html
+g-os,33,ゴール率,1.0 % 13位 (-0.3%),g-os_style_s_33.html
+g-os,33,シュート率,14.1 % 9位 (+0.7%),g-os_style_s_33.html
+g-os,33,ドリブル使用率,16.2 % 9位 (+1.3%),g-os_style_s_33.html
+g-os,33,ロングパス使用率,21.2 % 17位 (-4.2%),g-os_style_s_33.html
+g-os,33,空中戦使用率,8.1 % 14位 (-3.1%),g-os_style_s_33.html
+g-os,33,コンビネーションプレー率,11.1 % 6位 (+1.8%),g-os_style_s_33.html
+g-os,33,20km/h以上の走行 平均人数,2.3 16位,g-os_style_s_33.html
+g-os,33,20km/h以上の走行 一人当たりの平均距離,19.2 m 16位,g-os_style_s_33.html
+g-os,33,20km/h以上の走行距離で 相手を上回った割合,41.7 % 9位,g-os_style_s_33.html
+g-os,45,味方ゴール率,0.9 % 13位 (-0.2%),g-os_style_s_45.html
+g-os,45,味方シュート率,7.7 % 15位 (-1.6%),g-os_style_s_45.html
+g-os,66,ゲイン率,41.1 % 5位 (+4.8%),g-os_style_s_66.html
+g-os,66,守備成功率,51.9 % 1位 (+6.9%),g-os_style_s_66.html
+g-os,66,被シュート率,8.4 % 10位 (0.0%),g-os_style_s_66.html
+g-os,66,被シュート成功率,16.7 % 13位 (+3.8%),g-os_style_s_66.html
+g-os,67,ゲイン率,31.3 % 2位 (+4.6%),g-os_style_s_67.html
+g-os,67,守備成功率,39.4 % 1位 (+5.3%),g-os_style_s_67.html
+g-os,67,被シュート率,22.6 % 19位 (+4.5%),g-os_style_s_67.html
+g-os,67,被シュート成功率,14.9 % 17位 (+3.3%),g-os_style_s_67.html
+g-os,69,ゲイン率,40.8 % 9位 (+1.6%),g-os_style_s_69.html
+g-os,69,守備成功率,49.2 % 9位 (+0.7%),g-os_style_s_69.html
+g-os,69,被シュート率,12.2 % 15位 (+2.3%),g-os_style_s_69.html
+g-os,69,被シュート成功率,21.1 % 20位 (+9.7%),g-os_style_s_69.html
+g-os,81,攻撃獲得率,76.2 % 7位 (+1.4%),g-os_style_s_81.html
+g-os,81,被シュート率,6.7 % 19位 (+2.6%),g-os_style_s_81.html
+g-os,81,被シュート成功率,9.1 % 9位 (-4.9%),g-os_style_s_81.html
+g-os,81,面積,936.5 m² (+21.1m²),g-os_style_s_81.html
+g-os,81,最終ラインの高さ,45.6 m (-0.8m),g-os_style_s_81.html
+g-os,81,縦幅,34.7 m (+1.3m),g-os_style_s_81.html
+g-os,81,横幅,38.7 m (-1.6m),g-os_style_s_81.html
+g-os,82,攻撃獲得率,76.1 % 8位 (+1.1%),g-os_style_s_82.html
+g-os,82,被シュート率,10.1 % 20位 (+3.6%),g-os_style_s_82.html
+g-os,82,被シュート成功率,26.3 % 17位 (+12.1%),g-os_style_s_82.html
+g-os,82,面積,702.4 m² (+5.8m²),g-os_style_s_82.html
+g-os,82,最終ラインの高さ,33.0 m (-2.0m),g-os_style_s_82.html
+g-os,82,縦幅,27.8 m (+1.2m),g-os_style_s_82.html
+g-os,82,横幅,36.7 m (-2.1m),g-os_style_s_82.html
+g-os,83,攻撃獲得率,65.5 % 7位 (+1.8%),g-os_style_s_83.html
+g-os,83,被シュート率,12.9 % 3位 (-3.9%),g-os_style_s_83.html
+g-os,83,被シュート成功率,13.6 % 16位 (+3.2%),g-os_style_s_83.html
+g-os,83,面積,541.0 m² (+23.9m²),g-os_style_s_83.html
+g-os,83,最終ラインの高さ,20.3 m (-0.6m),g-os_style_s_83.html
+g-os,83,縦幅,24.3 m (+1.8m),g-os_style_s_83.html
+g-os,83,横幅,34.1 m (-1.6m),g-os_style_s_83.html
+hiro,11,ゴール率,2.3 % 11位 (-0.5%),hiro_style_s_11.html
+hiro,11,シュート率,31.9 % 2位 (+5.6%),hiro_style_s_11.html
+hiro,21,ゴール率,1.0 % 19位 (-1.4%),hiro_style_s_21.html
+hiro,21,シュート率,25.5 % 3位 (+5.2%),hiro_style_s_21.html
+hiro,21,ドリブル使用率,12.0 % 18位 (-4.4%),hiro_style_s_21.html
+hiro,21,ロングパス使用率,14.1 % 19位 (-4.8%),hiro_style_s_21.html
+hiro,21,空中戦使用率,5.2 % 16位 (-2.4%),hiro_style_s_21.html
+hiro,21,コンビネーションプレー率,6.8 % 1位 (+3.4%),hiro_style_s_21.html
+hiro,21,20km/h以上の走行 平均人数,1.4 19位,hiro_style_s_21.html
+hiro,21,20km/h以上の走行 一人当たりの平均距離,18.5 m 12位,hiro_style_s_21.html
+hiro,21,20km/h以上の走行距離で 相手を上回った割合,35.4 % 12位,hiro_style_s_21.html
+hiro,22,ゴール率,5.8 % 2位 (+3.0%),hiro_style_s_22.html
+hiro,22,シュート率,26.9 % 4位 (+7.8%),hiro_style_s_22.html
+hiro,22,ドリブル使用率,13.5 % 17位 (-5.8%),hiro_style_s_22.html
+hiro,22,ロングパス使用率,51.9 % 9位 (+2.1%),hiro_style_s_22.html
+hiro,22,空中戦使用率,1.9 % 14位 (-2.1%),hiro_style_s_22.html
+hiro,22,コンビネーションプレー率,5.8 % 2位 (+4.2%),hiro_style_s_22.html
+hiro,22,20km/h以上の走行 平均人数,3.5 10位,hiro_style_s_22.html
+hiro,22,20km/h以上の走行 一人当たりの平均距離,31.5 m 5位,hiro_style_s_22.html
+hiro,22,20km/h以上の走行距離で 相手を上回った割合,28.6 % 10位,hiro_style_s_22.html
+hiro,23,ゴール率,3.6 % 4位 (+1.4%),hiro_style_s_23.html
+hiro,23,シュート率,22.9 % 12位 (-1.8%),hiro_style_s_23.html
+hiro,23,ドリブル使用率,12.9 % 20位 (-10.3%),hiro_style_s_23.html
+hiro,23,ロングパス使用率,25.7 % 18位 (-6.6%),hiro_style_s_23.html
+hiro,23,空中戦使用率,5.7 % 16位 (-3.8%),hiro_style_s_23.html
+hiro,23,コンビネーションプレー率,34.3 % 3位 (+5.2%),hiro_style_s_23.html
+hiro,23,20km/h以上の走行 平均人数,2.6 20位,hiro_style_s_23.html
+hiro,23,20km/h以上の走行 一人当たりの平均距離,18.1 m 14位,hiro_style_s_23.html
+hiro,23,20km/h以上の走行距離で 相手を上回った割合,34.4 % 15位,hiro_style_s_23.html
+hiro,24,ゴール率,0.9 % 10位 (-0.1%),hiro_style_s_24.html
+hiro,24,シュート率,7.8 % 9位 (+0.8%),hiro_style_s_24.html
+hiro,24,ドリブル使用率,5.2 % 18位 (-1.9%),hiro_style_s_24.html
+hiro,24,ロングパス使用率,23.5 % 20位 (-10.1%),hiro_style_s_24.html
+hiro,24,空中戦使用率,4.3 % 11位 (-1.2%),hiro_style_s_24.html
+hiro,24,コンビネーションプレー率,0.9 % 18位 (-1.5%),hiro_style_s_24.html
+hiro,24,20km/h以上の走行 平均人数,2.0 17位,hiro_style_s_24.html
+hiro,24,20km/h以上の走行 一人当たりの平均距離,19.6 m 7位,hiro_style_s_24.html
+hiro,24,20km/h以上の走行距離で 相手を上回った割合,21.9 % 12位,hiro_style_s_24.html
+hiro,31,ゴール率,3.3 % 4位 (+1.7%),hiro_style_s_31.html
+hiro,31,シュート率,20.8 % 3位 (+5.2%),hiro_style_s_31.html
+hiro,31,ドリブル使用率,16.7 % 18位 (-5.2%),hiro_style_s_31.html
+hiro,31,ロングパス使用率,30.8 % 3位 (+5.5%),hiro_style_s_31.html
+hiro,31,空中戦使用率,5.8 % 16位 (-3.2%),hiro_style_s_31.html
+hiro,31,コンビネーションプレー率,13.3 % 5位 (+3.0%),hiro_style_s_31.html
+hiro,31,20km/h以上の走行 平均人数,2.5 10位,hiro_style_s_31.html
+hiro,31,20km/h以上の走行 一人当たりの平均距離,21.3 m 6位,hiro_style_s_31.html
+hiro,31,20km/h以上の走行距離で 相手を上回った割合,34.9 % 13位,hiro_style_s_31.html
+hiro,32,ゴール率,5.1 % 4位 (+0.6%),hiro_style_s_32.html
+hiro,32,シュート率,33.6 % 11位 (-1.0%),hiro_style_s_32.html
+hiro,32,ドリブル使用率,13.8 % 17位 (-3.6%),hiro_style_s_32.html
+hiro,32,ロングパス使用率,13.8 % 20位 (-11.4%),hiro_style_s_32.html
+hiro,32,空中戦使用率,9.2 % 13位 (-2.8%),hiro_style_s_32.html
+hiro,32,コンビネーションプレー率,19.4 % 1位 (+10.1%),hiro_style_s_32.html
+hiro,32,20km/h以上の走行 平均人数,2.5 14位,hiro_style_s_32.html
+hiro,32,20km/h以上の走行 一人当たりの平均距離,21.6 m 12位,hiro_style_s_32.html
+hiro,32,20km/h以上の走行距離で 相手を上回った割合,34.4 % 11位,hiro_style_s_32.html
+hiro,33,ゴール率,1.7 % 8位 (+0.4%),hiro_style_s_33.html
+hiro,33,シュート率,15.4 % 6位 (+2.0%),hiro_style_s_33.html
+hiro,33,ドリブル使用率,10.3 % 17位 (-4.6%),hiro_style_s_33.html
+hiro,33,ロングパス使用率,17.9 % 19位 (-7.5%),hiro_style_s_33.html
+hiro,33,空中戦使用率,6.0 % 19位 (-5.2%),hiro_style_s_33.html
+hiro,33,コンビネーションプレー率,13.7 % 5位 (+4.3%),hiro_style_s_33.html
+hiro,33,20km/h以上の走行 平均人数,2.2 17位,hiro_style_s_33.html
+hiro,33,20km/h以上の走行 一人当たりの平均距離,17.6 m 19位,hiro_style_s_33.html
+hiro,33,20km/h以上の走行距離で 相手を上回った割合,29.7 % 17位,hiro_style_s_33.html
+hiro,45,味方ゴール率,1.4 % 6位 (+0.4%),hiro_style_s_45.html
+hiro,45,味方シュート率,16.2 % 1位 (+7.0%),hiro_style_s_45.html
+hiro,66,ゲイン率,39.3 % 7位 (+3.0%),hiro_style_s_66.html
+hiro,66,守備成功率,48.8 % 6位 (+3.9%),hiro_style_s_66.html
+hiro,66,被シュート率,6.0 % 3位 (-2.4%),hiro_style_s_66.html
+hiro,66,被シュート成功率,0.0 % 1位 (-12.9%),hiro_style_s_66.html
+hiro,67,ゲイン率,31.4 % 1位 (+4.8%),hiro_style_s_67.html
+hiro,67,守備成功率,38.8 % 2位 (+4.7%),hiro_style_s_67.html
+hiro,67,被シュート率,15.4 % 5位 (-2.7%),hiro_style_s_67.html
+hiro,67,被シュート成功率,3.4 % 2位 (-8.1%),hiro_style_s_67.html
+hiro,69,ゲイン率,46.2 % 1位 (+6.9%),hiro_style_s_69.html
+hiro,69,守備成功率,55.7 % 1位 (+7.2%),hiro_style_s_69.html
+hiro,69,被シュート率,7.4 % 5位 (-2.5%),hiro_style_s_69.html
+hiro,69,被シュート成功率,4.2 % 1位 (-7.2%),hiro_style_s_69.html
+hiro,81,攻撃獲得率,81.8 % 3位 (+7.0%),hiro_style_s_81.html
+hiro,81,被シュート率,4.0 % 10位 (-0.2%),hiro_style_s_81.html
+hiro,81,被シュート成功率,0.0 % 1位 (-14.0%),hiro_style_s_81.html
+hiro,81,面積,"1,019.5 m² (+104.1m²)",hiro_style_s_81.html
+hiro,81,最終ラインの高さ,45.2 m (-1.2m),hiro_style_s_81.html
+hiro,81,縦幅,35.7 m (+2.3m),hiro_style_s_81.html
+hiro,81,横幅,43.0 m (+2.8m),hiro_style_s_81.html
+hiro,82,攻撃獲得率,81.1 % 1位 (+6.2%),hiro_style_s_82.html
+hiro,82,被シュート率,1.5 % 1位 (-5.0%),hiro_style_s_82.html
+hiro,82,被シュート成功率,0.0 % 1位 (-14.2%),hiro_style_s_82.html
+hiro,82,面積,758.6 m² (+62.0m²),hiro_style_s_82.html
+hiro,82,最終ラインの高さ,32.2 m (-2.8m),hiro_style_s_82.html
+hiro,82,縦幅,29.0 m (+2.3m),hiro_style_s_82.html
+hiro,82,横幅,41.0 m (+2.2m),hiro_style_s_82.html
+hiro,83,攻撃獲得率,68.2 % 3位 (+4.6%),hiro_style_s_83.html
+hiro,83,被シュート率,18.2 % 15位 (+1.5%),hiro_style_s_83.html
+hiro,83,被シュート成功率,7.4 % 7位 (-3.1%),hiro_style_s_83.html
+hiro,83,面積,602.9 m² (+85.8m²),hiro_style_s_83.html
+hiro,83,最終ラインの高さ,20.5 m (-0.4m),hiro_style_s_83.html
+hiro,83,縦幅,25.5 m (+3.0m),hiro_style_s_83.html
+hiro,83,横幅,37.6 m (+1.9m),hiro_style_s_83.html
+ka-f,11,ゴール率,1.5 % 16位 (-1.3%),ka-f_style_s_11.html
+ka-f,11,シュート率,27.3 % 8位 (+1.0%),ka-f_style_s_11.html
+ka-f,21,ゴール率,4.9 % 1位 (+2.4%),ka-f_style_s_21.html
+ka-f,21,シュート率,28.0 % 1位 (+7.7%),ka-f_style_s_21.html
+ka-f,21,ドリブル使用率,22.0 % 3位 (+5.6%),ka-f_style_s_21.html
+ka-f,21,ロングパス使用率,22.0 % 7位 (+3.1%),ka-f_style_s_21.html
+ka-f,21,空中戦使用率,7.9 % 10位 (+0.3%),ka-f_style_s_21.html
+ka-f,21,コンビネーションプレー率,4.3 % 9位 (+0.9%),ka-f_style_s_21.html
+ka-f,21,20km/h以上の走行 平均人数,1.9 5位,ka-f_style_s_21.html
+ka-f,21,20km/h以上の走行 一人当たりの平均距離,18.9 m 8位,ka-f_style_s_21.html
+ka-f,21,20km/h以上の走行距離で 相手を上回った割合,35.8 % 11位,ka-f_style_s_21.html
+ka-f,22,ゴール率,9.2 % 1位 (+6.5%),ka-f_style_s_22.html
+ka-f,22,シュート率,30.8 % 1位 (+11.7%),ka-f_style_s_22.html
+ka-f,22,ドリブル使用率,13.8 % 16位 (-5.4%),ka-f_style_s_22.html
+ka-f,22,ロングパス使用率,44.6 % 16位 (-5.2%),ka-f_style_s_22.html
+ka-f,22,空中戦使用率,0.0 % 18位 (-4.0%),ka-f_style_s_22.html
+ka-f,22,コンビネーションプレー率,6.2 % 1位 (+4.6%),ka-f_style_s_22.html
+ka-f,22,20km/h以上の走行 平均人数,3.5 9位,ka-f_style_s_22.html
+ka-f,22,20km/h以上の走行 一人当たりの平均距離,31.4 m 6位,ka-f_style_s_22.html
+ka-f,22,20km/h以上の走行距離で 相手を上回った割合,45.0 % 4位,ka-f_style_s_22.html
+ka-f,23,ゴール率,3.6 % 4位 (+1.4%),ka-f_style_s_23.html
+ka-f,23,シュート率,29.5 % 3位 (+4.8%),ka-f_style_s_23.html
+ka-f,23,ドリブル使用率,28.6 % 5位 (+5.4%),ka-f_style_s_23.html
+ka-f,23,ロングパス使用率,31.3 % 10位 (-1.0%),ka-f_style_s_23.html
+ka-f,23,空中戦使用率,8.0 % 12位 (-1.4%),ka-f_style_s_23.html
+ka-f,23,コンビネーションプレー率,33.9 % 4位 (+4.8%),ka-f_style_s_23.html
+ka-f,23,20km/h以上の走行 平均人数,3.4 11位,ka-f_style_s_23.html
+ka-f,23,20km/h以上の走行 一人当たりの平均距離,17.1 m 18位,ka-f_style_s_23.html
+ka-f,23,20km/h以上の走行距離で 相手を上回った割合,40.5 % 12位,ka-f_style_s_23.html
+ka-f,24,ゴール率,0.0 % 13位 (-1.0%),ka-f_style_s_24.html
+ka-f,24,シュート率,4.9 % 15位 (-2.2%),ka-f_style_s_24.html
+ka-f,24,ドリブル使用率,7.3 % 10位 (+0.2%),ka-f_style_s_24.html
+ka-f,24,ロングパス使用率,31.7 % 11位 (-1.8%),ka-f_style_s_24.html
+ka-f,24,空中戦使用率,1.2 % 19位 (-4.3%),ka-f_style_s_24.html
+ka-f,24,コンビネーションプレー率,4.9 % 2位 (+2.5%),ka-f_style_s_24.html
+ka-f,24,20km/h以上の走行 平均人数,2.3 12位,ka-f_style_s_24.html
+ka-f,24,20km/h以上の走行 一人当たりの平均距離,18.3 m 10位,ka-f_style_s_24.html
+ka-f,24,20km/h以上の走行距離で 相手を上回った割合,22.8 % 11位,ka-f_style_s_24.html
+ka-f,31,ゴール率,3.8 % 3位 (+2.2%),ka-f_style_s_31.html
+ka-f,31,シュート率,19.7 % 5位 (+4.1%),ka-f_style_s_31.html
+ka-f,31,ドリブル使用率,24.2 % 6位 (+2.4%),ka-f_style_s_31.html
+ka-f,31,ロングパス使用率,21.2 % 17位 (-4.1%),ka-f_style_s_31.html
+ka-f,31,空中戦使用率,7.6 % 11位 (-1.5%),ka-f_style_s_31.html
+ka-f,31,コンビネーションプレー率,20.5 % 1位 (+10.1%),ka-f_style_s_31.html
+ka-f,31,20km/h以上の走行 平均人数,3.1 2位,ka-f_style_s_31.html
+ka-f,31,20km/h以上の走行 一人当たりの平均距離,20.2 m 11位,ka-f_style_s_31.html
+ka-f,31,20km/h以上の走行距離で 相手を上回った割合,36.5 % 12位,ka-f_style_s_31.html
+ka-f,32,ゴール率,7.5 % 2位 (+3.0%),ka-f_style_s_32.html
+ka-f,32,シュート率,41.6 % 3位 (+7.0%),ka-f_style_s_32.html
+ka-f,32,ドリブル使用率,23.6 % 2位 (+6.2%),ka-f_style_s_32.html
+ka-f,32,ロングパス使用率,19.9 % 17位 (-5.4%),ka-f_style_s_32.html
+ka-f,32,空中戦使用率,6.2 % 18位 (-5.8%),ka-f_style_s_32.html
+ka-f,32,コンビネーションプレー率,13.7 % 3位 (+4.4%),ka-f_style_s_32.html
+ka-f,32,20km/h以上の走行 平均人数,3.1 2位,ka-f_style_s_32.html
+ka-f,32,20km/h以上の走行 一人当たりの平均距離,21.9 m 11位,ka-f_style_s_32.html
+ka-f,32,20km/h以上の走行距離で 相手を上回った割合,34.2 % 12位,ka-f_style_s_32.html
+ka-f,33,ゴール率,2.2 % 5位 (+0.8%),ka-f_style_s_33.html
+ka-f,33,シュート率,18.3 % 2位 (+4.8%),ka-f_style_s_33.html
+ka-f,33,ドリブル使用率,15.1 % 10位 (+0.2%),ka-f_style_s_33.html
+ka-f,33,ロングパス使用率,19.4 % 18位 (-6.1%),ka-f_style_s_33.html
+ka-f,33,空中戦使用率,8.6 % 11位 (-2.6%),ka-f_style_s_33.html
+ka-f,33,コンビネーションプレー率,16.1 % 1位 (+6.8%),ka-f_style_s_33.html
+ka-f,33,20km/h以上の走行 平均人数,2.3 14位,ka-f_style_s_33.html
+ka-f,33,20km/h以上の走行 一人当たりの平均距離,16.3 m 20位,ka-f_style_s_33.html
+ka-f,33,20km/h以上の走行距離で 相手を上回った割合,37.5 % 13位,ka-f_style_s_33.html
+ka-f,45,味方ゴール率,1.7 % 5位 (+0.7%),ka-f_style_s_45.html
+ka-f,45,味方シュート率,11.3 % 4位 (+2.1%),ka-f_style_s_45.html
+ka-f,66,ゲイン率,33.2 % 14位 (-3.1%),ka-f_style_s_66.html
+ka-f,66,守備成功率,39.9 % 17位 (-5.0%),ka-f_style_s_66.html
+ka-f,66,被シュート率,10.1 % 15位 (+1.7%),ka-f_style_s_66.html
+ka-f,66,被シュート成功率,14.8 % 12位 (+2.0%),ka-f_style_s_66.html
+ka-f,67,ゲイン率,22.4 % 17位 (-4.2%),ka-f_style_s_67.html
+ka-f,67,守備成功率,28.0 % 18位 (-6.1%),ka-f_style_s_67.html
+ka-f,67,被シュート率,23.3 % 20位 (+5.2%),ka-f_style_s_67.html
+ka-f,67,被シュート成功率,9.3 % 9位 (-2.3%),ka-f_style_s_67.html
+ka-f,69,ゲイン率,41.5 % 6位 (+2.2%),ka-f_style_s_69.html
+ka-f,69,守備成功率,47.2 % 13位 (-1.3%),ka-f_style_s_69.html
+ka-f,69,被シュート率,12.5 % 16位 (+2.5%),ka-f_style_s_69.html
+ka-f,69,被シュート成功率,9.1 % 10位 (-2.3%),ka-f_style_s_69.html
+ka-f,81,攻撃獲得率,68.7 % 19位 (-6.1%),ka-f_style_s_81.html
+ka-f,81,被シュート率,4.9 % 15位 (+0.8%),ka-f_style_s_81.html
+ka-f,81,被シュート成功率,12.5 % 10位 (-1.5%),ka-f_style_s_81.html
+ka-f,81,面積,980.7 m² (+65.3m²),ka-f_style_s_81.html
+ka-f,81,最終ラインの高さ,45.5 m (-0.9m),ka-f_style_s_81.html
+ka-f,81,縦幅,34.4 m (+1.0m),ka-f_style_s_81.html
+ka-f,81,横幅,39.4 m (-0.8m),ka-f_style_s_81.html
+ka-f,82,攻撃獲得率,73.1 % 15位 (-1.8%),ka-f_style_s_82.html
+ka-f,82,被シュート率,7.6 % 14位 (+1.1%),ka-f_style_s_82.html
+ka-f,82,被シュート成功率,11.1 % 9位 (-3.1%),ka-f_style_s_82.html
+ka-f,82,面積,746.1 m² (+49.5m²),ka-f_style_s_82.html
+ka-f,82,最終ラインの高さ,35.4 m (+0.5m),ka-f_style_s_82.html
+ka-f,82,縦幅,26.7 m (+0.1m),ka-f_style_s_82.html
+ka-f,82,横幅,38.2 m (-0.6m),ka-f_style_s_82.html
+ka-f,83,攻撃獲得率,62.1 % 16位 (-1.6%),ka-f_style_s_83.html
+ka-f,83,被シュート率,17.9 % 11位 (+1.2%),ka-f_style_s_83.html
+ka-f,83,被シュート成功率,14.7 % 18位 (+4.2%),ka-f_style_s_83.html
+ka-f,83,面積,545.9 m² (+28.8m²),ka-f_style_s_83.html
+ka-f,83,最終ラインの高さ,20.4 m (-0.5m),ka-f_style_s_83.html
+ka-f,83,縦幅,22.5 m (0.0m),ka-f_style_s_83.html
+ka-f,83,横幅,35.4 m (-0.3m),ka-f_style_s_83.html
+kasm,11,ゴール率,4.3 % 3位 (+1.5%),kasm_style_s_11.html
+kasm,11,シュート率,26.3 % 9位 (+0.1%),kasm_style_s_11.html
+kasm,21,ゴール率,1.5 % 16位 (-1.0%),kasm_style_s_21.html
+kasm,21,シュート率,21.5 % 10位 (+1.1%),kasm_style_s_21.html
+kasm,21,ドリブル使用率,11.9 % 19位 (-4.5%),kasm_style_s_21.html
+kasm,21,ロングパス使用率,14.8 % 16位 (-4.1%),kasm_style_s_21.html
+kasm,21,空中戦使用率,5.2 % 17位 (-2.4%),kasm_style_s_21.html
+kasm,21,コンビネーションプレー率,5.2 % 3位 (+1.9%),kasm_style_s_21.html
+kasm,21,20km/h以上の走行 平均人数,1.7 11位,kasm_style_s_21.html
+kasm,21,20km/h以上の走行 一人当たりの平均距離,18.3 m 16位,kasm_style_s_21.html
+kasm,21,20km/h以上の走行距離で 相手を上回った割合,36.3 % 10位,kasm_style_s_21.html
+kasm,22,ゴール率,3.4 % 7位 (+0.7%),kasm_style_s_22.html
+kasm,22,シュート率,27.6 % 3位 (+8.5%),kasm_style_s_22.html
+kasm,22,ドリブル使用率,24.1 % 4位 (+4.8%),kasm_style_s_22.html
+kasm,22,ロングパス使用率,44.8 % 15位 (-5.0%),kasm_style_s_22.html
+kasm,22,空中戦使用率,8.6 % 3位 (+4.6%),kasm_style_s_22.html
+kasm,22,コンビネーションプレー率,3.4 % 4位 (+1.9%),kasm_style_s_22.html
+kasm,22,20km/h以上の走行 平均人数,3.4 11位,kasm_style_s_22.html
+kasm,22,20km/h以上の走行 一人当たりの平均距離,32.7 m 2位,kasm_style_s_22.html
+kasm,22,20km/h以上の走行距離で 相手を上回った割合,38.2 % 6位,kasm_style_s_22.html
+kasm,23,ゴール率,1.9 % 10位 (-0.3%),kasm_style_s_23.html
+kasm,23,シュート率,21.4 % 16位 (-3.3%),kasm_style_s_23.html
+kasm,23,ドリブル使用率,17.5 % 16位 (-5.7%),kasm_style_s_23.html
+kasm,23,ロングパス使用率,37.9 % 4位 (+5.6%),kasm_style_s_23.html
+kasm,23,空中戦使用率,9.7 % 8位 (+0.2%),kasm_style_s_23.html
+kasm,23,コンビネーションプレー率,27.2 % 12位 (-1.9%),kasm_style_s_23.html
+kasm,23,20km/h以上の走行 平均人数,3.2 17位,kasm_style_s_23.html
+kasm,23,20km/h以上の走行 一人当たりの平均距離,18.8 m 11位,kasm_style_s_23.html
+kasm,23,20km/h以上の走行距離で 相手を上回った割合,31.9 % 18位,kasm_style_s_23.html
+kasm,24,ゴール率,1.7 % 6位 (+0.7%),kasm_style_s_24.html
+kasm,24,シュート率,10.9 % 3位 (+3.9%),kasm_style_s_24.html
+kasm,24,ドリブル使用率,5.9 % 17位 (-1.3%),kasm_style_s_24.html
+kasm,24,ロングパス使用率,42.0 % 3位 (+8.5%),kasm_style_s_24.html
+kasm,24,空中戦使用率,7.6 % 3位 (+2.0%),kasm_style_s_24.html
+kasm,24,コンビネーションプレー率,6.7 % 1位 (+4.4%),kasm_style_s_24.html
+kasm,24,20km/h以上の走行 平均人数,2.6 6位,kasm_style_s_24.html
+kasm,24,20km/h以上の走行 一人当たりの平均距離,21.5 m 2位,kasm_style_s_24.html
+kasm,24,20km/h以上の走行距離で 相手を上回った割合,26.3 % 8位,kasm_style_s_24.html
+kasm,31,ゴール率,5.3 % 1位 (+3.7%),kasm_style_s_31.html
+kasm,31,シュート率,29.8 % 1位 (+14.2%),kasm_style_s_31.html
+kasm,31,ドリブル使用率,18.1 % 15位 (-3.7%),kasm_style_s_31.html
+kasm,31,ロングパス使用率,29.8 % 4位 (+4.5%),kasm_style_s_31.html
+kasm,31,空中戦使用率,12.8 % 4位 (+3.7%),kasm_style_s_31.html
+kasm,31,コンビネーションプレー率,12.8 % 7位 (+2.4%),kasm_style_s_31.html
+kasm,31,20km/h以上の走行 平均人数,3.0 5位,kasm_style_s_31.html
+kasm,31,20km/h以上の走行 一人当たりの平均距離,20.9 m 8位,kasm_style_s_31.html
+kasm,31,20km/h以上の走行距離で 相手を上回った割合,44.3 % 3位,kasm_style_s_31.html
+kasm,32,ゴール率,4.5 % 8位 (+0.1%),kasm_style_s_32.html
+kasm,32,シュート率,33.3 % 12位 (-1.3%),kasm_style_s_32.html
+kasm,32,ドリブル使用率,15.9 % 12位 (-1.5%),kasm_style_s_32.html
+kasm,32,ロングパス使用率,28.8 % 6位 (+3.5%),kasm_style_s_32.html
+kasm,32,空中戦使用率,6.1 % 19位 (-5.9%),kasm_style_s_32.html
+kasm,32,コンビネーションプレー率,10.6 % 9位 (+1.3%),kasm_style_s_32.html
+kasm,32,20km/h以上の走行 平均人数,2.6 10位,kasm_style_s_32.html
+kasm,32,20km/h以上の走行 一人当たりの平均距離,23.3 m 7位,kasm_style_s_32.html
+kasm,32,20km/h以上の走行距離で 相手を上回った割合,39.0 % 8位,kasm_style_s_32.html
+kasm,33,ゴール率,1.4 % 10位 (+0.1%),kasm_style_s_33.html
+kasm,33,シュート率,15.8 % 5位 (+2.4%),kasm_style_s_33.html
+kasm,33,ドリブル使用率,18.7 % 3位 (+3.9%),kasm_style_s_33.html
+kasm,33,ロングパス使用率,25.9 % 9位 (+0.4%),kasm_style_s_33.html
+kasm,33,空中戦使用率,6.5 % 18位 (-4.7%),kasm_style_s_33.html
+kasm,33,コンビネーションプレー率,14.4 % 3位 (+5.0%),kasm_style_s_33.html
+kasm,33,20km/h以上の走行 平均人数,3.1 2位,kasm_style_s_33.html
+kasm,33,20km/h以上の走行 一人当たりの平均距離,22.1 m 2位,kasm_style_s_33.html
+kasm,33,20km/h以上の走行距離で 相手を上回った割合,41.8 % 8位,kasm_style_s_33.html
+kasm,45,味方ゴール率,1.8 % 3位 (+0.8%),kasm_style_s_45.html
+kasm,45,味方シュート率,8.1 % 14位 (-1.1%),kasm_style_s_45.html
+kasm,66,ゲイン率,36.9 % 9位 (+0.6%),kasm_style_s_66.html
+kasm,66,守備成功率,47.8 % 7位 (+2.9%),kasm_style_s_66.html
+kasm,66,被シュート率,10.2 % 16位 (+1.8%),kasm_style_s_66.html
+kasm,66,被シュート成功率,26.9 % 19位 (+14.1%),kasm_style_s_66.html
+kasm,67,ゲイン率,28.7 % 7位 (+2.1%),kasm_style_s_67.html
+kasm,67,守備成功率,35.9 % 10位 (+1.7%),kasm_style_s_67.html
+kasm,67,被シュート率,16.6 % 7位 (-1.5%),kasm_style_s_67.html
+kasm,67,被シュート成功率,13.5 % 15位 (+1.9%),kasm_style_s_67.html
+kasm,69,ゲイン率,38.3 % 14位 (-1.0%),kasm_style_s_69.html
+kasm,69,守備成功率,49.9 % 7位 (+1.4%),kasm_style_s_69.html
+kasm,69,被シュート率,9.6 % 9位 (-0.4%),kasm_style_s_69.html
+kasm,69,被シュート成功率,8.8 % 9位 (-2.6%),kasm_style_s_69.html
+kasm,81,攻撃獲得率,74.4 % 12位 (-0.4%),kasm_style_s_81.html
+kasm,81,被シュート率,3.9 % 8位 (-0.3%),kasm_style_s_81.html
+kasm,81,被シュート成功率,60.0 % 20位 (+46.0%),kasm_style_s_81.html
+kasm,81,面積,884.7 m² (-30.8m²),kasm_style_s_81.html
+kasm,81,最終ラインの高さ,46.5 m (+0.1m),kasm_style_s_81.html
+kasm,81,縦幅,32.2 m (-1.2m),kasm_style_s_81.html
+kasm,81,横幅,39.1 m (-1.1m),kasm_style_s_81.html
+kasm,82,攻撃獲得率,80.5 % 2位 (+5.5%),kasm_style_s_82.html
+kasm,82,被シュート率,3.8 % 2位 (-2.6%),kasm_style_s_82.html
+kasm,82,被シュート成功率,12.5 % 12位 (-1.7%),kasm_style_s_82.html
+kasm,82,面積,708.6 m² (+12.1m²),kasm_style_s_82.html
+kasm,82,最終ラインの高さ,35.8 m (+0.9m),kasm_style_s_82.html
+kasm,82,縦幅,26.9 m (+0.2m),kasm_style_s_82.html
+kasm,82,横幅,38.0 m (-0.8m),kasm_style_s_82.html
+kasm,83,攻撃獲得率,70.0 % 2位 (+6.4%),kasm_style_s_83.html
+kasm,83,被シュート率,12.9 % 4位 (-3.8%),kasm_style_s_83.html
+kasm,83,被シュート成功率,14.3 % 17位 (+3.8%),kasm_style_s_83.html
+kasm,83,面積,547.7 m² (+30.6m²),kasm_style_s_83.html
+kasm,83,最終ラインの高さ,21.5 m (+0.6m),kasm_style_s_83.html
+kasm,83,縦幅,22.9 m (+0.4m),kasm_style_s_83.html
+kasm,83,横幅,35.4 m (-0.3m),kasm_style_s_83.html
+kasw,11,ゴール率,3.3 % 6位 (+0.4%),kasw_style_s_11.html
+kasw,11,シュート率,20.3 % 20位 (-6.0%),kasw_style_s_11.html
+kasw,21,ゴール率,4.0 % 2位 (+1.6%),kasw_style_s_21.html
+kasw,21,シュート率,26.4 % 2位 (+6.0%),kasw_style_s_21.html
+kasw,21,ドリブル使用率,24.8 % 1位 (+8.4%),kasw_style_s_21.html
+kasw,21,ロングパス使用率,14.4 % 17位 (-4.5%),kasw_style_s_21.html
+kasw,21,空中戦使用率,6.4 % 11位 (-1.2%),kasw_style_s_21.html
+kasw,21,コンビネーションプレー率,3.2 % 11位 (-0.1%),kasw_style_s_21.html
+kasw,21,20km/h以上の走行 平均人数,1.5 17位,kasw_style_s_21.html
+kasw,21,20km/h以上の走行 一人当たりの平均距離,18.2 m 17位,kasw_style_s_21.html
+kasw,21,20km/h以上の走行距離で 相手を上回った割合,40.7 % 6位,kasw_style_s_21.html
+kasw,22,ゴール率,0.0 % 16位 (-2.7%),kasw_style_s_22.html
+kasw,22,シュート率,20.8 % 8位 (+1.6%),kasw_style_s_22.html
+kasw,22,ドリブル使用率,18.9 % 10位 (-0.4%),kasw_style_s_22.html
+kasw,22,ロングパス使用率,43.4 % 17位 (-6.4%),kasw_style_s_22.html
+kasw,22,空中戦使用率,1.9 % 15位 (-2.1%),kasw_style_s_22.html
+kasw,22,コンビネーションプレー率,1.9 % 8位 (+0.3%),kasw_style_s_22.html
+kasw,22,20km/h以上の走行 平均人数,3.1 14位,kasw_style_s_22.html
+kasw,22,20km/h以上の走行 一人当たりの平均距離,30.9 m 8位,kasw_style_s_22.html
+kasw,22,20km/h以上の走行距離で 相手を上回った割合,47.1 % 2位,kasw_style_s_22.html
+kasw,23,ゴール率,5.0 % 3位 (+2.8%),kasw_style_s_23.html
+kasw,23,シュート率,31.4 % 1位 (+6.7%),kasw_style_s_23.html
+kasw,23,ドリブル使用率,28.9 % 4位 (+5.7%),kasw_style_s_23.html
+kasw,23,ロングパス使用率,29.8 % 14位 (-2.5%),kasw_style_s_23.html
+kasw,23,空中戦使用率,4.1 % 20位 (-5.4%),kasw_style_s_23.html
+kasw,23,コンビネーションプレー率,37.2 % 1位 (+8.1%),kasw_style_s_23.html
+kasw,23,20km/h以上の走行 平均人数,3.5 8位,kasw_style_s_23.html
+kasw,23,20km/h以上の走行 一人当たりの平均距離,19.0 m 10位,kasw_style_s_23.html
+kasw,23,20km/h以上の走行距離で 相手を上回った割合,58.3 % 2位,kasw_style_s_23.html
+kasw,24,ゴール率,2.8 % 1位 (+1.8%),kasw_style_s_24.html
+kasw,24,シュート率,8.3 % 8位 (+1.3%),kasw_style_s_24.html
+kasw,24,ドリブル使用率,9.4 % 5位 (+2.3%),kasw_style_s_24.html
+kasw,24,ロングパス使用率,26.7 % 19位 (-6.9%),kasw_style_s_24.html
+kasw,24,空中戦使用率,5.0 % 10位 (-0.5%),kasw_style_s_24.html
+kasw,24,コンビネーションプレー率,2.2 % 11位 (-0.1%),kasw_style_s_24.html
+kasw,24,20km/h以上の走行 平均人数,2.6 8位,kasw_style_s_24.html
+kasw,24,20km/h以上の走行 一人当たりの平均距離,20.3 m 4位,kasw_style_s_24.html
+kasw,24,20km/h以上の走行距離で 相手を上回った割合,25.8 % 9位,kasw_style_s_24.html
+kasw,31,ゴール率,1.5 % 9位 (-0.1%),kasw_style_s_31.html
+kasw,31,シュート率,15.0 % 10位 (-0.6%),kasw_style_s_31.html
+kasw,31,ドリブル使用率,30.8 % 2位 (+9.0%),kasw_style_s_31.html
+kasw,31,ロングパス使用率,24.8 % 9位 (-0.5%),kasw_style_s_31.html
+kasw,31,空中戦使用率,4.5 % 17位 (-4.5%),kasw_style_s_31.html
+kasw,31,コンビネーションプレー率,12.8 % 6位 (+2.5%),kasw_style_s_31.html
+kasw,31,20km/h以上の走行 平均人数,3.1 4位,kasw_style_s_31.html
+kasw,31,20km/h以上の走行 一人当たりの平均距離,20.0 m 12位,kasw_style_s_31.html
+kasw,31,20km/h以上の走行距離で 相手を上回った割合,38.3 % 9位,kasw_style_s_31.html
+kasw,32,ゴール率,5.8 % 3位 (+1.4%),kasw_style_s_32.html
+kasw,32,シュート率,42.0 % 2位 (+7.4%),kasw_style_s_32.html
+kasw,32,ドリブル使用率,18.8 % 8位 (+1.4%),kasw_style_s_32.html
+kasw,32,ロングパス使用率,21.7 % 16位 (-3.5%),kasw_style_s_32.html
+kasw,32,空中戦使用率,6.5 % 17位 (-5.5%),kasw_style_s_32.html
+kasw,32,コンビネーションプレー率,17.4 % 2位 (+8.1%),kasw_style_s_32.html
+kasw,32,20km/h以上の走行 平均人数,2.6 12位,kasw_style_s_32.html
+kasw,32,20km/h以上の走行 一人当たりの平均距離,23.4 m 6位,kasw_style_s_32.html
+kasw,32,20km/h以上の走行距離で 相手を上回った割合,42.7 % 5位,kasw_style_s_32.html
+kasw,33,ゴール率,1.6 % 9位 (+0.3%),kasw_style_s_33.html
+kasw,33,シュート率,17.1 % 4位 (+3.6%),kasw_style_s_33.html
+kasw,33,ドリブル使用率,24.4 % 1位 (+9.6%),kasw_style_s_33.html
+kasw,33,ロングパス使用率,27.6 % 7位 (+2.2%),kasw_style_s_33.html
+kasw,33,空中戦使用率,4.1 % 20位 (-7.2%),kasw_style_s_33.html
+kasw,33,コンビネーションプレー率,14.6 % 2位 (+5.3%),kasw_style_s_33.html
+kasw,33,20km/h以上の走行 平均人数,3.1 1位,kasw_style_s_33.html
+kasw,33,20km/h以上の走行 一人当たりの平均距離,20.6 m 12位,kasw_style_s_33.html
+kasw,33,20km/h以上の走行距離で 相手を上回った割合,49.4 % 1位,kasw_style_s_33.html
+kasw,45,味方ゴール率,2.3 % 1位 (+1.3%),kasw_style_s_45.html
+kasw,45,味方シュート率,9.9 % 8位 (+0.6%),kasw_style_s_45.html
+kasw,66,ゲイン率,44.3 % 1位 (+8.0%),kasw_style_s_66.html
+kasw,66,守備成功率,51.3 % 2位 (+6.4%),kasw_style_s_66.html
+kasw,66,被シュート率,3.3 % 1位 (-5.0%),kasw_style_s_66.html
+kasw,66,被シュート成功率,11.1 % 9位 (-1.7%),kasw_style_s_66.html
+kasw,67,ゲイン率,30.3 % 4位 (+3.7%),kasw_style_s_67.html
+kasw,67,守備成功率,38.1 % 4位 (+4.0%),kasw_style_s_67.html
+kasw,67,被シュート率,16.0 % 6位 (-2.1%),kasw_style_s_67.html
+kasw,67,被シュート成功率,16.2 % 18位 (+4.6%),kasw_style_s_67.html
+kasw,69,ゲイン率,42.2 % 5位 (+2.9%),kasw_style_s_69.html
+kasw,69,守備成功率,52.6 % 5位 (+4.1%),kasw_style_s_69.html
+kasw,69,被シュート率,7.6 % 6位 (-2.3%),kasw_style_s_69.html
+kasw,69,被シュート成功率,20.0 % 19位 (+8.6%),kasw_style_s_69.html
+kasw,81,攻撃獲得率,83.5 % 2位 (+8.7%),kasw_style_s_81.html
+kasw,81,被シュート率,1.7 % 2位 (-2.4%),kasw_style_s_81.html
+kasw,81,被シュート成功率,0.0 % 1位 (-14.0%),kasw_style_s_81.html
+kasw,81,面積,999.1 m² (+83.7m²),kasw_style_s_81.html
+kasw,81,最終ラインの高さ,46.8 m (+0.4m),kasw_style_s_81.html
+kasw,81,縦幅,34.8 m (+1.4m),kasw_style_s_81.html
+kasw,81,横幅,44.0 m (+3.8m),kasw_style_s_81.html
+kasw,82,攻撃獲得率,77.0 % 6位 (+2.1%),kasw_style_s_82.html
+kasw,82,被シュート率,3.8 % 3位 (-2.6%),kasw_style_s_82.html
+kasw,82,被シュート成功率,0.0 % 1位 (-14.2%),kasw_style_s_82.html
+kasw,82,面積,772.6 m² (+76.0m²),kasw_style_s_82.html
+kasw,82,最終ラインの高さ,35.5 m (+0.5m),kasw_style_s_82.html
+kasw,82,縦幅,27.5 m (+0.9m),kasw_style_s_82.html
+kasw,82,横幅,43.5 m (+4.7m),kasw_style_s_82.html
+kasw,83,攻撃獲得率,66.5 % 4位 (+2.8%),kasw_style_s_83.html
+kasw,83,被シュート率,15.5 % 5位 (-1.2%),kasw_style_s_83.html
+kasw,83,被シュート成功率,12.9 % 14位 (+2.4%),kasw_style_s_83.html
+kasw,83,面積,554.4 m² (+37.4m²),kasw_style_s_83.html
+kasw,83,最終ラインの高さ,21.0 m (+0.1m),kasw_style_s_83.html
+kasw,83,縦幅,22.0 m (-0.5m),kasw_style_s_83.html
+kasw,83,横幅,39.1 m (+3.4m),kasw_style_s_83.html
+kobe,11,ゴール率,4.1 % 4位 (+1.3%),kobe_style_s_11.html
+kobe,11,シュート率,28.1 % 6位 (+1.8%),kobe_style_s_11.html
+kobe,21,ゴール率,2.4 % 10位 (0.0%),kobe_style_s_21.html
+kobe,21,シュート率,14.6 % 18位 (-5.7%),kobe_style_s_21.html
+kobe,21,ドリブル使用率,11.6 % 20位 (-4.8%),kobe_style_s_21.html
+kobe,21,ロングパス使用率,18.9 % 9位 (0.0%),kobe_style_s_21.html
+kobe,21,空中戦使用率,9.1 % 5位 (+1.5%),kobe_style_s_21.html
+kobe,21,コンビネーションプレー率,4.9 % 5位 (+1.6%),kobe_style_s_21.html
+kobe,21,20km/h以上の走行 平均人数,1.8 7位,kobe_style_s_21.html
+kobe,21,20km/h以上の走行 一人当たりの平均距離,18.5 m 13位,kobe_style_s_21.html
+kobe,21,20km/h以上の走行距離で 相手を上回った割合,42.1 % 5位,kobe_style_s_21.html
+kobe,22,ゴール率,0.0 % 16位 (-2.7%),kobe_style_s_22.html
+kobe,22,シュート率,19.0 % 9位 (-0.1%),kobe_style_s_22.html
+kobe,22,ドリブル使用率,19.0 % 9位 (-0.2%),kobe_style_s_22.html
+kobe,22,ロングパス使用率,52.4 % 8位 (+2.6%),kobe_style_s_22.html
+kobe,22,空中戦使用率,4.8 % 8位 (+0.8%),kobe_style_s_22.html
+kobe,22,コンビネーションプレー率,1.6 % 10位 (0.0%),kobe_style_s_22.html
+kobe,22,20km/h以上の走行 平均人数,3.7 5位,kobe_style_s_22.html
+kobe,22,20km/h以上の走行 一人当たりの平均距離,28.9 m 14位,kobe_style_s_22.html
+kobe,22,20km/h以上の走行距離で 相手を上回った割合,35.0 % 7位,kobe_style_s_22.html
+kobe,23,ゴール率,1.4 % 13位 (-0.8%),kobe_style_s_23.html
+kobe,23,シュート率,21.1 % 18位 (-3.6%),kobe_style_s_23.html
+kobe,23,ドリブル使用率,16.9 % 18位 (-6.3%),kobe_style_s_23.html
+kobe,23,ロングパス使用率,32.4 % 9位 (+0.1%),kobe_style_s_23.html
+kobe,23,空中戦使用率,16.9 % 2位 (+7.4%),kobe_style_s_23.html
+kobe,23,コンビネーションプレー率,21.1 % 19位 (-8.0%),kobe_style_s_23.html
+kobe,23,20km/h以上の走行 平均人数,3.8 4位,kobe_style_s_23.html
+kobe,23,20km/h以上の走行 一人当たりの平均距離,20.2 m 6位,kobe_style_s_23.html
+kobe,23,20km/h以上の走行距離で 相手を上回った割合,39.6 % 13位,kobe_style_s_23.html
+kobe,24,ゴール率,0.0 % 13位 (-1.0%),kobe_style_s_24.html
+kobe,24,シュート率,1.1 % 20位 (-5.9%),kobe_style_s_24.html
+kobe,24,ドリブル使用率,2.3 % 19位 (-4.9%),kobe_style_s_24.html
+kobe,24,ロングパス使用率,34.1 % 7位 (+0.5%),kobe_style_s_24.html
+kobe,24,空中戦使用率,10.2 % 2位 (+4.7%),kobe_style_s_24.html
+kobe,24,コンビネーションプレー率,0.0 % 19位 (-2.4%),kobe_style_s_24.html
+kobe,24,20km/h以上の走行 平均人数,2.4 10位,kobe_style_s_24.html
+kobe,24,20km/h以上の走行 一人当たりの平均距離,18.4 m 9位,kobe_style_s_24.html
+kobe,24,20km/h以上の走行距離で 相手を上回った割合,29.1 % 5位,kobe_style_s_24.html
+kobe,31,ゴール率,0.0 % 15位 (-1.6%),kobe_style_s_31.html
+kobe,31,シュート率,9.2 % 20位 (-6.4%),kobe_style_s_31.html
+kobe,31,ドリブル使用率,19.1 % 13位 (-2.7%),kobe_style_s_31.html
+kobe,31,ロングパス使用率,21.4 % 15位 (-3.9%),kobe_style_s_31.html
+kobe,31,空中戦使用率,20.6 % 1位 (+11.6%),kobe_style_s_31.html
+kobe,31,コンビネーションプレー率,7.6 % 15位 (-2.7%),kobe_style_s_31.html
+kobe,31,20km/h以上の走行 平均人数,2.3 12位,kobe_style_s_31.html
+kobe,31,20km/h以上の走行 一人当たりの平均距離,19.9 m 14位,kobe_style_s_31.html
+kobe,31,20km/h以上の走行距離で 相手を上回った割合,40.7 % 7位,kobe_style_s_31.html
+kobe,32,ゴール率,3.8 % 14位 (-0.6%),kobe_style_s_32.html
+kobe,32,シュート率,30.8 % 16位 (-3.9%),kobe_style_s_32.html
+kobe,32,ドリブル使用率,9.6 % 20位 (-7.8%),kobe_style_s_32.html
+kobe,32,ロングパス使用率,33.7 % 1位 (+8.4%),kobe_style_s_32.html
+kobe,32,空中戦使用率,26.0 % 1位 (+14.0%),kobe_style_s_32.html
+kobe,32,コンビネーションプレー率,5.8 % 16位 (-3.5%),kobe_style_s_32.html
+kobe,32,20km/h以上の走行 平均人数,2.8 6位,kobe_style_s_32.html
+kobe,32,20km/h以上の走行 一人当たりの平均距離,24.0 m 4位,kobe_style_s_32.html
+kobe,32,20km/h以上の走行距離で 相手を上回った割合,44.3 % 3位,kobe_style_s_32.html
+kobe,33,ゴール率,0.7 % 17位 (-0.7%),kobe_style_s_33.html
+kobe,33,シュート率,11.0 % 15位 (-2.4%),kobe_style_s_33.html
+kobe,33,ドリブル使用率,9.7 % 18位 (-5.2%),kobe_style_s_33.html
+kobe,33,ロングパス使用率,24.1 % 13位 (-1.3%),kobe_style_s_33.html
+kobe,33,空中戦使用率,9.7 % 9位 (-1.6%),kobe_style_s_33.html
+kobe,33,コンビネーションプレー率,6.9 % 15位 (-2.5%),kobe_style_s_33.html
+kobe,33,20km/h以上の走行 平均人数,2.6 7位,kobe_style_s_33.html
+kobe,33,20km/h以上の走行 一人当たりの平均距離,21.2 m 8位,kobe_style_s_33.html
+kobe,33,20km/h以上の走行距離で 相手を上回った割合,42.0 % 7位,kobe_style_s_33.html
+kobe,45,味方ゴール率,0.8 % 14位 (-0.2%),kobe_style_s_45.html
+kobe,45,味方シュート率,5.4 % 19位 (-3.8%),kobe_style_s_45.html
+kobe,66,ゲイン率,41.2 % 4位 (+4.9%),kobe_style_s_66.html
+kobe,66,守備成功率,49.1 % 5位 (+4.2%),kobe_style_s_66.html
+kobe,66,被シュート率,12.5 % 20位 (+4.2%),kobe_style_s_66.html
+kobe,66,被シュート成功率,5.7 % 6位 (-7.1%),kobe_style_s_66.html
+kobe,67,ゲイン率,28.2 % 8位 (+1.5%),kobe_style_s_67.html
+kobe,67,守備成功率,35.2 % 11位 (+1.1%),kobe_style_s_67.html
+kobe,67,被シュート率,19.7 % 13位 (+1.6%),kobe_style_s_67.html
+kobe,67,被シュート成功率,9.5 % 10位 (-2.1%),kobe_style_s_67.html
+kobe,69,ゲイン率,39.5 % 11位 (+0.2%),kobe_style_s_69.html
+kobe,69,守備成功率,48.9 % 10位 (+0.5%),kobe_style_s_69.html
+kobe,69,被シュート率,10.9 % 12位 (+1.0%),kobe_style_s_69.html
+kobe,69,被シュート成功率,8.3 % 8位 (-3.1%),kobe_style_s_69.html
+kobe,81,攻撃獲得率,74.9 % 8位 (+0.1%),kobe_style_s_81.html
+kobe,81,被シュート率,4.5 % 14位 (+0.3%),kobe_style_s_81.html
+kobe,81,被シュート成功率,12.5 % 10位 (-1.5%),kobe_style_s_81.html
+kobe,81,面積,828.7 m² (-86.7m²),kobe_style_s_81.html
+kobe,81,最終ラインの高さ,46.8 m (+0.4m),kobe_style_s_81.html
+kobe,81,縦幅,32.0 m (-1.4m),kobe_style_s_81.html
+kobe,81,横幅,36.0 m (-4.2m),kobe_style_s_81.html
+kobe,82,攻撃獲得率,79.3 % 3位 (+4.4%),kobe_style_s_82.html
+kobe,82,被シュート率,8.0 % 16位 (+1.6%),kobe_style_s_82.html
+kobe,82,被シュート成功率,5.3 % 5位 (-8.9%),kobe_style_s_82.html
+kobe,82,面積,669.3 m² (-27.2m²),kobe_style_s_82.html
+kobe,82,最終ラインの高さ,36.2 m (+1.2m),kobe_style_s_82.html
+kobe,82,縦幅,27.1 m (+0.4m),kobe_style_s_82.html
+kobe,82,横幅,35.1 m (-3.7m),kobe_style_s_82.html
+kobe,83,攻撃獲得率,62.5 % 14位 (-1.2%),kobe_style_s_83.html
+kobe,83,被シュート率,18.1 % 14位 (+1.3%),kobe_style_s_83.html
+kobe,83,被シュート成功率,3.8 % 3位 (-6.6%),kobe_style_s_83.html
+kobe,83,面積,530.5 m² (+13.4m²),kobe_style_s_83.html
+kobe,83,最終ラインの高さ,21.8 m (+0.9m),kobe_style_s_83.html
+kobe,83,縦幅,24.0 m (+1.6m),kobe_style_s_83.html
+kobe,83,横幅,33.9 m (-1.8m),kobe_style_s_83.html
+kyot,11,ゴール率,2.0 % 14位 (-0.8%),kyot_style_s_11.html
+kyot,11,シュート率,23.5 % 16位 (-2.8%),kyot_style_s_11.html
+kyot,21,ゴール率,3.4 % 4位 (+1.0%),kyot_style_s_21.html
+kyot,21,シュート率,24.5 % 4位 (+4.1%),kyot_style_s_21.html
+kyot,21,ドリブル使用率,12.2 % 17位 (-4.1%),kyot_style_s_21.html
+kyot,21,ロングパス使用率,18.4 % 11位 (-0.5%),kyot_style_s_21.html
+kyot,21,空中戦使用率,10.2 % 4位 (+2.6%),kyot_style_s_21.html
+kyot,21,コンビネーションプレー率,0.7 % 19位 (-2.6%),kyot_style_s_21.html
+kyot,21,20km/h以上の走行 平均人数,2.0 3位,kyot_style_s_21.html
+kyot,21,20km/h以上の走行 一人当たりの平均距離,23.4 m 1位,kyot_style_s_21.html
+kyot,21,20km/h以上の走行距離で 相手を上回った割合,43.3 % 3位,kyot_style_s_21.html
+kyot,22,ゴール率,3.5 % 6位 (+0.8%),kyot_style_s_22.html
+kyot,22,シュート率,24.6 % 6位 (+5.4%),kyot_style_s_22.html
+kyot,22,ドリブル使用率,21.1 % 7位 (+1.8%),kyot_style_s_22.html
+kyot,22,ロングパス使用率,57.9 % 3位 (+8.1%),kyot_style_s_22.html
+kyot,22,空中戦使用率,5.3 % 7位 (+1.3%),kyot_style_s_22.html
+kyot,22,コンビネーションプレー率,3.5 % 3位 (+1.9%),kyot_style_s_22.html
+kyot,22,20km/h以上の走行 平均人数,2.6 20位,kyot_style_s_22.html
+kyot,22,20km/h以上の走行 一人当たりの平均距離,31.0 m 7位,kyot_style_s_22.html
+kyot,22,20km/h以上の走行距離で 相手を上回った割合,40.5 % 5位,kyot_style_s_22.html
+kyot,23,ゴール率,1.9 % 11位 (-0.3%),kyot_style_s_23.html
+kyot,23,シュート率,21.2 % 17位 (-3.5%),kyot_style_s_23.html
+kyot,23,ドリブル使用率,17.3 % 17位 (-5.9%),kyot_style_s_23.html
+kyot,23,ロングパス使用率,38.5 % 3位 (+6.2%),kyot_style_s_23.html
+kyot,23,空中戦使用率,5.8 % 15位 (-3.7%),kyot_style_s_23.html
+kyot,23,コンビネーションプレー率,30.8 % 9位 (+1.6%),kyot_style_s_23.html
+kyot,23,20km/h以上の走行 平均人数,3.7 5位,kyot_style_s_23.html
+kyot,23,20km/h以上の走行 一人当たりの平均距離,19.7 m 8位,kyot_style_s_23.html
+kyot,23,20km/h以上の走行距離で 相手を上回った割合,42.1 % 11位,kyot_style_s_23.html
+kyot,24,ゴール率,1.4 % 8位 (+0.5%),kyot_style_s_24.html
+kyot,24,シュート率,8.7 % 7位 (+1.7%),kyot_style_s_24.html
+kyot,24,ドリブル使用率,0.0 % 20位 (-7.2%),kyot_style_s_24.html
+kyot,24,ロングパス使用率,31.9 % 10位 (-1.7%),kyot_style_s_24.html
+kyot,24,空中戦使用率,4.3 % 11位 (-1.2%),kyot_style_s_24.html
+kyot,24,コンビネーションプレー率,2.9 % 6位 (+0.5%),kyot_style_s_24.html
+kyot,24,20km/h以上の走行 平均人数,2.2 15位,kyot_style_s_24.html
+kyot,24,20km/h以上の走行 一人当たりの平均距離,17.1 m 17位,kyot_style_s_24.html
+kyot,24,20km/h以上の走行距離で 相手を上回った割合,43.9 % 1位,kyot_style_s_24.html
+kyot,31,ゴール率,2.8 % 5位 (+1.2%),kyot_style_s_31.html
+kyot,31,シュート率,18.9 % 6位 (+3.3%),kyot_style_s_31.html
+kyot,31,ドリブル使用率,14.2 % 20位 (-7.7%),kyot_style_s_31.html
+kyot,31,ロングパス使用率,24.5 % 11位 (-0.8%),kyot_style_s_31.html
+kyot,31,空中戦使用率,7.5 % 12位 (-1.5%),kyot_style_s_31.html
+kyot,31,コンビネーションプレー率,4.7 % 19位 (-5.6%),kyot_style_s_31.html
+kyot,31,20km/h以上の走行 平均人数,2.4 11位,kyot_style_s_31.html
+kyot,31,20km/h以上の走行 一人当たりの平均距離,21.1 m 7位,kyot_style_s_31.html
+kyot,31,20km/h以上の走行距離で 相手を上回った割合,31.9 % 14位,kyot_style_s_31.html
+kyot,32,ゴール率,4.9 % 7位 (+0.5%),kyot_style_s_32.html
+kyot,32,シュート率,36.9 % 7位 (+2.2%),kyot_style_s_32.html
+kyot,32,ドリブル使用率,14.8 % 15位 (-2.7%),kyot_style_s_32.html
+kyot,32,ロングパス使用率,32.0 % 2位 (+6.7%),kyot_style_s_32.html
+kyot,32,空中戦使用率,11.5 % 10位 (-0.5%),kyot_style_s_32.html
+kyot,32,コンビネーションプレー率,6.6 % 13位 (-2.7%),kyot_style_s_32.html
+kyot,32,20km/h以上の走行 平均人数,2.6 10位,kyot_style_s_32.html
+kyot,32,20km/h以上の走行 一人当たりの平均距離,24.3 m 3位,kyot_style_s_32.html
+kyot,32,20km/h以上の走行距離で 相手を上回った割合,39.1 % 7位,kyot_style_s_32.html
+kyot,33,ゴール率,1.0 % 14位 (-0.4%),kyot_style_s_33.html
+kyot,33,シュート率,12.4 % 12位 (-1.1%),kyot_style_s_33.html
+kyot,33,ドリブル使用率,6.7 % 19位 (-8.2%),kyot_style_s_33.html
+kyot,33,ロングパス使用率,21.9 % 16位 (-3.6%),kyot_style_s_33.html
+kyot,33,空中戦使用率,6.7 % 17位 (-4.6%),kyot_style_s_33.html
+kyot,33,コンビネーションプレー率,9.5 % 9位 (+0.2%),kyot_style_s_33.html
+kyot,33,20km/h以上の走行 平均人数,2.6 8位,kyot_style_s_33.html
+kyot,33,20km/h以上の走行 一人当たりの平均距離,21.4 m 6位,kyot_style_s_33.html
+kyot,33,20km/h以上の走行距離で 相手を上回った割合,41.2 % 10位,kyot_style_s_33.html
+kyot,45,味方ゴール率,1.1 % 9位 (+0.1%),kyot_style_s_45.html
+kyot,45,味方シュート率,11.4 % 3位 (+2.1%),kyot_style_s_45.html
+kyot,66,ゲイン率,31.8 % 16位 (-4.5%),kyot_style_s_66.html
+kyot,66,守備成功率,40.7 % 14位 (-4.2%),kyot_style_s_66.html
+kyot,66,被シュート率,12.4 % 19位 (+4.0%),kyot_style_s_66.html
+kyot,66,被シュート成功率,12.5 % 11位 (-0.4%),kyot_style_s_66.html
+kyot,67,ゲイン率,29.3 % 5位 (+2.7%),kyot_style_s_67.html
+kyot,67,守備成功率,36.0 % 9位 (+1.9%),kyot_style_s_67.html
+kyot,67,被シュート率,19.8 % 14位 (+1.7%),kyot_style_s_67.html
+kyot,67,被シュート成功率,9.1 % 8位 (-2.5%),kyot_style_s_67.html
+kyot,69,ゲイン率,37.8 % 15位 (-1.4%),kyot_style_s_69.html
+kyot,69,守備成功率,46.8 % 14位 (-1.7%),kyot_style_s_69.html
+kyot,69,被シュート率,12.6 % 18位 (+2.7%),kyot_style_s_69.html
+kyot,69,被シュート成功率,4.9 % 2位 (-6.5%),kyot_style_s_69.html
+kyot,81,攻撃獲得率,69.1 % 18位 (-5.7%),kyot_style_s_81.html
+kyot,81,被シュート率,5.4 % 17位 (+1.2%),kyot_style_s_81.html
+kyot,81,被シュート成功率,0.0 % 1位 (-14.0%),kyot_style_s_81.html
+kyot,81,面積,873.0 m² (-42.4m²),kyot_style_s_81.html
+kyot,81,最終ラインの高さ,46.0 m (-0.4m),kyot_style_s_81.html
+kyot,81,縦幅,32.9 m (-0.5m),kyot_style_s_81.html
+kyot,81,横幅,38.5 m (-1.8m),kyot_style_s_81.html
+kyot,82,攻撃獲得率,68.4 % 19位 (-6.5%),kyot_style_s_82.html
+kyot,82,被シュート率,9.4 % 18位 (+3.0%),kyot_style_s_82.html
+kyot,82,被シュート成功率,25.0 % 14位 (+10.8%),kyot_style_s_82.html
+kyot,82,面積,671.1 m² (-25.4m²),kyot_style_s_82.html
+kyot,82,最終ラインの高さ,34.5 m (-0.5m),kyot_style_s_82.html
+kyot,82,縦幅,26.6 m (0.0m),kyot_style_s_82.html
+kyot,82,横幅,37.0 m (-1.8m),kyot_style_s_82.html
+kyot,83,攻撃獲得率,63.6 % 9位 (-0.1%),kyot_style_s_83.html
+kyot,83,被シュート率,17.9 % 12位 (+1.2%),kyot_style_s_83.html
+kyot,83,被シュート成功率,8.6 % 9位 (-1.9%),kyot_style_s_83.html
+kyot,83,面積,491.5 m² (-25.6m²),kyot_style_s_83.html
+kyot,83,最終ラインの高さ,19.8 m (-1.1m),kyot_style_s_83.html
+kyot,83,縦幅,22.6 m (+0.1m),kyot_style_s_83.html
+kyot,83,横幅,33.9 m (-1.8m),kyot_style_s_83.html
+mcd,11,ゴール率,8.3 % 1位 (+5.5%),mcd_style_s_11.html
+mcd,11,シュート率,34.7 % 1位 (+8.4%),mcd_style_s_11.html
+mcd,21,ゴール率,3.9 % 3位 (+1.5%),mcd_style_s_21.html
+mcd,21,シュート率,18.8 % 14位 (-1.6%),mcd_style_s_21.html
+mcd,21,ドリブル使用率,14.8 % 11位 (-1.5%),mcd_style_s_21.html
+mcd,21,ロングパス使用率,18.8 % 10位 (-0.1%),mcd_style_s_21.html
+mcd,21,空中戦使用率,5.5 % 14位 (-2.1%),mcd_style_s_21.html
+mcd,21,コンビネーションプレー率,3.9 % 10位 (+0.6%),mcd_style_s_21.html
+mcd,21,20km/h以上の走行 平均人数,1.6 12位,mcd_style_s_21.html
+mcd,21,20km/h以上の走行 一人当たりの平均距離,18.5 m 14位,mcd_style_s_21.html
+mcd,21,20km/h以上の走行距離で 相手を上回った割合,38.5 % 8位,mcd_style_s_21.html
+mcd,22,ゴール率,5.1 % 3位 (+2.4%),mcd_style_s_22.html
+mcd,22,シュート率,23.1 % 7位 (+4.0%),mcd_style_s_22.html
+mcd,22,ドリブル使用率,28.2 % 2位 (+8.9%),mcd_style_s_22.html
+mcd,22,ロングパス使用率,46.2 % 14位 (-3.6%),mcd_style_s_22.html
+mcd,22,空中戦使用率,0.0 % 18位 (-4.0%),mcd_style_s_22.html
+mcd,22,コンビネーションプレー率,0.0 % 11位 (-1.6%),mcd_style_s_22.html
+mcd,22,20km/h以上の走行 平均人数,3.0 17位,mcd_style_s_22.html
+mcd,22,20km/h以上の走行 一人当たりの平均距離,30.2 m 9位,mcd_style_s_22.html
+mcd,22,20km/h以上の走行距離で 相手を上回った割合,26.9 % 13位,mcd_style_s_22.html
+mcd,23,ゴール率,1.9 % 12位 (-0.3%),mcd_style_s_23.html
+mcd,23,シュート率,20.8 % 19位 (-3.9%),mcd_style_s_23.html
+mcd,23,ドリブル使用率,26.4 % 6位 (+3.2%),mcd_style_s_23.html
+mcd,23,ロングパス使用率,30.2 % 13位 (-2.1%),mcd_style_s_23.html
+mcd,23,空中戦使用率,13.2 % 4位 (+3.7%),mcd_style_s_23.html
+mcd,23,コンビネーションプレー率,31.1 % 8位 (+2.0%),mcd_style_s_23.html
+mcd,23,20km/h以上の走行 平均人数,3.4 10位,mcd_style_s_23.html
+mcd,23,20km/h以上の走行 一人当たりの平均距離,17.7 m 15位,mcd_style_s_23.html
+mcd,23,20km/h以上の走行距離で 相手を上回った割合,45.2 % 9位,mcd_style_s_23.html
+mcd,24,ゴール率,0.8 % 12位 (-0.2%),mcd_style_s_24.html
+mcd,24,シュート率,6.3 % 12位 (-0.7%),mcd_style_s_24.html
+mcd,24,ドリブル使用率,7.9 % 8位 (+0.8%),mcd_style_s_24.html
+mcd,24,ロングパス使用率,27.0 % 18位 (-6.6%),mcd_style_s_24.html
+mcd,24,空中戦使用率,4.0 % 15位 (-1.6%),mcd_style_s_24.html
+mcd,24,コンビネーションプレー率,2.4 % 9位 (0.0%),mcd_style_s_24.html
+mcd,24,20km/h以上の走行 平均人数,2.3 13位,mcd_style_s_24.html
+mcd,24,20km/h以上の走行 一人当たりの平均距離,18.1 m 13位,mcd_style_s_24.html
+mcd,24,20km/h以上の走行距離で 相手を上回った割合,27.4 % 6位,mcd_style_s_24.html
+mcd,31,ゴール率,2.3 % 6位 (+0.7%),mcd_style_s_31.html
+mcd,31,シュート率,14.4 % 11位 (-1.2%),mcd_style_s_31.html
+mcd,31,ドリブル使用率,21.2 % 11位 (-0.6%),mcd_style_s_31.html
+mcd,31,ロングパス使用率,25.8 % 8位 (+0.5%),mcd_style_s_31.html
+mcd,31,空中戦使用率,9.1 % 9位 (0.0%),mcd_style_s_31.html
+mcd,31,コンビネーションプレー率,17.4 % 2位 (+7.1%),mcd_style_s_31.html
+mcd,31,20km/h以上の走行 平均人数,2.9 7位,mcd_style_s_31.html
+mcd,31,20km/h以上の走行 一人当たりの平均距離,19.2 m 18位,mcd_style_s_31.html
+mcd,31,20km/h以上の走行距離で 相手を上回った割合,45.0 % 2位,mcd_style_s_31.html
+mcd,32,ゴール率,3.9 % 13位 (-0.5%),mcd_style_s_32.html
+mcd,32,シュート率,31.3 % 15位 (-3.4%),mcd_style_s_32.html
+mcd,32,ドリブル使用率,15.6 % 13位 (-1.8%),mcd_style_s_32.html
+mcd,32,ロングパス使用率,24.2 % 13位 (-1.0%),mcd_style_s_32.html
+mcd,32,空中戦使用率,15.6 % 5位 (+3.6%),mcd_style_s_32.html
+mcd,32,コンビネーションプレー率,10.9 % 8位 (+1.7%),mcd_style_s_32.html
+mcd,32,20km/h以上の走行 平均人数,2.2 19位,mcd_style_s_32.html
+mcd,32,20km/h以上の走行 一人当たりの平均距離,19.8 m 18位,mcd_style_s_32.html
+mcd,32,20km/h以上の走行距離で 相手を上回った割合,45.7 % 1位,mcd_style_s_32.html
+mcd,33,ゴール率,2.0 % 6位 (+0.6%),mcd_style_s_33.html
+mcd,33,シュート率,8.9 % 18位 (-4.5%),mcd_style_s_33.html
+mcd,33,ドリブル使用率,17.8 % 4位 (+3.0%),mcd_style_s_33.html
+mcd,33,ロングパス使用率,22.8 % 15位 (-2.7%),mcd_style_s_33.html
+mcd,33,空中戦使用率,23.8 % 1位 (+12.5%),mcd_style_s_33.html
+mcd,33,コンビネーションプレー率,7.9 % 13位 (-1.4%),mcd_style_s_33.html
+mcd,33,20km/h以上の走行 平均人数,2.4 10位,mcd_style_s_33.html
+mcd,33,20km/h以上の走行 一人当たりの平均距離,18.0 m 18位,mcd_style_s_33.html
+mcd,33,20km/h以上の走行距離で 相手を上回った割合,42.9 % 6位,mcd_style_s_33.html
+mcd,45,味方ゴール率,1.1 % 10位 (+0.1%),mcd_style_s_45.html
+mcd,45,味方シュート率,6.2 % 18位 (-3.1%),mcd_style_s_45.html
+mcd,66,ゲイン率,41.5 % 3位 (+5.2%),mcd_style_s_66.html
+mcd,66,守備成功率,47.1 % 9位 (+2.1%),mcd_style_s_66.html
+mcd,66,被シュート率,7.6 % 8位 (-0.8%),mcd_style_s_66.html
+mcd,66,被シュート成功率,0.0 % 1位 (-12.9%),mcd_style_s_66.html
+mcd,67,ゲイン率,26.1 % 12位 (-0.5%),mcd_style_s_67.html
+mcd,67,守備成功率,33.5 % 12位 (-0.6%),mcd_style_s_67.html
+mcd,67,被シュート率,17.2 % 8位 (-0.9%),mcd_style_s_67.html
+mcd,67,被シュート成功率,14.3 % 16位 (+2.7%),mcd_style_s_67.html
+mcd,69,ゲイン率,41.0 % 8位 (+1.7%),mcd_style_s_69.html
+mcd,69,守備成功率,48.1 % 11位 (-0.4%),mcd_style_s_69.html
+mcd,69,被シュート率,10.2 % 11位 (+0.3%),mcd_style_s_69.html
+mcd,69,被シュート成功率,6.9 % 5位 (-4.5%),mcd_style_s_69.html
+mcd,81,攻撃獲得率,74.7 % 10位 (-0.1%),mcd_style_s_81.html
+mcd,81,被シュート率,6.3 % 18位 (+2.2%),mcd_style_s_81.html
+mcd,81,被シュート成功率,20.0 % 16位 (+6.0%),mcd_style_s_81.html
+mcd,81,面積,953.5 m² (+38.1m²),mcd_style_s_81.html
+mcd,81,最終ラインの高さ,46.8 m (+0.4m),mcd_style_s_81.html
+mcd,81,縦幅,34.2 m (+0.8m),mcd_style_s_81.html
+mcd,81,横幅,40.5 m (+0.3m),mcd_style_s_81.html
+mcd,82,攻撃獲得率,71.0 % 18位 (-3.9%),mcd_style_s_82.html
+mcd,82,被シュート率,7.0 % 10位 (+0.6%),mcd_style_s_82.html
+mcd,82,被シュート成功率,6.7 % 6位 (-7.5%),mcd_style_s_82.html
+mcd,82,面積,709.4 m² (+12.9m²),mcd_style_s_82.html
+mcd,82,最終ラインの高さ,35.2 m (+0.2m),mcd_style_s_82.html
+mcd,82,縦幅,26.2 m (-0.5m),mcd_style_s_82.html
+mcd,82,横幅,39.4 m (+0.6m),mcd_style_s_82.html
+mcd,83,攻撃獲得率,62.7 % 12位 (-1.0%),mcd_style_s_83.html
+mcd,83,被シュート率,19.3 % 19位 (+2.6%),mcd_style_s_83.html
+mcd,83,被シュート成功率,12.2 % 12位 (+1.7%),mcd_style_s_83.html
+mcd,83,面積,502.7 m² (-14.4m²),mcd_style_s_83.html
+mcd,83,最終ラインの高さ,20.7 m (-0.2m),mcd_style_s_83.html
+mcd,83,縦幅,20.9 m (-1.6m),mcd_style_s_83.html
+mcd,83,横幅,36.1 m (+0.4m),mcd_style_s_83.html
+mito,11,ゴール率,2.5 % 10位 (-0.4%),mito_style_s_11.html
+mito,11,シュート率,26.2 % 10位 (-0.1%),mito_style_s_11.html
+mito,21,ゴール率,1.6 % 15位 (-0.9%),mito_style_s_21.html
+mito,21,シュート率,17.1 % 15位 (-3.3%),mito_style_s_21.html
+mito,21,ドリブル使用率,14.0 % 14位 (-2.4%),mito_style_s_21.html
+mito,21,ロングパス使用率,24.8 % 1位 (+5.9%),mito_style_s_21.html
+mito,21,空中戦使用率,8.5 % 9位 (+0.9%),mito_style_s_21.html
+mito,21,コンビネーションプレー率,0.8 % 18位 (-2.5%),mito_style_s_21.html
+mito,21,20km/h以上の走行 平均人数,1.8 6位,mito_style_s_21.html
+mito,21,20km/h以上の走行 一人当たりの平均距離,20.3 m 5位,mito_style_s_21.html
+mito,21,20km/h以上の走行距離で 相手を上回った割合,42.4 % 4位,mito_style_s_21.html
+mito,22,ゴール率,2.1 % 11位 (-0.6%),mito_style_s_22.html
+mito,22,シュート率,10.6 % 19位 (-8.5%),mito_style_s_22.html
+mito,22,ドリブル使用率,17.0 % 13位 (-2.3%),mito_style_s_22.html
+mito,22,ロングパス使用率,48.9 % 12位 (-0.9%),mito_style_s_22.html
+mito,22,空中戦使用率,2.1 % 12位 (-1.9%),mito_style_s_22.html
+mito,22,コンビネーションプレー率,0.0 % 11位 (-1.6%),mito_style_s_22.html
+mito,22,20km/h以上の走行 平均人数,2.9 19位,mito_style_s_22.html
+mito,22,20km/h以上の走行 一人当たりの平均距離,29.6 m 12位,mito_style_s_22.html
+mito,22,20km/h以上の走行距離で 相手を上回った割合,21.4 % 18位,mito_style_s_22.html
+mito,23,ゴール率,0.0 % 15位 (-2.2%),mito_style_s_23.html
+mito,23,シュート率,27.5 % 6位 (+2.7%),mito_style_s_23.html
+mito,23,ドリブル使用率,23.5 % 11位 (+0.3%),mito_style_s_23.html
+mito,23,ロングパス使用率,29.4 % 15位 (-2.9%),mito_style_s_23.html
+mito,23,空中戦使用率,9.8 % 7位 (+0.3%),mito_style_s_23.html
+mito,23,コンビネーションプレー率,23.5 % 18位 (-5.6%),mito_style_s_23.html
+mito,23,20km/h以上の走行 平均人数,3.2 13位,mito_style_s_23.html
+mito,23,20km/h以上の走行 一人当たりの平均距離,16.8 m 20位,mito_style_s_23.html
+mito,23,20km/h以上の走行距離で 相手を上回った割合,42.9 % 10位,mito_style_s_23.html
+mito,24,ゴール率,1.6 % 7位 (+0.6%),mito_style_s_24.html
+mito,24,シュート率,13.6 % 1位 (+6.6%),mito_style_s_24.html
+mito,24,ドリブル使用率,7.2 % 11位 (0.0%),mito_style_s_24.html
+mito,24,ロングパス使用率,38.4 % 4位 (+4.9%),mito_style_s_24.html
+mito,24,空中戦使用率,4.0 % 13位 (-1.5%),mito_style_s_24.html
+mito,24,コンビネーションプレー率,3.2 % 5位 (+0.8%),mito_style_s_24.html
+mito,24,20km/h以上の走行 平均人数,2.6 7位,mito_style_s_24.html
+mito,24,20km/h以上の走行 一人当たりの平均距離,22.2 m 1位,mito_style_s_24.html
+mito,24,20km/h以上の走行距離で 相手を上回った割合,18.4 % 16位,mito_style_s_24.html
+mito,31,ゴール率,0.0 % 15位 (-1.6%),mito_style_s_31.html
+mito,31,シュート率,10.6 % 19位 (-5.0%),mito_style_s_31.html
+mito,31,ドリブル使用率,16.3 % 19位 (-5.5%),mito_style_s_31.html
+mito,31,ロングパス使用率,28.8 % 6位 (+3.6%),mito_style_s_31.html
+mito,31,空中戦使用率,9.6 % 8位 (+0.6%),mito_style_s_31.html
+mito,31,コンビネーションプレー率,8.7 % 11位 (-1.7%),mito_style_s_31.html
+mito,31,20km/h以上の走行 平均人数,2.1 16位,mito_style_s_31.html
+mito,31,20km/h以上の走行 一人当たりの平均距離,21.3 m 5位,mito_style_s_31.html
+mito,31,20km/h以上の走行距離で 相手を上回った割合,29.9 % 16位,mito_style_s_31.html
+mito,32,ゴール率,4.3 % 11位 (-0.2%),mito_style_s_32.html
+mito,32,シュート率,37.2 % 6位 (+2.6%),mito_style_s_32.html
+mito,32,ドリブル使用率,22.3 % 3位 (+4.9%),mito_style_s_32.html
+mito,32,ロングパス使用率,25.5 % 10位 (+0.3%),mito_style_s_32.html
+mito,32,空中戦使用率,8.5 % 15位 (-3.5%),mito_style_s_32.html
+mito,32,コンビネーションプレー率,5.3 % 18位 (-4.0%),mito_style_s_32.html
+mito,32,20km/h以上の走行 平均人数,2.9 3位,mito_style_s_32.html
+mito,32,20km/h以上の走行 一人当たりの平均距離,22.3 m 10位,mito_style_s_32.html
+mito,32,20km/h以上の走行距離で 相手を上回った割合,29.2 % 17位,mito_style_s_32.html
+mito,33,ゴール率,2.3 % 4位 (+1.0%),mito_style_s_33.html
+mito,33,シュート率,14.9 % 7位 (+1.5%),mito_style_s_33.html
+mito,33,ドリブル使用率,14.9 % 11位 (+0.1%),mito_style_s_33.html
+mito,33,ロングパス使用率,25.3 % 11位 (-0.2%),mito_style_s_33.html
+mito,33,空中戦使用率,10.3 % 8位 (-0.9%),mito_style_s_33.html
+mito,33,コンビネーションプレー率,8.0 % 12位 (-1.3%),mito_style_s_33.html
+mito,33,20km/h以上の走行 平均人数,2.6 6位,mito_style_s_33.html
+mito,33,20km/h以上の走行 一人当たりの平均距離,20.7 m 10位,mito_style_s_33.html
+mito,33,20km/h以上の走行距離で 相手を上回った割合,44.8 % 5位,mito_style_s_33.html
+mito,45,味方ゴール率,0.0 % 18位 (-1.0%),mito_style_s_45.html
+mito,45,味方シュート率,8.6 % 12位 (-0.7%),mito_style_s_45.html
+mito,66,ゲイン率,30.1 % 19位 (-6.2%),mito_style_s_66.html
+mito,66,守備成功率,38.4 % 19位 (-6.5%),mito_style_s_66.html
+mito,66,被シュート率,11.8 % 18位 (+3.4%),mito_style_s_66.html
+mito,66,被シュート成功率,17.6 % 15位 (+4.8%),mito_style_s_66.html
+mito,67,ゲイン率,22.1 % 20位 (-4.6%),mito_style_s_67.html
+mito,67,守備成功率,27.6 % 19位 (-6.6%),mito_style_s_67.html
+mito,67,被シュート率,18.4 % 10位 (+0.3%),mito_style_s_67.html
+mito,67,被シュート成功率,6.0 % 3位 (-5.6%),mito_style_s_67.html
+mito,69,ゲイン率,28.4 % 20位 (-10.9%),mito_style_s_69.html
+mito,69,守備成功率,39.2 % 20位 (-9.3%),mito_style_s_69.html
+mito,69,被シュート率,11.9 % 14位 (+1.9%),mito_style_s_69.html
+mito,69,被シュート成功率,15.2 % 14位 (+3.8%),mito_style_s_69.html
+mito,81,攻撃獲得率,76.7 % 6位 (+2.0%),mito_style_s_81.html
+mito,81,被シュート率,3.8 % 6位 (-0.4%),mito_style_s_81.html
+mito,81,被シュート成功率,16.7 % 13位 (+2.7%),mito_style_s_81.html
+mito,81,面積,904.1 m² (-11.3m²),mito_style_s_81.html
+mito,81,最終ラインの高さ,47.2 m (+0.8m),mito_style_s_81.html
+mito,81,縦幅,33.5 m (+0.1m),mito_style_s_81.html
+mito,81,横幅,39.2 m (-1.1m),mito_style_s_81.html
+mito,82,攻撃獲得率,75.8 % 9位 (+0.8%),mito_style_s_82.html
+mito,82,被シュート率,7.2 % 12位 (+0.8%),mito_style_s_82.html
+mito,82,被シュート成功率,14.3 % 13位 (+0.1%),mito_style_s_82.html
+mito,82,面積,660.8 m² (-35.7m²),mito_style_s_82.html
+mito,82,最終ラインの高さ,34.8 m (-0.2m),mito_style_s_82.html
+mito,82,縦幅,25.8 m (-0.8m),mito_style_s_82.html
+mito,82,横幅,36.9 m (-1.9m),mito_style_s_82.html
+mito,83,攻撃獲得率,64.1 % 8位 (+0.4%),mito_style_s_83.html
+mito,83,被シュート率,18.4 % 16位 (+1.6%),mito_style_s_83.html
+mito,83,被シュート成功率,8.5 % 8位 (-2.0%),mito_style_s_83.html
+mito,83,面積,466.0 m² (-51.1m²),mito_style_s_83.html
+mito,83,最終ラインの高さ,21.0 m (+0.1m),mito_style_s_83.html
+mito,83,縦幅,20.5 m (-1.9m),mito_style_s_83.html
+mito,83,横幅,34.4 m (-1.3m),mito_style_s_83.html
+myzk,11,ゴール率,1.5 % 18位 (-1.1%),myzk_style_s_11.html
+myzk,11,シュート率,25.8 % 12位 (-1.1%),myzk_style_s_11.html
+myzk,21,ゴール率,3.0 % 3位 (+1.2%),myzk_style_s_21.html
+myzk,21,シュート率,23.6 % 5位 (+3.6%),myzk_style_s_21.html
+myzk,21,ドリブル使用率,13.3 % 14位 (-1.6%),myzk_style_s_21.html
+myzk,21,ロングパス使用率,15.3 % 16位 (-2.5%),myzk_style_s_21.html
+myzk,21,空中戦使用率,4.4 % 18位 (-3.0%),myzk_style_s_21.html
+myzk,21,コンビネーションプレー率,2.5 % 13位 (-0.8%),myzk_style_s_21.html
+myzk,22,ゴール率,0.0 % 14位 (-1.8%),myzk_style_s_22.html
+myzk,22,シュート率,17.5 % 9位 (+1.8%),myzk_style_s_22.html
+myzk,22,ドリブル使用率,19.0 % 5位 (+3.3%),myzk_style_s_22.html
+myzk,22,ロングパス使用率,55.6 % 6位 (+4.5%),myzk_style_s_22.html
+myzk,22,空中戦使用率,3.2 % 16位 (-2.1%),myzk_style_s_22.html
+myzk,22,コンビネーションプレー率,0.0 % 13位 (-1.8%),myzk_style_s_22.html
+myzk,23,ゴール率,1.6 % 9位 (+0.1%),myzk_style_s_23.html
+myzk,23,シュート率,26.6 % 6位 (+1.5%),myzk_style_s_23.html
+myzk,23,ドリブル使用率,29.7 % 3位 (+5.2%),myzk_style_s_23.html
+myzk,23,ロングパス使用率,34.4 % 7位 (+1.3%),myzk_style_s_23.html
+myzk,23,空中戦使用率,7.8 % 15位 (-2.8%),myzk_style_s_23.html
+myzk,23,コンビネーションプレー率,23.4 % 12位 (-1.8%),myzk_style_s_23.html
+myzk,24,ゴール率,1.0 % 9位 (0.0%),myzk_style_s_24.html
+myzk,24,シュート率,5.0 % 16位 (-2.5%),myzk_style_s_24.html
+myzk,24,ドリブル使用率,5.9 % 13位 (-0.6%),myzk_style_s_24.html
+myzk,24,ロングパス使用率,37.6 % 7位 (+2.7%),myzk_style_s_24.html
+myzk,24,空中戦使用率,5.9 % 6位 (+0.7%),myzk_style_s_24.html
+myzk,24,コンビネーションプレー率,3.0 % 10位 (-0.1%),myzk_style_s_24.html
+myzk,31,ゴール率,2.1 % 6位 (+0.7%),myzk_style_s_31.html
+myzk,31,シュート率,15.9 % 5位 (+2.2%),myzk_style_s_31.html
+myzk,31,ドリブル使用率,20.7 % 8位 (+1.3%),myzk_style_s_31.html
+myzk,31,ロングパス使用率,28.3 % 4位 (+4.6%),myzk_style_s_31.html
+myzk,31,空中戦使用率,7.6 % 13位 (-2.4%),myzk_style_s_31.html
+myzk,31,コンビネーションプレー率,6.2 % 17位 (-3.3%),myzk_style_s_31.html
+myzk,32,ゴール率,3.9 % 6位 (+0.6%),myzk_style_s_32.html
+myzk,32,シュート率,36.7 % 9位 (+0.7%),myzk_style_s_32.html
+myzk,32,ドリブル使用率,15.6 % 15位 (-1.5%),myzk_style_s_32.html
+myzk,32,ロングパス使用率,27.3 % 5位 (+2.4%),myzk_style_s_32.html
+myzk,32,空中戦使用率,12.5 % 9位 (-0.4%),myzk_style_s_32.html
+myzk,32,コンビネーションプレー率,5.5 % 15位 (-1.5%),myzk_style_s_32.html
+myzk,33,ゴール率,1.4 % 6位 (+0.5%),myzk_style_s_33.html
+myzk,33,シュート率,11.4 % 13位 (-1.2%),myzk_style_s_33.html
+myzk,33,ドリブル使用率,15.0 % 10位 (-0.3%),myzk_style_s_33.html
+myzk,33,ロングパス使用率,21.4 % 13位 (-1.3%),myzk_style_s_33.html
+myzk,33,空中戦使用率,9.3 % 9位 (-0.6%),myzk_style_s_33.html
+myzk,33,コンビネーションプレー率,7.9 % 9位 (0.0%),myzk_style_s_33.html
+myzk,45,ゴール率,1.5 % 18位 (-1.1%),myzk_style_s_45.html
+myzk,45,シュート率,25.8 % 12位 (-1.1%),myzk_style_s_45.html
+myzk,66,ゴール率,1.5 % 18位 (-1.1%),myzk_style_s_66.html
+myzk,66,シュート率,25.8 % 12位 (-1.1%),myzk_style_s_66.html
+myzk,67,ゴール率,1.5 % 18位 (-1.1%),myzk_style_s_67.html
+myzk,67,シュート率,25.8 % 12位 (-1.1%),myzk_style_s_67.html
+myzk,69,ゴール率,1.5 % 18位 (-1.1%),myzk_style_s_69.html
+myzk,69,シュート率,25.8 % 12位 (-1.1%),myzk_style_s_69.html
+myzk,81,ゴール率,1.5 % 18位 (-1.1%),myzk_style_s_81.html
+myzk,81,シュート率,25.8 % 12位 (-1.1%),myzk_style_s_81.html
+myzk,82,ゴール率,1.5 % 18位 (-1.1%),myzk_style_s_82.html
+myzk,82,シュート率,25.8 % 12位 (-1.1%),myzk_style_s_82.html
+myzk,83,ゴール率,1.5 % 18位 (-1.1%),myzk_style_s_83.html
+myzk,83,シュート率,25.8 % 12位 (-1.1%),myzk_style_s_83.html
+nago,11,ゴール率,2.3 % 12位 (-0.5%),nago_style_s_11.html
+nago,11,シュート率,25.9 % 11位 (-0.4%),nago_style_s_11.html
+nago,21,ゴール率,3.1 % 7位 (+0.7%),nago_style_s_21.html
+nago,21,シュート率,19.9 % 12位 (-0.5%),nago_style_s_21.html
+nago,21,ドリブル使用率,13.7 % 15位 (-2.7%),nago_style_s_21.html
+nago,21,ロングパス使用率,23.6 % 3位 (+4.7%),nago_style_s_21.html
+nago,21,空中戦使用率,5.0 % 19位 (-2.6%),nago_style_s_21.html
+nago,21,コンビネーションプレー率,4.3 % 7位 (+1.0%),nago_style_s_21.html
+nago,21,20km/h以上の走行 平均人数,1.7 8位,nago_style_s_21.html
+nago,21,20km/h以上の走行 一人当たりの平均距離,17.8 m 18位,nago_style_s_21.html
+nago,21,20km/h以上の走行距離で 相手を上回った割合,44.0 % 2位,nago_style_s_21.html
+nago,22,ゴール率,2.1 % 11位 (-0.6%),nago_style_s_22.html
+nago,22,シュート率,12.8 % 15位 (-6.4%),nago_style_s_22.html
+nago,22,ドリブル使用率,12.8 % 18位 (-6.5%),nago_style_s_22.html
+nago,22,ロングパス使用率,57.4 % 5位 (+7.6%),nago_style_s_22.html
+nago,22,空中戦使用率,2.1 % 12位 (-1.9%),nago_style_s_22.html
+nago,22,コンビネーションプレー率,0.0 % 11位 (-1.6%),nago_style_s_22.html
+nago,22,20km/h以上の走行 平均人数,4.3 1位,nago_style_s_22.html
+nago,22,20km/h以上の走行 一人当たりの平均距離,27.9 m 18位,nago_style_s_22.html
+nago,22,20km/h以上の走行距離で 相手を上回った割合,30.0 % 9位,nago_style_s_22.html
+nago,23,ゴール率,0.0 % 15位 (-2.2%),nago_style_s_23.html
+nago,23,シュート率,18.8 % 20位 (-5.9%),nago_style_s_23.html
+nago,23,ドリブル使用率,15.8 % 19位 (-7.4%),nago_style_s_23.html
+nago,23,ロングパス使用率,33.7 % 7位 (+1.4%),nago_style_s_23.html
+nago,23,空中戦使用率,8.9 % 10位 (-0.6%),nago_style_s_23.html
+nago,23,コンビネーションプレー率,28.7 % 11位 (-0.4%),nago_style_s_23.html
+nago,23,20km/h以上の走行 平均人数,3.3 12位,nago_style_s_23.html
+nago,23,20km/h以上の走行 一人当たりの平均距離,17.1 m 19位,nago_style_s_23.html
+nago,23,20km/h以上の走行距離で 相手を上回った割合,47.1 % 7位,nago_style_s_23.html
+nago,24,ゴール率,0.0 % 13位 (-1.0%),nago_style_s_24.html
+nago,24,シュート率,9.3 % 6位 (+2.3%),nago_style_s_24.html
+nago,24,ドリブル使用率,6.0 % 15位 (-1.2%),nago_style_s_24.html
+nago,24,ロングパス使用率,49.3 % 2位 (+15.8%),nago_style_s_24.html
+nago,24,空中戦使用率,4.0 % 13位 (-1.5%),nago_style_s_24.html
+nago,24,コンビネーションプレー率,2.0 % 12位 (-0.4%),nago_style_s_24.html
+nago,24,20km/h以上の走行 平均人数,2.3 11位,nago_style_s_24.html
+nago,24,20km/h以上の走行 一人当たりの平均距離,18.7 m 8位,nago_style_s_24.html
+nago,24,20km/h以上の走行距離で 相手を上回った割合,33.0 % 4位,nago_style_s_24.html
+nago,31,ゴール率,0.0 % 15位 (-1.6%),nago_style_s_31.html
+nago,31,シュート率,22.3 % 2位 (+6.7%),nago_style_s_31.html
+nago,31,ドリブル使用率,21.6 % 10位 (-0.2%),nago_style_s_31.html
+nago,31,ロングパス使用率,23.7 % 13位 (-1.5%),nago_style_s_31.html
+nago,31,空中戦使用率,2.9 % 20位 (-6.2%),nago_style_s_31.html
+nago,31,コンビネーションプレー率,13.7 % 4位 (+3.3%),nago_style_s_31.html
+nago,31,20km/h以上の走行 平均人数,2.7 8位,nago_style_s_31.html
+nago,31,20km/h以上の走行 一人当たりの平均距離,19.3 m 16位,nago_style_s_31.html
+nago,31,20km/h以上の走行距離で 相手を上回った割合,40.0 % 8位,nago_style_s_31.html
+nago,32,ゴール率,4.3 % 10位 (-0.1%),nago_style_s_32.html
+nago,32,シュート率,26.6 % 20位 (-8.0%),nago_style_s_32.html
+nago,32,ドリブル使用率,10.8 % 19位 (-6.6%),nago_style_s_32.html
+nago,32,ロングパス使用率,30.2 % 4位 (+4.9%),nago_style_s_32.html
+nago,32,空中戦使用率,10.8 % 11位 (-1.2%),nago_style_s_32.html
+nago,32,コンビネーションプレー率,12.2 % 5位 (+2.9%),nago_style_s_32.html
+nago,32,20km/h以上の走行 平均人数,2.9 4位,nago_style_s_32.html
+nago,32,20km/h以上の走行 一人当たりの平均距離,19.4 m 20位,nago_style_s_32.html
+nago,32,20km/h以上の走行距離で 相手を上回った割合,43.7 % 4位,nago_style_s_32.html
+nago,33,ゴール率,1.1 % 12位 (-0.3%),nago_style_s_33.html
+nago,33,シュート率,7.5 % 19位 (-5.9%),nago_style_s_33.html
+nago,33,ドリブル使用率,5.4 % 20位 (-9.5%),nago_style_s_33.html
+nago,33,ロングパス使用率,30.1 % 4位 (+4.7%),nago_style_s_33.html
+nago,33,空中戦使用率,8.6 % 11位 (-2.6%),nago_style_s_33.html
+nago,33,コンビネーションプレー率,9.7 % 8位 (+0.3%),nago_style_s_33.html
+nago,33,20km/h以上の走行 平均人数,2.5 9位,nago_style_s_33.html
+nago,33,20km/h以上の走行 一人当たりの平均距離,22.0 m 3位,nago_style_s_33.html
+nago,33,20km/h以上の走行距離で 相手を上回った割合,36.2 % 15位,nago_style_s_33.html
+nago,45,味方ゴール率,0.0 % 18位 (-1.0%),nago_style_s_45.html
+nago,45,味方シュート率,7.0 % 16位 (-2.2%),nago_style_s_45.html
+nago,66,ゲイン率,39.4 % 6位 (+3.0%),nago_style_s_66.html
+nago,66,守備成功率,47.7 % 8位 (+2.7%),nago_style_s_66.html
+nago,66,被シュート率,7.9 % 9位 (-0.5%),nago_style_s_66.html
+nago,66,被シュート成功率,0.0 % 1位 (-12.9%),nago_style_s_66.html
+nago,67,ゲイン率,27.4 % 9位 (+0.8%),nago_style_s_67.html
+nago,67,守備成功率,37.9 % 5位 (+3.8%),nago_style_s_67.html
+nago,67,被シュート率,19.6 % 12位 (+1.5%),nago_style_s_67.html
+nago,67,被シュート成功率,11.6 % 13位 (0.0%),nago_style_s_67.html
+nago,69,ゲイン率,37.1 % 16位 (-2.2%),nago_style_s_69.html
+nago,69,守備成功率,45.7 % 16位 (-2.8%),nago_style_s_69.html
+nago,69,被シュート率,13.0 % 19位 (+3.0%),nago_style_s_69.html
+nago,69,被シュート成功率,13.9 % 13位 (+2.5%),nago_style_s_69.html
+nago,81,攻撃獲得率,78.5 % 5位 (+3.8%),nago_style_s_81.html
+nago,81,被シュート率,4.2 % 13位 (0.0%),nago_style_s_81.html
+nago,81,被シュート成功率,12.5 % 10位 (-1.5%),nago_style_s_81.html
+nago,81,面積,980.0 m² (+64.5m²),nago_style_s_81.html
+nago,81,最終ラインの高さ,44.9 m (-1.5m),nago_style_s_81.html
+nago,81,縦幅,34.8 m (+1.4m),nago_style_s_81.html
+nago,81,横幅,41.9 m (+1.7m),nago_style_s_81.html
+nago,82,攻撃獲得率,78.0 % 4位 (+3.1%),nago_style_s_82.html
+nago,82,被シュート率,7.5 % 13位 (+1.0%),nago_style_s_82.html
+nago,82,被シュート成功率,0.0 % 1位 (-14.2%),nago_style_s_82.html
+nago,82,面積,782.3 m² (+85.8m²),nago_style_s_82.html
+nago,82,最終ラインの高さ,32.1 m (-2.9m),nago_style_s_82.html
+nago,82,縦幅,29.2 m (+2.5m),nago_style_s_82.html
+nago,82,横幅,40.3 m (+1.5m),nago_style_s_82.html
+nago,83,攻撃獲得率,63.0 % 10位 (-0.7%),nago_style_s_83.html
+nago,83,被シュート率,22.8 % 20位 (+6.1%),nago_style_s_83.html
+nago,83,被シュート成功率,13.5 % 15位 (+3.0%),nago_style_s_83.html
+nago,83,面積,631.0 m² (+113.9m²),nago_style_s_83.html
+nago,83,最終ラインの高さ,19.6 m (-1.3m),nago_style_s_83.html
+nago,83,縦幅,26.1 m (+3.6m),nago_style_s_83.html
+nago,83,横幅,37.5 m (+1.8m),nago_style_s_83.html
+ngsk,11,ゴール率,2.6 % 8位 (-0.3%),ngsk_style_s_11.html
+ngsk,11,シュート率,23.9 % 15位 (-2.4%),ngsk_style_s_11.html
+ngsk,21,ゴール率,3.3 % 5位 (+0.8%),ngsk_style_s_21.html
+ngsk,21,シュート率,23.0 % 7位 (+2.6%),ngsk_style_s_21.html
+ngsk,21,ドリブル使用率,17.2 % 7位 (+0.8%),ngsk_style_s_21.html
+ngsk,21,ロングパス使用率,22.1 % 6位 (+3.3%),ngsk_style_s_21.html
+ngsk,21,空中戦使用率,9.0 % 6位 (+1.4%),ngsk_style_s_21.html
+ngsk,21,コンビネーションプレー率,4.9 % 4位 (+1.6%),ngsk_style_s_21.html
+ngsk,21,20km/h以上の走行 平均人数,1.5 15位,ngsk_style_s_21.html
+ngsk,21,20km/h以上の走行 一人当たりの平均距離,19.7 m 7位,ngsk_style_s_21.html
+ngsk,21,20km/h以上の走行距離で 相手を上回った割合,30.6 % 15位,ngsk_style_s_21.html
+ngsk,22,ゴール率,2.1 % 11位 (-0.6%),ngsk_style_s_22.html
+ngsk,22,シュート率,27.7 % 2位 (+8.5%),ngsk_style_s_22.html
+ngsk,22,ドリブル使用率,27.7 % 3位 (+8.4%),ngsk_style_s_22.html
+ngsk,22,ロングパス使用率,46.8 % 13位 (-3.0%),ngsk_style_s_22.html
+ngsk,22,空中戦使用率,6.4 % 4位 (+2.4%),ngsk_style_s_22.html
+ngsk,22,コンビネーションプレー率,0.0 % 11位 (-1.6%),ngsk_style_s_22.html
+ngsk,22,20km/h以上の走行 平均人数,3.5 8位,ngsk_style_s_22.html
+ngsk,22,20km/h以上の走行 一人当たりの平均距離,28.8 m 16位,ngsk_style_s_22.html
+ngsk,22,20km/h以上の走行距離で 相手を上回った割合,23.7 % 16位,ngsk_style_s_22.html
+ngsk,23,ゴール率,0.0 % 15位 (-2.2%),ngsk_style_s_23.html
+ngsk,23,シュート率,23.7 % 11位 (-1.0%),ngsk_style_s_23.html
+ngsk,23,ドリブル使用率,23.7 % 10位 (+0.5%),ngsk_style_s_23.html
+ngsk,23,ロングパス使用率,27.1 % 17位 (-5.2%),ngsk_style_s_23.html
+ngsk,23,空中戦使用率,11.9 % 6位 (+2.4%),ngsk_style_s_23.html
+ngsk,23,コンビネーションプレー率,33.9 % 5位 (+4.8%),ngsk_style_s_23.html
+ngsk,23,20km/h以上の走行 平均人数,3.9 2位,ngsk_style_s_23.html
+ngsk,23,20km/h以上の走行 一人当たりの平均距離,20.2 m 5位,ngsk_style_s_23.html
+ngsk,23,20km/h以上の走行距離で 相手を上回った割合,59.0 % 1位,ngsk_style_s_23.html
+ngsk,24,ゴール率,0.0 % 13位 (-1.0%),ngsk_style_s_24.html
+ngsk,24,シュート率,2.7 % 17位 (-4.4%),ngsk_style_s_24.html
+ngsk,24,ドリブル使用率,6.2 % 13位 (-1.0%),ngsk_style_s_24.html
+ngsk,24,ロングパス使用率,29.2 % 15位 (-4.3%),ngsk_style_s_24.html
+ngsk,24,空中戦使用率,6.2 % 9位 (+0.7%),ngsk_style_s_24.html
+ngsk,24,コンビネーションプレー率,0.9 % 17位 (-1.5%),ngsk_style_s_24.html
+ngsk,24,20km/h以上の走行 平均人数,2.2 16位,ngsk_style_s_24.html
+ngsk,24,20km/h以上の走行 一人当たりの平均距離,16.8 m 18位,ngsk_style_s_24.html
+ngsk,24,20km/h以上の走行距離で 相手を上回った割合,23.2 % 10位,ngsk_style_s_24.html
+ngsk,31,ゴール率,0.9 % 12位 (-0.7%),ngsk_style_s_31.html
+ngsk,31,シュート率,20.0 % 4位 (+4.4%),ngsk_style_s_31.html
+ngsk,31,ドリブル使用率,27.8 % 3位 (+6.0%),ngsk_style_s_31.html
+ngsk,31,ロングパス使用率,24.3 % 12位 (-0.9%),ngsk_style_s_31.html
+ngsk,31,空中戦使用率,7.0 % 13位 (-2.1%),ngsk_style_s_31.html
+ngsk,31,コンビネーションプレー率,11.3 % 9位 (+1.0%),ngsk_style_s_31.html
+ngsk,31,20km/h以上の走行 平均人数,3.0 6位,ngsk_style_s_31.html
+ngsk,31,20km/h以上の走行 一人当たりの平均距離,20.0 m 13位,ngsk_style_s_31.html
+ngsk,31,20km/h以上の走行距離で 相手を上回った割合,41.3 % 6位,ngsk_style_s_31.html
+ngsk,32,ゴール率,7.9 % 1位 (+3.5%),ngsk_style_s_32.html
+ngsk,32,シュート率,43.0 % 1位 (+8.3%),ngsk_style_s_32.html
+ngsk,32,ドリブル使用率,17.5 % 11位 (+0.1%),ngsk_style_s_32.html
+ngsk,32,ロングパス使用率,27.2 % 8位 (+1.9%),ngsk_style_s_32.html
+ngsk,32,空中戦使用率,14.0 % 8位 (+2.0%),ngsk_style_s_32.html
+ngsk,32,コンビネーションプレー率,12.3 % 4位 (+3.0%),ngsk_style_s_32.html
+ngsk,32,20km/h以上の走行 平均人数,2.6 9位,ngsk_style_s_32.html
+ngsk,32,20km/h以上の走行 一人当たりの平均距離,24.4 m 2位,ngsk_style_s_32.html
+ngsk,32,20km/h以上の走行距離で 相手を上回った割合,44.4 % 2位,ngsk_style_s_32.html
+ngsk,33,ゴール率,0.0 % 18位 (-1.3%),ngsk_style_s_33.html
+ngsk,33,シュート率,12.9 % 11位 (-0.6%),ngsk_style_s_33.html
+ngsk,33,ドリブル使用率,12.9 % 16位 (-2.0%),ngsk_style_s_33.html
+ngsk,33,ロングパス使用率,25.7 % 10位 (+0.3%),ngsk_style_s_33.html
+ngsk,33,空中戦使用率,8.6 % 13位 (-2.7%),ngsk_style_s_33.html
+ngsk,33,コンビネーションプレー率,5.7 % 17位 (-3.6%),ngsk_style_s_33.html
+ngsk,33,20km/h以上の走行 平均人数,2.1 18位,ngsk_style_s_33.html
+ngsk,33,20km/h以上の走行 一人当たりの平均距離,20.1 m 13位,ngsk_style_s_33.html
+ngsk,33,20km/h以上の走行距離で 相手を上回った割合,24.4 % 18位,ngsk_style_s_33.html
+ngsk,45,味方ゴール率,0.3 % 16位 (-0.7%),ngsk_style_s_45.html
+ngsk,45,味方シュート率,8.4 % 13位 (-0.9%),ngsk_style_s_45.html
+ngsk,66,ゲイン率,33.1 % 15位 (-3.2%),ngsk_style_s_66.html
+ngsk,66,守備成功率,39.0 % 18位 (-6.0%),ngsk_style_s_66.html
+ngsk,66,被シュート率,8.5 % 11位 (+0.1%),ngsk_style_s_66.html
+ngsk,66,被シュート成功率,17.4 % 14位 (+4.5%),ngsk_style_s_66.html
+ngsk,67,ゲイン率,22.3 % 19位 (-4.3%),ngsk_style_s_67.html
+ngsk,67,守備成功率,27.1 % 20位 (-7.0%),ngsk_style_s_67.html
+ngsk,67,被シュート率,20.3 % 16位 (+2.2%),ngsk_style_s_67.html
+ngsk,67,被シュート成功率,7.8 % 6位 (-3.7%),ngsk_style_s_67.html
+ngsk,69,ゲイン率,35.3 % 17位 (-4.0%),ngsk_style_s_69.html
+ngsk,69,守備成功率,41.9 % 18位 (-6.6%),ngsk_style_s_69.html
+ngsk,69,被シュート率,12.5 % 17位 (+2.6%),ngsk_style_s_69.html
+ngsk,69,被シュート成功率,18.4 % 18位 (+7.0%),ngsk_style_s_69.html
+ngsk,81,攻撃獲得率,63.1 % 20位 (-11.7%),ngsk_style_s_81.html
+ngsk,81,被シュート率,3.3 % 5位 (-0.9%),ngsk_style_s_81.html
+ngsk,81,被シュート成功率,0.0 % 1位 (-14.0%),ngsk_style_s_81.html
+ngsk,81,面積,923.2 m² (+7.7m²),ngsk_style_s_81.html
+ngsk,81,最終ラインの高さ,46.5 m (+0.1m),ngsk_style_s_81.html
+ngsk,81,縦幅,33.2 m (-0.2m),ngsk_style_s_81.html
+ngsk,81,横幅,43.3 m (+3.1m),ngsk_style_s_81.html
+ngsk,82,攻撃獲得率,73.5 % 14位 (-1.4%),ngsk_style_s_82.html
+ngsk,82,被シュート率,8.7 % 17位 (+2.2%),ngsk_style_s_82.html
+ngsk,82,被シュート成功率,26.3 % 17位 (+12.1%),ngsk_style_s_82.html
+ngsk,82,面積,704.4 m² (+7.8m²),ngsk_style_s_82.html
+ngsk,82,最終ラインの高さ,34.8 m (-0.2m),ngsk_style_s_82.html
+ngsk,82,縦幅,26.0 m (-0.6m),ngsk_style_s_82.html
+ngsk,82,横幅,42.6 m (+3.8m),ngsk_style_s_82.html
+ngsk,83,攻撃獲得率,65.6 % 6位 (+1.9%),ngsk_style_s_83.html
+ngsk,83,被シュート率,17.0 % 10位 (+0.3%),ngsk_style_s_83.html
+ngsk,83,被シュート成功率,11.4 % 10位 (+0.9%),ngsk_style_s_83.html
+ngsk,83,面積,514.1 m² (-3.0m²),ngsk_style_s_83.html
+ngsk,83,最終ラインの高さ,19.9 m (-1.0m),ngsk_style_s_83.html
+ngsk,83,縦幅,21.9 m (-0.6m),ngsk_style_s_83.html
+ngsk,83,横幅,37.9 m (+2.2m),ngsk_style_s_83.html
+niig,11,ゴール率,2.8 % 9位 (+0.2%),niig_style_s_11.html
+niig,11,シュート率,28.7 % 7位 (+1.8%),niig_style_s_11.html
+niig,21,ゴール率,0.7 % 17位 (-1.1%),niig_style_s_21.html
+niig,21,シュート率,18.3 % 13位 (-1.8%),niig_style_s_21.html
+niig,21,ドリブル使用率,15.0 % 11位 (+0.1%),niig_style_s_21.html
+niig,21,ロングパス使用率,22.9 % 3位 (+5.1%),niig_style_s_21.html
+niig,21,空中戦使用率,5.9 % 13位 (-1.5%),niig_style_s_21.html
+niig,21,コンビネーションプレー率,2.0 % 16位 (-1.3%),niig_style_s_21.html
+niig,22,ゴール率,4.7 % 2位 (+2.9%),niig_style_s_22.html
+niig,22,シュート率,19.8 % 5位 (+4.1%),niig_style_s_22.html
+niig,22,ドリブル使用率,12.8 % 14位 (-2.9%),niig_style_s_22.html
+niig,22,ロングパス使用率,53.5 % 8位 (+2.4%),niig_style_s_22.html
+niig,22,空中戦使用率,3.5 % 14位 (-1.8%),niig_style_s_22.html
+niig,22,コンビネーションプレー率,2.3 % 9位 (+0.6%),niig_style_s_22.html
+niig,23,ゴール率,1.8 % 8位 (+0.3%),niig_style_s_23.html
+niig,23,シュート率,17.9 % 19位 (-7.2%),niig_style_s_23.html
+niig,23,ドリブル使用率,21.4 % 15位 (-3.1%),niig_style_s_23.html
+niig,23,ロングパス使用率,25.0 % 15位 (-8.1%),niig_style_s_23.html
+niig,23,空中戦使用率,3.6 % 20位 (-7.1%),niig_style_s_23.html
+niig,23,コンビネーションプレー率,23.2 % 14位 (-2.1%),niig_style_s_23.html
+niig,24,ゴール率,0.0 % 13位 (-0.9%),niig_style_s_24.html
+niig,24,シュート率,4.2 % 18位 (-3.3%),niig_style_s_24.html
+niig,24,ドリブル使用率,6.9 % 10位 (+0.4%),niig_style_s_24.html
+niig,24,ロングパス使用率,34.7 % 12位 (-0.2%),niig_style_s_24.html
+niig,24,空中戦使用率,2.8 % 16位 (-2.5%),niig_style_s_24.html
+niig,24,コンビネーションプレー率,5.6 % 2位 (+2.5%),niig_style_s_24.html
+niig,31,ゴール率,2.1 % 7位 (+0.7%),niig_style_s_31.html
+niig,31,シュート率,14.4 % 9位 (+0.7%),niig_style_s_31.html
+niig,31,ドリブル使用率,13.7 % 18位 (-5.7%),niig_style_s_31.html
+niig,31,ロングパス使用率,19.9 % 16位 (-3.8%),niig_style_s_31.html
+niig,31,空中戦使用率,11.6 % 6位 (+1.7%),niig_style_s_31.html
+niig,31,コンビネーションプレー率,11.0 % 7位 (+1.5%),niig_style_s_31.html
+niig,32,ゴール率,3.7 % 8位 (+0.4%),niig_style_s_32.html
+niig,32,シュート率,38.9 % 5位 (+2.9%),niig_style_s_32.html
+niig,32,ドリブル使用率,16.7 % 12位 (-0.5%),niig_style_s_32.html
+niig,32,ロングパス使用率,29.6 % 4位 (+4.7%),niig_style_s_32.html
+niig,32,空中戦使用率,13.9 % 7位 (+1.0%),niig_style_s_32.html
+niig,32,コンビネーションプレー率,4.6 % 19位 (-2.4%),niig_style_s_32.html
+niig,33,ゴール率,1.8 % 2位 (+0.9%),niig_style_s_33.html
+niig,33,シュート率,9.2 % 17位 (-3.5%),niig_style_s_33.html
+niig,33,ドリブル使用率,17.4 % 7位 (+2.2%),niig_style_s_33.html
+niig,33,ロングパス使用率,27.5 % 3位 (+4.8%),niig_style_s_33.html
+niig,33,空中戦使用率,7.3 % 16位 (-2.5%),niig_style_s_33.html
+niig,33,コンビネーションプレー率,4.6 % 16位 (-3.3%),niig_style_s_33.html
+niig,45,ゴール率,2.8 % 9位 (+0.2%),niig_style_s_45.html
+niig,45,シュート率,28.7 % 7位 (+1.8%),niig_style_s_45.html
+niig,66,ゴール率,2.8 % 9位 (+0.2%),niig_style_s_66.html
+niig,66,シュート率,28.7 % 7位 (+1.8%),niig_style_s_66.html
+niig,67,ゴール率,2.8 % 9位 (+0.2%),niig_style_s_67.html
+niig,67,シュート率,28.7 % 7位 (+1.8%),niig_style_s_67.html
+niig,69,ゴール率,2.8 % 9位 (+0.2%),niig_style_s_69.html
+niig,69,シュート率,28.7 % 7位 (+1.8%),niig_style_s_69.html
+niig,81,ゴール率,2.8 % 9位 (+0.2%),niig_style_s_81.html
+niig,81,シュート率,28.7 % 7位 (+1.8%),niig_style_s_81.html
+niig,82,ゴール率,2.8 % 9位 (+0.2%),niig_style_s_82.html
+niig,82,シュート率,28.7 % 7位 (+1.8%),niig_style_s_82.html
+niig,83,ゴール率,2.8 % 9位 (+0.2%),niig_style_s_83.html
+niig,83,シュート率,28.7 % 7位 (+1.8%),niig_style_s_83.html
+oita,11,ゴール率,4.6 % 1位 (+1.9%),oita_style_s_11.html
+oita,11,シュート率,24.6 % 15位 (-2.3%),oita_style_s_11.html
+oita,21,ゴール率,0.6 % 19位 (-1.2%),oita_style_s_21.html
+oita,21,シュート率,17.5 % 16位 (-2.6%),oita_style_s_21.html
+oita,21,ドリブル使用率,11.3 % 18位 (-3.6%),oita_style_s_21.html
+oita,21,ロングパス使用率,18.1 % 7位 (+0.3%),oita_style_s_21.html
+oita,21,空中戦使用率,6.8 % 11位 (-0.6%),oita_style_s_21.html
+oita,21,コンビネーションプレー率,2.3 % 15位 (-1.0%),oita_style_s_21.html
+oita,22,ゴール率,3.0 % 6位 (+1.2%),oita_style_s_22.html
+oita,22,シュート率,18.2 % 7位 (+2.5%),oita_style_s_22.html
+oita,22,ドリブル使用率,13.6 % 12位 (-2.1%),oita_style_s_22.html
+oita,22,ロングパス使用率,48.5 % 14位 (-2.6%),oita_style_s_22.html
+oita,22,空中戦使用率,12.1 % 2位 (+6.8%),oita_style_s_22.html
+oita,22,コンビネーションプレー率,4.5 % 2位 (+2.8%),oita_style_s_22.html
+oita,23,ゴール率,0.0 % 13位 (-1.5%),oita_style_s_23.html
+oita,23,シュート率,17.1 % 20位 (-7.9%),oita_style_s_23.html
+oita,23,ドリブル使用率,15.7 % 19位 (-8.8%),oita_style_s_23.html
+oita,23,ロングパス使用率,34.3 % 8位 (+1.2%),oita_style_s_23.html
+oita,23,空中戦使用率,7.1 % 17位 (-3.5%),oita_style_s_23.html
+oita,23,コンビネーションプレー率,20.0 % 17位 (-5.3%),oita_style_s_23.html
+oita,24,ゴール率,0.9 % 10位 (0.0%),oita_style_s_24.html
+oita,24,シュート率,7.5 % 12位 (0.0%),oita_style_s_24.html
+oita,24,ドリブル使用率,8.4 % 5位 (+1.8%),oita_style_s_24.html
+oita,24,ロングパス使用率,29.9 % 18位 (-5.0%),oita_style_s_24.html
+oita,24,空中戦使用率,4.7 % 10位 (-0.6%),oita_style_s_24.html
+oita,24,コンビネーションプレー率,4.7 % 6位 (+1.6%),oita_style_s_24.html
+oita,31,ゴール率,0.0 % 16位 (-1.4%),oita_style_s_31.html
+oita,31,シュート率,12.0 % 12位 (-1.7%),oita_style_s_31.html
+oita,31,ドリブル使用率,20.3 % 9位 (+0.9%),oita_style_s_31.html
+oita,31,ロングパス使用率,20.9 % 15位 (-2.8%),oita_style_s_31.html
+oita,31,空中戦使用率,13.9 % 4位 (+4.0%),oita_style_s_31.html
+oita,31,コンビネーションプレー率,11.4 % 6位 (+1.9%),oita_style_s_31.html
+oita,32,ゴール率,3.2 % 9位 (-0.2%),oita_style_s_32.html
+oita,32,シュート率,36.8 % 8位 (+0.8%),oita_style_s_32.html
+oita,32,ドリブル使用率,14.4 % 17位 (-2.8%),oita_style_s_32.html
+oita,32,ロングパス使用率,21.6 % 16位 (-3.4%),oita_style_s_32.html
+oita,32,空中戦使用率,16.0 % 3位 (+3.1%),oita_style_s_32.html
+oita,32,コンビネーションプレー率,4.8 % 17位 (-2.2%),oita_style_s_32.html
+oita,33,ゴール率,1.0 % 10位 (+0.1%),oita_style_s_33.html
+oita,33,シュート率,12.5 % 10位 (-0.1%),oita_style_s_33.html
+oita,33,ドリブル使用率,11.5 % 17位 (-3.8%),oita_style_s_33.html
+oita,33,ロングパス使用率,24.0 % 5位 (+1.2%),oita_style_s_33.html
+oita,33,空中戦使用率,6.3 % 18位 (-3.6%),oita_style_s_33.html
+oita,33,コンビネーションプレー率,7.3 % 12位 (-0.6%),oita_style_s_33.html
+oita,45,ゴール率,4.6 % 1位 (+1.9%),oita_style_s_45.html
+oita,45,シュート率,24.6 % 15位 (-2.3%),oita_style_s_45.html
+oita,66,ゴール率,4.6 % 1位 (+1.9%),oita_style_s_66.html
+oita,66,シュート率,24.6 % 15位 (-2.3%),oita_style_s_66.html
+oita,67,ゴール率,4.6 % 1位 (+1.9%),oita_style_s_67.html
+oita,67,シュート率,24.6 % 15位 (-2.3%),oita_style_s_67.html
+oita,69,ゴール率,4.6 % 1位 (+1.9%),oita_style_s_69.html
+oita,69,シュート率,24.6 % 15位 (-2.3%),oita_style_s_69.html
+oita,81,ゴール率,4.6 % 1位 (+1.9%),oita_style_s_81.html
+oita,81,シュート率,24.6 % 15位 (-2.3%),oita_style_s_81.html
+oita,82,ゴール率,4.6 % 1位 (+1.9%),oita_style_s_82.html
+oita,82,シュート率,24.6 % 15位 (-2.3%),oita_style_s_82.html
+oita,83,ゴール率,4.6 % 1位 (+1.9%),oita_style_s_83.html
+oita,83,シュート率,24.6 % 15位 (-2.3%),oita_style_s_83.html
+okay,11,ゴール率,1.3 % 18位 (-1.5%),okay_style_s_11.html
+okay,11,シュート率,25.4 % 12位 (-0.8%),okay_style_s_11.html
+okay,21,ゴール率,2.0 % 14位 (-0.5%),okay_style_s_21.html
+okay,21,シュート率,22.1 % 9位 (+1.7%),okay_style_s_21.html
+okay,21,ドリブル使用率,14.7 % 13位 (-1.7%),okay_style_s_21.html
+okay,21,ロングパス使用率,24.0 % 2位 (+5.1%),okay_style_s_21.html
+okay,21,空中戦使用率,6.4 % 12位 (-1.2%),okay_style_s_21.html
+okay,21,コンビネーションプレー率,4.4 % 6位 (+1.1%),okay_style_s_21.html
+okay,21,20km/h以上の走行 平均人数,1.7 10位,okay_style_s_21.html
+okay,21,20km/h以上の走行 一人当たりの平均距離,21.2 m 2位,okay_style_s_21.html
+okay,21,20km/h以上の走行距離で 相手を上回った割合,39.6 % 7位,okay_style_s_21.html
+okay,22,ゴール率,3.4 % 7位 (+0.7%),okay_style_s_22.html
+okay,22,シュート率,10.3 % 20位 (-8.8%),okay_style_s_22.html
+okay,22,ドリブル使用率,10.3 % 20位 (-8.9%),okay_style_s_22.html
+okay,22,ロングパス使用率,57.5 % 4位 (+7.7%),okay_style_s_22.html
+okay,22,空中戦使用率,1.1 % 17位 (-2.8%),okay_style_s_22.html
+okay,22,コンビネーションプレー率,0.0 % 11位 (-1.6%),okay_style_s_22.html
+okay,22,20km/h以上の走行 平均人数,3.0 16位,okay_style_s_22.html
+okay,22,20km/h以上の走行 一人当たりの平均距離,31.5 m 4位,okay_style_s_22.html
+okay,22,20km/h以上の走行距離で 相手を上回った割合,23.5 % 17位,okay_style_s_22.html
+okay,23,ゴール率,0.0 % 15位 (-2.2%),okay_style_s_23.html
+okay,23,シュート率,21.5 % 15位 (-3.2%),okay_style_s_23.html
+okay,23,ドリブル使用率,24.6 % 8位 (+1.4%),okay_style_s_23.html
+okay,23,ロングパス使用率,27.7 % 16位 (-4.6%),okay_style_s_23.html
+okay,23,空中戦使用率,4.6 % 19位 (-4.9%),okay_style_s_23.html
+okay,23,コンビネーションプレー率,20.0 % 20位 (-9.1%),okay_style_s_23.html
+okay,23,20km/h以上の走行 平均人数,3.6 7位,okay_style_s_23.html
+okay,23,20km/h以上の走行 一人当たりの平均距離,22.3 m 2位,okay_style_s_23.html
+okay,23,20km/h以上の走行距離で 相手を上回った割合,46.0 % 8位,okay_style_s_23.html
+okay,24,ゴール率,2.5 % 2位 (+1.5%),okay_style_s_24.html
+okay,24,シュート率,2.5 % 18位 (-4.5%),okay_style_s_24.html
+okay,24,ドリブル使用率,7.5 % 9位 (+0.3%),okay_style_s_24.html
+okay,24,ロングパス使用率,50.0 % 1位 (+16.5%),okay_style_s_24.html
+okay,24,空中戦使用率,0.0 % 20位 (-5.5%),okay_style_s_24.html
+okay,24,コンビネーションプレー率,0.0 % 19位 (-2.4%),okay_style_s_24.html
+okay,24,20km/h以上の走行 平均人数,2.0 18位,okay_style_s_24.html
+okay,24,20km/h以上の走行 一人当たりの平均距離,19.7 m 6位,okay_style_s_24.html
+okay,24,20km/h以上の走行距離で 相手を上回った割合,21.1 % 14位,okay_style_s_24.html
+okay,31,ゴール率,0.0 % 15位 (-1.6%),okay_style_s_31.html
+okay,31,シュート率,11.2 % 16位 (-4.4%),okay_style_s_31.html
+okay,31,ドリブル使用率,17.2 % 17位 (-4.7%),okay_style_s_31.html
+okay,31,ロングパス使用率,19.4 % 20位 (-5.9%),okay_style_s_31.html
+okay,31,空中戦使用率,3.0 % 19位 (-6.1%),okay_style_s_31.html
+okay,31,コンビネーションプレー率,4.5 % 20位 (-5.8%),okay_style_s_31.html
+okay,31,20km/h以上の走行 平均人数,1.9 19位,okay_style_s_31.html
+okay,31,20km/h以上の走行 一人当たりの平均距離,23.2 m 1位,okay_style_s_31.html
+okay,31,20km/h以上の走行距離で 相手を上回った割合,31.3 % 15位,okay_style_s_31.html
+okay,32,ゴール率,5.0 % 5位 (+0.6%),okay_style_s_32.html
+okay,32,シュート率,39.5 % 5位 (+4.8%),okay_style_s_32.html
+okay,32,ドリブル使用率,13.4 % 18位 (-4.0%),okay_style_s_32.html
+okay,32,ロングパス使用率,25.2 % 12位 (-0.1%),okay_style_s_32.html
+okay,32,空中戦使用率,12.6 % 9位 (+0.6%),okay_style_s_32.html
+okay,32,コンビネーションプレー率,8.4 % 10位 (-0.9%),okay_style_s_32.html
+okay,32,20km/h以上の走行 平均人数,2.2 17位,okay_style_s_32.html
+okay,32,20km/h以上の走行 一人当たりの平均距離,23.2 m 8位,okay_style_s_32.html
+okay,32,20km/h以上の走行距離で 相手を上回った割合,39.0 % 8位,okay_style_s_32.html
+okay,33,ゴール率,0.7 % 16位 (-0.6%),okay_style_s_33.html
+okay,33,シュート率,9.9 % 17位 (-3.6%),okay_style_s_33.html
+okay,33,ドリブル使用率,17.6 % 5位 (+2.8%),okay_style_s_33.html
+okay,33,ロングパス使用率,28.9 % 5位 (+3.4%),okay_style_s_33.html
+okay,33,空中戦使用率,7.7 % 15位 (-3.5%),okay_style_s_33.html
+okay,33,コンビネーションプレー率,6.3 % 16位 (-3.0%),okay_style_s_33.html
+okay,33,20km/h以上の走行 平均人数,2.4 13位,okay_style_s_33.html
+okay,33,20km/h以上の走行 一人当たりの平均距離,24.2 m 1位,okay_style_s_33.html
+okay,33,20km/h以上の走行距離で 相手を上回った割合,36.5 % 14位,okay_style_s_33.html
+okay,45,味方ゴール率,0.0 % 18位 (-1.0%),okay_style_s_45.html
+okay,45,味方シュート率,5.2 % 20位 (-4.0%),okay_style_s_45.html
+okay,66,ゲイン率,36.5 % 10位 (+0.2%),okay_style_s_66.html
+okay,66,守備成功率,45.8 % 10位 (+0.9%),okay_style_s_66.html
+okay,66,被シュート率,4.0 % 2位 (-4.4%),okay_style_s_66.html
+okay,66,被シュート成功率,0.0 % 1位 (-12.9%),okay_style_s_66.html
+okay,67,ゲイン率,23.8 % 16位 (-2.8%),okay_style_s_67.html
+okay,67,守備成功率,30.2 % 17位 (-3.9%),okay_style_s_67.html
+okay,67,被シュート率,14.0 % 4位 (-4.1%),okay_style_s_67.html
+okay,67,被シュート成功率,12.1 % 14位 (+0.5%),okay_style_s_67.html
+okay,69,ゲイン率,41.2 % 7位 (+2.0%),okay_style_s_69.html
+okay,69,守備成功率,50.8 % 6位 (+2.3%),okay_style_s_69.html
+okay,69,被シュート率,5.5 % 1位 (-4.4%),okay_style_s_69.html
+okay,69,被シュート成功率,5.6 % 4位 (-5.8%),okay_style_s_69.html
+okay,81,攻撃獲得率,74.6 % 11位 (-0.2%),okay_style_s_81.html
+okay,81,被シュート率,2.8 % 3位 (-1.4%),okay_style_s_81.html
+okay,81,被シュート成功率,40.0 % 19位 (+26.0%),okay_style_s_81.html
+okay,81,面積,893.2 m² (-22.2m²),okay_style_s_81.html
+okay,81,最終ラインの高さ,47.6 m (+1.2m),okay_style_s_81.html
+okay,81,縦幅,33.1 m (-0.3m),okay_style_s_81.html
+okay,81,横幅,41.3 m (+1.1m),okay_style_s_81.html
+okay,82,攻撃獲得率,77.6 % 5位 (+2.7%),okay_style_s_82.html
+okay,82,被シュート率,4.1 % 5位 (-2.3%),okay_style_s_82.html
+okay,82,被シュート成功率,11.1 % 9位 (-3.1%),okay_style_s_82.html
+okay,82,面積,645.6 m² (-51.0m²),okay_style_s_82.html
+okay,82,最終ラインの高さ,36.0 m (+1.0m),okay_style_s_82.html
+okay,82,縦幅,25.0 m (-1.6m),okay_style_s_82.html
+okay,82,横幅,40.6 m (+1.8m),okay_style_s_82.html
+okay,83,攻撃獲得率,62.7 % 11位 (-0.9%),okay_style_s_83.html
+okay,83,被シュート率,15.7 % 7位 (-1.0%),okay_style_s_83.html
+okay,83,被シュート成功率,12.5 % 13位 (+2.0%),okay_style_s_83.html
+okay,83,面積,468.3 m² (-48.8m²),okay_style_s_83.html
+okay,83,最終ラインの高さ,22.5 m (+1.6m),okay_style_s_83.html
+okay,83,縦幅,20.4 m (-2.0m),okay_style_s_83.html
+okay,83,横幅,36.4 m (+0.7m),okay_style_s_83.html
+omiy,11,ゴール率,3.6 % 3位 (+0.9%),omiy_style_s_11.html
+omiy,11,シュート率,28.7 % 6位 (+1.8%),omiy_style_s_11.html
+omiy,21,ゴール率,2.3 % 6位 (+0.6%),omiy_style_s_21.html
+omiy,21,シュート率,25.1 % 3位 (+5.0%),omiy_style_s_21.html
+omiy,21,ドリブル使用率,17.2 % 5位 (+2.3%),omiy_style_s_21.html
+omiy,21,ロングパス使用率,12.6 % 19位 (-5.3%),omiy_style_s_21.html
+omiy,21,空中戦使用率,7.9 % 8位 (+0.5%),omiy_style_s_21.html
+omiy,21,コンビネーションプレー率,4.7 % 5位 (+1.4%),omiy_style_s_21.html
+omiy,22,ゴール率,4.4 % 3位 (+2.6%),omiy_style_s_22.html
+omiy,22,シュート率,19.1 % 6位 (+3.4%),omiy_style_s_22.html
+omiy,22,ドリブル使用率,22.1 % 3位 (+6.3%),omiy_style_s_22.html
+omiy,22,ロングパス使用率,60.3 % 2位 (+9.2%),omiy_style_s_22.html
+omiy,22,空中戦使用率,5.9 % 8位 (+0.6%),omiy_style_s_22.html
+omiy,22,コンビネーションプレー率,2.9 % 6位 (+1.2%),omiy_style_s_22.html
+omiy,23,ゴール率,0.0 % 13位 (-1.5%),omiy_style_s_23.html
+omiy,23,シュート率,20.0 % 18位 (-5.1%),omiy_style_s_23.html
+omiy,23,ドリブル使用率,22.2 % 14位 (-2.3%),omiy_style_s_23.html
+omiy,23,ロングパス使用率,24.4 % 17位 (-8.6%),omiy_style_s_23.html
+omiy,23,空中戦使用率,11.1 % 8位 (+0.5%),omiy_style_s_23.html
+omiy,23,コンビネーションプレー率,22.2 % 15位 (-3.0%),omiy_style_s_23.html
+omiy,24,ゴール率,1.7 % 6位 (+0.8%),omiy_style_s_24.html
+omiy,24,シュート率,8.7 % 6位 (+1.2%),omiy_style_s_24.html
+omiy,24,ドリブル使用率,9.6 % 3位 (+3.0%),omiy_style_s_24.html
+omiy,24,ロングパス使用率,34.8 % 11位 (-0.1%),omiy_style_s_24.html
+omiy,24,空中戦使用率,1.7 % 18位 (-3.5%),omiy_style_s_24.html
+omiy,24,コンビネーションプレー率,3.5 % 9位 (+0.4%),omiy_style_s_24.html
+omiy,31,ゴール率,1.2 % 11位 (-0.2%),omiy_style_s_31.html
+omiy,31,シュート率,13.9 % 10位 (+0.2%),omiy_style_s_31.html
+omiy,31,ドリブル使用率,19.7 % 11位 (+0.3%),omiy_style_s_31.html
+omiy,31,ロングパス使用率,15.6 % 19位 (-8.1%),omiy_style_s_31.html
+omiy,31,空中戦使用率,9.2 % 10位 (-0.7%),omiy_style_s_31.html
+omiy,31,コンビネーションプレー率,10.4 % 10位 (+0.9%),omiy_style_s_31.html
+omiy,32,ゴール率,3.8 % 7位 (+0.5%),omiy_style_s_32.html
+omiy,32,シュート率,35.3 % 12位 (-0.7%),omiy_style_s_32.html
+omiy,32,ドリブル使用率,20.1 % 4位 (+2.9%),omiy_style_s_32.html
+omiy,32,ロングパス使用率,22.3 % 15位 (-2.7%),omiy_style_s_32.html
+omiy,32,空中戦使用率,11.4 % 12位 (-1.5%),omiy_style_s_32.html
+omiy,32,コンビネーションプレー率,8.2 % 5位 (+1.1%),omiy_style_s_32.html
+omiy,33,ゴール率,1.4 % 4位 (+0.5%),omiy_style_s_33.html
+omiy,33,シュート率,16.7 % 2位 (+4.0%),omiy_style_s_33.html
+omiy,33,ドリブル使用率,19.6 % 5位 (+4.3%),omiy_style_s_33.html
+omiy,33,ロングパス使用率,23.2 % 8位 (+0.5%),omiy_style_s_33.html
+omiy,33,空中戦使用率,10.1 % 5位 (+0.3%),omiy_style_s_33.html
+omiy,33,コンビネーションプレー率,8.7 % 7位 (+0.9%),omiy_style_s_33.html
+omiy,45,ゴール率,3.6 % 3位 (+0.9%),omiy_style_s_45.html
+omiy,45,シュート率,28.7 % 6位 (+1.8%),omiy_style_s_45.html
+omiy,66,ゴール率,3.6 % 3位 (+0.9%),omiy_style_s_66.html
+omiy,66,シュート率,28.7 % 6位 (+1.8%),omiy_style_s_66.html
+omiy,67,ゴール率,3.6 % 3位 (+0.9%),omiy_style_s_67.html
+omiy,67,シュート率,28.7 % 6位 (+1.8%),omiy_style_s_67.html
+omiy,69,ゴール率,3.6 % 3位 (+0.9%),omiy_style_s_69.html
+omiy,69,シュート率,28.7 % 6位 (+1.8%),omiy_style_s_69.html
+omiy,81,ゴール率,3.6 % 3位 (+0.9%),omiy_style_s_81.html
+omiy,81,シュート率,28.7 % 6位 (+1.8%),omiy_style_s_81.html
+omiy,82,ゴール率,3.6 % 3位 (+0.9%),omiy_style_s_82.html
+omiy,82,シュート率,28.7 % 6位 (+1.8%),omiy_style_s_82.html
+omiy,83,ゴール率,3.6 % 3位 (+0.9%),omiy_style_s_83.html
+omiy,83,シュート率,28.7 % 6位 (+1.8%),omiy_style_s_83.html
+send,11,ゴール率,3.3 % 5位 (+0.6%),send_style_s_11.html
+send,11,シュート率,31.6 % 2位 (+4.8%),send_style_s_11.html
+send,21,ゴール率,1.9 % 10位 (+0.2%),send_style_s_21.html
+send,21,シュート率,19.2 % 10位 (-0.8%),send_style_s_21.html
+send,21,ドリブル使用率,13.0 % 15位 (-1.9%),send_style_s_21.html
+send,21,ロングパス使用率,15.9 % 13位 (-2.0%),send_style_s_21.html
+send,21,空中戦使用率,4.3 % 19位 (-3.1%),send_style_s_21.html
+send,21,コンビネーションプレー率,2.4 % 14位 (-0.9%),send_style_s_21.html
+send,22,ゴール率,2.5 % 7位 (+0.7%),send_style_s_22.html
+send,22,シュート率,16.0 % 10位 (+0.3%),send_style_s_22.html
+send,22,ドリブル使用率,12.3 % 16位 (-3.4%),send_style_s_22.html
+send,22,ロングパス使用率,46.9 % 16位 (-4.2%),send_style_s_22.html
+send,22,空中戦使用率,12.3 % 1位 (+7.0%),send_style_s_22.html
+send,22,コンビネーションプレー率,2.5 % 8位 (+0.7%),send_style_s_22.html
+send,23,ゴール率,3.2 % 3位 (+1.8%),send_style_s_23.html
+send,23,シュート率,25.8 % 8位 (+0.8%),send_style_s_23.html
+send,23,ドリブル使用率,21.0 % 16位 (-3.5%),send_style_s_23.html
+send,23,ロングパス使用率,22.6 % 19位 (-10.5%),send_style_s_23.html
+send,23,空中戦使用率,11.3 % 7位 (+0.6%),send_style_s_23.html
+send,23,コンビネーションプレー率,29.0 % 5位 (+3.8%),send_style_s_23.html
+send,24,ゴール率,0.0 % 13位 (-0.9%),send_style_s_24.html
+send,24,シュート率,6.3 % 14位 (-1.1%),send_style_s_24.html
+send,24,ドリブル使用率,6.3 % 11位 (-0.2%),send_style_s_24.html
+send,24,ロングパス使用率,39.2 % 4位 (+4.3%),send_style_s_24.html
+send,24,空中戦使用率,7.6 % 4位 (+2.3%),send_style_s_24.html
+send,24,コンビネーションプレー率,3.8 % 8位 (+0.7%),send_style_s_24.html
+send,31,ゴール率,2.7 % 4位 (+1.3%),send_style_s_31.html
+send,31,シュート率,11.6 % 14位 (-2.1%),send_style_s_31.html
+send,31,ドリブル使用率,14.3 % 17位 (-5.1%),send_style_s_31.html
+send,31,ロングパス使用率,24.1 % 11位 (+0.4%),send_style_s_31.html
+send,31,空中戦使用率,14.3 % 3位 (+4.3%),send_style_s_31.html
+send,31,コンビネーションプレー率,10.7 % 9位 (+1.2%),send_style_s_31.html
+send,32,ゴール率,2.3 % 15位 (-1.1%),send_style_s_32.html
+send,32,シュート率,32.9 % 17位 (-3.1%),send_style_s_32.html
+send,32,ドリブル使用率,17.6 % 9位 (+0.4%),send_style_s_32.html
+send,32,ロングパス使用率,23.0 % 14位 (-2.0%),send_style_s_32.html
+send,32,空中戦使用率,12.2 % 11位 (-0.7%),send_style_s_32.html
+send,32,コンビネーションプレー率,5.9 % 12位 (-1.1%),send_style_s_32.html
+send,33,ゴール率,1.0 % 11位 (+0.1%),send_style_s_33.html
+send,33,シュート率,10.3 % 15位 (-2.3%),send_style_s_33.html
+send,33,ドリブル使用率,6.2 % 20位 (-9.1%),send_style_s_33.html
+send,33,ロングパス使用率,21.6 % 11位 (-1.1%),send_style_s_33.html
+send,33,空中戦使用率,9.3 % 10位 (-0.6%),send_style_s_33.html
+send,33,コンビネーションプレー率,7.2 % 13位 (-0.6%),send_style_s_33.html
+send,45,ゴール率,3.3 % 5位 (+0.6%),send_style_s_45.html
+send,45,シュート率,31.6 % 2位 (+4.8%),send_style_s_45.html
+send,66,ゴール率,3.3 % 5位 (+0.6%),send_style_s_66.html
+send,66,シュート率,31.6 % 2位 (+4.8%),send_style_s_66.html
+send,67,ゴール率,3.3 % 5位 (+0.6%),send_style_s_67.html
+send,67,シュート率,31.6 % 2位 (+4.8%),send_style_s_67.html
+send,69,ゴール率,3.3 % 5位 (+0.6%),send_style_s_69.html
+send,69,シュート率,31.6 % 2位 (+4.8%),send_style_s_69.html
+send,81,ゴール率,3.3 % 5位 (+0.6%),send_style_s_81.html
+send,81,シュート率,31.6 % 2位 (+4.8%),send_style_s_81.html
+send,82,ゴール率,3.3 % 5位 (+0.6%),send_style_s_82.html
+send,82,シュート率,31.6 % 2位 (+4.8%),send_style_s_82.html
+send,83,ゴール率,3.3 % 5位 (+0.6%),send_style_s_83.html
+send,83,シュート率,31.6 % 2位 (+4.8%),send_style_s_83.html
+shim,11,ゴール率,1.1 % 20位 (-1.7%),shim_style_s_11.html
+shim,11,シュート率,20.5 % 19位 (-5.7%),shim_style_s_11.html
+shim,21,ゴール率,1.2 % 18位 (-1.3%),shim_style_s_21.html
+shim,21,シュート率,11.8 % 20位 (-8.5%),shim_style_s_21.html
+shim,21,ドリブル使用率,17.2 % 8位 (+0.8%),shim_style_s_21.html
+shim,21,ロングパス使用率,16.6 % 14位 (-2.3%),shim_style_s_21.html
+shim,21,空中戦使用率,10.7 % 3位 (+3.0%),shim_style_s_21.html
+shim,21,コンビネーションプレー率,2.4 % 14位 (-1.0%),shim_style_s_21.html
+shim,21,20km/h以上の走行 平均人数,1.9 4位,shim_style_s_21.html
+shim,21,20km/h以上の走行 一人当たりの平均距離,18.9 m 9位,shim_style_s_21.html
+shim,21,20km/h以上の走行距離で 相手を上回った割合,30.3 % 16位,shim_style_s_21.html
+shim,22,ゴール率,4.8 % 5位 (+2.0%),shim_style_s_22.html
+shim,22,シュート率,19.0 % 9位 (-0.1%),shim_style_s_22.html
+shim,22,ドリブル使用率,16.7 % 15位 (-2.6%),shim_style_s_22.html
+shim,22,ロングパス使用率,40.5 % 19位 (-9.3%),shim_style_s_22.html
+shim,22,空中戦使用率,2.4 % 11位 (-1.6%),shim_style_s_22.html
+shim,22,コンビネーションプレー率,2.4 % 6位 (+0.8%),shim_style_s_22.html
+shim,22,20km/h以上の走行 平均人数,3.6 6位,shim_style_s_22.html
+shim,22,20km/h以上の走行 一人当たりの平均距離,27.0 m 20位,shim_style_s_22.html
+shim,22,20km/h以上の走行距離で 相手を上回った割合,45.5 % 3位,shim_style_s_22.html
+shim,23,ゴール率,0.0 % 15位 (-2.2%),shim_style_s_23.html
+shim,23,シュート率,24.5 % 10位 (-0.2%),shim_style_s_23.html
+shim,23,ドリブル使用率,30.6 % 3位 (+7.4%),shim_style_s_23.html
+shim,23,ロングパス使用率,30.6 % 12位 (-1.7%),shim_style_s_23.html
+shim,23,空中戦使用率,20.4 % 1位 (+10.9%),shim_style_s_23.html
+shim,23,コンビネーションプレー率,30.6 % 10位 (+1.5%),shim_style_s_23.html
+shim,23,20km/h以上の走行 平均人数,3.2 14位,shim_style_s_23.html
+shim,23,20km/h以上の走行 一人当たりの平均距離,17.6 m 16位,shim_style_s_23.html
+shim,23,20km/h以上の走行距離で 相手を上回った割合,34.4 % 15位,shim_style_s_23.html
+shim,24,ゴール率,0.0 % 13位 (-1.0%),shim_style_s_24.html
+shim,24,シュート率,7.7 % 10位 (+0.7%),shim_style_s_24.html
+shim,24,ドリブル使用率,9.6 % 4位 (+2.4%),shim_style_s_24.html
+shim,24,ロングパス使用率,32.7 % 9位 (-0.9%),shim_style_s_24.html
+shim,24,空中戦使用率,15.4 % 1位 (+9.9%),shim_style_s_24.html
+shim,24,コンビネーションプレー率,1.9 % 13位 (-0.4%),shim_style_s_24.html
+shim,24,20km/h以上の走行 平均人数,1.8 19位,shim_style_s_24.html
+shim,24,20km/h以上の走行 一人当たりの平均距離,16.5 m 19位,shim_style_s_24.html
+shim,24,20km/h以上の走行距離で 相手を上回った割合,21.4 % 13位,shim_style_s_24.html
+shim,31,ゴール率,1.4 % 10位 (-0.2%),shim_style_s_31.html
+shim,31,シュート率,16.8 % 7位 (+1.2%),shim_style_s_31.html
+shim,31,ドリブル使用率,25.2 % 4位 (+3.4%),shim_style_s_31.html
+shim,31,ロングパス使用率,22.4 % 14位 (-2.9%),shim_style_s_31.html
+shim,31,空中戦使用率,15.4 % 2位 (+6.3%),shim_style_s_31.html
+shim,31,コンビネーションプレー率,8.4 % 13位 (-1.9%),shim_style_s_31.html
+shim,31,20km/h以上の走行 平均人数,2.2 13位,shim_style_s_31.html
+shim,31,20km/h以上の走行 一人当たりの平均距離,19.1 m 19位,shim_style_s_31.html
+shim,31,20km/h以上の走行距離で 相手を上回った割合,26.7 % 19位,shim_style_s_31.html
+shim,32,ゴール率,3.0 % 18位 (-1.5%),shim_style_s_32.html
+shim,32,シュート率,27.7 % 19位 (-6.9%),shim_style_s_32.html
+shim,32,ドリブル使用率,19.8 % 6位 (+2.4%),shim_style_s_32.html
+shim,32,ロングパス使用率,22.8 % 15位 (-2.5%),shim_style_s_32.html
+shim,32,空中戦使用率,16.8 % 4位 (+4.8%),shim_style_s_32.html
+shim,32,コンビネーションプレー率,4.0 % 19位 (-5.3%),shim_style_s_32.html
+shim,32,20km/h以上の走行 平均人数,2.2 18位,shim_style_s_32.html
+shim,32,20km/h以上の走行 一人当たりの平均距離,19.6 m 19位,shim_style_s_32.html
+shim,32,20km/h以上の走行距離で 相手を上回った割合,33.3 % 13位,shim_style_s_32.html
+shim,33,ゴール率,0.8 % 15位 (-0.5%),shim_style_s_33.html
+shim,33,シュート率,7.4 % 20位 (-6.0%),shim_style_s_33.html
+shim,33,ドリブル使用率,13.2 % 15位 (-1.6%),shim_style_s_33.html
+shim,33,ロングパス使用率,30.6 % 3位 (+5.1%),shim_style_s_33.html
+shim,33,空中戦使用率,21.5 % 2位 (+10.3%),shim_style_s_33.html
+shim,33,コンビネーションプレー率,5.0 % 19位 (-4.4%),shim_style_s_33.html
+shim,33,20km/h以上の走行 平均人数,1.8 20位,shim_style_s_33.html
+shim,33,20km/h以上の走行 一人当たりの平均距離,18.0 m 17位,shim_style_s_33.html
+shim,33,20km/h以上の走行距離で 相手を上回った割合,41.2 % 10位,shim_style_s_33.html
+shim,45,味方ゴール率,1.1 % 8位 (+0.1%),shim_style_s_45.html
+shim,45,味方シュート率,10.4 % 6位 (+1.2%),shim_style_s_45.html
+shim,66,ゲイン率,31.7 % 17位 (-4.6%),shim_style_s_66.html
+shim,66,守備成功率,40.5 % 15位 (-4.4%),shim_style_s_66.html
+shim,66,被シュート率,9.2 % 13位 (+0.8%),shim_style_s_66.html
+shim,66,被シュート成功率,7.1 % 8位 (-5.7%),shim_style_s_66.html
+shim,67,ゲイン率,22.3 % 18位 (-4.3%),shim_style_s_67.html
+shim,67,守備成功率,32.2 % 13位 (-1.9%),shim_style_s_67.html
+shim,67,被シュート率,20.7 % 17位 (+2.6%),shim_style_s_67.html
+shim,67,被シュート成功率,8.0 % 7位 (-3.6%),shim_style_s_67.html
+shim,69,ゲイン率,39.6 % 10位 (+0.3%),shim_style_s_69.html
+shim,69,守備成功率,49.7 % 8位 (+1.2%),shim_style_s_69.html
+shim,69,被シュート率,13.4 % 20位 (+3.5%),shim_style_s_69.html
+shim,69,被シュート成功率,11.1 % 11位 (-0.3%),shim_style_s_69.html
+shim,81,攻撃獲得率,74.8 % 9位 (+0.1%),shim_style_s_81.html
+shim,81,被シュート率,4.9 % 15位 (+0.8%),shim_style_s_81.html
+shim,81,被シュート成功率,0.0 % 1位 (-14.0%),shim_style_s_81.html
+shim,81,面積,925.2 m² (+9.8m²),shim_style_s_81.html
+shim,81,最終ラインの高さ,46.6 m (+0.2m),shim_style_s_81.html
+shim,81,縦幅,32.1 m (-1.3m),shim_style_s_81.html
+shim,81,横幅,39.3 m (-0.9m),shim_style_s_81.html
+shim,82,攻撃獲得率,74.1 % 12位 (-0.8%),shim_style_s_82.html
+shim,82,被シュート率,6.3 % 9位 (-0.1%),shim_style_s_82.html
+shim,82,被シュート成功率,7.7 % 7位 (-6.5%),shim_style_s_82.html
+shim,82,面積,704.9 m² (+8.4m²),shim_style_s_82.html
+shim,82,最終ラインの高さ,34.6 m (-0.4m),shim_style_s_82.html
+shim,82,縦幅,26.4 m (-0.3m),shim_style_s_82.html
+shim,82,横幅,37.4 m (-1.4m),shim_style_s_82.html
+shim,83,攻撃獲得率,55.7 % 20位 (-8.0%),shim_style_s_83.html
+shim,83,被シュート率,18.0 % 13位 (+1.2%),shim_style_s_83.html
+shim,83,被シュート成功率,3.3 % 2位 (-7.1%),shim_style_s_83.html
+shim,83,面積,458.8 m² (-58.3m²),shim_style_s_83.html
+shim,83,最終ラインの高さ,19.4 m (-1.5m),shim_style_s_83.html
+shim,83,縦幅,21.7 m (-0.8m),shim_style_s_83.html
+shim,83,横幅,33.7 m (-2.0m),shim_style_s_83.html
+tk-v,11,ゴール率,2.6 % 7位 (-0.2%),tk-v_style_s_11.html
+tk-v,11,シュート率,22.1 % 18位 (-4.2%),tk-v_style_s_11.html
+tk-v,21,ゴール率,0.7 % 20位 (-1.7%),tk-v_style_s_21.html
+tk-v,21,シュート率,12.5 % 19位 (-7.9%),tk-v_style_s_21.html
+tk-v,21,ドリブル使用率,16.2 % 9位 (-0.2%),tk-v_style_s_21.html
+tk-v,21,ロングパス使用率,22.8 % 5位 (+3.9%),tk-v_style_s_21.html
+tk-v,21,空中戦使用率,5.1 % 18位 (-2.5%),tk-v_style_s_21.html
+tk-v,21,コンビネーションプレー率,1.5 % 16位 (-1.9%),tk-v_style_s_21.html
+tk-v,21,20km/h以上の走行 平均人数,1.7 9位,tk-v_style_s_21.html
+tk-v,21,20km/h以上の走行 一人当たりの平均距離,20.0 m 6位,tk-v_style_s_21.html
+tk-v,21,20km/h以上の走行距離で 相手を上回った割合,26.7 % 19位,tk-v_style_s_21.html
+tk-v,22,ゴール率,2.3 % 10位 (-0.5%),tk-v_style_s_22.html
+tk-v,22,シュート率,18.2 % 12位 (-0.9%),tk-v_style_s_22.html
+tk-v,22,ドリブル使用率,11.4 % 19位 (-7.9%),tk-v_style_s_22.html
+tk-v,22,ロングパス使用率,54.5 % 6位 (+4.7%),tk-v_style_s_22.html
+tk-v,22,空中戦使用率,13.6 % 1位 (+9.7%),tk-v_style_s_22.html
+tk-v,22,コンビネーションプレー率,2.3 % 7位 (+0.7%),tk-v_style_s_22.html
+tk-v,22,20km/h以上の走行 平均人数,3.2 13位,tk-v_style_s_22.html
+tk-v,22,20km/h以上の走行 一人当たりの平均距離,28.8 m 15位,tk-v_style_s_22.html
+tk-v,22,20km/h以上の走行距離で 相手を上回った割合,34.8 % 8位,tk-v_style_s_22.html
+tk-v,23,ゴール率,2.5 % 6位 (+0.3%),tk-v_style_s_23.html
+tk-v,23,シュート率,25.0 % 9位 (+0.3%),tk-v_style_s_23.html
+tk-v,23,ドリブル使用率,20.0 % 14位 (-3.2%),tk-v_style_s_23.html
+tk-v,23,ロングパス使用率,22.5 % 19位 (-9.8%),tk-v_style_s_23.html
+tk-v,23,空中戦使用率,12.5 % 5位 (+3.0%),tk-v_style_s_23.html
+tk-v,23,コンビネーションプレー率,25.0 % 16位 (-4.1%),tk-v_style_s_23.html
+tk-v,23,20km/h以上の走行 平均人数,3.2 15位,tk-v_style_s_23.html
+tk-v,23,20km/h以上の走行 一人当たりの平均距離,24.8 m 1位,tk-v_style_s_23.html
+tk-v,23,20km/h以上の走行距離で 相手を上回った割合,50.0 % 5位,tk-v_style_s_23.html
+tk-v,24,ゴール率,0.0 % 13位 (-1.0%),tk-v_style_s_24.html
+tk-v,24,シュート率,5.9 % 13位 (-1.2%),tk-v_style_s_24.html
+tk-v,24,ドリブル使用率,10.6 % 2位 (+3.4%),tk-v_style_s_24.html
+tk-v,24,ロングパス使用率,27.1 % 17位 (-6.5%),tk-v_style_s_24.html
+tk-v,24,空中戦使用率,7.1 % 5位 (+1.5%),tk-v_style_s_24.html
+tk-v,24,コンビネーションプレー率,2.4 % 10位 (0.0%),tk-v_style_s_24.html
+tk-v,24,20km/h以上の走行 平均人数,2.8 2位,tk-v_style_s_24.html
+tk-v,24,20km/h以上の走行 一人当たりの平均距離,18.3 m 11位,tk-v_style_s_24.html
+tk-v,24,20km/h以上の走行距離で 相手を上回った割合,27.1 % 7位,tk-v_style_s_24.html
+tk-v,31,ゴール率,0.8 % 13位 (-0.8%),tk-v_style_s_31.html
+tk-v,31,シュート率,11.9 % 15位 (-3.7%),tk-v_style_s_31.html
+tk-v,31,ドリブル使用率,24.6 % 5位 (+2.8%),tk-v_style_s_31.html
+tk-v,31,ロングパス使用率,20.3 % 19位 (-4.9%),tk-v_style_s_31.html
+tk-v,31,空中戦使用率,12.7 % 5位 (+3.7%),tk-v_style_s_31.html
+tk-v,31,コンビネーションプレー率,9.3 % 10位 (-1.0%),tk-v_style_s_31.html
+tk-v,31,20km/h以上の走行 平均人数,2.7 9位,tk-v_style_s_31.html
+tk-v,31,20km/h以上の走行 一人当たりの平均距離,21.9 m 3位,tk-v_style_s_31.html
+tk-v,31,20km/h以上の走行距離で 相手を上回った割合,41.8 % 5位,tk-v_style_s_31.html
+tk-v,32,ゴール率,3.8 % 15位 (-0.6%),tk-v_style_s_32.html
+tk-v,32,シュート率,29.5 % 17位 (-5.1%),tk-v_style_s_32.html
+tk-v,32,ドリブル使用率,15.2 % 14位 (-2.2%),tk-v_style_s_32.html
+tk-v,32,ロングパス使用率,23.8 % 14位 (-1.5%),tk-v_style_s_32.html
+tk-v,32,空中戦使用率,17.1 % 3位 (+5.1%),tk-v_style_s_32.html
+tk-v,32,コンビネーションプレー率,2.9 % 20位 (-6.4%),tk-v_style_s_32.html
+tk-v,32,20km/h以上の走行 平均人数,2.2 16位,tk-v_style_s_32.html
+tk-v,32,20km/h以上の走行 一人当たりの平均距離,23.5 m 5位,tk-v_style_s_32.html
+tk-v,32,20km/h以上の走行距離で 相手を上回った割合,30.0 % 16位,tk-v_style_s_32.html
+tk-v,33,ゴール率,0.0 % 18位 (-1.3%),tk-v_style_s_33.html
+tk-v,33,シュート率,9.9 % 16位 (-3.5%),tk-v_style_s_33.html
+tk-v,33,ドリブル使用率,13.9 % 14位 (-1.0%),tk-v_style_s_33.html
+tk-v,33,ロングパス使用率,28.7 % 6位 (+3.3%),tk-v_style_s_33.html
+tk-v,33,空中戦使用率,11.9 % 7位 (+0.7%),tk-v_style_s_33.html
+tk-v,33,コンビネーションプレー率,3.0 % 20位 (-6.4%),tk-v_style_s_33.html
+tk-v,33,20km/h以上の走行 平均人数,2.4 12位,tk-v_style_s_33.html
+tk-v,33,20km/h以上の走行 一人当たりの平均距離,21.4 m 7位,tk-v_style_s_33.html
+tk-v,33,20km/h以上の走行距離で 相手を上回った割合,46.8 % 4位,tk-v_style_s_33.html
+tk-v,45,味方ゴール率,0.4 % 15位 (-0.6%),tk-v_style_s_45.html
+tk-v,45,味方シュート率,7.0 % 17位 (-2.3%),tk-v_style_s_45.html
+tk-v,66,ゲイン率,29.5 % 20位 (-6.8%),tk-v_style_s_66.html
+tk-v,66,守備成功率,37.3 % 20位 (-7.7%),tk-v_style_s_66.html
+tk-v,66,被シュート率,10.3 % 17位 (+2.0%),tk-v_style_s_66.html
+tk-v,66,被シュート成功率,17.9 % 16位 (+5.0%),tk-v_style_s_66.html
+tk-v,67,ゲイン率,24.6 % 15位 (-2.0%),tk-v_style_s_67.html
+tk-v,67,守備成功率,31.0 % 16位 (-3.1%),tk-v_style_s_67.html
+tk-v,67,被シュート率,21.1 % 18位 (+3.0%),tk-v_style_s_67.html
+tk-v,67,被シュート成功率,7.6 % 5位 (-4.0%),tk-v_style_s_67.html
+tk-v,69,ゲイン率,30.5 % 19位 (-8.8%),tk-v_style_s_69.html
+tk-v,69,守備成功率,41.8 % 19位 (-6.7%),tk-v_style_s_69.html
+tk-v,69,被シュート率,11.3 % 13位 (+1.4%),tk-v_style_s_69.html
+tk-v,69,被シュート成功率,8.1 % 7位 (-3.3%),tk-v_style_s_69.html
+tk-v,81,攻撃獲得率,72.5 % 14位 (-2.2%),tk-v_style_s_81.html
+tk-v,81,被シュート率,3.9 % 9位 (-0.2%),tk-v_style_s_81.html
+tk-v,81,被シュート成功率,33.3 % 18位 (+19.3%),tk-v_style_s_81.html
+tk-v,81,面積,891.1 m² (-24.3m²),tk-v_style_s_81.html
+tk-v,81,最終ラインの高さ,45.6 m (-0.9m),tk-v_style_s_81.html
+tk-v,81,縦幅,33.3 m (-0.1m),tk-v_style_s_81.html
+tk-v,81,横幅,41.2 m (+1.0m),tk-v_style_s_81.html
+tk-v,82,攻撃獲得率,67.7 % 20位 (-7.3%),tk-v_style_s_82.html
+tk-v,82,被シュート率,10.1 % 19位 (+3.6%),tk-v_style_s_82.html
+tk-v,82,被シュート成功率,5.0 % 4位 (-9.2%),tk-v_style_s_82.html
+tk-v,82,面積,661.8 m² (-34.7m²),tk-v_style_s_82.html
+tk-v,82,最終ラインの高さ,34.3 m (-0.6m),tk-v_style_s_82.html
+tk-v,82,縦幅,26.7 m (+0.1m),tk-v_style_s_82.html
+tk-v,82,横幅,39.5 m (+0.7m),tk-v_style_s_82.html
+tk-v,83,攻撃獲得率,62.1 % 15位 (-1.5%),tk-v_style_s_83.html
+tk-v,83,被シュート率,15.7 % 8位 (-1.0%),tk-v_style_s_83.html
+tk-v,83,被シュート成功率,11.4 % 10位 (+0.9%),tk-v_style_s_83.html
+tk-v,83,面積,471.3 m² (-45.8m²),tk-v_style_s_83.html
+tk-v,83,最終ラインの高さ,19.8 m (-1.1m),tk-v_style_s_83.html
+tk-v,83,縦幅,21.4 m (-1.1m),tk-v_style_s_83.html
+tk-v,83,横幅,35.6 m (-0.1m),tk-v_style_s_83.html
+toya,11,ゴール率,2.1 % 15位 (-0.6%),toya_style_s_11.html
+toya,11,シュート率,28.2 % 8位 (+1.3%),toya_style_s_11.html
+toya,21,ゴール率,3.1 % 2位 (+1.4%),toya_style_s_21.html
+toya,21,シュート率,31.8 % 1位 (+11.7%),toya_style_s_21.html
+toya,21,ドリブル使用率,19.3 % 2位 (+4.4%),toya_style_s_21.html
+toya,21,ロングパス使用率,12.5 % 20位 (-5.3%),toya_style_s_21.html
+toya,21,空中戦使用率,5.7 % 15位 (-1.7%),toya_style_s_21.html
+toya,21,コンビネーションプレー率,6.8 % 1位 (+3.5%),toya_style_s_21.html
+toya,22,ゴール率,1.2 % 13位 (-0.6%),toya_style_s_22.html
+toya,22,シュート率,30.5 % 1位 (+14.8%),toya_style_s_22.html
+toya,22,ドリブル使用率,14.6 % 11位 (-1.1%),toya_style_s_22.html
+toya,22,ロングパス使用率,51.2 % 11位 (+0.1%),toya_style_s_22.html
+toya,22,空中戦使用率,0.0 % 20位 (-5.3%),toya_style_s_22.html
+toya,22,コンビネーションプレー率,3.7 % 4位 (+1.9%),toya_style_s_22.html
+toya,23,ゴール率,3.2 % 5位 (+1.7%),toya_style_s_23.html
+toya,23,シュート率,32.5 % 2位 (+7.5%),toya_style_s_23.html
+toya,23,ドリブル使用率,27.8 % 5位 (+3.3%),toya_style_s_23.html
+toya,23,ロングパス使用率,33.3 % 9位 (+0.2%),toya_style_s_23.html
+toya,23,空中戦使用率,9.5 % 12位 (-1.1%),toya_style_s_23.html
+toya,23,コンビネーションプレー率,31.0 % 3位 (+5.7%),toya_style_s_23.html
+toya,24,ゴール率,1.4 % 8位 (+0.5%),toya_style_s_24.html
+toya,24,シュート率,15.6 % 1位 (+8.1%),toya_style_s_24.html
+toya,24,ドリブル使用率,9.9 % 2位 (+3.4%),toya_style_s_24.html
+toya,24,ロングパス使用率,31.2 % 17位 (-3.7%),toya_style_s_24.html
+toya,24,空中戦使用率,2.8 % 15位 (-2.4%),toya_style_s_24.html
+toya,24,コンビネーションプレー率,2.8 % 11位 (-0.2%),toya_style_s_24.html
+toya,31,ゴール率,3.2 % 2位 (+1.9%),toya_style_s_31.html
+toya,31,シュート率,27.7 % 1位 (+14.0%),toya_style_s_31.html
+toya,31,ドリブル使用率,16.1 % 15位 (-3.2%),toya_style_s_31.html
+toya,31,ロングパス使用率,25.8 % 8位 (+2.1%),toya_style_s_31.html
+toya,31,空中戦使用率,6.5 % 17位 (-3.5%),toya_style_s_31.html
+toya,31,コンビネーションプレー率,13.5 % 4位 (+4.1%),toya_style_s_31.html
+toya,32,ゴール率,3.9 % 5位 (+0.6%),toya_style_s_32.html
+toya,32,シュート率,42.6 % 2位 (+6.6%),toya_style_s_32.html
+toya,32,ドリブル使用率,22.1 % 1位 (+4.9%),toya_style_s_32.html
+toya,32,ロングパス使用率,24.5 % 12位 (-0.4%),toya_style_s_32.html
+toya,32,空中戦使用率,5.9 % 19位 (-7.0%),toya_style_s_32.html
+toya,32,コンビネーションプレー率,9.8 % 3位 (+2.8%),toya_style_s_32.html
+toya,33,ゴール率,1.4 % 7位 (+0.5%),toya_style_s_33.html
+toya,33,シュート率,19.3 % 1位 (+6.7%),toya_style_s_33.html
+toya,33,ドリブル使用率,20.0 % 4位 (+4.7%),toya_style_s_33.html
+toya,33,ロングパス使用率,17.9 % 19位 (-4.8%),toya_style_s_33.html
+toya,33,空中戦使用率,6.2 % 19位 (-3.6%),toya_style_s_33.html
+toya,33,コンビネーションプレー率,13.1 % 2位 (+5.3%),toya_style_s_33.html
+toya,45,ゴール率,2.1 % 15位 (-0.6%),toya_style_s_45.html
+toya,45,シュート率,28.2 % 8位 (+1.3%),toya_style_s_45.html
+toya,66,ゴール率,2.1 % 15位 (-0.6%),toya_style_s_66.html
+toya,66,シュート率,28.2 % 8位 (+1.3%),toya_style_s_66.html
+toya,67,ゴール率,2.1 % 15位 (-0.6%),toya_style_s_67.html
+toya,67,シュート率,28.2 % 8位 (+1.3%),toya_style_s_67.html
+toya,69,ゴール率,2.1 % 15位 (-0.6%),toya_style_s_69.html
+toya,69,シュート率,28.2 % 8位 (+1.3%),toya_style_s_69.html
+toya,81,ゴール率,2.1 % 15位 (-0.6%),toya_style_s_81.html
+toya,81,シュート率,28.2 % 8位 (+1.3%),toya_style_s_81.html
+toya,82,ゴール率,2.1 % 15位 (-0.6%),toya_style_s_82.html
+toya,82,シュート率,28.2 % 8位 (+1.3%),toya_style_s_82.html
+toya,83,ゴール率,2.1 % 15位 (-0.6%),toya_style_s_83.html
+toya,83,シュート率,28.2 % 8位 (+1.3%),toya_style_s_83.html
+uraw,11,ゴール率,2.5 % 9位 (-0.4%),uraw_style_s_11.html
+uraw,11,シュート率,24.6 % 14位 (-1.7%),uraw_style_s_11.html
+uraw,21,ゴール率,2.7 % 8位 (+0.3%),uraw_style_s_21.html
+uraw,21,シュート率,21.1 % 11位 (+0.7%),uraw_style_s_21.html
+uraw,21,ドリブル使用率,20.0 % 5位 (+3.6%),uraw_style_s_21.html
+uraw,21,ロングパス使用率,15.1 % 15位 (-3.7%),uraw_style_s_21.html
+uraw,21,空中戦使用率,8.6 % 8位 (+1.0%),uraw_style_s_21.html
+uraw,21,コンビネーションプレー率,4.3 % 8位 (+1.0%),uraw_style_s_21.html
+uraw,21,20km/h以上の走行 平均人数,2.2 1位,uraw_style_s_21.html
+uraw,21,20km/h以上の走行 一人当たりの平均距離,20.7 m 4位,uraw_style_s_21.html
+uraw,21,20km/h以上の走行距離で 相手を上回った割合,36.3 % 9位,uraw_style_s_21.html
+uraw,22,ゴール率,0.0 % 16位 (-2.7%),uraw_style_s_22.html
+uraw,22,シュート率,17.2 % 13位 (-1.9%),uraw_style_s_22.html
+uraw,22,ドリブル使用率,22.4 % 5位 (+3.1%),uraw_style_s_22.html
+uraw,22,ロングパス使用率,58.6 % 1位 (+8.8%),uraw_style_s_22.html
+uraw,22,空中戦使用率,3.4 % 9位 (-0.5%),uraw_style_s_22.html
+uraw,22,コンビネーションプレー率,1.7 % 9位 (+0.1%),uraw_style_s_22.html
+uraw,22,20km/h以上の走行 平均人数,3.9 3位,uraw_style_s_22.html
+uraw,22,20km/h以上の走行 一人当たりの平均距離,28.5 m 17位,uraw_style_s_22.html
+uraw,22,20km/h以上の走行距離で 相手を上回った割合,57.1 % 1位,uraw_style_s_22.html
+uraw,23,ゴール率,2.2 % 9位 (0.0%),uraw_style_s_23.html
+uraw,23,シュート率,25.8 % 7位 (+1.1%),uraw_style_s_23.html
+uraw,23,ドリブル使用率,25.8 % 7位 (+2.6%),uraw_style_s_23.html
+uraw,23,ロングパス使用率,31.2 % 11位 (-1.1%),uraw_style_s_23.html
+uraw,23,空中戦使用率,9.7 % 9位 (+0.2%),uraw_style_s_23.html
+uraw,23,コンビネーションプレー率,26.9 % 13位 (-2.2%),uraw_style_s_23.html
+uraw,23,20km/h以上の走行 平均人数,3.9 3位,uraw_style_s_23.html
+uraw,23,20km/h以上の走行 一人当たりの平均距離,20.1 m 7位,uraw_style_s_23.html
+uraw,23,20km/h以上の走行距離で 相手を上回った割合,57.1 % 3位,uraw_style_s_23.html
+uraw,24,ゴール率,1.3 % 9位 (+0.3%),uraw_style_s_24.html
+uraw,24,シュート率,10.5 % 4位 (+3.5%),uraw_style_s_24.html
+uraw,24,ドリブル使用率,6.6 % 12位 (-0.6%),uraw_style_s_24.html
+uraw,24,ロングパス使用率,38.2 % 5位 (+4.6%),uraw_style_s_24.html
+uraw,24,空中戦使用率,3.9 % 16位 (-1.6%),uraw_style_s_24.html
+uraw,24,コンビネーションプレー率,3.9 % 3位 (+1.6%),uraw_style_s_24.html
+uraw,24,20km/h以上の走行 平均人数,2.7 5位,uraw_style_s_24.html
+uraw,24,20km/h以上の走行 一人当たりの平均距離,17.8 m 15位,uraw_style_s_24.html
+uraw,24,20km/h以上の走行距離で 相手を上回った割合,36.7 % 2位,uraw_style_s_24.html
+uraw,31,ゴール率,1.0 % 11位 (-0.6%),uraw_style_s_31.html
+uraw,31,シュート率,12.4 % 14位 (-3.2%),uraw_style_s_31.html
+uraw,31,ドリブル使用率,18.6 % 14位 (-3.3%),uraw_style_s_31.html
+uraw,31,ロングパス使用率,30.9 % 2位 (+5.6%),uraw_style_s_31.html
+uraw,31,空中戦使用率,10.3 % 7位 (+1.3%),uraw_style_s_31.html
+uraw,31,コンビネーションプレー率,11.3 % 8位 (+1.0%),uraw_style_s_31.html
+uraw,31,20km/h以上の走行 平均人数,3.1 3位,uraw_style_s_31.html
+uraw,31,20km/h以上の走行 一人当たりの平均距離,21.9 m 4位,uraw_style_s_31.html
+uraw,31,20km/h以上の走行距離で 相手を上回った割合,43.8 % 4位,uraw_style_s_31.html
+uraw,32,ゴール率,3.8 % 16位 (-0.6%),uraw_style_s_32.html
+uraw,32,シュート率,36.1 % 8位 (+1.4%),uraw_style_s_32.html
+uraw,32,ドリブル使用率,20.3 % 5位 (+2.8%),uraw_style_s_32.html
+uraw,32,ロングパス使用率,25.3 % 11位 (0.0%),uraw_style_s_32.html
+uraw,32,空中戦使用率,8.9 % 14位 (-3.1%),uraw_style_s_32.html
+uraw,32,コンビネーションプレー率,11.4 % 6位 (+2.1%),uraw_style_s_32.html
+uraw,32,20km/h以上の走行 平均人数,2.8 5位,uraw_style_s_32.html
+uraw,32,20km/h以上の走行 一人当たりの平均距離,21.1 m 14位,uraw_style_s_32.html
+uraw,32,20km/h以上の走行距離で 相手を上回った割合,36.3 % 10位,uraw_style_s_32.html
+uraw,33,ゴール率,2.4 % 2位 (+1.1%),uraw_style_s_33.html
+uraw,33,シュート率,14.5 % 8位 (+1.0%),uraw_style_s_33.html
+uraw,33,ドリブル使用率,17.5 % 6位 (+2.6%),uraw_style_s_33.html
+uraw,33,ロングパス使用率,24.1 % 14位 (-1.4%),uraw_style_s_33.html
+uraw,33,空中戦使用率,20.5 % 3位 (+9.3%),uraw_style_s_33.html
+uraw,33,コンビネーションプレー率,8.4 % 11位 (-0.9%),uraw_style_s_33.html
+uraw,33,20km/h以上の走行 平均人数,2.3 15位,uraw_style_s_33.html
+uraw,33,20km/h以上の走行 一人当たりの平均距離,20.0 m 14位,uraw_style_s_33.html
+uraw,33,20km/h以上の走行距離で 相手を上回った割合,38.0 % 12位,uraw_style_s_33.html
+uraw,45,味方ゴール率,1.3 % 7位 (+0.3%),uraw_style_s_45.html
+uraw,45,味方シュート率,9.4 % 9位 (+0.1%),uraw_style_s_45.html
+uraw,66,ゲイン率,36.0 % 12位 (-0.3%),uraw_style_s_66.html
+uraw,66,守備成功率,50.0 % 4位 (+5.1%),uraw_style_s_66.html
+uraw,66,被シュート率,8.6 % 12位 (+0.2%),uraw_style_s_66.html
+uraw,66,被シュート成功率,26.3 % 18位 (+13.5%),uraw_style_s_66.html
+uraw,67,ゲイン率,30.4 % 3位 (+3.8%),uraw_style_s_67.html
+uraw,67,守備成功率,38.3 % 3位 (+4.2%),uraw_style_s_67.html
+uraw,67,被シュート率,19.8 % 15位 (+1.7%),uraw_style_s_67.html
+uraw,67,被シュート成功率,33.3 % 20位 (+21.7%),uraw_style_s_67.html
+uraw,69,ゲイン率,44.4 % 4位 (+5.1%),uraw_style_s_69.html
+uraw,69,守備成功率,54.3 % 3位 (+5.8%),uraw_style_s_69.html
+uraw,69,被シュート率,8.6 % 7位 (-1.4%),uraw_style_s_69.html
+uraw,69,被シュート成功率,11.5 % 12位 (+0.1%),uraw_style_s_69.html
+uraw,81,攻撃獲得率,78.8 % 4位 (+4.1%),uraw_style_s_81.html
+uraw,81,被シュート率,3.8 % 7位 (-0.3%),uraw_style_s_81.html
+uraw,81,被シュート成功率,16.7 % 13位 (+2.7%),uraw_style_s_81.html
+uraw,81,面積,853.7 m² (-61.7m²),uraw_style_s_81.html
+uraw,81,最終ラインの高さ,46.0 m (-0.4m),uraw_style_s_81.html
+uraw,81,縦幅,33.3 m (-0.1m),uraw_style_s_81.html
+uraw,81,横幅,38.4 m (-1.9m),uraw_style_s_81.html
+uraw,82,攻撃獲得率,73.6 % 13位 (-1.4%),uraw_style_s_82.html
+uraw,82,被シュート率,7.7 % 15位 (+1.2%),uraw_style_s_82.html
+uraw,82,被シュート成功率,25.0 % 14位 (+10.8%),uraw_style_s_82.html
+uraw,82,面積,634.6 m² (-61.9m²),uraw_style_s_82.html
+uraw,82,最終ラインの高さ,35.4 m (+0.4m),uraw_style_s_82.html
+uraw,82,縦幅,26.2 m (-0.4m),uraw_style_s_82.html
+uraw,82,横幅,36.7 m (-2.1m),uraw_style_s_82.html
+uraw,83,攻撃獲得率,58.8 % 19位 (-4.9%),uraw_style_s_83.html
+uraw,83,被シュート率,19.1 % 18位 (+2.4%),uraw_style_s_83.html
+uraw,83,被シュート成功率,26.3 % 20位 (+15.8%),uraw_style_s_83.html
+uraw,83,面積,456.7 m² (-60.4m²),uraw_style_s_83.html
+uraw,83,最終ラインの高さ,20.7 m (-0.2m),uraw_style_s_83.html
+uraw,83,縦幅,21.5 m (-1.0m),uraw_style_s_83.html
+uraw,83,横幅,34.3 m (-1.4m),uraw_style_s_83.html
+y-fm,11,ゴール率,1.4 % 17位 (-1.4%),y-fm_style_s_11.html
+y-fm,11,シュート率,24.8 % 13位 (-1.5%),y-fm_style_s_11.html
+y-fm,21,ゴール率,2.0 % 13位 (-0.4%),y-fm_style_s_21.html
+y-fm,21,シュート率,16.0 % 16位 (-4.4%),y-fm_style_s_21.html
+y-fm,21,ドリブル使用率,15.3 % 10位 (-1.0%),y-fm_style_s_21.html
+y-fm,21,ロングパス使用率,17.3 % 12位 (-1.5%),y-fm_style_s_21.html
+y-fm,21,空中戦使用率,11.3 % 2位 (+3.7%),y-fm_style_s_21.html
+y-fm,21,コンビネーションプレー率,0.0 % 20位 (-3.3%),y-fm_style_s_21.html
+y-fm,21,20km/h以上の走行 平均人数,1.5 18位,y-fm_style_s_21.html
+y-fm,21,20km/h以上の走行 一人当たりの平均距離,17.4 m 19位,y-fm_style_s_21.html
+y-fm,21,20km/h以上の走行距離で 相手を上回った割合,29.4 % 17位,y-fm_style_s_21.html
+y-fm,22,ゴール率,2.8 % 9位 (+0.1%),y-fm_style_s_22.html
+y-fm,22,シュート率,12.7 % 16位 (-6.4%),y-fm_style_s_22.html
+y-fm,22,ドリブル使用率,16.9 % 14位 (-2.4%),y-fm_style_s_22.html
+y-fm,22,ロングパス使用率,50.7 % 10位 (+0.9%),y-fm_style_s_22.html
+y-fm,22,空中戦使用率,5.6 % 6位 (+1.7%),y-fm_style_s_22.html
+y-fm,22,コンビネーションプレー率,2.8 % 5位 (+1.2%),y-fm_style_s_22.html
+y-fm,22,20km/h以上の走行 平均人数,3.5 7位,y-fm_style_s_22.html
+y-fm,22,20km/h以上の走行 一人当たりの平均距離,30.0 m 10位,y-fm_style_s_22.html
+y-fm,22,20km/h以上の走行距離で 相手を上回った割合,16.7 % 20位,y-fm_style_s_22.html
+y-fm,23,ゴール率,6.7 % 2位 (+4.5%),y-fm_style_s_23.html
+y-fm,23,シュート率,31.1 % 2位 (+6.4%),y-fm_style_s_23.html
+y-fm,23,ドリブル使用率,24.4 % 9位 (+1.2%),y-fm_style_s_23.html
+y-fm,23,ロングパス使用率,22.2 % 20位 (-10.1%),y-fm_style_s_23.html
+y-fm,23,空中戦使用率,8.9 % 11位 (-0.6%),y-fm_style_s_23.html
+y-fm,23,コンビネーションプレー率,33.3 % 6位 (+4.2%),y-fm_style_s_23.html
+y-fm,23,20km/h以上の走行 平均人数,3.2 16位,y-fm_style_s_23.html
+y-fm,23,20km/h以上の走行 一人当たりの平均距離,18.7 m 13位,y-fm_style_s_23.html
+y-fm,23,20km/h以上の走行距離で 相手を上回った割合,25.0 % 20位,y-fm_style_s_23.html
+y-fm,24,ゴール率,1.8 % 5位 (+0.8%),y-fm_style_s_24.html
+y-fm,24,シュート率,3.6 % 16位 (-3.4%),y-fm_style_s_24.html
+y-fm,24,ドリブル使用率,8.2 % 7位 (+1.0%),y-fm_style_s_24.html
+y-fm,24,ロングパス使用率,29.1 % 16位 (-4.5%),y-fm_style_s_24.html
+y-fm,24,空中戦使用率,6.4 % 8位 (+0.8%),y-fm_style_s_24.html
+y-fm,24,コンビネーションプレー率,0.9 % 16位 (-1.4%),y-fm_style_s_24.html
+y-fm,24,20km/h以上の走行 平均人数,2.7 4位,y-fm_style_s_24.html
+y-fm,24,20km/h以上の走行 一人当たりの平均距離,19.9 m 5位,y-fm_style_s_24.html
+y-fm,24,20km/h以上の走行距離で 相手を上回った割合,17.2 % 18位,y-fm_style_s_24.html
+y-fm,31,ゴール率,4.1 % 2位 (+2.5%),y-fm_style_s_31.html
+y-fm,31,シュート率,15.6 % 9位 (0.0%),y-fm_style_s_31.html
+y-fm,31,ドリブル使用率,17.2 % 16位 (-4.6%),y-fm_style_s_31.html
+y-fm,31,ロングパス使用率,20.5 % 18位 (-4.8%),y-fm_style_s_31.html
+y-fm,31,空中戦使用率,9.0 % 10位 (0.0%),y-fm_style_s_31.html
+y-fm,31,コンビネーションプレー率,5.7 % 18位 (-4.6%),y-fm_style_s_31.html
+y-fm,31,20km/h以上の走行 平均人数,2.2 14位,y-fm_style_s_31.html
+y-fm,31,20km/h以上の走行 一人当たりの平均距離,19.7 m 15位,y-fm_style_s_31.html
+y-fm,31,20km/h以上の走行距離で 相手を上回った割合,22.9 % 20位,y-fm_style_s_31.html
+y-fm,32,ゴール率,2.1 % 20位 (-2.3%),y-fm_style_s_32.html
+y-fm,32,シュート率,32.3 % 14位 (-2.4%),y-fm_style_s_32.html
+y-fm,32,ドリブル使用率,18.8 % 9位 (+1.3%),y-fm_style_s_32.html
+y-fm,32,ロングパス使用率,18.8 % 18位 (-6.5%),y-fm_style_s_32.html
+y-fm,32,空中戦使用率,14.6 % 7位 (+2.6%),y-fm_style_s_32.html
+y-fm,32,コンビネーションプレー率,6.3 % 14位 (-3.0%),y-fm_style_s_32.html
+y-fm,32,20km/h以上の走行 平均人数,2.6 13位,y-fm_style_s_32.html
+y-fm,32,20km/h以上の走行 一人当たりの平均距離,23.0 m 9位,y-fm_style_s_32.html
+y-fm,32,20km/h以上の走行距離で 相手を上回った割合,21.7 % 20位,y-fm_style_s_32.html
+y-fm,33,ゴール率,2.3 % 3位 (+1.0%),y-fm_style_s_33.html
+y-fm,33,シュート率,11.7 % 14位 (-1.7%),y-fm_style_s_33.html
+y-fm,33,ドリブル使用率,14.1 % 13位 (-0.8%),y-fm_style_s_33.html
+y-fm,33,ロングパス使用率,27.3 % 8位 (+1.9%),y-fm_style_s_33.html
+y-fm,33,空中戦使用率,15.6 % 5位 (+4.4%),y-fm_style_s_33.html
+y-fm,33,コンビネーションプレー率,5.5 % 18位 (-3.9%),y-fm_style_s_33.html
+y-fm,33,20km/h以上の走行 平均人数,2.1 19位,y-fm_style_s_33.html
+y-fm,33,20km/h以上の走行 一人当たりの平均距離,19.6 m 15位,y-fm_style_s_33.html
+y-fm,33,20km/h以上の走行距離で 相手を上回った割合,19.4 % 20位,y-fm_style_s_33.html
+y-fm,45,味方ゴール率,0.9 % 12位 (-0.1%),y-fm_style_s_45.html
+y-fm,45,味方シュート率,9.0 % 11位 (-0.3%),y-fm_style_s_45.html
+y-fm,66,ゲイン率,30.4 % 18位 (-5.9%),y-fm_style_s_66.html
+y-fm,66,守備成功率,40.3 % 16位 (-4.6%),y-fm_style_s_66.html
+y-fm,66,被シュート率,6.1 % 4位 (-2.3%),y-fm_style_s_66.html
+y-fm,66,被シュート成功率,6.3 % 7位 (-6.6%),y-fm_style_s_66.html
+y-fm,67,ゲイン率,28.7 % 6位 (+2.1%),y-fm_style_s_67.html
+y-fm,67,守備成功率,37.2 % 6位 (+3.0%),y-fm_style_s_67.html
+y-fm,67,被シュート率,13.4 % 1位 (-4.7%),y-fm_style_s_67.html
+y-fm,67,被シュート成功率,2.9 % 1位 (-8.7%),y-fm_style_s_67.html
+y-fm,69,ゲイン率,38.9 % 13位 (-0.4%),y-fm_style_s_69.html
+y-fm,69,守備成功率,47.9 % 12位 (-0.6%),y-fm_style_s_69.html
+y-fm,69,被シュート率,7.3 % 4位 (-2.6%),y-fm_style_s_69.html
+y-fm,69,被シュート成功率,7.7 % 6位 (-3.7%),y-fm_style_s_69.html
+y-fm,81,攻撃獲得率,72.3 % 15位 (-2.5%),y-fm_style_s_81.html
+y-fm,81,被シュート率,3.0 % 4位 (-1.1%),y-fm_style_s_81.html
+y-fm,81,被シュート成功率,0.0 % 1位 (-14.0%),y-fm_style_s_81.html
+y-fm,81,面積,832.9 m² (-82.5m²),y-fm_style_s_81.html
+y-fm,81,最終ラインの高さ,48.9 m (+2.5m),y-fm_style_s_81.html
+y-fm,81,縦幅,30.6 m (-2.8m),y-fm_style_s_81.html
+y-fm,81,横幅,37.7 m (-2.5m),y-fm_style_s_81.html
+y-fm,82,攻撃獲得率,77.0 % 7位 (+2.0%),y-fm_style_s_82.html
+y-fm,82,被シュート率,5.2 % 8位 (-1.3%),y-fm_style_s_82.html
+y-fm,82,被シュート成功率,7.7 % 7位 (-6.5%),y-fm_style_s_82.html
+y-fm,82,面積,623.3 m² (-73.3m²),y-fm_style_s_82.html
+y-fm,82,最終ラインの高さ,37.8 m (+2.8m),y-fm_style_s_82.html
+y-fm,82,縦幅,25.0 m (-1.6m),y-fm_style_s_82.html
+y-fm,82,横幅,35.7 m (-3.1m),y-fm_style_s_82.html
+y-fm,83,攻撃獲得率,61.5 % 17位 (-2.2%),y-fm_style_s_83.html
+y-fm,83,被シュート率,12.5 % 2位 (-4.2%),y-fm_style_s_83.html
+y-fm,83,被シュート成功率,16.7 % 19位 (+6.2%),y-fm_style_s_83.html
+y-fm,83,面積,479.0 m² (-38.1m²),y-fm_style_s_83.html
+y-fm,83,最終ラインの高さ,22.0 m (+1.1m),y-fm_style_s_83.html
+y-fm,83,縦幅,21.9 m (-0.5m),y-fm_style_s_83.html
+y-fm,83,横幅,33.5 m (-2.2m),y-fm_style_s_83.html
